@@ -1,0 +1,74 @@
+{{ $catName := .Params.title }}
+
+{{ $sections := slice }}
+  {{ range .Site.Data.Masterlist }}
+    {{ range where .contents ".Category" $catName }}
+      {{ $sections = $sections | append .SubCat }}
+    {{ end }}
+  {{ end }}
+{{ $sections = uniq $sections }}
+
+{{ $years := slice }}
+  {{ range .Site.Data.Masterlist }}
+    {{ range where .contents ".Category" $catName }}
+      {{ $years = $years | append .Year }}
+    {{ end }}
+  {{ end }}
+{{ $years = uniq $years }}
+
+
+<!-- IF STATEMENTS OF GROUPINGS -->
+{{ if eq .Params.pageType "By SubCat Year" }}
+
+  {{ range $sections }} <!-- BY SUBCATEGORY and Year -->
+      {{ $section := . }}
+      <h4> {{ $section }} </h4>
+
+        {{ $yrs := slice }}
+          {{ range $.Site.Data.Masterlist }}
+              {{ range where (where .contents "Category" $catName)  "SubCat" $section }}
+              {{ $yrs = $yrs | append .Year }}
+              {{ end }}
+          {{ end }}
+        {{ $yrs = uniq $yrs }}
+
+        {{ range $yrs }}
+          {{ $yr := . }}
+          {{ $yr }}
+
+          {{ range $.Site.Data.Masterlist }}
+            {{ range where (where .contents "SubCat" $section)  "Year" $yr }}
+            <ul>
+              {{ dateFormat "Jan 02" .Date }}
+              {{ range .Links }}
+              ★ <a target="_blank" href="{{ .Link }}">{{ .Name }}</a>
+              {{ end }} <!-- range .Links -->
+            </ul>
+            {{ end }}
+          {{ end }}
+        {{ end }}
+        <hr>
+
+
+  {{ end }} <!-- BY SUBCATEGORY and Year -->
+
+{{ else if eq .Params.pageType "By SubCat" }}
+  {{ range $sections }} <!-- BY SUBCATEGORY -->
+    {{ $section := . }}
+    <li><a href="#{{ replace $section ` ` `-` }}">{{ $section }}</a></li>
+  {{ end }} <!-- BY SUBCATEGORY -->
+
+{{ else if eq .Params.pageType "By Year" }}
+  {{ range $years }}   <!-- BY YEAR -->
+    {{ $year := . }}
+    <li><a href="#{{ replace $year ` ` `-` }}">{{ $year }}</a></li>
+  {{ end }} <!-- BY YEAR -->
+
+  {{ else if eq .Params.pageType "By Line" }}
+    {{ range $years }}   <!-- By Line -->
+      {{ $year := . }}
+      <li><a href="#{{ replace $year ` ` `-` }}">{{ $year }}</a></li>
+    {{ end }} <!-- By Line -->
+
+{{ end }}
+<!-- IF STATEMENTS -->

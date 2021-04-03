@@ -1,0 +1,157 @@
+{{ $catName := .Params.title }}
+
+{{ $sections := slice }}
+  {{ range .Site.Data.Masterlist }}
+    {{ range where .contents ".Category" $catName }}
+      {{ $sections = $sections | append .SubCat }}
+    {{ end }}
+  {{ end }}
+{{ $sections = uniq $sections }}
+
+{{ $years := slice }}
+  {{ range .Site.Data.Masterlist }}
+    {{ range where .contents ".Category" $catName }}
+      {{ $years = $years | append .Year }}
+    {{ end }}
+  {{ end }}
+{{ $years = uniq $years }}
+
+{{ $newYear := .Params.year }}
+{{ $yrs := slice }}
+  {{ range .Site.Data.Masterlist }}
+    {{ range where .contents ".Year" ">=" $newYear }}
+      {{ $yrs = $yrs | append .Year }}
+    {{ end }}
+  {{ end }}
+{{ $yrs = uniq $yrs }}
+
+
+<!-- IF STATEMENTS OF GROUPINGS -->
+{{ if eq .Params.pageType "By SubCat Year" }}
+
+  {{ range $sections }} <!-- BY SUBCATEGORY and Year -->
+      {{ $section := . }}
+      <h4> {{ $section }} </h4>
+
+        {{ $yrs := slice }}
+          {{ range $.Site.Data.Masterlist }}
+              {{ range where (where .contents "Category" $catName)  "SubCat" $section }}
+              {{ $yrs = $yrs | append .Year }}
+              {{ end }}
+          {{ end }}
+        {{ $yrs = uniq $yrs }}
+
+        {{ range $yrs }}
+          {{ $yr := . }}
+          {{ $yr }}
+
+          {{ range $.Site.Data.Masterlist }}
+            {{ range where (where .contents "SubCat" $section)  "Year" $yr }}
+            <ul>
+              {{ dateFormat "Jan 02" .Date }}
+              {{ range .Links }}
+              ★ <a target="_blank" href="{{ .Link }}">{{ .Name }}</a>
+              {{ end }} <!-- range .Links -->
+            </ul>
+            {{ end }}
+          {{ end }}
+        {{ end }}
+  {{ end }} <!-- BY SUBCATEGORY and Year -->
+
+{{ else if eq .Params.pageType "By SubCat" }}
+
+
+    {{ range $sections }} <!-- BY SUBCATEGORY -->
+      {{ $section := . }}
+
+      <h4 id="{{ replace $section ` ` `-` }}"> {{ $section }} </h4>
+      {{ range $.Site.Data.Masterlist }}
+        {{ range where (where .contents "Category" $catName)  "SubCat" $section }}
+        <!-- LAYOUT -->
+        <div class="link-list">
+          <ul> {{ dateFormat "06 Jan 02" .Date }} {{ .Title }}
+            {{ range .Links }}
+            ★ <a target="_blank" href="{{ .Link }}">{{ .Name }}</a> <span class="subs">{{ .Subs }}</span>
+            {{ end }} <!-- range .Links -->
+           </ul>
+        </div>
+
+        <!-- LAYOUT -->
+      {{ end }}
+    {{ end }}
+
+  {{ end }} <!-- BY SUBCATEGORY -->
+
+{{ else if eq .Params.pageType "By Year" }}
+  {{ range $years }}   <!-- BY YEAR -->
+    {{ $year := . }}
+
+    <h4 id="{{ replace $year ` ` `-` }}"> {{ $year }} </h4>
+    {{ range $.Site.Data.Masterlist }}
+      {{ range where (where .contents "Category" $catName) "Year" $year }}
+        <!-- LAYOUT -->
+        <div class="link-list">
+          <ul> {{ dateFormat "Jan 02" .Date }} {{ .Title }}
+            {{ range .Links }}
+            ★ <a target="_blank" href="{{ .Link }}">{{ .Name }}</a> <span class="subs">{{ .Subs }}</span>
+            {{ end }} <!-- range .Links -->
+           </ul>
+        </div>
+         <!-- LAYOUT -->
+      {{ end }}
+    {{ end }}
+
+  {{ end }} <!-- BY YEAR -->
+
+  {{ else if eq .Params.pageType "By Line" }}
+    {{ range $years }}   <!-- By Line -->
+      {{ $year := . }}
+
+      <h4 id="{{ replace $year ` ` `-` }}"> {{ $year }} </h4>
+      {{ range $.Site.Data.Masterlist }}
+        {{ range where (where .contents "Category" $catName) "Year" $year }}
+          <!-- LAYOUT -->
+          <ul class="by-line"> {{ dateFormat "Jan 02" .Date }}: {{ .Title }}
+            {{ range .Links }}
+            <li><a target="_blank" href="{{ .Link }}">{{ .Name }}</a> <span class="subs">{{ .Subs }}</span></li>
+            {{ end }} <!-- range .Links -->
+           </ul>
+           <!-- LAYOUT -->
+        {{ end }}
+      {{ end }}
+
+    {{ end }} <!-- By Line -->
+
+  {{ else if eq .Params.pageType "latest" }}
+    {{ range sort $yrs "value" "desc" }} <!-- latest > year > month -->
+        {{ $year := . }}
+        <h4 style="margin-bottom: 0px;"> {{ $year }} </h4>
+
+          {{ $months := slice }}
+            {{ range $.Site.Data.Masterlist }}
+                {{ range sort (where (where .contents "Year" ">=" $newYear)  "Year" $year) "Date" "desc" }}
+                {{ $months = $months | append .Month }}
+                {{ end }}
+            {{ end }}
+          {{ $months = uniq $months }}
+
+          {{ range $months }}
+            {{ $month := . }} <br>
+
+            {{ range $.Site.Data.Masterlist }}
+              {{ range sort (where (where (where .contents "Year" ">=" $newYear) "Year" $year) "Month" $month) "Date" "desc" }}
+              <div class="link-list">
+                <ul>
+                  {{ dateFormat "Jan 02" .Date }}
+                  {{ range .Links }}
+                  ★ <a target="_blank" href="{{ .Link }}">{{ .Name }}</a>
+                  {{ end }} <!-- range .Links -->
+                </ul>
+              </div>
+              {{ end }}
+            {{ end }}
+          {{ end }} <br>
+    {{ end }} <!-- latest > year > month -->
+
+{{ end }}
+<!-- IF STATEMENTS -->
