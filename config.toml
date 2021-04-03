@@ -1,11 +1,13 @@
-baseURL = "https://example.com"
+baseURL = "https://skzcode.netlify.com"
 languageCode = "en"
 DefaultContentLanguage = "en"
-title = "Website of Jane Doe"
+title = "CHANNEL SKZ"
 theme = "anatole"
 summarylength = 10
 enableEmoji = true
 enableRobotsTXT = true
+pluralizelisttitles = false
+sectionPagesMenu = "main"
 
 # Enable Disqus
 #disqusShortname = ""
@@ -13,42 +15,22 @@ enableRobotsTXT = true
 # Google Analytics
 #googleAnalytics = "UA-123-45"
 
-# Syntax highlighting
-pygmentsUseClasses = true
-pygmentsCodeFences = true
-pygmentsCodefencesGuessSyntax = true
-
 [params]
+year = 2021
 title = "CHANNEL SKZ"
 author = "daisukijeu"
-#copyright = "2020-2021"
-description = "Future ch-skz theme under construction"
+description = "Masterlist of Stray Kids video contents"
+banner = "images/banner.jpg"
 profilePicture = "images/profile.jpg"
 keywords = ""
 favicon = "favicons/"
-# example ["css/custom.css"]
 customCss = []
-# example ["js/custom.js"]
 customJs = []
-mainSections = ["post"]
+mainSections = ["artistry", "shows", "vlive"]
 images = ["images/site-feature-image.png"]
-doNotLoadAnimations = false
-# Form Spree Contact Form
-#contactFormAction = "https://formspree.io/f/your-form-hash-here"
-# Google Site Verify
+doNotLoadAnimations = true
+# Google Site Verification
 #googleSiteVerify = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
-# indexDateFormat = "Mon, Jan 2, 2006"
-# listDateFormat = "Jan 2"
-# singleDateFormat = "Mon, Jan 2, 2006"
-# Commento Comments
-# CommentoURL = "https://commento.example.com/js/commento.js"
-# Read More links for truncated summaries
-# readMore = true
-# postSectionName = "blog"
-
-[params.simpleAnalytics]
-# enable = true
-# customurl = "https://analytics.example.com"
 
 ## Math settings
 [params.math]
@@ -75,7 +57,7 @@ url = "https://www.instagram.com/"
 [[params.socialIcons]]
 icon = "fas fa-envelope"
 title = "e-mail"
-url = "mailto:mail@example.com"
+url = "mailto:mail@alexbilz.com"
 
 ## Menu items
 
@@ -88,19 +70,31 @@ url = "mailto:mail@example.com"
   url = "/"
 
   [[menu.main]]
-  name = "Posts"
+  name = "Artistry"
   weight = 200
-  identifier = "posts"
-  url = "/post/"
+  identifier = "artistry"
+  url = "/artistry/"
 
   [[menu.main]]
-  name = "About"
-  weight = 300
-  identifier = "about"
-  url = "/about/"
+  name = "Shows"
+  weight = 200
+  identifier = "shows"
+  url = "/shows/"
 
   [[menu.main]]
-  name = "Contact"
-  weight = 400
-  identifier = "contact"
-  url = "/contact/"
+  name = "V LIVE"
+  weight = 200
+  identifier = "vlive"
+  url = "/vlive/"
+
+#  [[menu.main]]
+#  name = "Posts"
+#  weight = 300
+#  identifier = "posts"
+#  url = "/post/"
+
+#  [[menu.main]]
+#  name = "About"
+#  weight = 500
+#  identifier = "about"
+#  url = "/about/"
