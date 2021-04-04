@@ -29,6 +29,7 @@ customJs = []
 mainSections = ["artistry", "shows", "vlive"]
 images = ["images/site-feature-image.png"]
 doNotLoadAnimations = true
+displayMode = "dark"
 # Google Site Verification
 #googleSiteVerify = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
 
@@ -86,15 +87,3 @@ url = "mailto:mail@alexbilz.com"
   weight = 200
   identifier = "vlive"
   url = "/vlive/"
-
-#  [[menu.main]]
-#  name = "Posts"
-#  weight = 300
-#  identifier = "posts"
-#  url = "/post/"
-
-#  [[menu.main]]
-#  name = "About"
-#  weight = 500
-#  identifier = "about"
-#  url = "/about/"
