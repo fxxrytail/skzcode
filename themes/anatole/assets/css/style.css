@@ -221,9 +221,10 @@ a:active {
 }
 
 .page-top .nav a.current {
-    color: var(--nav-text-color);
-    padding-bottom: 22px;
+    color: var(--link-color);
+    /**padding-bottom: 22px;
     border-bottom: 1px solid var(--nav-text-color);
+    **/
 }
 
 .theme-switch-item {
