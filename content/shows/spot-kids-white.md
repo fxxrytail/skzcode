@@ -5,6 +5,6 @@ draft: false
 
 mainCat: "Spot Kids: White"
 weight: 203
-pageType: "By Year"
+pageType: "SKW"
 description: "Short but sweet and adorable Stray Kids moments"
 ---

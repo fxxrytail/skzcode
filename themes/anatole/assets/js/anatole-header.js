@@ -1,4 +1,4 @@
-
+// for showing Menu
 
 function openMenu() {
 	menuStat = document.getElementById("navMenu").style.display;
@@ -32,4 +32,32 @@ function scrollFunction() {
 function topFunction() {
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+// for copying url
+function copyText() {
+  /* Get the text field */
+  var copyText = document.getElementById("site-url");
+
+  /* Select the text field */
+  copyText.select();
+  copyText.setSelectionRange(0, 99999); /* For mobile devices */
+
+  /* Copy the text inside the text field */
+  document.execCommand("copy");
+
+  /* Alert the copied text */
+  alert("Copied the text: " + copyText.value);
 }

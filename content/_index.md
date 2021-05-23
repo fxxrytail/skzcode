@@ -1,9 +1,10 @@
 ---
+title: "Home"
 author: "daisukijeu"
-page: "home"
-description: ""
+page: "index"
+description: "Channel SKZ is a fanmade masterlist of Stray Kids video contents such as music videos, album promotions, shows, V LIVEs"
 ---
-Channel SKZ is a fanmade masterlist of Stray Kids video content such as music videos, performances, shows, and V Live
+Channel SKZ is a fanmade masterlist of Stray Kids video contents such as music videos, album promotions, shows, V LIVEs
 [Read More](/about)
 
 [ {{< figure src="images/strayksubs.jpg">}} ](https://strayksubs.com/)

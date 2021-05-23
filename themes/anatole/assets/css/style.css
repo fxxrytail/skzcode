@@ -20,7 +20,7 @@
     --catlink-color: #405fa2;
 }
 
-html[data-theme='dark'] {
+html[data-theme='dark'], .twitter-timeline[data-theme='dark'] {
     --bg-color: #292a2d;
     --secondary-bg-color: #2c2d32;
     --heading-color: rgb(169, 169, 179);
@@ -37,6 +37,7 @@ html[data-theme='dark'] {
     --link-color: #e03333;
     --subs-color: #76a0ff;
 }
+
 
 html {
     background-color: var(--bg-color);
@@ -67,6 +68,50 @@ blockquote {
     padding: 0 1em;
     border-left: .25em solid var(--blockquote-border-color);
     color: var(--blockquote-text-color);
+}
+
+blockquote.twitter-tweet {
+  display: inline-block;
+  font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 16px;
+  border-color: #eee #ddd #bbb;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  margin: 10px 5px;
+  padding: 0 16px 16px 16px;
+  max-width: 468px;
+}
+
+blockquote.twitter-tweet p {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 20px;
+}
+
+blockquote.twitter-tweet a {
+  color: inherit;
+  font-weight: normal;
+  text-decoration: none;
+  outline: 0 none;
+}
+
+blockquote.twitter-tweet a:hover,
+blockquote.twitter-tweet a:focus {
+  text-decoration: underline;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid;
+  padding: 3px;
+  font-size: 12px;
+  color: var(--body-color);
+  background-color: var(--secondary-bg-color);
 }
 
 .category {
@@ -293,14 +338,13 @@ a:active {
 }
 
 .display-section-scroll {
-  overflow-y: auto;
-  overflow-x: hidden;
+  /*overflow-y: auto;
+  overflow-x: hidden;*/
   height: 90%;
 }
 .section-menu {display: none;}
 .content-nav {
     display: block;
-    height: 30%;
 }
 
 .content-nav h5 {
@@ -425,17 +469,13 @@ a:active {
     color: var(--link-color);
 }
 
-.home-sidebar {text-align: center;}
+.home-sidebar {text-align: center; margin: 0 10px;}
 .home-sidebar img {width: 80%}
 .home-sidebar a {
   text-decoration: none;
   letter-spacing: 1px;
   color: var(--link-color);
   font-size: 10px;
-}
-
-.list-title {
-
 }
 
 .post {
@@ -1130,7 +1170,7 @@ print {
       margin-top: 0;
       width: 70%;
       max-width: 300px;
-      height: 100vh;
+      height: calc(100vh - 41px);
       overflow: auto;
     }
 
@@ -1237,7 +1277,7 @@ print {
 print {
   .home-sidebar figure {margin: 10px 0}
   .home-sidebar img {max-width: 100%;}
-  .post {margin: 10px;}
+  .post {margin: 20px;}
 }
 
 /* Medium zoom */

@@ -6,5 +6,5 @@ draft: false
 mainCat: "Specials"
 weight: 300
 pageType: "By Year"
-description: ""
+description: "New Year's STEP OUT, special messages, skits, concert highlight, etc."
 ---

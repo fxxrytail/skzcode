@@ -1,4 +1,9 @@
 {{ define "main" }}
+  <div class="post">
+    <div class="post-content">
+      {{ .Content }}
+    </div>
+  </div>
     <div class="archive {{ with .Site.Params.doNotLoadAnimations }} . {{ else }} animated fadeInDown {{ end }}">
         <ul class="list-with-title">
           <h3>{{ .Title }}</h3>

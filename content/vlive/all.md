@@ -6,5 +6,5 @@ draft: false
 mainCat: "V LIVE"
 weight: 1
 pageType: "All Live"
-description: "ALL Stray Kids V LIVE sorted by date. Stray Kids livestream to talk to STAY about various things, wrap up their schedule, celebrate awards, do activities and games, etc."
+description: "ALL Stray Kids V LIVE sorted by date. Stray Kids livestream to talk with STAY about various things, lots of TMI, wrap up their schedule, celebrate awards, do activities and games, etc."
 ---

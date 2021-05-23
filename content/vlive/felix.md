@@ -6,5 +6,5 @@ draft: false
 mainCat: "V LIVE - Felix"
 weight: 55
 pageType: "By Year"
-description: ""
+description: "Felix charming voice and smile is very healing. Truly a sunshine, our haengbokie~"
 ---

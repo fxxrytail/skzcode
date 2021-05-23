@@ -6,5 +6,5 @@ draft: false
 mainCat: "V LIVE - Changbin"
 weight: 52
 pageType: "By Year"
-description: "Learn how to rap with professor Changbin."
+description: "Learn how to rap with professor Changbin a.k.a dark rapper (but also baby Changbin)"
 ---
