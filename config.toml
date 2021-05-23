@@ -19,17 +19,18 @@ sectionPagesMenu = "main"
 year = 2022
 title = "CHANNEL SKZ"
 author = "daisukijeu"
-description = "Channel SKZ is a fanmade masterlist of Stray Kids video content such as music videos, performances, shows, and V Live"
+description = "Channel SKZ is a fanmade masterlist of Stray Kids video contents such as music videos, album promotions, shows, V LIVEs, etc."
 banner = "images/banner-kd.jpg"
 profilePicture = "images/icon.png"
 keywords = ""
 favicon = "favicons/"
-customCss = ["css/post.css"]
+customCss = ["css/custom.css"]
 customJs = []
 mainSections = ["artistry", "shows", "vlive"]
 images = ["images/banner-kd.jpg"]
 doNotLoadAnimations = true
-displayMode = "dark"
+displayMode = "light"
+ignoreErrors = ["error-remote-getjson"]
 # Google Site Verification
 #googleSiteVerify = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
 
