@@ -1,0 +1,60 @@
+<div class="button-top">
+    <button onclick="topFunction()" id="btnTop">TOP</button>
+</div>
+
+<div class="page-top {{ with .Site.Params.doNotLoadAnimations }} . {{ else }} animated fadeInDown {{ end }}">
+    <ul class="nav">
+        {{ $currentPage := . }}
+        {{ range .Site.Menus.main }}
+            <li class="{{ with .Params.class }} {{.}} {{end }}">
+              <a class="{{if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }} current{{end}} "
+                   href="{{ .URL }}"
+                        {{ if strings.HasPrefix .URL "http" }}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        {{ end }}
+                   title="{{ .Title }}">{{ .Name }}</a></li>
+        {{ end }}
+
+        <span class="dropdown">
+          <button class="dropbtn">More</button>
+          <div class="dropdown-content">
+            {{- partial "display/more-pages.html" . -}}
+          </div>
+        </span>
+
+        {{ if .Site.IsMultiLingual }}
+            {{ range $.Site.Home.AllTranslations }}
+                <li><a href="{{ .Permalink }}"
+                       title="{{ .Language.LanguageName }}">{{ .Language.LanguageName }}</a>
+                </li>
+            {{ end }}
+        {{ end }}
+    </ul>
+
+    <button type="button" class="navMenu navbar-burger" onclick="openMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+    <div id="navMenuBg" class="modal" onclick="closeMenu()">
+      <div class="nav subMenu" id="navMenu">
+        <div class="section-menu">
+          {{- partial "display/nav-section.html" . -}}
+        </div>
+
+        <h5>More Pages</h5>
+        <div class="more-menu">
+          {{- partial "display/more-pages.html" . -}}
+        </div>
+
+        <li class="theme-switch-item">
+            <a class="theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a>
+        </li>
+      </div>
+    </div>
+
+</div>
