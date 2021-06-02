@@ -19,3 +19,7 @@
 .timeline-Widget {
   color: var(--body-color);
 }
+
+.link-list {
+  border-bottom: solid 1px var(--border-color);
+}

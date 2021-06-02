@@ -20,13 +20,13 @@
     --catlink-color: #405fa2;
 }
 
-html[data-theme='dark'], .twitter-timeline[data-theme='dark'] {
+html[data-theme='dark'] {
     --bg-color: #292a2d;
     --secondary-bg-color: #2c2d32;
     --heading-color: rgb(169, 169, 179);
     --body-color: rgb(169, 169, 179);
     --post-color: rgba(0, 0, 0, 0.44);
-    --border-color: rgb(38, 38, 38);
+    --border-color: rgb(62 62 62);
     --pre-bg-color: rgb(33, 33, 45);
     --nav-text-color: rgb(191, 191, 191);
     --tag-color: rgb(191, 191, 191);
@@ -991,6 +991,7 @@ a.btn {
 
 .date {
   color: var(--date-color);
+  margin-right: 5px;
 }
 .link-list ul {
   margin-block: 5px;
