@@ -9,6 +9,7 @@ enableRobotsTXT = true
 pluralizelisttitles = false
 sectionPagesMenu = "main"
 
+
 # Enable Disqus
 #disqusShortname = ""
 

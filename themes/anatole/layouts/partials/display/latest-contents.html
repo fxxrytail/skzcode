@@ -26,7 +26,7 @@
         {{ $month := . }} <br>
 
         {{ range $.Site.Data.Masterlist }}
-          {{ range sort (where (where (where .contents "Year" ">=" $newYear) "Year" $year) "Month" $month) "Date" "desc" }}
+          {{ range sort (sort (where (where (where .contents "Year" ">=" $newYear) "Year" $year) "Month" $month) "ID" "desc" ) "Date" "desc" }}
           <div class="link-list">
             <ul>
               <span class="date">{{ dateFormat "Jan 02" .Date }}</span>
