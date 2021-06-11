@@ -6,5 +6,5 @@ draft: false
 mainCat: "All Night SKZ"
 weight: 214
 pageType: "By Year"
-description: " 'Tonight, I turn on the lights'. Bang Chan, Changbin, Felix, and Seungmin."
+description: " 'Tonight, I turn on the lights'. Bang Chan, Changbin, Felix, and Seungmin can't sleep"
 ---
