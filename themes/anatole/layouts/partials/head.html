@@ -1,7 +1,6 @@
 <head>
-  {{ if .Site.Params.GoogleAnalyticsID }}
-    {{ partial "analytics/gtag.html" . }}
-  {{ end }}
+    <!-- Google Analytics -->
+    {{ template "_internal/google_analytics.html" . }}
 
     <title> {{ with .Title }} {{ . }} - {{ end }}  {{.Site.Params.Title}}</title>
 
@@ -105,7 +104,6 @@
     {{ template "_internal/opengraph.html" . }}
     {{- end -}}
     {{- end }}
-
 
 
 
