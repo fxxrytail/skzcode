@@ -1,4 +1,8 @@
 <head>
+  {{ if .Site.Params.GoogleAnalyticsID }}
+    {{- partial "analytics/gtag.html" . -}}
+  {{ end }}
+  
     <title> {{ with .Title }} {{ . }} - {{ end }}  {{.Site.Params.Title}}</title>
 
     <!-- Meta -->
@@ -102,9 +106,7 @@
     {{- end -}}
     {{- end }}
 
-    {{ if .Site.Params.GoogleAnalyticsID }}
-      {{- partial "analytics/gtag.html" . -}}
-    {{ end }}
+
 
 
 </head>
