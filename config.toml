@@ -14,7 +14,7 @@ sectionPagesMenu = "main"
 #disqusShortname = ""
 
 # Google Analytics
-#googleAnalytics = "UA-123-45"
+googleAnalytics = "UA-199360596-1"
 
 [params]
 year = 2022
@@ -25,7 +25,7 @@ banner = "/images/banner-kd.jpg"
 profilePicture = "images/icon.png"
 keywords = ""
 favicon = "favicons/"
-customCss = ["css/custom.css"]
+customCss = ["css/custom.css", "css/timeline.css"]
 customJs = []
 mainSections = ["artistry", "shows", "vlive"]
 images = ["images/banner-kd.jpg"]
