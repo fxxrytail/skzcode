@@ -2,7 +2,8 @@
     <button onclick="topFunction()" id="btnTop">TOP</button>
 </div>
 
-<div class="page-top {{ with .Site.Params.doNotLoadAnimations }} . {{ else }} animated fadeInDown {{ end }}">
+
+<div class="page-top {{ if eq .Params.Type "center" }} center-nav {{end}} ">
     <ul class="nav">
         {{ $currentPage := . }}
         {{ range .Site.Menus.main }}

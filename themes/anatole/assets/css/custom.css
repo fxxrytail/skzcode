@@ -22,4 +22,24 @@
 
 .link-list {
   border-bottom: solid 1px var(--border-color);
+  font-size: 12px;
+}
+
+/* BABY STAY */
+.main-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.center-nav {
+  width: 100%;
+  max-width: 800px;
+  right: unset;
+}
+
+.center-content {
+    height: auto;
+    width: 100%;
+    max-width: 800px;
+    margin-top: 80px;
 }
