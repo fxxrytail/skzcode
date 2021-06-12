@@ -14,7 +14,7 @@ sectionPagesMenu = "main"
 #disqusShortname = ""
 
 # Google Analytics
-googleAnalytics = "G-0MPEJM381H"
+GoogleAnalyticsID = "G-0MPEJM381H"
 
 [params]
 year = 2022
