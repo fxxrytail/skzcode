@@ -1,6 +1,7 @@
 <head>
-    <!-- Google Analytics -->
-    {{ template "_internal/google_analytics.html" . }}
+    {{ if .Site.Params.GoogleAnalyticsID }}
+    {{ partial "analytics/gtag.html" . }}
+    {{ end }}
 
     <title> {{ with .Title }} {{ . }} - {{ end }}  {{.Site.Params.Title}}</title>
 
