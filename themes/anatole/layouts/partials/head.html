@@ -1,7 +1,5 @@
 <head>
-    {{ if .Site.Params.GoogleAnalyticsID }}
-    {{- partial "analytics/gtag.html" . -}}
-    {{ end }}
+    {{- partial "analytics/google-analytics-gtag-async.html" . -}}
 
     <title> {{ with .Title }} {{ . }} - {{ end }}  {{.Site.Params.Title}}</title>
 
