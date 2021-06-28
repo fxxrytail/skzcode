@@ -20,6 +20,13 @@
     --catlink-color: #405fa2;
     --tl-bg: #45426b;
     --tl-bg: #ffed9a; /*#45426b*/
+
+    --sidebar-bg: rgb(164 179 213);
+    --sidebar-color: #000;
+    --sidebar-header: #000;
+    --sidebar-anchor: #a00606;
+    --sidebar-bg2: #424040;
+    --sidebar-color2: #fff;
 }
 
 html[data-theme='dark'] {
@@ -153,7 +160,7 @@ pre {
 a:link,
 a:visited {
     opacity: 1;
-    color: var(--tag-color);
+    color: var(--link-color);
 }
 
 a:hover,
@@ -351,8 +358,8 @@ a:active {
 }
 
 .content-nav h5 {
-  background-color: var(--date-color);
-  color: var(--bg-color);
+  background-color: var(--sidebar-bg2);
+  color: var(--sidebar-color2);
   margin: 0;
   padding: 5px;
   padding-left: 10px;
@@ -368,6 +375,9 @@ a:active {
     text-align: center;
     font-size: 13px;
 }
+
+.content-nav a {color: var(--sidebar-color);}
+.content-nav a:hover {color: var(--sidebar-anchor);}
 
 .page-top .information {
     float: right;
@@ -400,14 +410,15 @@ a:active {
     width: 40%;
     -webkit-background-size: cover;
     background-size: cover;
-    background-color: var(--bg-color);
+    background-color: var(--sidebar-bg);
+    color: var(--sidebar-color);
     height: 100vh;
     overflow: auto;
     top: 0;
     left: 0;
     position: fixed;
-    /*z-index: 4;*/
-    border-right: 1px solid var(--border-color);
+    /*z-index: 4;
+    border-right: 1px solid var(--border-color); */
     display: flex;
     flex-direction: column;
 }
@@ -441,7 +452,7 @@ a:active {
 
 .sidebar .logo-title .title a {
     text-decoration: none;
-    color: var(--heading-color);
+    color: var(--sidebar-color);
     font-size: 2rem;
     font-weight: bold;
 }
@@ -477,8 +488,9 @@ a:active {
 .home-sidebar a {
   text-decoration: none;
   letter-spacing: 1px;
-  color: var(--link-color);
+  color: var(--sidebar-anchor);
   font-size: 10px;
+  font-weight: bold;
 }
 
 .post {
