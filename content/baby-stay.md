@@ -1,11 +1,11 @@
 ---
-title: "Coming soon~"
+title: "Working on it~"
 date: 2021-05-23T14:21:42+08:00
 draft: false
 type: "center"
 
 ---
-Currently under construction :)
+Currently under construction. 
 
 What will this page contain?
 * Stray Kids official account links

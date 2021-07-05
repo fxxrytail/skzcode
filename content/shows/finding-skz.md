@@ -4,7 +4,7 @@ date: 2021-03-22T15:27:04+08:00
 draft: false
 
 mainCat: "Finding SKZ"
-weight: 2
+weight: 11
 pageType: "By SubCat"
 description: "Stray Kids' own TV variety show. Featuring games, laughter, tour and memories"
 ---
