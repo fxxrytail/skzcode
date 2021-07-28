@@ -1,3 +1,80 @@
+{{ $years := slice }}
+  {{ range .Site.Data.Timeline }}
+      {{ $years = $years | append .year }}
+  {{ end }}
+{{ $years = uniq $years }}
+
+<div class="container">
+    <div class="view">
+      <div class="view-setting">
+        View:
+        <select class="" name="years">
+          <option value="all">all years</option>
+          {{ range $years }} {{ $year := . }}
+          <option value="{{ $year }}">{{ $year }}</option>
+          {{ end }}
+        </select>
+        <select class="" name="tags">
+          <option value="">all tags</option>
+          <option value="">Special Date</option>
+          <option value="">Discography</option>
+          <option value="">Shows</option>
+          <option value="">Award</option>
+          <option value="">Music Show Win</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="timeline">
+      {{ range $years }}
+        {{ $year := . }}
+
+        <div id="{{ $year }}" class="{{ $year }}">
+          <div class="timeline-container year">
+              <div class="timeline-icon">
+                  <i class="far fa-flag"></i>
+              </div>
+              <div class="timeline-body">
+                  <h1>{{ $year }}</h1>
+              </div>
+          </div>
+          {{ range sort (where $.Site.Data.Timeline "year" $year) "date" }}
+            {{ $tag := index .tags 0 }}
+            <div class="timeline-container {{ replace $tag ` ` `-`}}">
+                <div class="timeline-icon">
+                    <i class="fa fa-{{- .icon -}}" aria-hidden="true"></i>
+                </div>
+                <div class="timeline-body">
+                    <h4 class="timeline-title"><span class="badge"> {{ dateFormat "Jan 02, 2006" .date }} </span></h4>
+
+                    <div class="tl-row">
+                      <div class="tl-col1">
+                        {{ if ne .image "" }}
+                        <img src="../images/timeline/{{ .image }}" alt="{{ .title }}">
+                        {{ end }}
+                      </div>
+                      <div class="tl-col2">
+                        {{ if ne .link "" }}
+                        <h3><a href="{{ .link }}">{{ .title }}</a></h3>
+                        {{ else }} <h3>{{ .title }}</h3> {{ end}}
+                        <p>{{ .description }}</p>
+                      </div>
+                    </div>
+
+                    <p class="timeline-subtitle">{{ delimit .tags ", " }}</p>
+                </div>
+            </div>
+            {{ end }}
+
+      </div>
+      {{ end }}
+
+</div>
+
+
+<!-- manual -->
+<hr>
+
 
 <div class="container">
   <div class="view">

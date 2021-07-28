@@ -1,6 +1,9 @@
-<div class="button-top">
-    <button onclick="topFunction()" id="btnTop">TOP</button>
+<div class="{{ if eq .Section "support" }}
+  button-top-notice {{ else }}
+  button-top  {{ end }}" >
+  <button onclick="topFunction()" id="btnTop">TOP</button>
 </div>
+
 
 
 <div class="page-top {{ if eq .Params.Type "center" }} center-nav {{end}} ">

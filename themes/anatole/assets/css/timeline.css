@@ -19,7 +19,7 @@
   position: relative;
   padding-left: 4rem;
   margin: 0 0 0 30px;
-  color: white;
+  color: #000;
 }
 .timeline:before {
   content: "";
@@ -38,12 +38,14 @@
   position: absolute;
   left: -88px;
   top: 4px;
-  width: 50px;
-  height: 50px;
+  width: 45px;
+  height: 45px;
+  padding: 5px;
   border-radius: 50%;
   text-align: center;
   font-size: 2rem;
   background: #4f537b;
+  color: #fff;
 }
 .timeline .timeline-container .timeline-icon i {
   position: absolute;
@@ -70,9 +72,6 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-.timeline .timeline-container .timeline-body p, h3, h1 {
-  color: #000;
 }
 
 .timeline .timeline-container .timeline-body a {
@@ -101,6 +100,7 @@
   border-radius: 3px;
   font-size: 12px;
   font-weight: bold;
+  color: #fff;
 }
 .timeline .timeline-container .timeline-body .timeline-subtitle {
   font-weight: 300;
@@ -112,23 +112,28 @@
 .timeline .timeline-container.year {
   text-align: center;
 }
-.timeline .timeline-container.year .timeline-body {
-  background-color: #ef7272;
-}
-.timeline .timeline-container.primary .badge,
-.timeline .timeline-container.primary .timeline-icon {
+.timeline .timeline-container.year .timeline-icon,
+.timeline .timeline-container.year .timeline-body {background-color: #618c76;}
+.timeline .timeline-container.year .timeline-body h1 {color: #fff;}
+
+.timeline .timeline-container.Special-Date .badge,
+.timeline .timeline-container.Special-Date .timeline-icon {
   background: #1d8cf8 !important;
+}
+.timeline .timeline-container.Discography .badge,
+.timeline .timeline-container.Discography .timeline-icon {
+  background: #4f537b !important;
 }
 .timeline .timeline-container.info .badge,
 .timeline .timeline-container.info .timeline-icon {
   background: #11cdef !important;
 }
-.timeline .timeline-container.success .badge,
-.timeline .timeline-container.success .timeline-icon {
+.timeline .timeline-container.Music-Show-Win .badge,
+.timeline .timeline-container.Music-Show-Win .timeline-icon {
   background: #00bf9a !important;
 }
-.timeline .timeline-container.warning .badge,
-.timeline .timeline-container.warning .timeline-icon {
+.timeline .timeline-container.Shows .badge,
+.timeline .timeline-container.Shows .timeline-icon {
   background: #ff8d72 !important;
 }
 .timeline .timeline-container.danger .badge,

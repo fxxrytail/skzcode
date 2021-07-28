@@ -1,0 +1,41 @@
+{{ define "main" }}
+  <div class="post">
+    <div class="post-content">
+      {{ .Content }}
+    </div>
+  </div>
+    <div class="archive">
+        <ul class="list-with-title">
+
+        <!-- Main Priority dispalyed on home -->
+          {{ range .Pages.GroupByParam "priority" }}
+            {{ range .Pages.ByWeight }}
+                <div class="support-page">
+                  <div class="support-thumbnail" >
+                  <a href="{{ .RelPermalink }}">
+                    <img src="../images/support/{{ .Params.thumbnail }}" alt="thumbnail">
+                  </a>
+                  </div>
+                  <div class="support-summary">
+                    <div class="post-title">
+                      <a href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Title }}</a>
+                    </div>
+                    <div class="post-description">
+                      {{ .Description }}
+                    </div>
+                    <div class="duration">
+                      {{ if .Params.duration }}
+                        {{ .Params.duration }}
+                      {{ end }}
+                    </div>
+                  </div>
+                </div>
+            {{ end }}
+          {{ end }}
+
+
+        </ul>
+    </div>
+
+
+{{ end }}

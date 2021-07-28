@@ -1,3 +1,10 @@
+
+
+function watermark() {
+	document.getElementById("write-content").style.backgroundImage = "url(http://localhost:1313/images/banner-oh.jpg)";
+}
+
+
 // for showing Menu
 
 function openMenu() {

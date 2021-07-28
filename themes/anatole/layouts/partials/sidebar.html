@@ -8,19 +8,31 @@
         </div>
     </div>
 
-    <div class="notice" style="display:none">
-      {{ range where $.Site.RegularPages "Section" "support"}}
-      <div class="event">
-          <div class="event-title">
-            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-          </div>
-          {{ .Description }}
+  {{ if eq .Section "support" }}
+    <div class="notice" style="display:block" onclick="location.href='/support/';">
+      <span class="notice-bg">You Make Stray Kids STAY</span>
 
-          <li style="display: {{ if ne `.Params.Duration` `` }} block {{ else }} none {{ end }}" >
-              {{ .Params.Duration }} </li>
-      </div>
-      {{ end }}
+      <ul class="support-animate">
+        {{ range where $.Site.RegularPages "Section" "support"}}
+        <div class="support-sidebar">
+          <div class="support-summary">
+            <div class="post-title">
+              <a href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Title }}</a>
+            </div>
+            <div class="post-description">
+              {{ .Description }}
+            </div>
+            <div class="duration">
+              {{ if .Params.duration }}
+                {{ .Params.duration }}
+              {{ end }}
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </ul>
     </div>
+  {{ end }}
 
     {{ if eq .Params.page "index"}}
     <div class="home-sidebar">

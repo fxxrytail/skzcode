@@ -43,3 +43,122 @@
     max-width: 800px;
     margin-top: 80px;
 }
+
+/* Support */
+.support-page {
+  border-bottom: solid 1px var(--border-color);
+  padding: 10px 0;
+  display: flex;
+  flex-direction: row;
+}
+.support-page .support-thumbnail {width: 100px; height: 100px;}
+.support-page .support-thumbnail img {width: 100%}
+.support-page .support-summary {padding: 10px;}
+
+.support-page .support-summary .post-title {font-size: 15px; font-weight: bold;}
+.support-sidebar .support-summary .post-title {font-size: 10px; font-weight: bold;}
+
+.support-page .support-summary {font-size: 12px;}
+.support-sidebar .support-summary {background-color: var(--secondary-bg-color); padding: 5px 0;}
+
+.support-page .support-summary .duration,
+.support-sidebar .support-summary .duration {padding-top: 3px;}
+
+.support-sidebar {height: 50px; padding: 10px 0; }
+
+@keyframes blink {
+  0% {opacity: 1}
+  50% {opacity: 0}
+  100% {opacity: 1}
+}
+.notice-bg{
+  position: absolute;
+  font-size: 15px;
+  margin: 25px 10px;
+  font-family: Lucida Console, monospace;
+  font-weight: bold;
+  width: calc(100% - 50px);
+
+  animation: blink 3s infinite;
+  animation-delay: 3s
+}
+
+.notice {
+  background-color: var(--secondary-bg-color);
+  color: var(--date-color);
+  min-height: 50px;
+  border-top: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+  font-size: 10px;
+  padding: 0 10px;
+  height: 70px;
+  min-height: 70px;
+  overflow: hidden;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+@keyframes notice2 {
+  0% {transform: translateY(75px);}
+  37% {transform: translateY(0);}
+  75% {transform: translateY(-70px);}
+  100% {transform: translateY(-140px);}
+
+}
+
+@keyframes notice3 {
+  0% {transform: translateY(75px);}
+  25% {transform: translateY(0);}
+  50% {transform: translateY(-70px);}
+  75% {transform: translateY(-140px);}
+  100% {transform: translateY(-210px);}
+
+}
+
+.notice ul {margin: 0; padding: 0;}
+.support-animate {position: relative;}
+
+/* 3 index = notice3, 30s ; 2 index = notice2 20s */
+.support-animate {
+  animation-name: notice2;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+}
+.support-animate:hover {animation-play-state: paused;}
+
+.support-wrap {background: url(/images/support-bg.jpg); background-size: contain;}
+.support-wrap .support-bg {background-color: var(--support-bg); opacity: 0.85;}
+.support-wrap .support-bg .support-content {text-align: justify; padding: 10px;}
+.support-wrap .support-bg .support-content a {text-decoration: underline;}
+
+
+
+
+
+
+@media screen and (max-width: 800px),
+print {
+  .support-page {flex-direction: column;}
+  .support-page .support-thumbnail {width: 100%; height: auto;}
+
+  .notice {
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    width: 100%;
+    margin: unset;
+  }
+
+  .support-sidebar {
+  /*  padding:5px 0px 0px 0px; */
+    color: var(--body-color);
+    width: calc(100% - 50px);
+  }
+}
+
+
+@media screen and (max-width: 425px),
+print {
+  .support-page {flex-direction: column;}
+  .support-page .support-thumbnail {width: 100%; height: auto;}
+}

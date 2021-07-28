@@ -17,7 +17,7 @@
           {{ .Content }} <br>
 
         </div>
-          {{ with .Page.Params.Coding }}{{ partial "display/timeline.html" . }}{{ end }}
+          {{ if eq .Page.Params.Coding "yes" }}{{ partial "display/timeline.html" . }}{{ end }}
         <div class="post-footer">
             <div class="info">
                 {{ with .Page.Params.Categories }}{{ partial "taxonomy/categories.html" . }}{{ end }}
