@@ -52,7 +52,7 @@
   flex-direction: row;
 }
 .support-page .support-thumbnail {width: 100px; height: 100px;}
-.support-page .support-thumbnail img {width: 100%}
+.support-page .support-thumbnail img {width: 100px; height: auto;}
 .support-page .support-summary {padding: 10px;}
 
 .support-page .support-summary .post-title {font-size: 15px; font-weight: bold;}
@@ -138,8 +138,7 @@
 
 @media screen and (max-width: 800px),
 print {
-  .support-page {flex-direction: column;}
-  .support-page .support-thumbnail {width: 100%; height: auto;}
+  .support-page {flex-direction: row;}
 
   .notice {
     bottom: 0;
@@ -160,5 +159,9 @@ print {
 @media screen and (max-width: 425px),
 print {
   .support-page {flex-direction: column;}
-  .support-page .support-thumbnail {width: 100%; height: auto;}
+  .support-page .support-thumbnail,
+  .support-page .support-thumbnail img {width: 100%; height: auto;}
+
+
+  .support-content figure {margin:0}
 }
