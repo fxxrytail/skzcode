@@ -2,4 +2,4 @@
 title: "Shows"
 page: "index"
 ---
-Stray Kids main shows are arranged by release date.
+Discover Stray Kids personality and bond with each other. Main shows are arranged by release date.

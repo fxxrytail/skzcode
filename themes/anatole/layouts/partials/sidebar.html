@@ -8,7 +8,7 @@
         </div>
     </div>
 
-  {{ if eq .Section "support" }}
+  {{ if and (ne .Title "Home") (ne .Section "support") }}
     <div class="notice" style="display:block" onclick="location.href='/support/';">
       <span class="notice-bg">You Make Stray Kids STAY</span>
 

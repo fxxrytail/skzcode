@@ -7,4 +7,5 @@ title:  ""
 description: ""
 thumbnail: ""
 duration: ""
+lastmod: {{ .Lastmod }}
 ---

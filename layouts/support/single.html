@@ -12,9 +12,17 @@
             </div>
 
           <h5>{{ .Description  }}</h5>
+          <div class="duration">
+            {{ if .Params.duration }}
+              <h5>{{ .Params.duration }}</h5>
+            {{ end }}
+              <h5>Post update: {{ .Lastmod.Format "Jan 02, 2006"}}</h5>
+          </div>
           <hr>
-
-          <div class="support-wrap">
+          {{ $imgBg := resources.Get "static/support-bg.jpg" }}
+          {{ $iResize := $imgBg.Resize "500x q50 Center"}}
+          <div class="support-wrap"
+          style="background: url({{ $iResize.RelPermalink }}); background-size: contain; ">
             <div class="support-bg">
               <div class="support-content">
                 {{ .Content }}

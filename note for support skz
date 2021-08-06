@@ -9,7 +9,12 @@ navbar.html
 sidebar.html
 {{ if and (ne .Title "Home") (ne .Section "support") }}
 
-
+layout/support/list.html
+<div class="support-thumbnail" >
+<a href="{{ .RelPermalink }}">
+  <img src="../images/support/{{ .Params.thumbnail }}" alt="thumbnail">
+</a>
+</div>
 
 
 

@@ -126,7 +126,6 @@
 }
 .support-animate:hover {animation-play-state: paused;}
 
-.support-wrap {background: url(/images/support-bg.jpg); background-size: contain;}
 .support-wrap .support-bg {background-color: var(--support-bg); opacity: 0.85;}
 .support-wrap .support-bg .support-content {text-align: justify; padding: 10px;}
 .support-wrap .support-bg .support-content a {text-decoration: underline;}

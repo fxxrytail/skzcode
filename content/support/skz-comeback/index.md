@@ -7,6 +7,7 @@ title:  "Support Stray Kids Comeback"
 description: "'NOEASY' 2ND ALBUM on Aug 23"
 thumbnail: "noeasy-thumbnail.jpg"
 duration: ""
+lastmod: ""
 
 ---
 Support Stray Kids comeback to help them get music show wins, awards, and unlock more achievements~!
@@ -24,11 +25,13 @@ Here's a summary of things you may do to support Stray Kids. Please read them al
 
 In case you don't know what *Music Show Win* is, it happens during their album promotion. The No. 1 song of the week is announced per music show and each music show has different criteria for it. Criteria is usually composed of YouTube streaming (FREE), voting on apps (FREE), buying physical album, and streaming on Korean streaming platforms (biggest criteria). We only have few weeks to give Stray Kids Music Show Wins for "NOEASY" and there may not be next time for this album that's why STAYs all around the world are encouraged to help participate.
 
+> FREE as long as you have access to internet.
+
 Here's a detailed information about all Korean music shows criteria provided by KShowAnalysis. Stray Kids don't promote on The Show so you may ignore it.
 {{< tweet 1359377074717290496 >}}
 
 ## Korean Digital Sales
-Korean digital sale is a BIG part of *Music Show Win*. It's also a big factor in *Award Ceremonies* (ceremonies to award music and performances of the year). To get a big digital sale point, STAYs are encourage to stream and download songs on the following Korean music streaming platforms:
+Korean digital sale is a BIG part of *Music Show Win*. It's also a big factor in *Award Ceremonies* (ceremonies to award music, performances, artist of the year and more). To get a big digital sale point, STAYs are encourage to stream songs on the following Korean music streaming platforms:
 
 ![Korean music streaming platforms](images/melon-genie-bugs.jpg)
 
@@ -58,7 +61,7 @@ Please consider buying verified account, donate any amount to streaming teams, o
 ## Physical Sales
 For *Music Show Win* you need to make sure that you buy albums from stores that counts in **Hanteo** and **Gaon** Chart. It's also a big factor in *Award Ceremonies*.
 
-Here's a list of links where you may order albums for "NOEASY"
+Here's a list of links where you may pre-order albums for "NOEASY"
 {{< tweet 1420208488119111682 >}}
 
 For **Hanteo** when you receive a "Hanteo Authentication Card", don't forget to authenticate your album using Whosfan app for it to count on **Hanteo** Chart. Here's a tutorial on how to authenticate your album:
@@ -85,7 +88,7 @@ One of the easiest and free to do is to stream the MV on YouTube. It's advisable
 There are different methods to stream an MV a lot but the most advisable is doing Manual method.
 1. Log in to your YouTube account.
 2. Go to the video by doing any of these:
- - Searching with the keyword for example "Stray Kids [title song]".
+ - Searching with the keyword for example "Stray Kids [title track]".
  - Clicking from home page or recommended video.
  - Clicking the shared link of the video.
 3. Stream the video with proper setting. Follow do's and don'ts:
@@ -108,7 +111,7 @@ You may see different tutorials on how to do manual streaming but the most impor
 - Change methods of going to videos (step 2).
 - Change number of fillers each round.
 - You may either search or click recommendations for the fillers.
-- Don't just stream Stray Kids as fillers, if you want to watch a video of a cat or a puppy then go :D
+- Stream non-kpop videos, if you want to watch a video of a cat or a puppy then go :D
 
 
 ### End note
@@ -118,4 +121,4 @@ Sudden changes may apply so for faster updates you may follow this Twitter list 
 
 Enjoy Stray Kids comeback~! :wink:
 
-![Stray Kids Family](images/skz-family.jpg)
+![Stray Kids CHEESE](images/skz-cheese.jpg)

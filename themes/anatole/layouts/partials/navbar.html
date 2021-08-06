@@ -1,7 +1,7 @@
-<div class="{{ if eq .Section "support" }}
-  button-top-notice {{ else }}
-  button-top  {{ end }}" >
-  <button onclick="topFunction()" id="btnTop">TOP</button>
+<div class= {{ if and (ne .Title "Home") (ne .Section "support") }}
+  "button-top-notice" {{ else }}
+  "button-top" {{ end }}>
+    <button onclick="topFunction()" id="btnTop">TOP</button>
 </div>
 
 
