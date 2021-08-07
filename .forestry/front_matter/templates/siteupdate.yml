@@ -13,4 +13,4 @@ fields:
   label: type
   default: post
 pages:
-- content/site-update/support-page-added.md
+- content/site-update/support-page.md
