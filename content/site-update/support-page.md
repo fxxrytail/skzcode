@@ -6,4 +6,4 @@ type = "post"
 +++
 Support page and reminders on pages are added to the website to encourage STAYs to participate in fandom activities that will help Stray Kids achieve music show wins, awards, etc.
 
-{{< youtube ntgxmGDl6QM >}}
+{{< youtube QifTeeA-qdM>}}
