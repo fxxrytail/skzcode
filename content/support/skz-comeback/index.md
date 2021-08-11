@@ -80,7 +80,7 @@ A guide on where we are going to vote during comeback. Follow {{< a "TeamSVS" "h
 
 A calendar guide of music show voting schedule:
 
-![music show voting schedule](images/voting-sched.png)
+![music show voting schedule](images/voting-sched-v2.png)
 
 ## YouTube Streaming
 One of the easiest and free to do is to stream the MV on YouTube. It's advisable to get YouTube Premium so you can stream in background or even when your device screen is off. You may get a 1 month Premium free trial and make sure to cancel it before the 1 month ends to avoid paying for it after the free trial ends. Streaming without premium is also okay.
@@ -117,7 +117,7 @@ You may see different tutorials on how to do manual streaming but the most impor
 ### End note
 Those are the basics of supporting Stray Kids mainly to get *Music Show Wins* but also for a chance for them to be nominated on *Award Ceremonies*. There's more we may do to help Stray Kids get more achievements and recognition such as helping with Billboard, international iTunes, Spotify, etc. but I will add those on a different post if this post got engagements.
 
-Sudden changes may apply so for faster updates you may follow this Twitter list of {{< a "Stray Kids fanbases and fan accounts" "https://twitter.com/i/lists/1329107408015167488">}}. For Instagram you may follow {{< a "skzvotinginfo" "https://www.instagram.com/skzvotinginfo/">}}.
+Sudden changes may apply so for faster updates and more projects you may follow this Twitter list of {{< a "Stray Kids fanbases and fan accounts" "https://twitter.com/i/lists/1329107408015167488">}}. For Instagram you may follow {{< a "skzvotinginfo" "https://www.instagram.com/skzvotinginfo/">}}.
 
 Enjoy Stray Kids comeback~! :wink:
 
