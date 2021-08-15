@@ -8,3 +8,4 @@ weight: 350
 pageType: "By SubCat Year"
 description: "Shows with Stray Kids member as MC"
 ---
+Hyunjin was an MC of Music Core too but links for Music Core MC cuts are not available here. You may see links of MuCore performance [here](/artistry/live-performance/) ^^
