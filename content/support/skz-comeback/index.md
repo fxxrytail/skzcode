@@ -15,7 +15,7 @@ Support Stray Kids comeback to help them get music show wins, awards, and unlock
 # Comeback Detail
 **ALBUM:** "NOEASY" 2nd Album  
 **RELEASE DATE:** August 23, 2021 (MON)  
-**TITLE TRACK:** (TBA)
+**TITLE TRACK:** 소리꾼 (Thunderous)
 
 {{< youtube Kpm48b7xSB4 >}}
 

@@ -6,5 +6,5 @@ draft: false
 mainCat: "SKZ SONG CAMP"
 weight: 23
 pageType: "By Year"
-description: "3 units of Stray Kids chilling while brainstorming to make their own songs"
+description: "Stray Kids divided into 3 units to make 1 song each for NOEASY album. Each unit brainstorms for the song, meet all together to discuss each songs and music video, and there's music video behind the scenes"
 ---
