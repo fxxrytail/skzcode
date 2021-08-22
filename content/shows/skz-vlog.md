@@ -6,5 +6,5 @@ draft: false
 mainCat: "SKZ VLOG"
 weight: 14
 pageType: "By Year"
-description: "Stray Kids vlogs during their day off"
+description: "Stray Kids vlogs during their day off and schedule"
 ---
