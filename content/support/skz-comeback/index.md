@@ -17,7 +17,8 @@ Support Stray Kids comeback to help them get music show wins, awards, and unlock
 **RELEASE DATE:** August 23, 2021 (MON)  
 **TITLE TRACK:** 소리꾼 (Thunderous)
 
-{{< youtube Kpm48b7xSB4 >}}
+Log in to YouTube and play this embedded link of Thunderous ^^
+{{< youtube EaswWiwMVs8 >}}
 
 # What to do?
 Here's a summary of things you may do to support Stray Kids. Please read them all and see what you can do. It may look a lot specially for Baby STAYs but don't worry because Stray Kids fanbases are there to guide you. It's easy!
@@ -88,23 +89,23 @@ One of the easiest and free to do is to stream the MV on YouTube. It's advisable
 There are different methods to stream an MV a lot but the most advisable is doing Manual method.
 1. Log in to your YouTube account.
 2. Go to the video by doing any of these:
- - Searching with the keyword for example "Stray Kids [title track]".
+ - Searching with the keyword for example "스트레이 키즈 소리꾼" or "Stray Kids Thunderous".
  - Clicking from home page or recommended video.
  - Clicking the shared link of the video.
 3. Stream the video with proper setting. Follow do's and don'ts:
- - Like, leave a good comment about the MV (don't spam!), and share to your SNS or website.
+ - After watching the video: like, leave a good comment about the MV (don't spam!), and share to your SNS or website.
  - Quality should be at least 480p.
  - Volume should be at least 50%.
  - Speed must be normal.
  - Don't skip time, pause, and replay.
  - Turn off autoplay.
  - If using desktop/laptop don't stream on multiple tabs.
- - If streaming with more than one device, make sure that different accounts are logged in.
-4. Stream other videos (fillers) around 2-4 videos with a total of at least 10-min long before you watch the MV again. Example videos are Stray Kids MV, skz-player, skz-record, performances from different channels, etc. Make sure you don't stream the same videos every time you stream in between the MV.
+ - If streaming with more than one device, make sure that different accounts are logged in and device are in different IP address.
+4. Stream other videos (fillers) around 3-4 videos with a total of at least 10-min long before you watch the MV again. Example videos are Stray Kids MV, skz-player, skz-record, performances from different channels, etc. Make sure you don't stream the same videos every time you stream in between the MV.
 5. Repeat from step 2.
 
 You may see different tutorials on how to do manual streaming but the most important thing is to not let YouTube think you are a robot. The following are my personal tips:
-- Interact with comments from time to time.
+- Interact with comments every other time.
 - Either skip or don't skip ads but if the ad is the Stray Kids MV do not skip it.
 - Don't stream for too long, you may rest after few rounds and then do it again.
 - Log in to different accounts.
