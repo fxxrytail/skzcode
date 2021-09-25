@@ -1,0 +1,135 @@
+<div class="tab">
+  <button id="YB21" class="tb1 tablinks active" onclick="openTab(event, 'Y21', 'tc1', 'tb1')">2021</button>
+  <button id="YB20" class="tb1 tablinks" onclick="openTab(event, 'Y20', 'tc1', 'tb1')">2020</button>
+  <button id="YB19" class="tb1 tablinks" onclick="openTab(event, 'Y19', 'tc1', 'tb1')">2019</button>
+  <button id="YB18" class="tb1 tablinks" onclick="openTab(event, 'Y18', 'tc1', 'tb1')">2018</button>
+  <button id="YB17" class="tb1 tablinks" onclick="openTab(event, 'Y17', 'tc1', 'tb1')">2017</button>
+
+</div>
+
+<div id="Y21" class="tc1 tabcontent" style="display:block">
+
+</div>
+
+<div id="Y20" class="tc1 tabcontent">
+
+</div>
+
+<hr>
+(MODIFIED LATEST CONTENT (ALL))
+
+{{ $newYear := sub .Site.Params.year 1 }}
+
+{{ $yrs := slice }}
+  {{ range .Site.Data.Masterlist }}
+    {{ range where .contents ".Year" ">=" $newYear }}
+      {{ $yrs = $yrs | append .Year }}
+    {{ end }}
+  {{ end }}
+{{ $yrs = uniq $yrs }}
+
+<div class="tab"> <!-- // horizontal scroll -->
+  {{ range sort $yrs "value" "desc" }}
+    {{ $year := . }}
+      <button id="YB21" class="tb1 tablinks" onclick="openTab(event, 'Y21', 'tc1', 'tb1')">{{ $year }}</button>
+  {{ end }}
+</div>
+
+
+<div class="tab-content">
+{{ range sort $yrs "value" "desc" }} <!-- latest > year > month --> <!-- // order changable to asc and desc -->
+    {{ $year := . }}
+    <h4 style="margin-bottom: 0px;"> {{ $year }} </h4> <!-- // remove -->
+
+
+
+<!-- Summarized -->
+
+
+<!-- // by date -->
+      {{ $months := slice }}
+        {{ range $.Site.Data.Masterlist }}
+            {{ range sort (where (where .contents "Year" ">=" $newYear)  "Year" $year) "Date" "desc" }}
+            {{ $months = $months | append .Month }}
+            {{ end }}
+        {{ end }}
+      {{ $months = uniq $months }}
+
+      {{ range $months }}
+        {{ $month := . }} <br>
+
+        {{ range $.Site.Data.Masterlist }}
+          {{ range sort (sort (where (where (where .contents "Year" ">=" $newYear) "Year" $year) "Month" $month) "ID" "desc" ) "Date" "desc" }}
+          <div class="link-list">
+            <ul>
+              <span class="date">{{ dateFormat "Jan 02" .Date }}</span>
+              <span id="catlink"><a href="{{ .CatLink }}">{{ .Category }}
+                {{ if and (ne .SubCat "-") (ne .SubCat "Others")}}
+                : {{ .SubCat }}
+                {{end}}</a></span>
+
+              {{ .Title }}
+              {{ range .Links }}
+              ★ <a target="_blank" href="{{ .Link }}">{{ .Name }}</a> <span class="subs">{{ .Subs }}</span>
+              {{ end }} <!-- range .Links -->
+            </ul>
+          </div>
+          {{ end }} <!-- range sort -->
+        {{ end }} <!-- range masterlist -->
+      {{ end }} <br> <!-- range months -->
+{{ end }} <!-- range years-->
+</div> <!-- .tab-content -->
+
+
+
+
+<hr>
+(OLD LATEST CONTENT)
+
+<h3>Latest Contents</h3>
+
+{{ $newYear := sub .Site.Params.year 1 }}
+
+{{ $yrs := slice }}
+  {{ range .Site.Data.Masterlist }}
+    {{ range where .contents ".Year" ">=" $newYear }}
+      {{ $yrs = $yrs | append .Year }}
+    {{ end }}
+  {{ end }}
+{{ $yrs = uniq $yrs }}
+
+{{ range sort $yrs "value" "desc" }} <!-- latest > year > month -->
+    {{ $year := . }}
+    <h4 style="margin-bottom: 0px;"> {{ $year }} </h4>
+
+      {{ $months := slice }}
+        {{ range $.Site.Data.Masterlist }}
+            {{ range sort (where (where .contents "Year" ">=" $newYear)  "Year" $year) "Date" "desc" }}
+            {{ $months = $months | append .Month }}
+            {{ end }}
+        {{ end }}
+      {{ $months = uniq $months }}
+
+      {{ range $months }}
+        {{ $month := . }} <br>
+
+        {{ range $.Site.Data.Masterlist }}
+          {{ range sort (sort (where (where (where .contents "Year" ">=" $newYear) "Year" $year) "Month" $month) "ID" "desc" ) "Date" "desc" }}
+          <div class="link-list">
+            <ul>
+              <span class="date">{{ dateFormat "Jan 02" .Date }}</span>
+              <span id="catlink"><a href="{{ .CatLink }}">{{ .Category }}
+                {{ if and (ne .SubCat "-") (ne .SubCat "Others")}}
+                : {{ .SubCat }}
+                {{end}}</a></span>
+
+              {{ .Title }}
+              {{ range .Links }}
+              ★ <a target="_blank" href="{{ .Link }}">{{ .Name }}</a> <span class="subs">{{ .Subs }}</span>
+              {{ end }} <!-- range .Links -->
+            </ul>
+          </div>
+          {{ end }}
+        {{ end }}
+      {{ end }} <br>
+{{ end }} <!-- latest > year > month -->
