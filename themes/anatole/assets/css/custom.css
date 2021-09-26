@@ -131,10 +131,50 @@
 .support-wrap .support-bg .support-content a {text-decoration: underline;}
 
 
+/* FOR TABS */
+.tab {
+  overflow-y: hidden;
+  overflow-x: scroll;
+  white-space: nowrap;
+  background-color: var(--tab-bg);
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.tab::-webkit-scrollbar {display:none;}
+
+.tablinks {
+  border: none;
+  border-radius: 0;
+  font-size: 25px;
+  display: inline-block;
+  background-color: var(--tab-bg);
+  color: var(--bg-color);
+  padding: 5px;
+  margin: 3px;
+  margin-bottom: 0;
+}
+
+.tablinks.active {
+  color: var(--heading-color);
+  background-color: var(--bg-color);
+}
+
+.tabcontent {
+  border: solid 1px var(--border-color);
+  display: none;
+  max-height: 1000px;
+  overflow-y: scroll;
+  border-top: none;
+}
+.tabcontent.active {display: block;}
+
+.anchor {margin: 10px; padding:5px; font-size: 10px;}
+.post .post-content .anchor a {color: var(--body-color);}
 
 
 
-
+/* MOBILE */
 @media screen and (max-width: 800px),
 print {
   .support-page {flex-direction: row;}

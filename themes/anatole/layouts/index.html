@@ -2,7 +2,35 @@
 <div class="post">
   <div class="post-content">
 
-    {{- partial "display/latest-contents.html" . -}}
+<!-- All Contents -->
+<div style="display:block">
+  {{ range .Pages }}
+    {{ if eq .Title "All Contents" }}
+        <div class="post-title">
+            <h3>{{ .Title }}</h3>
+            {{ if eq .Type "post"}}
+                <div class="info">
+                    <em class="fas fa-calendar-day"></em>
+                    <span class="date">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
+                </div>
+            {{ end }}
+        </div>
+
+      <h5>{{ .Description  }}</h5>
+      <hr>
+
+      {{ .Content }} <br>
+
+    {{ end }}
+  {{ end }}
+</div>
+
+<!-- End All Contents -->
+
+<div style="display:none">
+  {{- partial "display/latest-contents.html" . -}}
+</div>
+
   </div>
 </div>
 

@@ -1,8 +1,45 @@
+//
+function dateOrder(){
+  navBtnv = document.getElementsByClassName("dateOrder").style.innerHTML;
+
+  if (navBtnv != "DESC"){
+  document.getElementsByClassName("dateOrder").style.innerHTML = "DESC";
+  }
+
+  else {
+    document.getElementsByClassName("dateOrder").style.innerHTML = "ASC";
+  }
+}
 
 
+// tab
+
+function openTab(evt, tabName, tc, tb) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
+
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName(tc);
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName(tb);
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the current tab, and add an "active" class to the button that opened the tab
+  document.getElementById(tabName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+
+/* watermark?
 function watermark() {
 	document.getElementById("write-content").style.backgroundImage = "url(http://localhost:1313/images/banner-oh.jpg)";
-}
+} */
 
 
 // for showing Menu
