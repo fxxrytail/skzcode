@@ -8,3 +8,5 @@ weight: 550
 pageType: "By SubCat Year"
 description: "Various online contents from different channels"
 ---
+Changes in this page:
+- V COOKIE: "Stray Kids X [...]" are moved [in each era](/artistry/album-specials/).

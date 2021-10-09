@@ -12,7 +12,7 @@
 {{ $lastYr := index (last 1 $yrs) 0 }}
 
 <!-- tabs -->
-<div class="tab"> <!-- // horizontal scroll -->
+<div class="tab">
   {{ range $yrsDesc }}
     {{ $year := . }}
       <button id="B{{ $year }}" onclick="openTab(event, '{{ $year }}', 'tc1', 'tb1')"
@@ -26,14 +26,11 @@
     {{ $year := . }}
 
   <div id="{{ $year }}" class="tc1 tabcontent {{ if eq $year $lastYr }} active {{ end }}">
-  <!-- Summarized -->
+    <!-- by date -->
+    <span style="padding-top:10px" id="{{$year}}-newest">&nbsp;</span><br>
+    <a href="#{{$year}}-oldest"><button class="anchor" >Jump to oldest</button></a>
 
-
-  <!-- // by date -->
-  <span style="padding-top:10px" id="{{$year}}-newest">&nbsp;</span><br>
-  <a href="#{{$year}}-oldest"><button class="anchor" >Jump to oldest</button></a>
-
-  {{ $dateOrder := "desc" }}
+    {{ $dateOrder := "desc" }}
 
       {{ $months := slice }}
         {{ range $.Site.Data.Masterlist }}
@@ -47,7 +44,7 @@
         {{ $month := . }} <br>
 
         {{ range $.Site.Data.Masterlist }}
-          {{ range sort (sort (where (where .contents "Year" $year) "Month" $month) "ID" "desc" ) "Date" $dateOrder }} <!-- // order changable to asc and desc -->
+          {{ range sort (sort (where (where .contents "Year" $year) "Month" $month) "ID" "desc" ) "Date" $dateOrder }}
           <div class="link-list">
             <ul>
               <span class="date">{{ dateFormat "Jan 02" .Date }}</span>
