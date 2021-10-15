@@ -23,10 +23,11 @@ lastmod = ["lastmod", ":git", "date", "publishDate"]
 
 [params]
 year = 2017
+years = [2017, 2018, 2019, 2020, 2021]
 title = "CHANNEL SKZ"
 author = "daisukijeu"
 description = "Channel SKZ is a fanmade masterlist of Stray Kids video contents such as music videos, album promotions, shows, V LIVEs, etc."
-banner = "/images/banner-kd.jpg"
+banner = "/images/site-cover.jpg"
 profilePicture = "images/icon.png"
 keywords = ""
 favicon = "favicons/"

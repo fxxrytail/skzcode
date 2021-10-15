@@ -35,6 +35,9 @@
 
     --support-bg: #fff;
     --tab-bg: #868484;
+
+    --size-1:50px;
+    --size-2:100px;
 }
 
 html[data-theme='dark'] {
@@ -51,7 +54,7 @@ html[data-theme='dark'] {
     --blockquote-border-color: #424242;
 
     --date-color: #8f8f8f;
-    --link-color: #e03333;
+    --link-color: #c73737; /*#e03333*/
     --subs-color: #76a0ff;
     --tl-bg: #efd972; /*#45426b*/
 
@@ -76,7 +79,7 @@ body {
 p {
     line-height: 1.9em;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 1em;
 }
 
 
@@ -384,7 +387,7 @@ a:active {
     position: relative;
     text-transform: none;
     text-align: center;
-    font-size: 13px;
+    font-size: 1em;
 }
 
 .content-nav a {color: var(--sidebar-color);}
@@ -440,7 +443,7 @@ a:active {
 }
 
 .sidebar .logo-title .description {
-    font-size: 14px;
+    font-size: 1em;
 }
 
 .sidebar .logo-title .logo {

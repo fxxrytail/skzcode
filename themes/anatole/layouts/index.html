@@ -5,21 +5,20 @@
 <!-- All Contents -->
 <div style="display:block">
   {{ range .Pages }}
-    {{ if eq .Title "All Contents" }}
+    {{ if eq .Type "home" }}
+      <div style="padding: 10px 0">
         <div class="post-title">
             <h3>{{ .Title }}</h3>
-            {{ if eq .Type "post"}}
-                <div class="info">
-                    <em class="fas fa-calendar-day"></em>
-                    <span class="date">{{ .Date.Format "Mon, Jan 2, 2006" }}</span>
-                </div>
-            {{ end }}
         </div>
+          <h5>{{ .Description  }}</h5>
+          <hr>
 
-      <h5>{{ .Description  }}</h5>
-      <hr>
+          <div class="home-content">
+            {{ .Content }}
+          </div>
+      </div>
 
-      {{ .Content }} <br>
+
 
     {{ end }}
   {{ end }}

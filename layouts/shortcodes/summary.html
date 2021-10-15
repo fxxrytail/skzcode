@@ -1,0 +1,72 @@
+{{- $Cats := $.Page.Params.mainCats -}}
+
+{{ $eras := slice }}
+  {{ range .Site.Data.Masterlist }}
+    {{ range where (where .contents ".Category" "in" $Cats) ".SubCat" "!=" "-"}}
+      {{ $eras = $eras | append .SubCat }}
+    {{ end }}
+  {{ end }}
+{{ $eras = uniq $eras }}
+
+{{ $SumYrs := slice }}
+  {{ range .Site.Data.Masterlist }}
+    {{ range where .contents ".Category" "in" $Cats }}
+      {{ $SumYrs = $SumYrs | append .Year }}
+    {{ end }}
+  {{ end }}
+{{ $SumYrs = uniq $SumYrs }}
+
+
+{{ if eq $.Page.Params.Title "Varieties" }}
+  {{ range $SumYrs }}   <!-- BY YEAR -->
+    {{ $SumYr := . }}
+
+    <h4 id="{{ replace $SumYr ` ` `-` }}"> {{ $SumYr }} </h4>
+    {{ range $.Site.Data.Masterlist }}
+      {{ range sort (where (where .contents "Category" "in" $Cats) "Year" $SumYr) "Date" }}
+        <!-- LAYOUT -->
+        <div class="link-list">
+          <ul>
+            <span class="date">{{ dateFormat "Jan 02" .Date }}</span>
+            <span id="catlink"><a href="{{ .CatLink }}">{{ .Category }}
+              {{ if and (ne .SubCat "-") (ne .SubCat "Others")}}
+              : {{ .SubCat }}
+              {{end}}</a></span>
+
+            {{ .Title }}
+            {{ range .Links }}
+            ★ <a target="_blank" href="{{ .Link }}">{{ .Name }}</a> <span class="subs">{{ .Subs }}</span>
+            {{ end }} <!-- range .Links -->
+          </ul>
+        </div>
+         <!-- LAYOUT -->
+      {{ end }}
+    {{ end }}
+
+  {{ end }} <!-- BY YEAR -->
+
+{{ else if eq $.Page.Params.Title "Eras" }}
+  {{ range $eras }} <!-- BY SUBCATEGORY -->
+    {{ $era := . }}
+
+    <h4 id="{{ replace $era ` ` `-` }}"> {{ $era }} </h4>
+    {{ range $.Site.Data.Masterlist }}
+      {{ range sort (where (where (where .contents "Category" "in" $Cats) "SubCat" $era) "SubCat" "!=" "-") "Date" }}
+      <!-- LAYOUT -->
+      <div class="link-list">
+        <ul>
+          <span class="date">{{ dateFormat "Jan 02" .Date }}</span>
+          <span id="catlink"><a href="{{ .CatLink }}">{{ .Category }}</a></span>
+
+          {{ .Title }}
+          {{ range .Links }}
+          ★ <a target="_blank" href="{{ .Link }}">{{ .Name }}</a> <span class="subs">{{ .Subs }}</span>
+          {{ end }} <!-- range .Links -->
+        </ul>
+      </div>
+       <!-- LAYOUT -->
+    {{ end }}
+  {{ end }}
+
+  {{ end }} <!-- BY SUBCATEGORY -->
+{{ end }} <!-- conditional statements -->

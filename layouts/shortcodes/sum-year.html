@@ -1,0 +1,9 @@
+{{- $year := .Get 0 -}}
+{{- $Years := .Site.Params.years -}}
+{{- $lastYr := index (first 1 $Years) 0 -}}
+
+    <div class="summary-outer tc1 tabcontent tabcontent-summary {{ if eq $year $lastYr }} active {{ end }}" id="S{{ $year }}">
+      <div class="summary-inner">
+        {{ .Inner }}
+      </div>
+    </div>

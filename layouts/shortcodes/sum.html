@@ -1,0 +1,24 @@
+{{- $color := .Get "tag" -}}
+{{- $title := .Get "title" -}}
+{{- $link := .Get "link" -}}
+{{- $img := .Get "img" -}}
+
+{{- $altimgPath := printf "/img-summary/%s" (.Get "altimg") -}}
+{{- $altimg := resources.GetMatch $altimgPath -}}
+
+<div class="card-outer">
+  <div class="card-inner">
+    <a href="{{ $link }}">
+      <div class="card-image">
+        <img {{ with $img }} src="https:/img.youtube.com/vi/{{.}}/sddefault.jpg" {{ end }}
+
+            {{ with $altimg }} src="{{.RelPermalink}}" {{ end }}
+
+          alt="{{$title}} thumbnail" class="crop-16-9">
+      </div>
+      <div class="card-details">
+        <div class="card-title {{$color}}">{{$title}}</div>
+      </div>
+    </a>
+  </div> <!-- content card-->
+</div>

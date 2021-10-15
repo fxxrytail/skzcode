@@ -67,3 +67,45 @@
 
 {{ end }}
 <!-- IF STATEMENTS -->
+
+
+<!-- FOR SUMMARY -->
+
+{{- $Cats := $.Page.Params.mainCats -}}
+
+{{ $eras := slice }}
+  {{ range .Site.Data.Masterlist }}
+    {{ range where (where .contents ".Category" "in" $Cats) ".SubCat" "!=" "-"}}
+      {{ $eras = $eras | append .SubCat }}
+    {{ end }}
+  {{ end }}
+{{ $eras = uniq $eras }}
+
+{{ $SumYrs := slice }}
+  {{ range .Site.Data.Masterlist }}
+    {{ range where .contents ".Category" "in" $Cats }}
+      {{ $SumYrs = $SumYrs | append .Year }}
+    {{ end }}
+  {{ end }}
+{{ $SumYrs = uniq $SumYrs }}
+
+
+{{ if eq $.Page.Params.Title "Varieties" }}
+  <h5>Navigation</h5>
+  <div class="display-section-scroll">
+    {{ range $SumYrs }}   <!-- BY YEAR -->
+      {{ $SumYr := . }}
+      <li><a href="#{{ replace $SumYr ` ` `-` }}">{{ $SumYr }}</a></li>
+    {{ end }} <!-- BY YEAR -->
+  </div>
+
+{{ else if eq $.Page.Params.Title "Eras" }}
+  <h5>Navigation</h5>
+  <div class="display-section-scroll">
+    {{ range $eras }} <!-- BY ERA -->
+      {{ $era := . }}
+      <li><a href="#{{ replace $era ` ` `-` }}">{{ $era }}</a></li>
+    {{ end }} <!-- BY ERA -->
+  </div>
+
+{{ end }} <!-- conditional statements -->

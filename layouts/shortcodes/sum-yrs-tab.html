@@ -1,0 +1,11 @@
+{{ $Years := .Site.Params.years }}
+{{ $lastYr := index (first 1 $Years) 0 }}
+
+<div class="tab">
+  {{ range $Years}}
+    {{ $year := . }}
+      <button id="SB{{ $year }}" onclick="openTab(event, 'S{{ $year }}', 'tc1', 'tb1')"
+      class="tb1 tablinks {{ if eq $year $lastYr }} active {{ end }}">{{ $year }}
+      </button>
+  {{ end }}
+</div>

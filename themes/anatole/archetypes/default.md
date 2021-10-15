@@ -5,6 +5,6 @@ draft: false
 
 mainCat: "{{ replace .Name "-" " " | title }}"
 weight:
-pageType: ""
-description: ""
+pageType:
+description: 
 ---
