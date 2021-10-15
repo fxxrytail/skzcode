@@ -15,7 +15,6 @@ Legend:
   <div class="legend era"> Album/Singles promotion</div>
   <div class="legend series"> JYP released series</div>
   <div class="legend artistry"> Music/Performance</div>
-  <div class="legend other"> Special clips and others</div>
 {{< /rawhtml >}}
 
 {{< sum-yrs-tab >}}
