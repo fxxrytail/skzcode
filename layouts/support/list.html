@@ -13,7 +13,7 @@
                   <div class="support-page">
                     <div class="support-thumbnail" >
                       <a href="{{ .RelPermalink }}">
-                        {{ $thumbnail := .Params.thumbnail }}
+                        {{ $thumbnail := printf "/img-support/%s" .Params.thumbnail }}
                         {{ $img := resources.Get $thumbnail }}
                         {{ $iResize := $img.Resize "500x Center"}}
                         <img src="{{ $iResize.RelPermalink }}" alt="{{ .Title }}">

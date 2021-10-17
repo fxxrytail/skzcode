@@ -5,7 +5,7 @@ weight:
 
 title:  ""
 description: ""
-thumbnail: ""
+thumbnail: {{ .Name }}.jpg
 duration: ""
-lastmod: {{ .Lastmod }}
+lastmod: {{ .Date }}
 ---
