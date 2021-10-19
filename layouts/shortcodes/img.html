@@ -1,0 +1,13 @@
+{{- $src := .Get "src" -}}
+{{- $alt := .Get "alt" -}}
+{{- $link := .Get "link" -}}
+
+{{ $path := printf "/images/%s" $src }}
+{{ $img := resources.Get $path }}
+{{ $iResize := $img.Resize "800x Center"}}
+
+{{ with $link }}
+<a href="{{ $link }}"><img style="width:100%" src="{{ $iResize.RelPermalink }}" {{with $alt}} alt="{{ $alt }}" {{end}}></a>
+{{ else }}
+<img style="width:100%" src="{{ $iResize.RelPermalink }}" {{with $alt}} alt="{{ $alt }}" {{end}}>
+{{ end }}
