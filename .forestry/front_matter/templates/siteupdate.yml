@@ -13,4 +13,5 @@ fields:
   label: type
   default: post
 pages:
+- content/site-update/all-contents-on-home-page-summary-page.md
 - content/site-update/support-page.md
