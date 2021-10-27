@@ -1,0 +1,4 @@
+layouts/anatole/partials/head.html
+
+<!-- Twitter Cards -->
+{{- partial "twitter-card.html" . -}}

@@ -51,7 +51,7 @@ Legend:
 {{< sum-year 2019 >}}
   {{< sum tag="series" title="The 9th S4 to S5" link="/shows/the-9th/#2019" img="92Wm5bwlO9M" >}}
   {{< sum tag="series" title="SKZ-TALKER GO!" link="/shows/skz-talker-go/" img="iRUhVkJoyFU" >}}
-  {{< sum tag="public" title="Finding SKZ" link="/shows/finding-skz/" img="Y6mzQmMEjNM" >}}
+  {{< sum tag="public" title="Finding Stray Kids" link="/shows/finding-skz/" img="Y6mzQmMEjNM" >}}
   {{< sum tag="era" title="Clé 1: MIROH" link="/eras/#Cl%c3%a9-1%3a-MIROH" img="Dab4EENTW5I" >}}
   {{< sum tag="series" title="TWO KIDS ROOM Vol. 3 to Vol. 5" link="/shows/two-kids-room/#Vol.-3" img="r4_S7Vua0CQ" >}}
 
@@ -91,7 +91,7 @@ Legend:
   {{< sum title="Spot Kids: Black" link="/shows/spot-kids-black/#2020" img="8ADchvZgtaw" >}}
   {{< sum tag="era" title="TOP" link="/eras/#TOP" img="o7lqCcE4Lho" >}}
 
-  {{< sum tag="public" title="Finding SKZ (God's Edition)" link="/shows/finding-skz/#God%27s-Edition" img="6L33mx8yVkg" >}}
+  {{< sum tag="public" title="Finding Stray Kids (God's Edition)" link="/shows/finding-skz/#God%27s-Edition" img="6L33mx8yVkg" >}}
   {{< sum tag="era" title="GO LIVE" link="/eras/#GO-LIVE" img="TQTlCHxyuu8" >}}
   {{< sum tag="series" title="Two Kids Song" link="/shows/two-kids-song/" img="jQv0U8DhIS0" >}}
   {{< sum tag="series" title="SKZ-TALKER" link="/shows/skz-talker/#GO-LIVE" img="Ck6jZhCySFU" >}}

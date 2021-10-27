@@ -8,3 +8,4 @@ weight: 2
 pageType: "By Year"
 description: "Random moments during their schedules"
 ---
+Most links here are videos that don't have subs from Stray Kids channel. [StrayKSubs have a subbed playlist](https://strayksubs.com/spot-kids-black-videos/)
