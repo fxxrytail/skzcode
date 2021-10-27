@@ -7,5 +7,5 @@ description: "Channel SKZ is a fanmade masterlist of Stray Kids video contents s
 Channel SKZ is a fanmade masterlist of Stray Kids video contents such as music videos, album promotions, shows, V LIVEs
 [Read More](/about)
 
-[ {{< figure src="images/strayksubs.jpg" alt="strayksubs">}} ](https://strayksubs.com/)
-[ {{< figure src="images/staydepartment.jpg" alt="staydepartment">}} ](https://staydepartment.com/)
+{{< img src="/static/strayksubs.jpg" alt="strayksubs" link="https://strayksubs.com/" width="70%">}}
+{{< img src="/static/staydepartment.jpg" alt="staydepartment" link="https://staydepartment.com/" width="70%">}}

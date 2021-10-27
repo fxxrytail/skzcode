@@ -1,13 +1,30 @@
 {{- $src := .Get "src" -}}
 {{- $alt := .Get "alt" -}}
 {{- $link := .Get "link" -}}
+{{- $width := .Get "width" -}}
 
-{{ $path := printf "/images/%s" $src }}
+{{ $path := $src }}
 {{ $img := resources.Get $path }}
-{{ $iResize := $img.Resize "800x Center"}}
+{{ $default := $img.Resize "800x Center"}}
+
+{{ $tiny := $img.Resize "375x Center q90"}}
+{{ $small := $img.Resize "425x Center q90"}}
+{{ $medium := $img.Resize "800x Center q90"}}
+
 
 {{ with $link }}
-<a href="{{ $link }}"><img style="width:100%" src="{{ $iResize.RelPermalink }}" {{with $alt}} alt="{{ $alt }}" {{end}}></a>
+<a href="{{ $link }}">
+  <img
+    srcset="
+    {{- with $tiny.RelPermalink -}} {{.}} 375w{{- end -}}
+    {{- with $small.RelPermalink  -}}, {{.}} 425w{{- end -}}
+    {{- with $medium.RelPermalink -}}, {{.}} 800w{{- end -}}
+    "
+
+    src="{{ $default.RelPermalink }}"
+    {{with $alt}} alt="{{ $alt }}" {{end}}
+    style="{{ with $width }} width:{{ . }} {{ else }} width:100% {{ end }}" >
+</a>
 {{ else }}
-<img style="width:100%" src="{{ $iResize.RelPermalink }}" {{with $alt}} alt="{{ $alt }}" {{end}}>
+<img style="width:100%" src="{{ $default.RelPermalink }}" {{with $alt}} alt="{{ $alt }}" {{end}}>
 {{ end }}
