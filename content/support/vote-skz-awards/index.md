@@ -14,14 +14,18 @@ Here are the ongoing voting for big award shows. It will mean a lot to show our 
 
 MNET Asian Artist Awards Worldwide Fans' Choice Top 10
 
-Voting period:
+**Voting period:**
 
-* PRE VOTE: Nov. 4, 18:00 \~ Nov. 22, 16:59 (KST)
-* VOTE: Nov. 25, 18:00 - Dec. 9, 16:59 (KST)
+* **PRE VOTE:** Nov. 4, 18:00 \~ Nov. 22, 16:59 (KST)
+* **VOTE**: Nov. 25, 18:00 - Dec. 9, 16:59 (KST)
 
-Tutorial and other info
+[Vote on this website](https://mama.mwave.me/en/main)
+
+**How to vote**:
 
 {{< instagram CV2lDoMNqYO >}}
+
+[For more info and tutorial for MAMA 2021 visit this guide by skzvoting info.](https://www.instagram.com/skzvotinginfo/guide/mama-guide/18009482917358574/?utm_medium=copy_link)
 
 # AAA
 
