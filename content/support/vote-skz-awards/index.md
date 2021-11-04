@@ -6,7 +6,6 @@ description: Ongoing votings for different award shows
 thumbnail: vote-skz-awards.jpg
 duration: ''
 lastmod: 2021-11-05T00:04:25.000+08:00
-draft: true
 
 ---
 Here are the ongoing voting for big award shows. It will mean a lot show our support for Stray Kids❣️ Let's work together STAY❤️
