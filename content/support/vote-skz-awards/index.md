@@ -8,7 +8,7 @@ duration: ''
 lastmod: 2021-11-05T00:04:25.000+08:00
 
 ---
-Here are the ongoing voting for big award shows. It will mean a lot show our support for Stray Kids❣️ Let's work together STAY❤️
+Here are the ongoing voting for big award shows. It will mean a lot to show our support for Stray Kids❣️ Let's work together STAY❤️
 
 # MAMA
 
@@ -25,9 +25,9 @@ Tutorial and other info
 
 # AAA
 
-Asian Artist Award  Popularity Awar
+Asian Artist Award  Popularity Award
 
-_Voting en_ds: Nov 05 11:59PM KST
+Voting ends: Nov 05 11:59PM KST
 
 Tutorial:
 
