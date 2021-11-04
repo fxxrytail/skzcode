@@ -25,7 +25,7 @@ MNET Asian Artist Awards Worldwide Fans' Choice Top 10
 
 {{< instagram CV2lDoMNqYO >}}
 
-[For more info and tutorial for MAMA 2021 visit this guide by skzvoting info.](https://www.instagram.com/skzvotinginfo/guide/mama-guide/18009482917358574/?utm_medium=copy_link)
+[For more info and tutorial for MAMA 2021 visit this guide by skzvotinginfo.](https://www.instagram.com/skzvotinginfo/guide/mama-guide/18009482917358574/?utm_medium=copy_link)
 
 # AAA
 
