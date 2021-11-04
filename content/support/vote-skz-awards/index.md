@@ -9,6 +9,21 @@ lastmod: 2021-11-05T00:04:25.000+08:00
 draft: true
 
 ---
+Here are the ongoing voting for big award shows. It will mean a lot show our support for Stray Kids❣️ Let's work together STAY❤️
+
+# MAMA
+
+MNET Asian
+
+# AAA
+
+Asian Artist Award  
+
+Voting ends: Nov 05 11:59PM KST
+
+Tutorial:
+
+{{ tweet 1452188503677280257 }}
 
 ### Note:
 
