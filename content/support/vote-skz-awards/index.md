@@ -2,7 +2,7 @@
 priority: main
 weight: "1"
 title: Help Stray Kids Win Big Awards
-description: Ongoing votings for different award shows
+description: 'Ongoing: MAMA, AAA'
 thumbnail: vote-skz-awards.jpg
 duration: ''
 lastmod: 2021-11-05T00:04:25.000+08:00
