@@ -1,4 +1,5 @@
 ---
+draft: true
 priority: Main
 weight: "1"
 title: Popularity Award Vote (AAA)
