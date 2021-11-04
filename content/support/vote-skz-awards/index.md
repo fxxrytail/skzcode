@@ -12,7 +12,7 @@ Here are the ongoing voting for big award shows. It will mean a lot to show our 
 
 # MAMA
 
-MNET Asian Artist Awards Worlwide Fans' Choice Top 10
+MNET Asian Artist Awards Worldwide Fans' Choice Top 10
 
 Voting period:
 
