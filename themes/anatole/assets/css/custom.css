@@ -98,6 +98,13 @@
   cursor: pointer;
 }
 
+@keyframes notice1 {
+  0% {transform: translateY(75px);}
+  37% {transform: translateY(0);}
+  75% {transform: translateY(0);}
+  100% {transform: translateY(-70px);}
+}
+
 @keyframes notice2 {
   0% {transform: translateY(75px);}
   37% {transform: translateY(0);}
@@ -119,12 +126,12 @@
 .support-animate {position: relative;}
 
 /* 3 index = notice3, 30s ; 2 index = notice2 20s */
-.support-animate {
-  animation-name: notice2;
-  animation-duration: 20s;
-  animation-iteration-count: infinite;
-}
+.support-animate.one { animation: notice1 20s infinite; }
+.support-animate.two { animation: notice2 20s infinite; }
+.support-animate.three { animation: notice3 30s infinite; }
+
 .support-animate:hover {animation-play-state: paused;}
+
 
 .support-wrap .support-bg {background-color: var(--support-bg); opacity: 0.85;}
 .support-wrap .support-bg .support-content {text-align: justify; padding: 10px;}

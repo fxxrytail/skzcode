@@ -17,8 +17,12 @@
     <div class="notice" style="display:block" onclick="location.href='/support/';">
       <span class="notice-bg">You Make Stray Kids STAY</span>
 
-      <ul class="support-animate">
-        {{ range where $.Site.RegularPages "Section" "support"}}
+      {{ $supportPosts := (where $.Site.RegularPages "Section" "==" "support") }}
+      {{ $postCount := len $supportPosts }}
+      {{ $slice := slice "" "one" "two" "three"}}
+
+      <ul class="support-animate {{ index $slice $postCount }}">
+        {{ range $supportPosts }}
         <div class="support-sidebar">
           <div class="support-summary">
             <div class="post-title">
