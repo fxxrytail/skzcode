@@ -1,54 +1,64 @@
-{{- $src := .Get "src" -}}
+{{- $src := resources.Get (printf "%s" ( .Get "src" )) -}}
 {{- $alt := .Get "alt" -}}
 {{- $link := .Get "link" -}}
 {{- $width := .Get "width" -}}
+{{- $col := .Get "col" -}}
 
-{{ $path := $src }}
-{{ $img := resources.Get $path }}
-{{ $default := $img.Resize "800x Center"}}
+{{ $tinyw := default "320x q100" }}
+{{ $smallw := default "425x q100" }}
+{{ $mediumw := default "800x q100" }}
+{{ $largew := default "1024x q100" }}
 
-{{/* set image sizes, these are hardcoded for now, x dictates that images are resized to this width */}}
-
-{{ $tinyw := default "320x q90" }}
-{{ $smallw := default "425x q90" }}
-{{ $mediumw := default "900x q90" }}
-
-{{/* resize the src image to the given sizes */}}
-
-{{ .Scratch.Set "tiny" ($img.Resize $tinyw) }}
-{{ .Scratch.Set "small" ($img.Resize $smallw) }}
-{{ .Scratch.Set "medium" ($img.Resize $mediumw) }}
-
-{{/* add the processed images to the scratch */}}
+{{ .Scratch.Set "tiny" ($src.Resize $tinyw) }}
+{{ .Scratch.Set "small" ($src.Resize $smallw) }}
+{{ .Scratch.Set "medium" ($src.Resize $mediumw) }}
+{{ .Scratch.Set "large" ($src.Resize $largew) }}
 
 {{ $tiny := .Scratch.Get "tiny" }}
 {{ $small := .Scratch.Get "small" }}
 {{ $medium := .Scratch.Get "medium" }}
-
-
-
+{{ $large := .Scratch.Get "large" }}
 
 {{ with $link }}
-<a href="{{ $link }}">
-  <img
-    sizes="(min-width: 35em) 60vw, 100vw"
-
-    srcset="
-    {{ if ge $img.Width "320" }}
-      {{ with $tiny.RelPermalink }}{{.}} 320w{{ end }}
-    {{ end }}
-    {{ if ge $img.Width "425" }}
-      {{ with $small.RelPermalink }}, {{.}} 425w{{ end }}
-    {{ end }}
-    {{ if ge $img.Width "900" }}
-      {{ with $medium.RelPermalink }}, {{.}} 900w{{ end }}
-    {{ end }}
+<a href="{{ . }}">
+{{ end }}
+<img
+    sizes="
+    {{- if eq $col "sb" -}}
+      (min-width: 801px) 40vw, 100vw
+    {{- else -}}
+      (min-width: 801px) 60vw, 100vw
+    {{- end -}}
     "
+    srcset="
+      {{- if ge $src.Width "320" -}}
+        {{ with $tiny.RelPermalink }} {{.}} 320w {{ end }}
+      {{- end -}}
 
-    src="{{ $default.RelPermalink }}"
+      {{- if ge $src.Width "425" -}}
+        {{ with $small.RelPermalink }}, {{.}} 425w {{ end }}
+      {{- end -}}
+
+      {{- if ge $src.Width "800" -}}
+        {{ with $medium.RelPermalink }}, {{.}} 800w {{ end }}
+      {{- end -}}
+
+      {{- if ge $src.Width "" -}}
+        {{ with $large.RelPermalink }}, {{.}} 1024w {{ end }}
+      {{- end -}}
+      "
+
+    {{- if .Get (print $medium) -}}
+      src="{{ $medium.RelPermalink }}"
+    {{- else -}}
+      scr="{{ $src.RelPermalink }}"
+    {{- end -}}
+
     {{with $alt}} alt="{{ $alt }}" {{end}}
-    style="{{ with $width }} width:{{ . }} {{ else }} width:100% {{ end }}" >
-</a>
-{{ else }}
-<img style="width:100%" src="{{ $default.RelPermalink }}" {{with $alt}} alt="{{ $alt }}" {{end}}>
+
+    {{ with $width }} style="width:{{ . }}" {{ end }}
+  >
+
+{{ with $link }}
+  </a>
 {{ end }}

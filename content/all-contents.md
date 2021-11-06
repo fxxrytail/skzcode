@@ -7,6 +7,6 @@ type: "home"
 description: All contents listed by date.
 
 ---
-{{< img src="/images/summary.jpg" alt="click here for contents summarized by year" link="/summary/">}}
+{{< img src="/images/summary.jpg" alt="click here for contents summarized by year" link="/summary/" >}}
 
 {{< all-contents >}}
