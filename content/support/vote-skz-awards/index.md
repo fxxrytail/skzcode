@@ -4,12 +4,14 @@ priority: main
 weight: "1"
 title: Help Stray Kids Win Big Awards
 description: 'Ongoing: MAMA'
-thumbnail: vote-skz-awards.jpg
+thumbnail: /img-support/vote-skz-awards-cover.jpg
 duration: ''
 lastmod: 2021-11-05T00:04:25.000+08:00
 
 
 ---
+{{< img src="/img-support/vote-skz-awards-cover.jpg" alt="Stray Kids nomination on MAMA (Best Male Group)" width="80%" >}}
+
 The list of main award shows voting will be put here. It will mean a lot to show our support for Stray Kids❣️ Let's work together STAY❤️
 
 # MAMA

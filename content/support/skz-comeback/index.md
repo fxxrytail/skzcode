@@ -5,7 +5,7 @@ weight: 1
 
 title:  "Support Stray Kids Comeback"
 description: "'NOEASY' 2ND ALBUM on Aug 23"
-thumbnail: "noeasy-thumbnail.jpg"
+thumbnail: "/img-support/noeasy-thumbnail.jpg"
 duration: ""
 lastmod: ""
 

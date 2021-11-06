@@ -25,13 +25,6 @@
           style="background: url({{ $iResize.RelPermalink }}); background-size: contain; ">
             <div class="support-bg">
               <div class="support-content">
-                {{ $thumbnail := printf "/img-support/%s" .Params.thumbnail }}
-                {{ $img := resources.GetMatch $thumbnail }}
-                {{ $iResize := $img.Resize "300x Center" }}
-
-                {{ with $iResize }}
-                  <img src="{{ .RelPermalink }}" alt="{{ .Title }}">
-                {{ end }}
 
                 {{ .Content }}
               </div>
