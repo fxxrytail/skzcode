@@ -64,7 +64,9 @@ Please consider buying verified account, donate any amount to streaming teams, o
 
 For _Music Show Win_ you need to make sure that you buy albums from stores that counts in **Hanteo** and **Gaon** Chart. It's also a big factor in _Award Ceremonies_.
 
-Here's a list of links where you may pre-order albums for "NOEASY" {{< tweet 1420208488119111682 >}}
+Here's a list of links where you may pre-order physical albums for "Christmas EveL" 
+
+{{< tweet 1458784353543098375 >}}
 
 For **Hanteo** when you receive a "Hanteo Authentication Card", don't forget to authenticate your album using Whosfan app for it to count on **Hanteo** Chart. Here's a tutorial on how to authenticate your album:
 
@@ -92,7 +94,7 @@ There are different methods to stream an MV a lot but the most advisable is doin
 1. Log in to your YouTube account.
 2. Go to the video by doing any of these:
 
-* Searching with the keyword for example "스트레이 키즈 소리꾼" or "Stray Kids Thunderous".
+* Searching with the keyword for example "스트레이 키즈 \[title track\]" or "Stray Kids \[title track\]".
 * Clicking from home page or recommended video.
 * Clicking the shared link of the video.
 
