@@ -3,7 +3,7 @@ priority: Main
 weight: "2"
 title: Support Stray Kids Comeback
 description: "'Christmas EveL' Holiday Special Single on Nov 29"
-thumbnail: "/img-support/christmas-evil-thumbnail.jpg"
+thumbnail: "/uploads/christmas-evil-thumbnail.JPG"
 duration: ''
 lastmod: 
 draft: true
