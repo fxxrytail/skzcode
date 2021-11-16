@@ -9,6 +9,8 @@ lastmod:
 draft: true
 
 ---
+{{< img src="/img-support/christmas-evil-thumbnail.jpg" alt="Stray Kids comeback" width="80%" >}}
+
 Support Stray Kids comeback to help them get music show wins, awards, and unlock more achievements\~!
 
 # Comeback Detail
