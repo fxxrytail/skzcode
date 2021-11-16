@@ -62,7 +62,7 @@ Please consider buying verified account, donate any amount to streaming teams, o
 
 For _Music Show Win_ you need to make sure that you buy albums from stores that counts in **Hanteo** and **Gaon** Chart. It's also a big factor in _Award Ceremonies_.
 
-Here's a list of links where you may pre-order physical albums for "Christmas EveL" 
+Here's a list of links where you may pre-order physical albums for "Christmas EveL"
 
 {{< tweet 1458784353543098375 >}}
 
@@ -131,4 +131,4 @@ Enjoy Stray Kids comeback\~! :wink:
 
 ![Stray Kids CHEESE](images/skz-cheese.jpg)
 
-_This post was made to help STAYs visiting this website be aware of Stray Kids comeback. This post was first written during NOEASY era (Aug 2021) and updated some information for Christmas EveL. Some information may have changed without me realizing but it's pretty much the same every comeback. It's best to follow Stray Kids fanbase accounts for faster update._ 
+_This post was made to help STAYs visiting this website be aware of Stray Kids comeback. This post was first written during NOEASY era (Aug 2021) and updated some information for Christmas EveL. Some information may have changed without me realizing but it's pretty much the same every comeback. It's best to follow Stray Kids fanbase accounts for faster update._
