@@ -54,11 +54,9 @@ Korean digital sale is a BIG part of _Music Show Win_. It's also a big factor in
 * You may buy streaming pass by yourself or join streaming project to get free.
 * Counted in all music shows except M Countdown.
 
-Please consider buying verified account, donate any amount to streaming teams, or apply as volunteer to stream for free. When you already have your account and proper setup for streaming, you may already leave it play for hours. It's easy! For inquiries and more detailed information about Korean music streaming platforms you may reach out to {{< a "Stay Department" "https://twitter.com/stay_department" >}} (for Mel0n and Gen1e) and/or {{< a "Stray Kids Support Team" "https://twitter.com/skzsupportteam" >}} (for Bug$ +iTunes) and follow them for updates.
+Please consider buying verified account, donate any amount to streaming teams, or apply as volunteer to stream for free. When you already have your account and proper setup for streaming, you may already leave it play for hours. It's easy! For inquiries and more detailed information about Korean music streaming platforms you may reach out to {{< a "Stay Department" "https://twitter.com/stay_department" >}} (for Mel0n and Gen1e) and follow them for updates.
 
-{{< tweet 1419281465104166912 >}}
-
-{{< tweet 1420436227564752896 >}}
+{{< tweet 1459121403962138628 >}}
 
 ## Physical Sales
 
