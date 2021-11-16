@@ -1,13 +1,12 @@
 ---
-draft: true
-priority: "Main"
-weight: 1
-
-title:  "Support Stray Kids Comeback"
-description: "'NOEASY' 2ND ALBUM on Aug 23"
+priority: Main
+weight: "2"
+title: Support Stray Kids Comeback
+description: "'Christmas EveL' Holiday Special Single on Nov 29"
 thumbnail: "/img-support/noeasy-thumbnail.jpg"
-duration: ""
-lastmod: ""
+duration: ''
+lastmod: 
+draft: true
 
 ---
 Support Stray Kids comeback to help them get music show wins, awards, and unlock more achievements~!
