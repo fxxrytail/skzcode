@@ -6,7 +6,6 @@ description: "'Christmas EveL' Holiday Special Single on Nov 29"
 thumbnail: "/img-support/christmas-evil-thumbnail.jpg"
 duration: ''
 lastmod: 
-draft: true
 
 ---
 {{< img src="/img-support/christmas-evil-thumbnail.jpg" alt="Stray Kids comeback" width="80%" >}}
