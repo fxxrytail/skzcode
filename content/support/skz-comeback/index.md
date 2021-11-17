@@ -6,11 +6,18 @@ description: "'Christmas EveL' Holiday Special Single on Nov 29"
 thumbnail: "/img-support/christmas-evil-thumbnail.jpg"
 duration: ''
 lastmod: 
+draft: true
 
 ---
 {{< img src="/img-support/christmas-evil-thumbnail.jpg" alt="Stray Kids comeback" width="80%" >}}
 
 Support Stray Kids comeback to help them get music show wins, awards, and unlock more achievements\~!
+
+# Update
+
+It was said that this special album serves as a gift for STAYs and there's no plan of promoting it on music shows. But we can still achieve a music show win without promotion\~! Let's give more gifts to Stray Kids 😄 
+
+{{< tweet 1460762866877747201 >}}
 
 # Comeback Detail
 
@@ -26,8 +33,7 @@ In case you don't know what _Music Show Win_ is, it happens during their album p
 
 > FREE as long as you have access to internet.
 
-Here's a detailed information about all Korean music shows criteria provided by KShowAnalysis. Stray Kids don't promote on The Show so you may ignore it.
-{{< tweet 1359377074717290496 >}}
+Here's a detailed information about all Korean music shows criteria provided by KShowAnalysis. Stray Kids don't promote and not eligible to win on The Show so you may ignore it. {{< tweet 1359377074717290496 >}}
 
 ## Korean Digital Sales
 
@@ -58,6 +64,12 @@ Korean digital sale is a BIG part of _Music Show Win_. It's also a big factor in
 Please consider buying verified account, donate any amount to streaming teams, or apply as volunteer to stream for free. When you already have your account and proper setup for streaming, you may already leave it play for hours. It's easy! For inquiries and more detailed information about Korean music streaming platforms you may reach out to {{< a "Stay Department" "https://twitter.com/stay_department" >}} (for Mel0n and Gen1e) and follow them for updates.
 
 {{< tweet 1459121403962138628 >}}
+
+### Update
+
+Stay Department's donation will be used for next comeback but if you want your donation to be used for Christmas EveL you may contact them. They will also  hold a mini project to help STAYs who wants to stream on their own.
+
+{{< tweet 1460776113949458432 >}}
 
 ## Physical Sales
 
