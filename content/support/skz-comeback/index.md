@@ -14,7 +14,7 @@ Support Stray Kids comeback to help them get music show wins, awards, and unlock
 
 # Update
 
-It was said that this special album serves as a gift for STAYs and there's no plan of promoting it on music shows. But we can still achieve a music show win without promotion\~! Let's give more gifts to Stray Kids 😄 
+It was said that this special album serves as a gift for STAYs and there's no plan of promoting it on music shows. But we can still achieve a music show win without promotion\~! Let's give more gifts to Stray Kids 😄
 
 {{< tweet 1460762866877747201 >}}
 
@@ -22,7 +22,7 @@ It was said that this special album serves as a gift for STAYs and there's no pl
 
 **SINGLE:** "Christmas EveL" Holiday Special Single  
 **RELEASE DATE:** November 29, 2021 (MON)  
-**TITLE TRACK:** (TBA)
+**TITLE TRACKS:** "Christmas EveL" & "Winter Falls"
 
 # What to do?
 
@@ -38,20 +38,18 @@ Here's a detailed information about all Korean music shows criteria provided by 
 
 Korean digital sale is a BIG part of _Music Show Win_. It's also a big factor in _Award Ceremonies_ (ceremonies to award music, performances, artist of the year and more). To get a big digital sale point, STAYs are encourage to stream songs on the following Korean music streaming platforms:
 
-![Korean music streaming platforms](images/melon-genie-bugs.jpg)
-
 **Mel0n**
 
-* Needs verified account to stream and download songs.
+* Needs verified account and streaming pass to stream.
+* You may buy verified account and streaming pass that are available from third-party sellers or join streaming project to stream free.
 * Making unverified account using KKT is possible and it's usable to mass search and like Stray Kids songs (avoid commenting in non-Korean language).
-* Needs streaming pass that is available from third-party sellers or join streaming project to get free.
 * Counted in all music shows.
 
 **Gen1e**
 
 * Verified and unverified account may stream.
-* Needs Korean number to make new account.
-* Needs streaming pass that is available from third-party sellers or join streaming project to get free.
+* Needs Korean number to make new account. Accounts are available from third-party sellers.
+* Needs streaming pass that is available from third-party sellers or join streaming project to stream free.
 * Counted in all music shows.
 
 **Bug$**
@@ -60,15 +58,21 @@ Korean digital sale is a BIG part of _Music Show Win_. It's also a big factor in
 * You may buy streaming pass by yourself or join streaming project to get free.
 * Counted in all music shows except M Countdown.
 
-Please consider buying verified account, donate any amount to streaming teams, or apply as volunteer to stream for free. When you already have your account and proper setup for streaming, you may already leave it play for hours. It's easy! For inquiries and more detailed information about Korean music streaming platforms you may reach out to {{< a "Stay Department" "https://twitter.com/stay_department" >}} (for Mel0n and Gen1e) and follow them for updates.
+**FL0**
 
-{{< tweet 1459121403962138628 >}}
+* Needs verified account and streaming pass to stream.
+* You may buy verified account and streaming pass that are available from third-party sellers or join streaming project to stream free.
+* Counted in all music shows.
+
+Please consider buying verified account, donate any amount to streaming teams, or apply as volunteer to stream for free. When you already have your account and proper setup for streaming, you may already leave it play for hours. It's easy! For inquiries and more detailed information about Korean music streaming platforms you may reach out to {{< a "Stay Department" "https://twitter.com/stay_department" >}} and follow them for updates.
 
 ### Update
 
-Stay Department's donation will be used for next comeback but if you want your donation to be used for Christmas EveL you may contact them. They will also  hold a mini project to help STAYs who wants to stream on their own.
+Stay Department's donation will be used for next comeback but if you want your donation to be used for Christmas EveL you may contact them. They have an ongoing project to help new streamers be familiar with the streaming platforms.
 
 {{< tweet 1460776113949458432 >}}
+
+{{<tweet 1462062056815747077 >}}
 
 ## Physical Sales
 
