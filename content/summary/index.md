@@ -4,7 +4,6 @@ date: 2021-09-28T16:34:05+08:00
 draft: false
 
 description: "Summary of Stray Kids main contents each year"
-thumbnail:
 
 ---
 This page contains the summary of Stray Kids main contents released each year. You may also view Artistry, Shows, and VLIVE pages on the menu above to see different ways of organization.
@@ -127,6 +126,8 @@ Legend:
   {{< sum tag="era" title="NOEASY" link="/eras/#NOEASY" img="EaswWiwMVs8" >}}
   {{< sum tag="series" title="SKZ-TALKER" link="/shows/skz-talker/#NOEASY" img="oBEaeZHEdVs" >}}
   {{< sum tag="era" title="Scars / Thunderous JP" link="/eras/#Scars-%2f-Thunderous-JP" img="oUq2a6t258o" >}}
+  {{< sum tag="public" title="BTOB Kiss The Radio" link="/shows/bikira/" img="vEHZXGEH4iU" >}}
+  {{< sum tag="era" title="Christmas EveL" link="/eras/#Christmas-EveL" img="1DzEWj_nKbg" >}}
 
 
 
