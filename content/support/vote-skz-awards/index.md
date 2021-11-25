@@ -26,13 +26,15 @@ MNET Asian Artist Awards
 
 [Read about judges criteria, and voting mechanics here.](https://mama.mwave.me/en/judging-criteria)
 
-Vote on [2021mama.com](https://mama.mwave.me/en/main) (80% of criteria)
+**Vote on** 
+
+* [2021mama.com](https://mama.mwave.me/en/main) (80%)
+* Twitter (10%)
+* Apple Music (10%)
 
 **How to vote**:
 
 {{< instagram CV2lDoMNqYO >}}
-
-We may also vote via Twitter (10%) and Apple Music (10%).
 
 [For more info and tutorials for MAMA 2021 visit this guide by skzvotinginfo.](https://www.instagram.com/skzvotinginfo/guide/mama-guide/18009482917358574/?utm_medium=copy_link)
 
