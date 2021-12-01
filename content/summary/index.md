@@ -127,7 +127,8 @@ Legend:
   {{< sum tag="series" title="SKZ-TALKER" link="/shows/skz-talker/#NOEASY" img="oBEaeZHEdVs" >}}
   {{< sum tag="era" title="Scars / Thunderous JP" link="/eras/#Scars-%2f-Thunderous-JP" img="oUq2a6t258o" >}}
   {{< sum tag="public" title="BTOB Kiss The Radio" link="/shows/bikira/" img="vEHZXGEH4iU" >}}
-  {{< sum tag="era" title="Christmas EveL" link="/eras/#Christmas-EveL" img="1DzEWj_nKbg" >}}
+  {{< sum tag="era" title="Christmas EveL" link="/eras/#Christmas-EveL" img="57n4dZAPxNY" >}}
+  {{< sum tag="public" title="Idol Dictation Contest" link="/shows/idol-dictation-contest/" img="fG-7xe55aF4" >}}
 
 
 
