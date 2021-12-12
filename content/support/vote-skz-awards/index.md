@@ -3,7 +3,7 @@ priority: main
 weight: "1"
 title: Help Stray Kids Win Big Awards
 description: 'Ongoing: SMA (MAIN) | Prepare: GCMA'
-thumbnail: "/img-support/vote-skz-awards-cover.jpg"
+thumbnail: "/img-support/screenshot_20211212_103803.png"
 duration: 'Ends on: Jan 16'
 lastmod: 2021-11-05T00:04:25.000+08:00
 
