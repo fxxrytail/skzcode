@@ -8,7 +8,7 @@ duration: 'Ends on: Jan 16'
 lastmod: 2021-11-05T00:04:25.000+08:00
 
 ---
-{{< img src="/img-support/vote-skz-awards-cover.jpg" alt="Stray Kids nomination on MAMA (Best Male Group)" width="80%" >}}
+{{< img src="/img-support/screenshot_20211212_103803.png" alt="Stray Kids NOEASY on Seoul Music Award MAIN voting" width="80%" >}} 
 
 The list of main award shows voting will be put here. It will mean a lot to show our support for Stray Kids❣️ Let's work together STAY❤️
 
