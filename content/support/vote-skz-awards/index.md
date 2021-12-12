@@ -2,9 +2,9 @@
 priority: main
 weight: "1"
 title: Help Stray Kids Win Big Awards
-description: 'Ongoing: MAMA (WWFC Finals & TikTok Moment)'
+description: 'Ongoing: SMA (MAIN) | Prepare: GCMA'
 thumbnail: "/img-support/vote-skz-awards-cover.jpg"
-duration: 'Ends on: WWFC Dec 9 | Tiktok Dec 8'
+duration: 'Ends on: Jan 16'
 lastmod: 2021-11-05T00:04:25.000+08:00
 
 ---
@@ -12,51 +12,22 @@ lastmod: 2021-11-05T00:04:25.000+08:00
 
 The list of main award shows voting will be put here. It will mean a lot to show our support for Stray Kids❣️ Let's work together STAY❤️
 
-# MAMA
+# Seoul Music Awards (SMA)
 
-MNET Asian Artist Awards
+We are voting for **MAIN** (30% of criteria).
 
-## Worldwide Fans' Choice TOP 10
+Voting is ongoing and will end on **Jan 16, 2022**. Click the tweet to see the full guide.
 
-**Voting period:**
+{{< tweet 1469849496008130560 >}}
 
-* **VOTE:** Nov. 25, 18:00 - Dec. 9, 16:59 (KST)
+# Gaon Music Chart Awards (GMCA)
 
-**VOTE** is the voting for Top 10 artists that will receive Main Prize (Bonsang). The Top 1 artist will get Grand Prize (Daesang). The number of votes from PRE VOTE doesn't count on final VOTE.
+Voting for **Mubeat Global Choice Awards** will be on Mubeat app. We may collect voting tickets now. Voting will start on **Dec 14**.
 
-[Read about judges criteria, and voting mechanics here.](https://mama.mwave.me/en/judging-criteria)
+Click this tweet to see the full guide.
 
-**Vote on** 
-
-* [2021mama.com](https://mama.mwave.me/en/main) (80%)
-* Twitter (10%)
-* Apple Music (10%)
-
-**How to vote**:
-
-{{< instagram CV2lDoMNqYO >}}
-
-[For more info and tutorials for MAMA 2021 visit this guide by skzvotinginfo.](https://www.instagram.com/skzvotinginfo/guide/mama-guide/18009482917358574/?utm_medium=copy_link)
-
-This is our **main priority** vote with as many accounts as you can everyday. This is the voting plan
-
-{{< tweet 1463460013767229441 >}}
-
-## TikTok Favorite Moment
-
-**Voting Period:** Nov 25, 11:00 to Dec 8, 23:59 (KST)
-
-**How to vote:**
-
-1. [Vote on TikTok app with this link](https://vt.tiktok.com/ZSeSmFxtu/)
-2. Find "Stray Kids" and click "Vote"
-
-{{< img src= "/img-support/screenshot_20211125_125048.png" alt="Vote Felix's TikTok" width="80%" >}}
-
-* Each user can vote 2 times a day.
-* 1 additional vote when you share the link from the page (1 time per day).
-* One user per device.
+{{< tweet 1468905876173910021 >}}
 
 ### Note:
 
-The purpose of this post is to make STAYs visiting this site aware of the ongoing voting to support Stray Kids to achieve awards. This post may be updated slowly so please follow Stray Kids fanbases for faster updates and reach out to them if you have any questions 😊.
+The purpose of this post is to  make STAYs visiting this site aware of the ongoing voting to support Stray Kids to achieve awards. This post may be updated slowly so please follow Stray Kids fanbases for faster updates and reach out to them if you have any questions 😊.
