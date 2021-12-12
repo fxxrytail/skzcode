@@ -5,7 +5,7 @@ title: Help Stray Kids Win Big Awards
 description: 'Ongoing: SMA (MAIN) | Prepare: GCMA'
 thumbnail: "/img-support/screenshot_20211212_103803.png"
 duration: 'Ends on: Jan 16'
-lastmod: 2021-11-05T00:04:25.000+08:00
+lastmod: 2021-12-12T01:04:25+09:00
 
 ---
 {{< img src="/img-support/screenshot_20211212_103803.png" alt="Stray Kids NOEASY on Seoul Music Award MAIN voting" width="80%" >}} 
