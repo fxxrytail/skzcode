@@ -2,10 +2,10 @@
 priority: main
 weight: "1"
 title: Help Stray Kids Win Big Awards
-description: 'Ongoing: SMA (MAIN) | GCMA (Round 1)'
+description: 'Ongoing: SMA (MAIN), HMA, GDA, GCMA (Round 1)'
 thumbnail: "/img-support/screenshot_20211212_103803.png"
-duration: 'Ends on: Jan 16 (SMA)'
-lastmod: 2021-12-15T01:04:25+09:00
+duration: See post for tutorial and voting period.
+lastmod: 
 
 ---
 {{< img src="/img-support/screenshot_20211212_103803.png" alt="Stray Kids NOEASY on Seoul Music Award MAIN voting" width="80%" >}}
@@ -20,9 +20,25 @@ Voting is ongoing and will end on **Jan 16, 2022**. Click the tweet to see the f
 
 {{< tweet 1469849496008130560 >}}
 
+# Hanteo Music Awards (HMA)
+
+Vote Stray Kids for **Artist Award - Male Group** through **Whosfan App**. Collect credits on your accounts and exchange to hearts. It is ongoing and will end on **Dec 26 11:59PM KST.**
+
+View thread for details and Whosfan Tutorial
+
+{{< tweet 1472900620935852035 >}}
+
+# Golden Disc Awards (GDA)
+
+Vote Stray Kids for **Most Popular Artist Award** through their website. It is ongoing and will end on **Dec 31 4:00PM KST.**
+
+Tutorial on this thread.
+
+{{< tweet 1473105589689487361 >}}
+
 # Gaon Music Chart Awards (GMCA)
 
-Voting for **Mubeat Global Choice Awards** will be on Mubeat app.  It's best to save votes for **Final Round** as long as Stray Kids are within the **Top 20 (Round 1)** and **Top 10 (Round 2)** and only use voting tickets if it is going to expire. We need to win **1st Place on Final Round** to get the award.
+Voting for **Mubeat Global Choice Awards** is on Mubeat app.  It's best to save votes for **Final Round** as long as Stray Kids are within the **Top 20 (Round 1)** and **Top 10 (Round 2)** and only use voting tickets if it is going to expire. We need to win **1st Place on Final Round** to get the award.
 
 Click this tweet to see the full guide.
 
