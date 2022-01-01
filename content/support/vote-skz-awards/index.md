@@ -2,7 +2,7 @@
 priority: main
 weight: "1"
 title: Help Stray Kids Win Big Awards
-description: 'Ongoing: SMA (MAIN), HMA, GDA, GCMA (Round 1)'
+description: 'Ongoing: SMA (MAIN), GCMA (Round 2)'
 thumbnail: "/img-support/screenshot_20211212_103803.png"
 duration: See post for tutorial and voting period.
 lastmod: 
@@ -18,23 +18,7 @@ Our current main priority for voting. We are voting for **MAIN** a.k.a Bonsang (
 
 Voting is ongoing and will end on **Jan 16, 2022**. Click the tweet to see the full guide.
 
-{{< tweet 1469849496008130560 >}}
-
-# Hanteo Music Awards (HMA)
-
-Vote Stray Kids for **Artist Award - Male Group** through **Whosfan App**. Collect credits on your accounts and exchange to hearts. It is ongoing and will end on **Dec 26 11:59PM KST.**
-
-View thread for details and Whosfan Tutorial
-
-{{< tweet 1472900620935852035 >}}
-
-# Golden Disc Awards (GDA)
-
-Vote Stray Kids for **Most Popular Artist Award** through their website. It is ongoing and will end on **Dec 31 4:00PM KST.**
-
-Tutorial on this thread.
-
-{{< tweet 1473105589689487361 >}}
+{{< tweet 1469849496008130560 >}}    
 
 # Gaon Music Chart Awards (GMCA)
 
