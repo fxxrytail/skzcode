@@ -10,6 +10,8 @@ pluralizelisttitles = false
 sectionPagesMenu = "main"
 enableGitInfo = true
 
+ignoreErrors = ["error-remote-getjson"]
+
 [frontmatter]
 date = ["date", "publishDate", "lastmod"]
 lastmod = ["lastmod", ":git", "date", "publishDate"]
@@ -23,7 +25,7 @@ lastmod = ["lastmod", ":git", "date", "publishDate"]
 
 [params]
 year = 2017
-years = [2017, 2018, 2019, 2020, 2021]
+years = [2017, 2018, 2019, 2020, 2021, 2022]
 title = "CHANNEL SKZ"
 author = "daisukijeu"
 description = "Channel SKZ is a fanmade masterlist of Stray Kids video contents such as music videos, album promotions, shows, V LIVEs, etc."

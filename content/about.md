@@ -5,7 +5,7 @@ draft: false
 ---
 Channel SKZ is a fanmade masterlist of Stray Kids video contents such as music videos,  album promotion, shows, V LIVEs, etc. The name was inspired by the weekly program announcement they used to upload named "[CH. SKZ](https://twitter.com/Stray_Kids/status/1142734078518558721)".
 
-This website contains links of contents from Stray Kids, JYP Entertainment, and other official accounts mostly from YouTube and V LIVE. There are also links of fan uploads for subtitled contents or sometimes for alternative link. Description for categories are available to help you look for the type of content you want to see. 
+This website contains links of contents from Stray Kids, JYP Entertainment, and other official accounts mostly from YouTube and V LIVE. There are also links of fan uploads for subtitled contents or sometimes for alternative link. Description for categories are available to help you look for the type of content you want to see.
 
 This website doesn't include:
 * Greetings and invitation videos unless it's from Stray Kids' channel.
@@ -30,6 +30,7 @@ Share this website to anyone who wants to know Stray Kids. Thank you~!
 {{< /rawhtml >}}
 
 ----
+Twitter account: [CH_SKZ_](https://twitter.com/CH_SKZ_) \
 Website made by: [daisukijeu](https://twitter.com/daisukijeu) \
 Since: August 2018
 

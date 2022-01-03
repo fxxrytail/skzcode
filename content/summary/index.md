@@ -114,7 +114,7 @@ Legend:
   {{< sum tag="artistry" title="SKZ-PLAYER" link="/artistry/skz-player/#2021" img="SjKARrJwqzE" >}}
   {{< sum tag="public" title="DAY6 Kiss The Radio" link="/shows/dekira/#2021" img="F3a5AFINWIw" >}}
   {{< sum tag="series" title="SKZ CODE" link="/shows/skz-code/" img="8VRNpTrDFJs" >}}
-  {{< sum tag="public" title="KINGDOM: Legendary War" link="/shows/kingdom/" img="cDTG6o1vC2I" >}}
+  {{< sum tag="public" title="KINGDOM: Legendary War" link="/shows/kingdom/" img="FoUsDnDAnqM" >}}
 
   {{< sum tag="series" title="Mysterious Kitchen" link="/shows/mysterious-kitchen/" img="-NTjD_Z6zkw" >}}
   {{< sum tag="series" title="SKZ VLOG" link="/shows/skz-vlog/#2021" img="Attkjcv_7i8" >}}
@@ -126,17 +126,23 @@ Legend:
   {{< sum tag="era" title="NOEASY" link="/eras/#NOEASY" img="EaswWiwMVs8" >}}
   {{< sum tag="series" title="SKZ-TALKER" link="/shows/skz-talker/#NOEASY" img="oBEaeZHEdVs" >}}
   {{< sum tag="era" title="Scars / Thunderous JP" link="/eras/#Scars-%2f-Thunderous-JP" img="oUq2a6t258o" >}}
-  {{< sum tag="public" title="BTOB Kiss The Radio" link="/shows/bikira/" img="vEHZXGEH4iU" >}}
+  {{< sum tag="public" title="BTOB Kiss The Radio" link="/shows/bikira/" img="rKk1uHMMmBI" >}}
   {{< sum tag="era" title="Christmas EveL" link="/eras/#Christmas-EveL" img="57n4dZAPxNY" >}}
   {{< sum tag="public" title="Idol Dictation Contest" link="/shows/idol-dictation-contest/" img="fG-7xe55aF4" >}}
+  {{< sum tag="era" title="SKZ2021" link="/eras/#SKZ2021" img="85-yvOv4R-Q" >}}
 
 
 
 
-  {{< sum tag="artistry" title="Live Performances" link="/artistry/live-performance/#2021" img="m77M2LW9viI" >}}
+  {{< sum tag="artistry" title="Live Performances" link="/artistry/live-performance/#2021" img="wJig2VrSSVE" >}}
   {{< sum tag="artistry" title="More Music with SKZ" link="/artistry/more-music/#2021" img="t-uJLBAIyfQ" >}}
   {{< sum title="V LIVEs" link="/vlive/all/#2021" altimg="vlive-2021.jpg" >}}
   {{< sum title="SKZ as MCs" link="/shows/skz-mc/#Music-Core-%28Lee-Know%29" img="-d1CRgYBavc" >}}
   {{< sum title="More Varieties (TV, Radio, Online, etc)" link="/varieties/#2021" img="e2EtufcQH-0" >}}
+
+{{< /sum-year >}}
+
+{{< sum-year 2022 >}}
+  <h3>to be updated... </h3>
 
 {{< /sum-year >}}
