@@ -4,7 +4,7 @@ weight: "1"
 title: Help Stray Kids Win Big Awards
 description: 'Ongoing: SMA (MAIN)!!!'
 thumbnail: "/img-support/screenshot_20211212_103803.png"
-duration: 'Ends '
+duration: Ends 16th Jan 11:59PM KST
 lastmod: 
 
 ---
