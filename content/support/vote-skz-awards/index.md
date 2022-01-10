@@ -2,9 +2,9 @@
 priority: main
 weight: "1"
 title: Help Stray Kids Win Big Awards
-description: 'Ongoing: SMA (MAIN), GCMA (Round 2)'
+description: 'Ongoing: SMA (MAIN)!!!'
 thumbnail: "/img-support/screenshot_20211212_103803.png"
-duration: See post for tutorial and voting period.
+duration: 'Ends '
 lastmod: 
 
 ---
@@ -19,16 +19,6 @@ Our current main priority for voting. We are voting for **MAIN** a.k.a Bonsang (
 Voting is ongoing and will end on **Jan 16, 2022**. Click the tweet to see the full guide.
 
 {{< tweet 1469849496008130560 >}}    
-
-# Gaon Music Chart Awards (GMCA)
-
-Voting for **Mubeat Global Choice Awards** is on Mubeat app.  It's best to save votes for **Final Round** as long as Stray Kids are within the **Top 20 (Round 1)** and **Top 10 (Round 2)** and only use voting tickets if it is going to expire. We need to win **1st Place on Final Round** to get the award.
-
-Click this tweet to see the full guide.
-
-{{< tweet 1468905876173910021 >}}
-
-[You may read full details of GCMA voting here](https://mubeat.tv/vote/gaon_awards/2021/intro/).
 
 ### Note:
 
