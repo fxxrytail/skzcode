@@ -6,6 +6,7 @@ description: 'Ongoing: SMA (MAIN)!!!'
 thumbnail: "/img-support/screenshot_20211212_103803.png"
 duration: Ends 16th Jan 11:59PM KST
 lastmod: 
+draft: true
 
 ---
 {{< img src="/img-support/screenshot_20211212_103803.png" alt="Stray Kids NOEASY on Seoul Music Award MAIN voting" width="80%" >}}
