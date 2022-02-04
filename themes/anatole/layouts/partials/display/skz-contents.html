@@ -33,7 +33,7 @@
 
   {{ range $sections }} <!-- by subcat year of non-others  -->
     {{ $section := . }}
-      {{ if ne $section "Others" }}
+      {{ if and (ne $section "Others") (ne $section "-") }} <!-- previously: (if ne $section "Others") only -->
       <h4 id="{{ replace $section ` ` `-` }}"> {{ $section }} </h4>
 
         {{ $yrs := slice }}

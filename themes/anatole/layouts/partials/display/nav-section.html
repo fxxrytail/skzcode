@@ -23,7 +23,7 @@
 <div class="display-section-scroll">
   {{ range sort $sections }} <!-- non-others -->
     {{ $section := . }}
-      {{ if ne $section "Others" }}
+      {{ if and (ne $section "Others") (ne $section "-") }} <!-- previously: (if ne $section "Others") only -->
       <li><a href="#{{ replace $section ` ` `-` }}">{{ $section }}</a></li>
       {{ end }}
   {{ end }} <!-- non-others -->
