@@ -17,7 +17,7 @@ Support Stray Kids comeback to help them get music show wins, awards, and unlock
 
 **ALBUM:** "ODDINARY"  
 **RELEASE DATE:** March 18 1PM KST | 0AM EST  
-**TITLE TRACK:** TBA
+**TITLE TRACK:** (TBA)
 
 # What to do?
 
@@ -27,21 +27,25 @@ STAYs can contribute for getting **_Music Show Wins_** and charting on **_Billbo
 
 ## Music Show Win
 
-A _Music Show Win_ happens during their album promotion. The No. 1 song of the week is announced per music show and each music show has different criteria for it. Criteria is usually composed of **YouTube** streaming (FREE), **voting on apps** (FREE), buying **physical album**, and streaming on **Korean streaming platforms** (biggest criteria). We only have few weeks to give Stray Kids Music Show Wins every comeback and there may not be next time for each album that's why STAYs all around the world are encouraged to help participate.
+A **_Music Show Win_** happens during their album promotion. The No. 1 song of the week is announced per music show and each music show has different criteria for it. Criteria is usually composed of **YouTube** streaming (FREE), **voting on apps** (FREE), buying **physical album**, and streaming on **Korean streaming platforms** (biggest criteria). We only have few weeks to give Stray Kids Music Show Wins every comeback and there may not be next time for each album that's why STAYs all around the world are encouraged to help participate.
 
 > FREE as long as you have access to internet.
 
-Here's a detailed information about all Korean music shows criteria provided by KShowAnalysis. Stray Kids don't promote and not eligible to win on The Show so you may ignore it. {{< tweet 1359377074717290496 >}}
+Here's a detailed information about all Korean music shows criteria provided by KShowAnalysis. Stray Kids don't promote and not eligible to win on The Show so you may ignore it. 
+
+{{< tweet 1359377074717290496 >}}
 
 ## Billboard
 
-Only USA and Puerto Rico STAYs can contribute on charting to _Billboard 200._ 
+Only USA and Puerto Rico STAYs can contribute on charting to the weekly chart **_Billboard 200_**_._ 
 
-Follow {{< a "Stray Kids USA" "https://twitter.com/skz_usa" >}} and {{< a "Billboard SKZ" "https://twitter.com/billboardskz" >}} for more information and guides for _Billboard_.
+Follow {{< a "Stray Kids USA" "https://twitter.com/skz_usa" >}} and {{< a "Billboard SKZ" "https://twitter.com/billboardskz" >}} for more information and guides for **_Billboard_**.
+
+# Guide for Sales and Apps
 
 ## Korean Digital Sales
 
-Korean digital sale is a BIG part of _Music Show Win_. It's also a big factor in _Award Ceremonies_ (ceremonies to award music, performances, artist of the year and more). To get a big digital sale point, STAYs are encourage to stream songs on the following Korean music streaming platforms:
+Korean digital sale is a BIG part of **_Music Show Win_**. It's also a big factor in **_Award Ceremonies_** (ceremonies to award music, performances, artist of the year and more). To get a big digital sale point, STAYs are encourage to stream songs on the following Korean music streaming platforms:
 
 **Mel0n**
 
@@ -73,23 +77,23 @@ Please consider buying verified account, donate any amount to streaming teams, o
 
 ## Physical Sales
 
-Buying physical albums may count toward 3 different charts: **Hanteo, Gaon,** and **Billboard**. _Music Show Wins_ and _Korean_ _Award Ceremonies_ uses **Hanteo / Gaon** chart for criteria. 
+Buying physical albums may count toward 3 different charts: **Hanteo, Gaon,** and **Billboard**. _Music Show Wins_ and _Korean_ _Award Ceremonies_ uses **Hanteo / Gaon** chart for criteria.
 
-Here's a list of links where you may pre-order physical albums.
+Here's a list of stores where you can pre-order Stray Kids albums and on which chart/s their sales count to. 
 
-{{< tweet 1458784353543098375 >}}
+{{< tweet ### >}}
 
 For **Hanteo** when you receive a "Hanteo Authentication Card", don't forget to authenticate your album using Whosfan app for it to count on **Hanteo** Chart. Here's a tutorial on how to authenticate your album:
 
 {{< youtube gBM7lyJBXZM >}}
 
-For _Billboard_, only USA and Puerto Rico STAYs can participate on it. Follow {{< a "Stray Kids USA" "https://twitter.com/skz_usa" >}} and {{< a "Billboard SKZ" "https://twitter.com/billboardskz" >}} for Billboard guides and updates.
-
 ## Voting
 
 Voting is important to give Stray Kids _Music Show Wins_. It's one of the easiest we can do as a fandom!
 
-A guide on where we are going to vote during comeback. Follow {{< a "TeamSVS" "https://twitter.com/TeamSVS_DM" >}} for music shows, awards, and promotional ads voting updates: {{< tweet 1414512957094957057 >}}
+A guide on where we are going to vote during comeback. Follow {{< a "TeamSVS" "https://twitter.com/TeamSVS_DM" >}} and {{< a "Stay Voting Zone" "https://twitter.com/StayVotingZone" >}} for music shows, awards, and promotional ads voting updates: 
+
+{{< tweet 1414512957094957057 >}}
 
 A calendar guide of music show voting schedule:
 
