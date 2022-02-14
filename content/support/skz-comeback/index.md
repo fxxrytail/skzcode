@@ -4,8 +4,8 @@ weight: "2"
 title: Support Stray Kids Comeback
 description: "'ODDINARY' release on March 18"
 thumbnail: "/img-support/oddinary-thumbnail.jpg"
-duration:
-lastmod:
+duration: 
+lastmod: 
 draft: true
 
 ---
@@ -83,7 +83,7 @@ Better watch out for {{< a "Stray Kids" "https://twitter.com/stray_kids" >}} twe
 
 Here's a list of stores where you can pre-order Stray Kids albums and on which chart/s their sales count to.
 
-(tweet here)
+{{< tweet 1493265716828839938 >}}
 
 For **Hanteo** when you receive a "Hanteo Authentication Card", don't forget to authenticate your album using Whosfan app for it to count on **Hanteo** Chart. Here's a tutorial on how to authenticate your album:
 
@@ -149,4 +149,4 @@ Enjoy Stray Kids comeback\~! :wink:
 
 ![Stray Kids CHEESE](images/skz-cheese.jpg)
 
-_This post was made to help STAYs visiting this website be aware of Stray Kids comeback. This post was first written during NOEASY era (Aug 2021) and updated some information for ODDINARY. Some information may have changed without me realizing but it's pretty much the same every comeback. It's best to follow Stray Kids fanbase accounts for faster update. You may also DM me at {{< a "@daisukijeu" "_https://twitter.com/daisukijeu_">}} if information here is outdated, I'll try to update this when I can._
+_This post was made to help STAYs visiting this website be aware of Stray Kids comeback. This post was first written during NOEASY era (Aug 2021) and updated some information for ODDINARY. Some information may have changed without me realizing but it's pretty much the same every comeback. It's best to follow Stray Kids fanbase accounts for faster update. You may also DM me at {{< a "@daisukijeu" "https://twitter.com/daisukijeu_">}} if information here is outdated, I'll try to update this when I can.
