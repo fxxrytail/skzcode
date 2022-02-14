@@ -2,7 +2,7 @@
 priority: Main
 weight: "2"
 title: Support Stray Kids Comeback
-description: "'Christmas EveL' Holiday Special Single on Nov 29"
+description: "''ODDINARY'' release on March 18"
 thumbnail: "/img-support/oddinary-thumbnail.jpg"
 duration: ''
 lastmod: 
