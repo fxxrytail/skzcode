@@ -1,6 +1,6 @@
 ---
 priority: main
-weight: "1"
+weight: "2"
 title: Help Stray Kids Win Big Awards
 description: 'Ongoing: SMA (MAIN)!!!'
 thumbnail: "/img-support/screenshot_20211212_103803.png"
