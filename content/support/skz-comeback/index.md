@@ -23,11 +23,21 @@ Support Stray Kids comeback to help them get music show wins, awards, and unlock
 
 Here's a summary of things you may do to support Stray Kids. Please read them all and see what you can do. It may look a lot specially for Baby STAYs but don't worry because Stray Kids fanbases are there to guide you. It's easy!
 
-In case you don't know what _Music Show Win_ is, it happens during their album promotion. The No. 1 song of the week is announced per music show and each music show has different criteria for it. Criteria is usually composed of YouTube streaming (FREE), voting on apps (FREE), buying physical album, and streaming on Korean streaming platforms (biggest criteria). We only have few weeks to give Stray Kids Music Show Wins every comeback and there may not be next time for this album that's why STAYs all around the world are encouraged to help participate.
+STAYs can contribute for getting **_Music Show Wins_** and charting on **_Billboard._**
+
+## Music Show Win
+
+A _Music Show Win_ happens during their album promotion. The No. 1 song of the week is announced per music show and each music show has different criteria for it. Criteria is usually composed of **YouTube** streaming (FREE), **voting on apps** (FREE), buying **physical album**, and streaming on **Korean streaming platforms** (biggest criteria). We only have few weeks to give Stray Kids Music Show Wins every comeback and there may not be next time for each album that's why STAYs all around the world are encouraged to help participate.
 
 > FREE as long as you have access to internet.
 
 Here's a detailed information about all Korean music shows criteria provided by KShowAnalysis. Stray Kids don't promote and not eligible to win on The Show so you may ignore it. {{< tweet 1359377074717290496 >}}
+
+## Billboard
+
+Only USA and Puerto Rico STAYs can contribute on charting to _Billboard 200._ 
+
+Follow {{< a "Stray Kids USA" "https://twitter.com/skz_usa" >}} and {{< a "Billboard SKZ" "https://twitter.com/billboardskz" >}} for more information and guides for _Billboard_.
 
 ## Korean Digital Sales
 
@@ -63,7 +73,7 @@ Please consider buying verified account, donate any amount to streaming teams, o
 
 ## Physical Sales
 
-For _Music Show Win_ you need to make sure that you buy albums from stores that counts in **Hanteo** and **Gaon** Chart. It's also a big factor in _Award Ceremonies_.
+Buying physical albums may count toward 3 different charts: **Hanteo, Gaon,** and **Billboard**. _Music Show Wins_ and _Korean_ _Award Ceremonies_ uses **Hanteo / Gaon** chart for criteria. 
 
 Here's a list of links where you may pre-order physical albums.
 
@@ -73,7 +83,7 @@ For **Hanteo** when you receive a "Hanteo Authentication Card", don't forget to 
 
 {{< youtube gBM7lyJBXZM >}}
 
-For _Billboard_, only USA and Puerto Rico STAYs can participate on it. Follow {{< a "Stray Kids USA" "https://twitter.com/skz_usa" >}} and {{< a "Billboard SKZ" "https://twitter.com/billboardskz" >}} for Billboard guide and updates.
+For _Billboard_, only USA and Puerto Rico STAYs can participate on it. Follow {{< a "Stray Kids USA" "https://twitter.com/skz_usa" >}} and {{< a "Billboard SKZ" "https://twitter.com/billboardskz" >}} for Billboard guides and updates.
 
 ## Voting
 
