@@ -78,7 +78,7 @@ Please consider buying verified account, donate any amount to streaming teams, o
 
 Buying physical albums may count toward 3 different charts: **Hanteo, Gaon,** and **Billboard**. _Music Show Wins_ and _Korean_ _Award Ceremonies_ uses **Hanteo / Gaon** chart for criteria.
 
-Better watch out for {{< a "Stray Kids" "https://twitter.com/stray_kids" >}} tweets or posts from their official SNS for pre-order links. Usually, each stores have exclusive benefits when you purchase from them. Stray Kids account also announce Fan Sign or Video Call events that help boost album sales.
+Better watch out for {{< a "Stray Kids" "https://twitter.com/stray_kids" >}} tweets or posts from their official SNS for pre-order links. Usually, some stores have exclusive benefits when you purchase from them. Stray Kids account also announce Fan Sign or Video Call events that help boost album sales.
 
 Here's a list of stores where you can pre-order Stray Kids albums and on which chart/s their sales count to.
 
@@ -140,7 +140,7 @@ You may see different tutorials on how to do manual streaming but the most impor
 
 ### End note
 
-Those are the basics of supporting Stray Kids mainly to get _Music Show Wins_ and _Billboard_ but also for a chance for them to be nominated on _Award Ceremonies_.
+Those are the basics of supporting Stray Kids mainly to get _Music Show Wins_ and _Billboard_ but also for a chance for them to be nominated on _Award Ceremonies_. 
 
 Sudden changes may apply so for faster updates and more projects you may follow this Twitter list of {{< a "Stray Kids fanbases and fan accounts" "https://twitter.com/i/lists/1329107408015167488">}}. For Instagram you may follow {{< a "skzvotinginfo" "https://www.instagram.com/skzvotinginfo/">}}.
 
@@ -148,4 +148,4 @@ Enjoy Stray Kids comeback\~! :wink:
 
 ![Stray Kids CHEESE](images/skz-cheese.jpg)
 
-_This post was made to help STAYs visiting this website be aware of Stray Kids comeback. This post was first written during NOEASY era (Aug 2021) and updated some information for ODDINARY. Some information may have changed without me realizing but it's pretty much the same every comeback. It's best to follow Stray Kids fanbase accounts for faster update. You may also DM me at {{< a "@daisukijeu" "https://twitter.com/daisukijeu_">}} if information here is outdated, I'll try to update this when I can.
+_This post was made to help STAYs visiting this website be aware of Stray Kids comeback. This post was first written during NOEASY era (Aug 2021) and updated some information for ODDINARY. Some information may have changed without me realizing but it's pretty much the same every comeback. It's best to follow Stray Kids fanbase accounts for faster update. You may also DM me at {{< a "@daisukijeu" "https://twitter.com/daisukijeu_">}} if information here is outdated, I'll try to update this when I can._
