@@ -3,27 +3,21 @@ priority: Main
 weight: "2"
 title: Support Stray Kids Comeback
 description: "'Christmas EveL' Holiday Special Single on Nov 29"
-thumbnail: "/img-support/christmas-evil-thumbnail.jpg"
+thumbnail: "/img-support/oddinary-thumbnail.jpg"
 duration: ''
 lastmod: 
 draft: true
 
 ---
-{{< img src="/img-support/christmas-evil-thumbnail.jpg" alt="Stray Kids comeback" width="80%" >}}
+{{< img src="/img-support/oddinary-thumbnail.jpg" alt="Stray Kids comeback" width="80%" >}}
 
 Support Stray Kids comeback to help them get music show wins, awards, and unlock more achievements\~!
 
-# Update
-
-It was said that this special album serves as a gift for STAYs and there's no plan of promoting it on music shows. But we can still achieve a music show win without promotion\~! Let's give more gifts to Stray Kids 😄
-
-{{< tweet 1460762866877747201 >}}
-
 # Comeback Detail
 
-**SINGLE:** "Christmas EveL" Holiday Special Single  
-**RELEASE DATE:** November 29, 2021 (MON)  
-**TITLE TRACKS:** "Christmas EveL" & "Winter Falls"
+**ALBUM:** "ODDINARY" Holiday Special Single  
+**RELEASE DATE:** March 18 1PM KST | 0AM EST  
+**TITLE TRACK:** TBA
 
 # What to do?
 
@@ -93,8 +87,7 @@ For _Billboard_, only USA and Puerto Rico STAYs can participate on it. Follow {{
 
 Voting is important to give Stray Kids _Music Show Wins_. It's one of the easiest we can do as a fandom!
 
-A guide on where we are going to vote during comeback. Follow {{< a "TeamSVS" "https://twitter.com/TeamSVS_DM" >}} for music shows, awards, and promotional ads voting updates:
-{{< tweet 1414512957094957057 >}}
+A guide on where we are going to vote during comeback. Follow {{< a "TeamSVS" "https://twitter.com/TeamSVS_DM" >}} for music shows, awards, and promotional ads voting updates: {{< tweet 1414512957094957057 >}}
 
 A calendar guide of music show voting schedule:
 
