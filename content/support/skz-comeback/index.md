@@ -16,7 +16,7 @@ Support Stray Kids comeback to help them get music show wins, awards, and unlock
 # Comeback Detail
 
 **ALBUM:** "ODDINARY"   
-**RELEASE DATE:** March 18 1PM KST | 0AM EST  
+**RELEASE DATE:** March 18 1PM KST | 0AM EST   
 **TITLE TRACK:** TBA
 
 # What to do?
@@ -60,14 +60,6 @@ Korean digital sale is a BIG part of _Music Show Win_. It's also a big factor in
 * Counted in all music shows.
 
 Please consider buying verified account, donate any amount to streaming teams, or apply as volunteer to stream for free. When you already have your account and proper setup for streaming, you may already leave it play for hours. It's easy! For inquiries and more detailed information about Korean music streaming platforms you may reach out to {{< a "Stay Department" "https://twitter.com/stay_department" >}} and follow them for updates.
-
-### Update
-
-Stay Department's donation will be used for next comeback but if you want your donation to be used for Christmas EveL you may contact them. They have an ongoing project to help new streamers be familiar with the streaming platforms.
-
-{{< tweet 1460776113949458432 >}}
-
-{{<tweet 1462062056815747077 >}}
 
 ## Physical Sales
 
