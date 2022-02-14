@@ -15,7 +15,7 @@ Support Stray Kids comeback to help them get music show wins, awards, and unlock
 
 # Comeback Detail
 
-**ALBUM:** "ODDINARY" Holiday Special Single  
+**ALBUM:** "ODDINARY"   
 **RELEASE DATE:** March 18 1PM KST | 0AM EST  
 **TITLE TRACK:** TBA
 
