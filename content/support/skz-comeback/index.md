@@ -1,6 +1,6 @@
 ---
 priority: Main
-weight: "2"
+weight: "1"
 title: Support Stray Kids Comeback
 description: "'ODDINARY' release on March 18"
 thumbnail: "/img-support/oddinary-thumbnail.jpg"
