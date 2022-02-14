@@ -6,7 +6,6 @@ description: "''ODDINARY'' release on March 18"
 thumbnail: "/img-support/oddinary-thumbnail.jpg"
 duration: ''
 lastmod: 
-draft: true
 
 ---
 {{< img src="/img-support/oddinary-thumbnail.jpg" alt="Stray Kids comeback" width="80%" >}}
