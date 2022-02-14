@@ -101,7 +101,7 @@ A calendar guide of music show voting schedule:
 
 ## YouTube Streaming
 
-One of the easiest and free to do is to stream the MV on YouTube. It's advisable to get YouTube Premium so you can stream in background or even when your device screen is off. You may get a 1 month Premium free trial and make sure to cancel it before the 1 month ends to avoid paying for it after the free trial ends. Streaming without premium is also okay.
+One of the easiest and free to do is to stream the MV on YouTube. It's advisable to get YouTube Premium so you can stream on background or even when your device screen is off. You may get a 1 month Premium free trial and make sure to cancel it before the 1 month ends to avoid paying for it after the free trial ends. Streaming without premium is also okay.
 
 There are different methods to stream an MV a lot but the most advisable is doing Manual method.
 
@@ -139,7 +139,7 @@ You may see different tutorials on how to do manual streaming but the most impor
 
 ### End note
 
-Those are the basics of supporting Stray Kids mainly to get _Music Show Wins_ but also for a chance for them to be nominated on _Award Ceremonies_. There's more we may do to help Stray Kids get more achievements and recognition such as helping with Billboard, international iTunes, Spotify, etc. but I will add those on a different post if this post got engagements.
+Those are the basics of supporting Stray Kids mainly to get _Music Show Wins_ and _Billboard_ but also for a chance for them to be nominated on _Award Ceremonies_. 
 
 Sudden changes may apply so for faster updates and more projects you may follow this Twitter list of {{< a "Stray Kids fanbases and fan accounts" "https://twitter.com/i/lists/1329107408015167488">}}. For Instagram you may follow {{< a "skzvotinginfo" "https://www.instagram.com/skzvotinginfo/">}}.
 
@@ -147,4 +147,4 @@ Enjoy Stray Kids comeback\~! :wink:
 
 ![Stray Kids CHEESE](images/skz-cheese.jpg)
 
-_This post was made to help STAYs visiting this website be aware of Stray Kids comeback. This post was first written during NOEASY era (Aug 2021) and updated some information for Christmas EveL. Some information may have changed without me realizing but it's pretty much the same every comeback. It's best to follow Stray Kids fanbase accounts for faster update._
+_This post was made to help STAYs visiting this website be aware of Stray Kids comeback. This post was first written during NOEASY era (Aug 2021) and updated some information for ODDINARY. Some information may have changed without me realizing but it's pretty much the same every comeback. It's best to follow Stray Kids fanbase accounts for faster update. You may also DM me at {{< a "@daisukijeu" "_https://twitter.com/daisukijeu_">}} if information here is outdated, I'll try to update this when I can._
