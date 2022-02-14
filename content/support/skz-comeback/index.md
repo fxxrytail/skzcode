@@ -15,8 +15,8 @@ Support Stray Kids comeback to help them get music show wins, awards, and unlock
 
 # Comeback Detail
 
-**ALBUM:** "ODDINARY"   
-**RELEASE DATE:** March 18 1PM KST | 0AM EST   
+**ALBUM:** "ODDINARY"  
+**RELEASE DATE:** March 18 1PM KST | 0AM EST  
 **TITLE TRACK:** TBA
 
 # What to do?
@@ -65,7 +65,7 @@ Please consider buying verified account, donate any amount to streaming teams, o
 
 For _Music Show Win_ you need to make sure that you buy albums from stores that counts in **Hanteo** and **Gaon** Chart. It's also a big factor in _Award Ceremonies_.
 
-Here's a list of links where you may pre-order physical albums for "Christmas EveL"
+Here's a list of links where you may pre-order physical albums.
 
 {{< tweet 1458784353543098375 >}}
 
@@ -73,7 +73,7 @@ For **Hanteo** when you receive a "Hanteo Authentication Card", don't forget to 
 
 {{< youtube gBM7lyJBXZM >}}
 
-For _Billboard_, only USA and Puerto Rico STAYs can participate on it. Follow {{< a "Stray Kids USA" "https://twitter.com/skz_usa" >}} and {{< a "Stray Kids Billboard" "https://twitter.com/skz_billboard" >}} for Billboard guide and updates.
+For _Billboard_, only USA and Puerto Rico STAYs can participate on it. Follow {{< a "Stray Kids USA" "https://twitter.com/skz_usa" >}} and {{< a "Billboard SKZ" "https://twitter.com/billboardskz" >}} for Billboard guide and updates.
 
 ## Voting
 
