@@ -12,17 +12,19 @@ lastmod:
 
 Support Stray Kids comeback to help them get music show wins, awards, and unlock more achievements\~!
 
+Here's a summary of things you may do to support Stray Kids. Please read them all and see what you can do. It may look a lot specially for Baby STAYs but don't worry because Stray Kids fanbases are there to guide you\~! If you have questions about comeback information don't hesitate to reach out to them 🤗
+
+STAYs can contribute for getting **_Music Show Wins_**, charting on **_Billboard_** and more!
+
 # Comeback Detail
 
 **ALBUM:** "ODDINARY"  
-**RELEASE DATE:** March 18 1PM KST | 0AM EST  
+**RELEASE DATE:** March 18 1PM KST | 12AM EST  
 **TITLE TRACK:** (TBA)
 
-# What to do?
+Visit this carrd for comeback guide and projects. [https://oddinarycomeback.crd.co/](https://oddinarycomeback.crd.co/ "https://oddinarycomeback.crd.co/")
 
-Here's a summary of things you may do to support Stray Kids. Please read them all and see what you can do. It may look a lot specially for Baby STAYs but don't worry because Stray Kids fanbases are there to guide you. It's easy!
-
-STAYs can contribute for getting **_Music Show Wins_** and charting on **_Billboard._**
+{{< tweet 1493385545082458117 >}}
 
 ## Music Show Win
 
@@ -76,15 +78,15 @@ Please consider buying verified account, donate any amount to streaming teams, o
 
 ## Physical Sales
 
-Buying physical albums may count toward 3 different charts: **Hanteo, Gaon,** and **Billboard**. _Music Show Wins_ and _Korean_ _Award Ceremonies_ uses **Hanteo / Gaon** chart for criteria.
+Buying physical albums may count toward 3 different charts: **Hanteo, Gaon,** and **Billboard**. _Music Show Wins_ and _Korean_ _Award Ceremonies_ uses **Hanteo / Gaon** chart for criteria. Worldwide shipment counts towards **Hanteo and Gaon** while **Billboard** only counts USA.
 
 Better watch out for {{< a "Stray Kids" "https://twitter.com/stray_kids" >}} tweets or posts from their official SNS for pre-order links. Usually, some stores have exclusive benefits when you purchase from them. Stray Kids account also announce Fan Sign or Video Call events that help boost album sales.
 
-Here's a list of stores where you can pre-order Stray Kids albums and on which chart/s their sales count to.
+❗Please check the **carrd linked above** for lists of shops, which chart/s their sales count to, and their exclusive benefits.
 
-{{< tweet 1493265716828839938 >}}
+For **Hanteo** when you receive a "Hanteo Authentication Card", authenticate your album using Whosfan app for it to count on Hanteo Chart Global Ranking (it's different from Hanteo's sales chart). For the album sales it is automatically counted on **Hanteo Chart** when you successfully purchased and shipped your album. 
 
-For **Hanteo** when you receive a "Hanteo Authentication Card", don't forget to authenticate your album using Whosfan app for it to count on **Hanteo** Chart. Here's a tutorial on how to authenticate your album:
+Here's a video tutorial on how to authenticate your album:
 
 {{< youtube gBM7lyJBXZM >}}
 
@@ -140,7 +142,7 @@ You may see different tutorials on how to do manual streaming but the most impor
 
 ### End note
 
-Those are the basics of supporting Stray Kids mainly to get _Music Show Wins_ and _Billboard_ but also for a chance for them to be nominated on _Award Ceremonies_. 
+Those are the basics of supporting Stray Kids mainly to get _Music Show Wins_ and _Billboard_ but also for a chance for them to be nominated on _Award Ceremonies_.
 
 Sudden changes may apply so for faster updates and more projects you may follow this Twitter list of {{< a "Stray Kids fanbases and fan accounts" "https://twitter.com/i/lists/1329107408015167488">}}. For Instagram you may follow {{< a "skzvotinginfo" "https://www.instagram.com/skzvotinginfo/">}}.
 
