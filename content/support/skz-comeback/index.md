@@ -78,13 +78,13 @@ Please consider buying verified account, donate any amount to streaming teams, o
 
 ## Physical Sales
 
-Buying physical albums may count toward 3 different charts: **Hanteo, Gaon,** and **Billboard**. _Music Show Wins_ and _Korean_ _Award Ceremonies_ uses **Hanteo / Gaon** chart for criteria. Worldwide shipment counts towards **Hanteo and Gaon** while **Billboard** only counts US / .
+Buying physical albums may count toward 3 different charts: **Hanteo, Gaon,** and **Billboard**. _Music Show Wins_ and _Korean_ _Award Ceremonies_ uses **Hanteo / Gaon** chart for criteria. Worldwide shipment counts towards **Hanteo and Gaon** while **Billboard** only counts US / PR.
 
 Better watch out for {{< a "Stray Kids" "https://twitter.com/stray_kids" >}} tweets or posts from their official SNS for pre-order links. Usually, some stores have exclusive benefits when you purchase from them. Stray Kids account also announce Fan Sign or Video Call events that help boost album sales.
 
 ❗Please check the **carrd linked above** for lists of shops, which chart/s their sales count to, and their exclusive benefits.
 
-For **Hanteo** when you receive a "Hanteo Authentication Card", authenticate your album using Whosfan app for it to count on Hanteo Chart Global Ranking (it's different from Hanteo's sales chart). For the album sales it is automatically counted on **Hanteo Chart** when you successfully purchased and shipped your album. 
+For **Hanteo** when you receive a "Hanteo Authentication Card", authenticate your album using Whosfan app for it to count on Hanteo Chart Global Ranking (it's different from Hanteo's sales chart). For the album sales it is automatically counted on **Hanteo Chart** when you successfully purchased and shipped your album.
 
 Here's a video tutorial on how to authenticate your album:
 
