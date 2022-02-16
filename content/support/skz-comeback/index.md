@@ -76,6 +76,8 @@ Korean digital sale is a BIG part of **_Music Show Win_**. It's also a big facto
 
 Please consider buying verified account, donate any amount to streaming teams, or apply as volunteer to stream for free. When you already have your account and proper setup for streaming, you may already leave it play for hours. It's easy! For inquiries and more detailed information about Korean music streaming platforms you may reach out to {{< a "Stay Department" "https://twitter.com/stay_department" >}} and follow them for updates.
 
+{{< tweet 1493857687590752259 >}}
+
 ## Physical Sales
 
 Buying physical albums may count toward 3 different charts: **Hanteo, Gaon,** and **Billboard**. _Music Show Wins_ and _Korean_ _Award Ceremonies_ uses **Hanteo / Gaon** chart for criteria. Worldwide shipment counts towards **Hanteo and Gaon** while **Billboard** only counts US / PR.
