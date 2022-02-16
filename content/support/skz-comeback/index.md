@@ -102,7 +102,7 @@ Follow {{< a "TeamSVS" "https://twitter.com/TeamSVS_DM" >}} and {{< a "Stay Voti
 
 A calendar guide of music show voting schedule:
 
-![music show voting schedule](images/voting-sched-v2.png)
+![](/pre-voting-sched.png)
 
 ## YouTube Streaming
 
