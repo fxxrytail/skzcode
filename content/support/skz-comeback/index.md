@@ -121,21 +121,21 @@ There are different methods to stream an MV a lot but the most advisable is doin
 1. Log in to your YouTube account.
 2. Go to the video by doing any of these:
 
-* Searching with the keyword for example "스트레이 키즈 \[title track\]" or "Stray Kids \[title track\]".
-* Clicking from home page or recommended video.
-* Clicking the shared link of the video.
-* 
+ * Searching with the keyword for example "스트레이 키즈 \[title track\]" or "Stray Kids \[title track\]".
+ * Clicking from home page or recommended video.
+ * Clicking the shared link of the video.
+
 
 3. Stream the video with proper setting. Follow do's and don'ts:
 
-* After watching the video: like, leave a good comment about the MV (don't spam!), and share to your SNS or website.
-* Quality should be at least 480p.
-* Volume should be at least 50%.
-* Speed must be normal.
-* Don't skip time, pause, and replay.
-* Turn off autoplay.
-* If using desktop/laptop don't stream on multiple tabs.
-* If streaming with more than one device, make sure that different accounts are logged in and device are in different IP address.
+ * After watching the video: like, leave a good comment about the MV (don't spam!), and share to your SNS or website.
+ * Quality should be at least 480p.
+ * Volume should be at least 50%.
+ * Speed must be normal.
+ * Don't skip time, pause, and replay.
+ * Turn off autoplay.
+ * If using desktop/laptop don't stream on multiple tabs.
+ * If streaming with more than one device, make sure that different accounts are logged in and device are in different IP address.
 
 4. Stream other videos (fillers) around 3-4 videos with a total of at least 10-min long before you watch the MV again. Example videos are Stray Kids MV, skz-player, skz-record, performances from different channels, etc. Make sure you don't stream the same videos every time you stream in between the MV.
 5. Repeat from step 2.
