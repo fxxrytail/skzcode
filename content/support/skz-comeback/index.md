@@ -38,9 +38,15 @@ Here's a detailed information about all Korean music shows criteria provided by 
 
 ## Billboard
 
-Only US and Puerto Rico STAYs can contribute on charting to the weekly chart **_Billboard 200_**_._
+**_Billboard_** tabulates different weekly music charts to see popular music base on album/songs sales and streams from United States and different parts of the world. It is a very popular music chart and Stray Kids charting on it may give them more opportunities.
 
-Follow {{< a "Stray Kids USA" "https://twitter.com/skz_usa" >}} and {{< a "Billboard SKZ" "https://twitter.com/billboardskz" >}} for more information and guides for **_Billboard_**.
+Check this post for more details and guide for _Billboard_. It's for US and Global STAYs.
+
+[bit.ly/oddinarybb](bit.ly/oddinarybb "Billboard Guide for Stray Kids")
+
+{{< tweet 1494001102295306240 >}}
+
+Follow {{< a "Stray Kids USA" "https://twitter.com/skz_usa" >}} and {{< a "Billboard SKZ" "https://twitter.com/billboardskz" >}} for _Billboard_ updates and guides for Stray Kids.
 
 # Guide for Sales and Apps
 
@@ -86,7 +92,9 @@ Better watch out for {{< a "Stray Kids" "https://twitter.com/stray_kids" >}} twe
 
 ❗Please check the **carrd linked above** for lists of shops, which chart/s their sales count to, and their exclusive benefits.
 
-For **Hanteo** when you receive a "Hanteo Authentication Card", authenticate your album using Whosfan app for it to count on Hanteo Chart Global Ranking (it's different from Hanteo's sales chart). For the album sales it is automatically counted on **Hanteo Chart** when you successfully purchased and shipped your album.
+For **Hanteo** when you receive a "Hanteo Authentication Card", authenticate your album using Whosfan app for it to count on Hanteo Chart Global Ranking (it's different from Hanteo's sales chart). 
+
+For the album sales it is automatically counted on **Hanteo Chart** when you successfully purchased and shipped your album the same thing for **Gaon** and **Billboard**.
 
 Here's a video tutorial on how to authenticate your album:
 
@@ -116,8 +124,9 @@ There are different methods to stream an MV a lot but the most advisable is doin
 * Searching with the keyword for example "스트레이 키즈 \[title track\]" or "Stray Kids \[title track\]".
 * Clicking from home page or recommended video.
 * Clicking the shared link of the video.
+* 
 
-1. Stream the video with proper setting. Follow do's and don'ts:
+3. Stream the video with proper setting. Follow do's and don'ts:
 
 * After watching the video: like, leave a good comment about the MV (don't spam!), and share to your SNS or website.
 * Quality should be at least 480p.
@@ -128,8 +137,8 @@ There are different methods to stream an MV a lot but the most advisable is doin
 * If using desktop/laptop don't stream on multiple tabs.
 * If streaming with more than one device, make sure that different accounts are logged in and device are in different IP address.
 
-1. Stream other videos (fillers) around 3-4 videos with a total of at least 10-min long before you watch the MV again. Example videos are Stray Kids MV, skz-player, skz-record, performances from different channels, etc. Make sure you don't stream the same videos every time you stream in between the MV.
-2. Repeat from step 2.
+4. Stream other videos (fillers) around 3-4 videos with a total of at least 10-min long before you watch the MV again. Example videos are Stray Kids MV, skz-player, skz-record, performances from different channels, etc. Make sure you don't stream the same videos every time you stream in between the MV.
+5. Repeat from step 2.
 
 You may see different tutorials on how to do manual streaming but the most important thing is to not let YouTube think you are a robot. The following are my personal tips:
 
