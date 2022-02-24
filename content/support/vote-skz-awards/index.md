@@ -1,11 +1,11 @@
 ---
 priority: main
-weight: "2"
+weight: "10"
 title: Help Stray Kids Win Big Awards
 description: 'Ongoing: SMA (MAIN)!!!'
-thumbnail: "/img-support/screenshot_20211212_103803.png"
+thumbnail: "/img-support/awards-cover.jpg"
 duration: Ends 16th Jan 11:59PM KST
-lastmod: 
+lastmod:
 draft: true
 
 ---

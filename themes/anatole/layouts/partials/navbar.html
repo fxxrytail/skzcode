@@ -1,4 +1,4 @@
-<div class= {{ if and (ne .Title "Home") (ne .Section "support") }}
+<div class= {{ if and (ne .Title "") (ne .Section "support") }}
   "button-top-notice" {{ else }}
   "button-top" {{ end }}>
     <button onclick="topFunction()" id="btnTop">TOP</button>

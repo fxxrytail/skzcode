@@ -1,4 +1,5 @@
 {{ $newYear := sub .Site.Params.year 1 }}
+{{ $sort := $.Page.Params.sort }}
 
 {{ $yrs := slice }}
   {{ range .Site.Data.Masterlist }}
@@ -8,33 +9,50 @@
   {{ end }}
 {{ $yrs = uniq $yrs }}
 
-{{ $yrsDesc := sort $yrs "value" "desc" }}
+{{ $YrsRange := sort $yrs "value" $sort }}
+  {{ if eq $sort "desc" }}
+    {{ $YrsRange = $YrsRange | sort (last 2 $yrs) "value" $sort }}
+  {{ end }}
+
+{{ $firstYr := index (first 1 $yrs) 0 }}
 {{ $lastYr := index (last 1 $yrs) 0 }}
+
+<!-- if sort desc, range masterlist > contents where status is not null-->
 
 <!-- tabs -->
 <div class="tab">
-  {{ range $yrsDesc }}
+  {{ range $YrsRange }}
     {{ $year := . }}
       <button id="B{{ $year }}" onclick="openTab(event, '{{ $year }}', 'tc1', 'tb1')"
-      class="tb1 tablinks {{ if eq $year $lastYr }} active {{ end }}">{{ $year }}
+      class="tb1 tablinks
+            {{ if eq $sort "asc" }}
+              {{ if eq $year $firstYr }} active {{ end }}
+            {{ else }}
+              {{ if eq $year $lastYr }} active {{ end }}
+            {{ end }} ">{{ $year }}
       </button>
   {{ end }}
 </div>
 
 <!-- tab content -->
-{{ range $yrsDesc }}
+
+{{ range $YrsRange }}
     {{ $year := . }}
 
-  <div id="{{ $year }}" class="tc1 tabcontent {{ if eq $year $lastYr }} active {{ end }}">
+  <div id="{{ $year }}"
+        class="tc1 tabcontent
+              {{ if eq $sort "asc" }}
+                {{ if eq $year $firstYr }} active {{ end }}
+              {{ else }}
+                {{ if eq $year $lastYr }} active {{ end }}
+              {{ end }}">
     <!-- by date -->
-    <span style="padding-top:10px" id="{{$year}}-newest">&nbsp;</span><br>
-    <a href="#{{$year}}-oldest"><button class="anchor" >Jump to oldest</button></a>
-
-    {{ $dateOrder := "desc" }}
+    <span style="padding-top:10px" id="{{$year}}-top">&nbsp;</span><br>
+    <a href="#{{$year}}-bottom"><button class="anchor" >Jump to bottom</button></a>
 
       {{ $months := slice }}
         {{ range $.Site.Data.Masterlist }}
-            {{ range sort (where .contents "Year" $year) "Date" $dateOrder }}
+            {{ range sort (where .contents "Year" $year) "Date" $sort }}
             {{ $months = $months | append .Month }}
             {{ end }}
         {{ end }}
@@ -44,11 +62,12 @@
         {{ $month := . }} <br>
 
         {{ range $.Site.Data.Masterlist }}
-          {{ range sort (sort (where (where .contents "Year" $year) "Month" $month) "ID" "desc" ) "Date" $dateOrder }}
+          {{ range sort (where (where .contents "Year" $year) "Month" $month) "ID" $sort }}
+
           <div class="link-list">
             <ul>
               <span class="date">{{ dateFormat "Jan 02" .Date }}</span>
-              <span id="catlink"><a href="{{ .CatLink }}">{{ .Category }}
+              <span id="catlink"><a href="../{{ .CatLink }}">{{ .Category }}
                 {{ if and (ne .SubCat "-") (ne .SubCat "Others")}}
                 : {{ .SubCat }}
                 {{end}}</a></span>
@@ -63,6 +82,6 @@
         {{ end }} <!-- range masterlist -->
       {{ end }} <br> <!-- range months -->
 
-      <a id="{{$year}}-oldest" href="#{{$year}}-newest"><button class="anchor" >Jump to newest</button></a>
+      <a id="{{$year}}-bottom" href="#{{$year}}-top"><button class="anchor" >Jump to top</button></a>
     </div> <!-- .tab-content -->
 {{ end }} <!-- range years-->

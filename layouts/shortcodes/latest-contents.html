@@ -1,0 +1,45 @@
+{{ $withInsert := false }}
+
+{{ range .Site.Data.Masterlist }}
+  {{ range first 1 (where .contents ".Insert" "!=" nil) }}
+    {{ $withInsert = true }}
+  {{ end }}
+{{ end }}
+
+{{ range .Site.Data.Masterlist }}
+  {{ range where .contents ".Update" "!=" nil }}
+    <div class="latest-content-title
+    {{ if eq $withInsert true }} active {{ end}} ">
+      <h4>Latest Contents</h4>
+    </div>
+
+    <span class="update-stamp"><b>Last Update:</b> {{ dateFormat "Mon | Jan 02, 2006 | 03:04 PM KST" .Update }} </span> <br>
+  {{ end }}
+{{ end }}
+
+
+{{ if eq $withInsert true }}
+  <h5>Inserted links:</h5>
+{{ end}}
+
+
+{{ range .Site.Data.Masterlist }}
+  {{ range sort (where .contents ".Insert" "!=" nil) ".Insert" "desc" }}
+    <div class="link-list" style="display:block">
+      <ul>
+        <span class="date">{{ dateFormat "Jan 02" .Date }}</span>
+        <span id="catlink"><a href="../{{ .CatLink }}">{{ .Category }}
+          {{ if and (ne .SubCat "-") (ne .SubCat "Others")}}
+          : {{ .SubCat }}
+          {{end}}</a></span>
+
+        {{ .Title }}
+        {{ range .Links }}
+        ★ <a target="_blank" href="{{ .Link }}">{{ .Name }}</a> <span class="subs">{{ .Subs }}</span>
+        {{ end }} <!-- range .Links -->
+      </ul>
+    </div>
+  {{ end }}
+{{ end }}
+
+<br>

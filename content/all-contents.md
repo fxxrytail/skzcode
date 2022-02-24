@@ -1,12 +1,15 @@
 ---
-title: All Contents
-date: 2021-09-25T17:25:31.000+08:00
-type: home
-description: All contents listed by date.
+title: "Stray Kids Contents"
+date: 2021-09-25T17:25:31+08:00
+draft: false
+type: "home"
+sort: "desc"
+
+description:
 
 ---
-📣 This page will have changes soon 😊
+{{< text-button "All From 2017-Present" "/old-new" >}}
+{{< text-button "Summarized by Year" "/summary" >}}
 
-{{< img src="/images/summary.jpg" alt="click here for contents summarized by year" link="/summary/" >}}
-
+{{< latest-contents >}}
 {{< all-contents >}}

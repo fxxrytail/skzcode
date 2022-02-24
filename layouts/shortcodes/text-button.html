@@ -1,0 +1,10 @@
+{{- $text := .Get 0 -}}
+{{- $link := .Get 1 -}}
+
+<div class="text-button-container">
+  <a href="{{ $link }}">
+    <button class="text-button">
+      {{ $text }}
+    </button>
+  </a>
+</div>

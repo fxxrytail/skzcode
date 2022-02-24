@@ -1,3 +1,49 @@
+/** Site Up on Home **/
+.siteUp-group {margin: 5px 0; font-size: 0.8em; }
+.siteUp-label {
+    background-color: var(--tab-bg);
+    color: var(--bg-color);
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+  }
+.siteUp {padding: 5px; border: solid 1px var(--border-color)}
+
+
+/****/
+.latest-content-title { padding: 5px; }
+
+.post .post-content .latest-content-title h4 {
+  text-align: center;
+  margin: 5px;
+  text-transform: uppercase;
+}
+
+.latest-content-title.active { background-color: var(--tab-bg); }
+.post .post-content .latest-content-title.active h4 { color: var(--bg-color);}
+
+.update-stamp-label, .update-stamp {font-size: .7em;}
+.update-stamp-label {
+  background-color: var(--tab-bg);
+  color: var(--bg-color);
+  width: fit-content;
+  padding: 3px;
+}
+
+.text-button {
+  width: 100%;
+  font-size: 1.3em;
+  padding: 10px;
+  margin: 3px 0;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--sidebar-color);
+  background-color: var(--sidebar-bg);
+}
+
+.text-button:hover {border: 3px solid;}
+.text-button:active {border: none;}
+
 .img-center {
   display: block;
   margin-left: auto;
@@ -51,23 +97,78 @@
 }
 
 /* Support */
-.support-page {
-  border-bottom: solid 1px var(--border-color);
-  padding: 10px 0;
-  display: flex;
-  flex-direction: row;
-}
-.support-page .support-thumbnail {width: 100px; height: 100px;}
-.support-page .support-thumbnail img {width: 100px; height: auto;}
-.support-page .support-summary {padding: 10px;}
+.support-group ul { margin: 5px; margin-left: 80px; padding: 0; }
+.support-group li {list-style: none; margin: 5px; padding: 0; }
+.support-group {
+  height: 320px;
+  overflow: hidden;
+  background-color: var(--sidebar-bg);
+  border: solid 2px var(--sidebar-bg2);
+  border-radius: 10px;
+  width: 365px;
+  margin: 20px auto;
+  animation: hor1 8s infinite;
 
-.support-page .support-summary .post-title {font-size: 15px; font-weight: bold;}
+}
+
+.horizontal-list {display: inline-flex;}
+
+.support-list {
+  background-color: var(--sidebar-bg);
+  border: solid 2px var(--sidebar-bg2);
+  color: var(--sidebar-color);
+  width: 200px;
+  cursor: pointer;
+}
+
+
+
+@keyframes hor1 {
+  0% {background-color: var(--sidebar-bg);}
+  50% {background-color: var(--sidebar-bg2);}
+  100% {background-color: var(--sidebar-bg);}
+}
+
+@keyframes hor2 {
+  0% {transform: translateX(0);}
+  35% {transform: translateX(0);}
+  50% {transform: translateX(-210px);}
+  85% {transform: translateX(-210px);}
+  100% {transform: translateX(0);}
+  /* 14s */
+}
+
+@keyframes hor3 {
+  0% {transform: translateX(0);}
+  25% {transform: translateX(0);}
+  35% {transform: translateX(-210px);}
+  60% {transform: translateX(-210px);}
+  70% {transform: translateX(-420px);}
+  95% {transform: translateX(-420px);}
+  100% {transform: translateX(0);}
+  /* 20s */
+
+}
+
+.horizontal-list.two { animation: hor2 14s infinite; }
+.horizontal-list.three { animation: hor3 20s infinite; }
+
+.horizontal-list:hover {animation-play-state: paused;}
+
+
+/****/
+.support-list .support-thumbnail,
+.support-list .support-thumbnail img {width: 100%; height: auto;}
+
+.support-list .support-summary {font-size: 0.8em; padding: 10px;}
+
+.support-list .support-summary .post-title a {color: var(--sidebar-anchor);}
+.support-list .support-summary .post-title {font-weight: bold; padding-bottom: 8px;}
 .support-sidebar .support-summary .post-title {font-size: 10px; font-weight: bold;}
 
-.support-page .support-summary {font-size: 12px;}
 .support-sidebar .support-summary {background-color: var(--secondary-bg-color); padding: 5px 0;}
 
-.support-page .support-summary .duration,
+.support-list .support-summary .duration,
 .support-sidebar .support-summary .duration {padding-top: 3px;}
 
 .support-sidebar {height: 50px; padding: 10px 0; }
@@ -281,6 +382,8 @@
 
 /* Laptop 801 above*/
 @media only screen and (min-width:801px) {
+  .text-button-container {padding: 0 10%;}
+
   .card-outer {width: 32.4%;}
 
   .card-image {height: calc(20vw/2.36);}
@@ -297,7 +400,7 @@
 /* MOBILE */
 @media screen and (max-width: 800px),
 print {
-  .support-page {flex-direction: row;}
+  .text-button-container {padding: 0 8%;}
 
   .notice {
     bottom: 0;
@@ -317,10 +420,10 @@ print {
 
 @media screen and (max-width: 425px),
 print {
-  .support-page {flex-direction: column;}
-  .support-page .support-thumbnail,
-  .support-page .support-thumbnail img {width: 100%; height: auto;}
+  .support-group {width: 100%;}
+  .support-group ul {margin-left: calc((100vw - 250px) / 2);}
 
+  .text-button-container {padding:0;}
 
   .support-content figure {margin:0}
 }

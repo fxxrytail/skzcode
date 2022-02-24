@@ -2,6 +2,58 @@
 <div class="post">
   <div class="post-content">
 
+<!-- Notice -->
+<div class="siteUp-group">
+  <div class="siteUp-label" onclick="location.href='/site-update/' ">Site Update</div>
+  <div class="siteUp">
+    {{ $siteUpdate := (where $.Site.RegularPages "Section" "==" "site-update") }}
+    {{ range first 1 $siteUpdate }}
+      {{ dateFormat "Jan 02: " .Date }}
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    {{ end }}
+  </div>
+</div>
+
+<!-- Support -->
+{{ $supportPosts := (where $.Site.RegularPages "Section" "==" "support") }}
+
+{{ $postCount := len $supportPosts }}
+{{ $slice := slice "" "one" "two" "three"}}
+
+{{ $supportCount := index $slice $postCount }}
+
+<div class="support-group"  {{ if eq $supportCount "" }} style="display:none" {{ end }} >
+  <ul class="horizontal-list {{ $supportCount }}">
+
+    {{ range $supportPosts }}
+      <li class="support-list" onclick="location.href='{{ .RelPermalink }}';">
+        <div class="support-thumbnail" >
+          <a href="{{ .RelPermalink }}">
+            {{ $thumbnail := printf "%s" .Params.thumbnail }}
+            {{ $img := resources.Get $thumbnail }}
+            {{ $iResize := $img.Resize "500x Center"}}
+            <img src="{{ $iResize.RelPermalink }}" alt="{{ .Title }}">
+          </a>
+        </div>
+        <div class="support-summary">
+          <div class="post-title">
+            <a href="{{ .RelPermalink }}" title="{{ .Title }}">{{ .Title }}</a>
+          </div>
+          <div class="post-description">
+            {{ .Description }}
+          </div>
+          <div class="duration">
+            {{ if .Params.duration }}
+              {{ .Params.duration }}
+            {{ end }}
+          </div>
+        </div>
+      </li>
+    {{ end }}
+  </ul>
+</div>
+
+
 <!-- All Contents -->
 <div style="display:block">
   {{ range .Pages }}

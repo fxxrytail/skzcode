@@ -1,11 +1,12 @@
 ---
 priority: Main
-weight: "1"
+weight: "5"
 title: Support Stray Kids Comeback
 description: "'ODDINARY' release on March 18"
 thumbnail: "/img-support/oddinary-thumbnail.jpg"
-duration: 
-lastmod: 
+duration:
+lastmod:
+draft: false
 
 ---
 {{< img src="/img-support/oddinary-thumbnail.jpg" alt="Stray Kids comeback" width="80%" >}}
@@ -86,7 +87,7 @@ Please consider buying verified account, donate any amount to streaming teams, o
 
 ## Physical Sales
 
-Buying physical albums may count toward 3 different charts: **Hanteo, Gaon,** and **Billboard**. _Music Show Wins_ and _Korean_ _Award Ceremonies_ uses **Hanteo / Gaon** chart for criteria. 
+Buying physical albums may count toward 3 different charts: **Hanteo, Gaon,** and **Billboard**. _Music Show Wins_ and _Korean_ _Award Ceremonies_ uses **Hanteo / Gaon** chart for criteria.
 
 Better watch out for {{< a "Stray Kids" "https://twitter.com/stray_kids" >}} tweets or posts from their official SNS for pre-order links. Usually, some stores have exclusive benefits when you purchase from them. Stray Kids account also announce Fan Sign or Video Call events that help boost album sales.
 
@@ -120,24 +121,20 @@ There are different methods to stream an MV a lot but the most advisable is doin
 
 1. Log in to your YouTube account.
 2. Go to the video by doing any of these:
-
-* Searching with the keyword for example "스트레이 키즈 \[title track\]" or "Stray Kids \[title track\]".
-* Clicking from home page or recommended video.
-* Clicking the shared link of the video.
-
-1. Stream the video with proper setting. Follow do's and don'ts:
-
-* After watching the video: like, leave a good comment about the MV (don't spam!), and share to your SNS or website.
-* Quality should be at least 480p.
-* Volume should be at least 50%.
-* Speed must be normal.
-* Don't skip time, pause, and replay.
-* Turn off autoplay.
-* If using desktop/laptop don't stream on multiple tabs.
-* If streaming with more than one device, make sure that different accounts are logged in and device are in different IP address.
-
-1. Stream other videos (fillers) around 3-4 videos with a total of at least 10-min long before you watch the MV again. Example videos are Stray Kids MV, skz-player, skz-record, performances from different channels, etc. Make sure you don't stream the same videos every time you stream in between the MV.
-2. Repeat from step 2.
+    - Searching with the keyword for example "스트레이 키즈 \[title track\]" or "Stray Kids \[title track\]".
+    - Clicking from home page or recommended video.
+    - Clicking the shared link of the video.
+3. Stream the video with proper setting. Follow do's and don'ts:
+    - After watching the video: like, leave a good comment about the MV (don't spam!), and share to your SNS or website.
+    - Quality should be at least 480p.
+    - Volume should be at least 50%.
+    - Speed must be normal.
+    - Don't skip time, pause, and replay.
+    - Turn off autoplay.
+    - If using desktop/laptop don't stream on multiple tabs.
+    - If streaming with more than one device, make sure that different accounts are logged in and device are in different IP address.
+4. Stream other videos (fillers) around 3-4 videos with a total of at least 10-min long before you watch the MV again. Example videos are Stray Kids MV, skz-player, skz-record, performances from different channels, etc. Make sure you don't stream the same videos every time you stream in between the MV.
+5. Repeat from step 2.
 
 You may see different tutorials on how to do manual streaming but the most important thing is to not let YouTube think you are a robot. The following are my personal tips:
 
