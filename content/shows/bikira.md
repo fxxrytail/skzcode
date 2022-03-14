@@ -6,5 +6,5 @@ draft: false
 mainCat: "BTOB Kiss The Radio"
 weight: 25
 pageType: By Year
-description: Radio show with DJ Minhyuk of BTOB with weekly guests Lee Know and Seungmin
+description: Also known as BIKIRA. A radio show with DJ Minhyuk of BTOB with weekly guests Lee Know and Seungmin continuing "Challenge! SKZ"
 ---

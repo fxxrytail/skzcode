@@ -21,7 +21,7 @@ STAYs can contribute for getting **_Music Show Wins_**, charting on **_Billboard
 
 **ALBUM:** "ODDINARY"  
 **RELEASE DATE:** March 18 1PM KST | 12AM EST  
-**TITLE TRACK:** (TBA)
+**TITLE TRACK:** MANIAC
 
 Visit this carrd for comeback guide and projects. [https://oddinarycomeback.crd.co/](https://oddinarycomeback.crd.co/ "https://oddinarycomeback.crd.co/")
 
@@ -43,7 +43,7 @@ Here's a detailed information about all Korean music shows criteria provided by 
 
 Check this post for more details and guide for _Billboard_. It's for US and Global STAYs.
 
-[bit.ly/oddinarybb](bit.ly/oddinarybb "Billboard Guide for Stray Kids")
+[bit.ly/oddinarybb](https://bit.ly/oddinarybb "Billboard Guide for Stray Kids")
 
 {{< tweet 1494001102295306240 >}}
 
@@ -53,7 +53,7 @@ Follow {{< a "Stray Kids USA" "https://twitter.com/skz_usa" >}} and {{< a "Billb
 
 ## Korean Digital Sales
 
-Korean digital sale is a BIG part of **_Music Show Win_**. It's also a big factor in **_Award Ceremonies_** (ceremonies to award music, performances, artist of the year and more). To get a big digital sale point, STAYs are encourage to stream songs on the following Korean music streaming platforms:
+Korean digital sale is a BIG part of **_Music Show Win_**. It's also a big factor in **_Award Ceremonies_** (ceremonies to award music, performances, artist of the year and more). To get a big digital sale point, STAYs are encourage to stream the title track in a playlist and/or download the title track. Downloads count as multiple streams. Here are the following Korean music streaming platforms where STAYs can participate:
 
 **Mel0n**
 
@@ -93,11 +93,11 @@ Better watch out for {{< a "Stray Kids" "https://twitter.com/stray_kids" >}} twe
 
 ❗Please check the **carrd linked above** for lists of shops, which chart/s their sales count to, and their exclusive benefits.
 
-For **Hanteo** when you receive a "Hanteo Authentication Card", authenticate your album using Whosfan app for it to count on Hanteo Chart Global Ranking (it's different from Hanteo's sales chart).
+For **Hanteo** when you receive a "Hanteo Authentication Card", authenticate your album using Whosfan app for it to count on Hanteo Chart Global Ranking (it's different from Hanteo's sales chart). Authenticating will also help you collect more Whosfan credits that is used for voting on the app for ad promotion, etc.
 
-For the album sales it is automatically counted on **Hanteo Chart** when you successfully purchased and shipped your album the same thing for **Gaon** and **Billboard**.
+For the album sales it is automatically counted on **Hanteo Chart** when you successfully purchased and shipped your album, the same thing for **Billboard**. **Gaon** counts the albums shipped to stores where the albums can be bought.
 
-Here's a video tutorial on how to authenticate your album:
+Here's a video tutorial on how to authenticate your Hanteo Certified album:
 
 {{< youtube gBM7lyJBXZM >}}
 
@@ -105,17 +105,17 @@ Here's a video tutorial on how to authenticate your album:
 
 Voting is important to give Stray Kids _Music Show Wins_. It's one of the easiest we can do as a fandom!
 
-Follow {{< a "TeamSVS" "https://twitter.com/TeamSVS_DM" >}} and {{< a "Stay Voting Zone" "https://twitter.com/StayVotingZone" >}} for music shows, awards, and promotional ads voting updates. You may also visit {{< a "the website of SVS for app tutorials" "https://sites.google.com/view/team-svs/" >}}.
+Follow {{< a "TeamSVS" "https://twitter.com/TeamSVS_DM" >}} and {{< a "Stay Voting Zone" "https://twitter.com/StayVotingZone" >}} for music shows, awards, and promotional ads voting updates. You may also visit {{< a "the website of SVS for app tutorials" "http://teamsvs.site/" >}}.
 
-{{< tweet 1414512957094957057 >}}
+{{< tweet 1503280574345379841 >}}
 
 A calendar guide of music show voting schedule:
 
-{{< img src="/img-support/pre-voting-sched.png" alt="Pre-voting and live schedule" >}}
+{{< tweet 1503234589241847812 >}}
 
 ## YouTube Streaming
 
-One of the easiest and free to do is to stream the MV on YouTube. It's advisable to get YouTube Premium so you can stream on background or even when your device screen is off. You may get a 1 month Premium free trial and make sure to cancel it before the 1 month ends to avoid paying for it after the free trial ends. Streaming without premium is also okay.
+One of the easiest and free to do is to stream the MV on YouTube. It's advisable to get YouTube Premium for less bot suspicion. You may get a 1 month Premium free trial and make sure to cancel it before the 1 month ends to avoid paying for it after the free trial ends. Streaming without premium is also okay.
 
 There are different methods to stream an MV a lot but the most advisable is doing Manual method.
 
@@ -131,14 +131,15 @@ There are different methods to stream an MV a lot but the most advisable is doin
     - Speed must be normal.
     - Don't skip time, pause, and replay.
     - Turn off autoplay.
-    - If using desktop/laptop don't stream on multiple tabs.
+    - If using desktop/laptop don't stream on multiple tabs or windows.
     - If streaming with more than one device, make sure that different accounts are logged in and device are in different IP address.
+    - ❗ Avoid using split screen, streaming on background or pop-up screen even with Premium account. This will fall to low quality playback which means the views may be deleted.
 4. Stream other videos (fillers) around 3-4 videos with a total of at least 10-min long before you watch the MV again. Example videos are Stray Kids MV, skz-player, skz-record, performances from different channels, etc. Make sure you don't stream the same videos every time you stream in between the MV.
 5. Repeat from step 2.
 
 You may see different tutorials on how to do manual streaming but the most important thing is to not let YouTube think you are a robot. The following are my personal tips:
 
-* Interact with comments every other time.
+* Interact with good comments every other time. Be careful of bot comments. Make sure the comment are talking about Stray Kids and not a general comment.
 * Either skip or don't skip ads but if the ad is the Stray Kids MV do not skip it.
 * Don't stream for too long, you may rest after few rounds and then do it again.
 * Log in to different accounts.
