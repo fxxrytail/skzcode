@@ -9,7 +9,7 @@
           <!-- Main Priority dispalyed on home -->
             {{ range .Pages.GroupByParam "priority" }}
               {{ range .Pages.ByWeight }}
-                  <div class="support-page">
+                  <li class="support-page-list">
                     <div class="support-thumbnail" >
                       <a href="{{ .RelPermalink }}">
                         {{ $thumbnail := printf "%s" .Params.thumbnail }}
@@ -31,7 +31,7 @@
                         {{ end }}
                       </div>
                     </div>
-                  </div>
+                  </li>
               {{ end }}
             {{ end }}
         </ul>

@@ -15,7 +15,7 @@
     </div>
 
   {{ if and (ne .Title "") (ne .Section "support") }}
-    <div class="notice" style="display:block" >
+    <div class="notice" style="display:block">
       <span class="notice-bg">You Make Stray Kids STAY</span>
 
       {{ $supportPosts := (where $.Site.RegularPages "Section" "==" "support") }}

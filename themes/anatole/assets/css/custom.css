@@ -112,8 +112,9 @@
 }
 
 .horizontal-list {display: inline-flex;}
+.support-page-list {padding: 5px; margin: 0 auto;}
 
-.support-list {
+.support-list, .support-page-list {
   background-color: var(--sidebar-bg);
   border: solid 2px var(--sidebar-bg2);
   color: var(--sidebar-color);
@@ -121,6 +122,7 @@
   cursor: pointer;
 }
 
+.support-page-list {width: 80%; margin-top: 10px;}
 
 
 @keyframes hor1 {
@@ -156,7 +158,7 @@
 .horizontal-list:hover {animation-play-state: paused;}
 
 
-/****/
+/**Support on Home**/
 .support-list .support-thumbnail,
 .support-list .support-thumbnail img {width: 100%; height: auto;}
 
@@ -172,6 +174,15 @@
 .support-sidebar .support-summary .duration {padding-top: 3px;}
 
 .support-sidebar {height: 50px; padding: 10px 0; }
+
+/**Support Page**/
+.support-page-list .support-thumbnail,
+.support-page-list .support-thumbnail img {width: 100%; height: auto;}
+
+.support-page-list .support-summary {font-size: 0.8em; padding: 10px;}
+
+.support-page-list .support-summary .post-title a {color: var(--sidebar-anchor);}
+.support-page-list .support-summary .post-title {font-weight: bold; padding-bottom: 8px;}
 
 @keyframes blink {
   0% {opacity: 1}
