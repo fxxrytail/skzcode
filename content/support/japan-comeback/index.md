@@ -2,7 +2,7 @@
 priority: Main
 weight: "5"
 title: Support SKZ's Japan Comeback
-description: "'CIRCUS' release on June 22"
+description: "'CIRCUS' out now! Album release on June 22"
 thumbnail: "/img-support/circus-thumbnail.jpg"
 duration: 
 lastmod: 
@@ -43,6 +43,7 @@ For Japan comeback, they usually release singles at different dates before the r
 
 * {{< a "MANIAC -Japanese Ver.-" "https://straykids.lnk.to/mKBioEsZ">}} (May 18)
 * {{< a "Your Eyes" "https://straykids.lnk.to/hSR6HyPo" >}} (June 1)
+* {{< a "CIRCUS" "https://straykids.lnk.to/dUnYQIRy" >}} (June 10)
 
 # Comeback Goals
 
