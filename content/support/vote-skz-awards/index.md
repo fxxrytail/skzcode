@@ -1,26 +1,25 @@
 ---
 priority: main
-weight: "10"
+weight: "1"
 title: Help Stray Kids Win Big Awards
-description: 'Ongoing: SMA (MAIN)!!!'
-thumbnail: "/img-support/awards-cover.jpg"
-duration: Ends 16th Jan 11:59PM KST
+description: 'Ongoing: FANNSTAR (FOUR STAR AWARD)'
+thumbnail: "/img-support/vote-skz-award.jpg"
+duration: Ends 27th June 11:59AM KST
 lastmod:
-draft: true
+draft: false
 
 ---
-{{< img src="/img-support/screenshot_20211212_103803.png" alt="Stray Kids NOEASY on Seoul Music Award MAIN voting" width="80%" >}}
+{{< img src="/img-support/vote-skz-award.jpg" alt="hey STAY, vote Stray Kids now" width="80%" >}}
 
 The list of main award shows voting will be put here. It will mean a lot to show our support for Stray Kids❣️ Let's work together STAY❤️
 
-# Seoul Music Awards (SMA)
+# FAN N STAR (Four Star Award)
 
-Our current main priority for voting. We are voting for **MAIN** a.k.a Bonsang (30% of criteria) and have to be **1st with big gap** on Global + Korean polls combined to secure an award.
+**Four Star Award** is given to the 1st place only among the 4th Generation Idols that are nominated. It is purely base on fan voting. Winner will be determined by combining the early series of voting (30%) + ongoing voting (70%). Stray Kids have to keep up with a big gap on the ongoing voting to catch up to 1st place!
 
-Voting is ongoing and will end on **Jan 16, 2022**. Click the tweet to see the full guide.
+**FOUR STAR Award** winner will be announced on July 1 and the trophy will be given during **THE FACT MUSIC AWARDS** on October 8.
 
-{{< tweet 1469849496008130560 >}}    
+Let's all work together for our 4th Generation Leader Stray Kids! Encourage STAYs from all around the world and platforms to vote~!
 
-### Note:
-
-The purpose of this post is to  make STAYs visiting this site aware of the ongoing voting to support Stray Kids to achieve awards. This post may be updated slowly so please follow Stray Kids fanbases for faster updates and reach out to them if you have any questions 😊.
+Follow TeamSVS for updates and reminders
+{{< tweet 1537072915992092672 >}}
