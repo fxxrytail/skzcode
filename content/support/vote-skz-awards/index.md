@@ -5,8 +5,7 @@ title: Help Stray Kids Win Big Awards
 description: 'Ongoing: FANNSTAR (FOUR STAR AWARD)'
 thumbnail: "/img-support/vote-skz-award.jpg"
 duration: Ends 27th June 11:59AM KST
-lastmod:
-draft: false
+lastmod: 
 
 ---
 {{< img src="/img-support/vote-skz-award.jpg" alt="hey STAY, vote Stray Kids now" width="80%" >}}
