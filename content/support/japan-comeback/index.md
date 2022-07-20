@@ -6,6 +6,7 @@ description: "'CIRCUS' out now! Album release on June 22"
 thumbnail: "/img-support/circus-thumbnail.jpg"
 duration: 
 lastmod: 
+draft: true
 
 ---
 {{< img src="/img-support/circus-thumbnail.jpg" alt="Stray Kids Japan comeback" width="80%" >}}
