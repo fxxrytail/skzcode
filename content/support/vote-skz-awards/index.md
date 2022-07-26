@@ -6,7 +6,6 @@ description: 'Ongoing: VMA (Best K-pop)'
 thumbnail: "/img-support/awards-cover.jpg"
 duration: Vote everyday!
 lastmod: 
-draft: true
 
 ---
 {{< img src="/img-support/awards-cover.jpg" alt="hey STAY, vote Stray Kids now" width="80%" >}}
