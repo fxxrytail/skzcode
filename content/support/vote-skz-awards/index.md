@@ -18,7 +18,7 @@ Stray Kids is nominated in **MTV Video Music Awards** for the first time!! Vote 
 
 Where to vote:
 
-{{< a "VMA Website: Best Kpop Categort" "https://www.mtv.com/vma/vote/best-k-pop" >}}
+{{< a "VMA Website: Best Kpop Category" "https://www.mtv.com/vma/vote/best-k-pop" >}}
 
 How to vote:
 
