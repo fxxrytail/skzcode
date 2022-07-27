@@ -16,6 +16,10 @@ The list of main award shows voting will be put here. It will mean a lot to show
 
 Stray Kids is nominated in **MTV Video Music Awards** for the first time!! Vote **Stray Kids "MANIAC"** in **Best K-pop** category! Voting is super easy and you can vote with multiple accounts.
 
+Where to vote:
+
+{{< a "VMA Website: Best Kpop Categort" "https://www.mtv.com/vma/vote/best-k-pop" >}}
+
 How to vote:
 
 {{< tweet 1551921315313254400 >}}
