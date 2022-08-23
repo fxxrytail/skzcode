@@ -6,6 +6,7 @@ description: 'Ongoing: VMA (Best K-pop)'
 thumbnail: "/img-support/awards-cover.jpg"
 duration: 'Ends on: Aug 20th 7AM KST (Aug 19th 6PM ET)'
 lastmod: 
+draft: true
 
 ---
 {{< img src="/img-support/awards-cover.jpg" alt="hey STAY, vote Stray Kids now" width="80%" >}}
