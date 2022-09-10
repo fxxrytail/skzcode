@@ -41,7 +41,7 @@ Detailed information about all Korean music shows criteria and schedules are in 
 
 **_Billboard_** tabulates different weekly music charts to see popular music base on album/songs sales and streams from United States and different parts of the world. It is a very popular music chart and Stray Kids charting on it may give them more opportunities.
 
-Here's a [full guide to _Billboard _](https://www.getrevue.co/profile/billboardskz/issues/oddinary-full-billboard-guide-1042112 "Full Guide to Billboard")by Billboard SKZ (posted during ODDINARY era). 
+Here's a [full guide to _Billboard _](https://www.getrevue.co/profile/billboardskz/issues/oddinary-full-billboard-guide-1042112 "Full Guide to Billboard")by Billboard SKZ (posted during ODDINARY era).
 
 Follow {{< a "Stray Kids USA" "https://twitter.com/skz_usa" >}} and {{< a "Billboard SKZ" "https://twitter.com/billboardskz" >}} for _Billboard_ updates and guides for Stray Kids.
 
@@ -49,13 +49,13 @@ Follow {{< a "Stray Kids USA" "https://twitter.com/skz_usa" >}} and {{< a "Billb
 
 ## Korean Digital Sales
 
-Korean digital sale is a BIG part of **_Music Show Win_**. It's also a big factor in **_Award Ceremonies_** (ceremonies to award music, performances, artist of the year and more). To get a big digital sale point, STAYs are encouraged to stream the title track in a playlist and/or download the title track. Download counts as multiple streams. STAYs may stream on **MelOn, Genie, Flo, or Bugs.** Some of it needs verified account but some don't. You may buy your own verified account and streaming pass by yourself or you may stream for **free** by joining a digital streaming team that is funded by STAYs' donations. You may also donate any amount, it will be a big help! 
+Korean digital sale is a BIG part of **_Music Show Win_**. It's also a big factor in **_Award Ceremonies_** (ceremonies to award music, performances, artist of the year and more). To get a big digital sale point, STAYs are encouraged to stream the title track in a playlist and/or download the title track. Download counts as multiple streams. STAYs may stream on **MelOn, Genie, Flo, or Bugs.** Some of it needs verified account but some don't. You may buy your own verified account and streaming pass by yourself or you may stream for **free** by joining a digital streaming team that is funded by STAYs' donations. You may also donate any amount, it will be a big help!
 
-Streaming is not hard! You just have to set your account, make playlist, and leave it play for hours! It's advisable to join a streaming team if it's your first time streaming on Korean platform so the team can guide you. 
+Streaming is not hard! You just have to set your account, make playlist, and leave it play for hours! It's advisable to join a streaming team if it's your first time streaming on Korean platform so the team can guide you.
 
 For details and inquiries about these streaming platforms, you may reach out to {{< a "Stay Department" "https://twitter.com/stay_department" >}} and follow them for updates.
 
-{{< tweet 1493857687590752259 >}}
+{{< tweet 1568600689789517824 >}}
 
 ## Physical Sales
 
