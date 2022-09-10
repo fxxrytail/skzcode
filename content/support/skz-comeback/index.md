@@ -65,17 +65,11 @@ Check out this thread by {{< a "Stray Kids Global" "https://twitter.com/StrayKid
 
 {{< tweet 1566990196046024704 >}}
 
-For **Hanteo** when you receive a "Hanteo Authentication Card", authenticate your album using Whosfan app for it to count on Hanteo Chart Global Ranking (it's different from Hanteo's sales chart). Authenticating will also help you collect more Whosfan credits that is used for voting on the app for ad promotion, etc.
-
 For the album sales it is automatically counted on **Hanteo Chart** when you successfully purchased and shipped your album, the same thing for **Billboard**. **Circle Chart** counts the albums shipped to stores where the albums can be bought.
-
-Here's a video tutorial on how to authenticate your Hanteo Certified album:
-
-{{< youtube gBM7lyJBXZM >}}
 
 ## Voting
 
-Voting is important to give Stray Kids _Music Show Wins_. It's one of the easiest we can do as a fandom!
+Voting is important to give Stray Kids _Music Show Wins_. It's one of the easiest we can do as a fandom! The platforms we need to make accounts are **Mubeat** (app)**, Idol Champ** (app)**, Freevote** (app)**, and MNET+** (website). Some of it needs to collect points (such as chamsims, heartbeats) to be able to vote.
 
 Follow {{< a "TeamSVS" "https://twitter.com/TeamSVS_DM" >}} and {{< a "Stay Voting Zone" "https://twitter.com/StayVotingZone" >}} for music shows, awards, and promotional ads voting updates. You may also visit {{< a "the website of SVS for app tutorials" "http://teamsvs.site/" >}}.
 
@@ -83,7 +77,7 @@ Follow {{< a "TeamSVS" "https://twitter.com/TeamSVS_DM" >}} and {{< a "Stay Voti
 
 One of the easiest and free to do is to stream the MV on YouTube. It's advisable to get YouTube Premium for less bot suspicion. You may get a 1 month Premium free trial and make sure to cancel it before the 1 month ends to avoid paying for it after the free trial ends. Streaming without premium is also okay.
 
-There are different methods to stream an MV a lot but the most advisable is doing Manual method.
+There are different methods to stream an MV a lot but the most advisable is doing Manual method. 
 
 1. Log in to your YouTube account.
 2. Go to the video by doing any of these:
