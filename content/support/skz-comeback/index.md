@@ -41,7 +41,7 @@ Detailed information about all Korean music shows criteria and schedules are in 
 
 **_Billboard_** tabulates different weekly music charts to see popular music base on album/songs sales and streams from United States and different parts of the world. It is a very popular music chart and Stray Kids charting on it may give them more opportunities.
 
-Here's a [full guide to Billboard_](https://www.getrevue.co/profile/billboardskz/issues/oddinary-full-billboard-guide-1042112 "Full Guide to Billboard") by Billboard SKZ (posted during ODDINARY era).
+Here's a [full guide to Billboard](https://www.getrevue.co/profile/billboardskz/issues/oddinary-full-billboard-guide-1042112 "Full Guide To Billboard") by Billboard SKZ (posted during ODDINARY era).
 
 Follow {{< a "Stray Kids USA" "https://twitter.com/skz_usa" >}} and {{< a "Billboard SKZ" "https://twitter.com/billboardskz" >}} for _Billboard_ updates and guides for Stray Kids.
 
