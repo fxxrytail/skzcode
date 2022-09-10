@@ -79,8 +79,6 @@ Voting is important to give Stray Kids _Music Show Wins_. It's one of the easies
 
 Follow {{< a "TeamSVS" "https://twitter.com/TeamSVS_DM" >}} and {{< a "Stay Voting Zone" "https://twitter.com/StayVotingZone" >}} for music shows, awards, and promotional ads voting updates. You may also visit {{< a "the website of SVS for app tutorials" "http://teamsvs.site/" >}}.
 
-{{< tweet 1503280574345379841 >}}
-
 ## YouTube Streaming
 
 One of the easiest and free to do is to stream the MV on YouTube. It's advisable to get YouTube Premium for less bot suspicion. You may get a 1 month Premium free trial and make sure to cancel it before the 1 month ends to avoid paying for it after the free trial ends. Streaming without premium is also okay.
