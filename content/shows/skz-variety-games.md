@@ -1,7 +1,7 @@
 ---
 title: "SKZ Variety Games"
 date: 2022-08-10T11:08:10+08:00
-draft: true
+draft: false
 
 mainCat: "SKZ Variety Games"
 weight: 28
