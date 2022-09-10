@@ -25,7 +25,7 @@ STAYs can contribute for getting **_Music Show Wins_**, charting on **_Billboard
 
 Visit this website by {{< a "Stay Info" "https://twitter.com/iStay_Informed" >}} for comeback guide and projects.
 
-[https://straykidscomebackguide.com/](https://straykidscomebackguide.com/ "Stray Kids Comeback Guide")
+{{< a "https://straykidscomebackguide.com/" "https://straykidscomebackguide.com/" >}}
 
 {{< tweet 1567538996686852097 >}}
 
@@ -35,13 +35,13 @@ A **_Music Show Win_** happens during their album promotion. The No. 1 song of t
 
 > FREE as long as you have access to internet.
 
-Detailed information about all Korean music shows criteria and schedules are in [Stray Kids Comeback Guide](https://straykidscomebackguide.com/#musicshows "SKZ Comeback Guide: Music Shows")
+Detailed information about all Korean music shows criteria and schedules are in {{< a "Stray Kids Comeback Guide" "https://straykidscomebackguide.com/#musicshows" >}}
 
 ## Billboard
 
 **_Billboard_** tabulates different weekly music charts to see popular music base on album/songs sales and streams from United States and different parts of the world. It is a very popular music chart and Stray Kids charting on it may give them more opportunities.
 
-Here's a [full guide to Billboard](https://www.getrevue.co/profile/billboardskz/issues/oddinary-full-billboard-guide-1042112 "Full Guide To Billboard") by Billboard SKZ (posted during ODDINARY era).
+Here's a {{< a "full guide to Billboard" "https://www.getrevue.co/profile/billboardskz/issues/oddinary-full-billboard-guide-1042112" >}}  by Billboard SKZ (posted during ODDINARY era).
 
 Follow {{< a "Stray Kids USA" "https://twitter.com/skz_usa" >}} and {{< a "Billboard SKZ" "https://twitter.com/billboardskz" >}} for _Billboard_ updates and guides for Stray Kids.
 
