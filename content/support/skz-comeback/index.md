@@ -59,15 +59,15 @@ For details and inquiries about these streaming platforms, you may reach out to 
 
 ## Physical Sales
 
-Buying physical albums may count toward 3 different charts: **Hanteo, Gaon,** and **Billboard**. _Music Show Wins_ and _Korean_ _Award Ceremonies_ uses **Hanteo / Gaon** chart for criteria.
+Buying physical albums may count toward 3 different charts: **Hanteo, Circle Chart (formerly Gaon),** and **Billboard**. _Music Show Wins_ and _Korean_ _Award Ceremonies_ uses **Hanteo / Circle Chart** for criteria.
 
-Better watch out for {{< a "Stray Kids" "https://twitter.com/stray_kids" >}} tweets or posts from their official SNS for pre-order links. Usually, some stores have exclusive benefits when you purchase from them. Stray Kids account also announce Fan Sign or Video Call events that help boost album sales.
+Check out this thread by {{< a "Stray Kids Global" "https://twitter.com/StrayKidsGlobal" >}} to see the list of stores you may pre-order physical album and which chart each store's sale counts. Stores may also have exclusive benefits. 
 
-❗Please check the **carrd linked above** for lists of shops, which chart/s their sales count to, and their exclusive benefits.
+{{< tweet 1566990196046024704 >}}
 
 For **Hanteo** when you receive a "Hanteo Authentication Card", authenticate your album using Whosfan app for it to count on Hanteo Chart Global Ranking (it's different from Hanteo's sales chart). Authenticating will also help you collect more Whosfan credits that is used for voting on the app for ad promotion, etc.
 
-For the album sales it is automatically counted on **Hanteo Chart** when you successfully purchased and shipped your album, the same thing for **Billboard**. **Gaon** counts the albums shipped to stores where the albums can be bought.
+For the album sales it is automatically counted on **Hanteo Chart** when you successfully purchased and shipped your album, the same thing for **Billboard**. **Circle Chart** counts the albums shipped to stores where the albums can be bought.
 
 Here's a video tutorial on how to authenticate your Hanteo Certified album:
 
@@ -80,10 +80,6 @@ Voting is important to give Stray Kids _Music Show Wins_. It's one of the easies
 Follow {{< a "TeamSVS" "https://twitter.com/TeamSVS_DM" >}} and {{< a "Stay Voting Zone" "https://twitter.com/StayVotingZone" >}} for music shows, awards, and promotional ads voting updates. You may also visit {{< a "the website of SVS for app tutorials" "http://teamsvs.site/" >}}.
 
 {{< tweet 1503280574345379841 >}}
-
-A calendar guide of music show voting schedule:
-
-{{< tweet 1503234589241847812 >}}
 
 ## YouTube Streaming
 
@@ -130,4 +126,4 @@ Enjoy Stray Kids comeback\~! :wink:
 
 ![Stray Kids CHEESE](images/skz-cheese.jpg)
 
-_This post was made to help STAYs visiting this website be aware of Stray Kids comeback. This post was first written during NOEASY era (Aug 2021) and updated some information for ODDINARY. Some information may have changed without me realizing but it's pretty much the same every comeback. It's best to follow Stray Kids fanbase accounts for faster update. You may also DM me at {{< a "@daisukijeu" "https://twitter.com/daisukijeu_">}} if information here is outdated, I'll try to update this when I can._
+_This post was made to help STAYs visiting this website be aware of Stray Kids comeback. This post was first written during NOEASY era (Aug 2021) and updated every comeback. Some information may have changed without me realizing. It's best to follow Stray Kids fanbase accounts for faster update. You may also DM me at {{< a "@daisukijeu" "https://twitter.com/daisukijeu_">}} if information here is outdated, I'll try to update this when I can._
