@@ -49,35 +49,11 @@ Follow {{< a "Stray Kids USA" "https://twitter.com/skz_usa" >}} and {{< a "Billb
 
 ## Korean Digital Sales
 
-Korean digital sale is a BIG part of **_Music Show Win_**. It's also a big factor in **_Award Ceremonies_** (ceremonies to award music, performances, artist of the year and more). To get a big digital sale point, STAYs are encourage to stream the title track in a playlist and/or download the title track. Downloads count as multiple streams. Here are the following Korean music streaming platforms where STAYs can participate:
+Korean digital sale is a BIG part of **_Music Show Win_**. It's also a big factor in **_Award Ceremonies_** (ceremonies to award music, performances, artist of the year and more). To get a big digital sale point, STAYs are encouraged to stream the title track in a playlist and/or download the title track. Download counts as multiple streams. STAYs may stream on **MelOn, Genie, Flo, or Bugs.** Some of it needs verified account but some don't. You may buy your own verified account and streaming pass by yourself or you may stream for **free** by joining a digital streaming team that is funded by STAYs' donations. You may also donate any amount, it will be a big help! 
 
-**Mel0n**
+Streaming is not hard! You just have to set your account, make playlist, and leave it play for hours! It's advisable to join a streaming team if it's your first time streaming on Korean platform so the team can guide you. 
 
-* Needs verified account and streaming pass to stream.
-* You may buy verified account and streaming pass that are available from third-party sellers or join streaming project to stream free.
-* Making unverified account using KKT is possible and it's usable to mass search and like Stray Kids songs (avoid commenting in non-Korean language).
-* Counted in all music shows.
-
-**Gen1e**
-
-* Verified and unverified account may stream.
-* Needs Korean number to make new account. Accounts are available from third-party sellers.
-* Needs streaming pass that is available from third-party sellers or join streaming project to stream free.
-* Counted in all music shows.
-
-**Bug$**
-
-* You may make account by yourself.
-* You may buy streaming pass by yourself or join streaming project to get free.
-* Counted in all music shows except M Countdown.
-
-**FL0**
-
-* Needs verified account and streaming pass to stream.
-* You may buy verified account and streaming pass that are available from third-party sellers or join streaming project to stream free.
-* Counted in all music shows.
-
-Please consider buying verified account, donate any amount to streaming teams, or apply as volunteer to stream for free. When you already have your account and proper setup for streaming, you may already leave it play for hours. It's easy! For inquiries and more detailed information about Korean music streaming platforms you may reach out to {{< a "Stay Department" "https://twitter.com/stay_department" >}} and follow them for updates.
+For details and inquiries about these streaming platforms, you may reach out to {{< a "Stay Department" "https://twitter.com/stay_department" >}} and follow them for updates.
 
 {{< tweet 1493857687590752259 >}}
 
