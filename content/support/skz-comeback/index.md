@@ -6,7 +6,6 @@ description: "'MAXIDENT' release on Oct 7"
 thumbnail: "/img-support/maxident-thumbnail.jpg"
 duration: 
 lastmod: 
-draft: true
 
 ---
 {{< img src="/img-support/maxident-thumbnail.jpg" alt="Stray Kids comeback" width="80%" >}}
