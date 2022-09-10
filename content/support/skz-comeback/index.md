@@ -2,14 +2,14 @@
 priority: Main
 weight: "5"
 title: Support Stray Kids Comeback
-description: "'ODDINARY' release on March 18"
-thumbnail: "/img-support/oddinary-thumbnail.jpg"
+description: "'MAXIDENT' release on Oct 7"
+thumbnail: "/img-support/maxident-thumbnail.jpg"
 duration: 
 lastmod: 
 draft: true
 
 ---
-{{< img src="/img-support/oddinary-thumbnail.jpg" alt="Stray Kids comeback" width="80%" >}}
+{{< img src="/img-support/maxident-thumbnail.jpg" alt="Stray Kids comeback" width="80%" >}}
 
 Support Stray Kids comeback to help them get music show wins, awards, and unlock more achievements\~!
 
@@ -19,13 +19,15 @@ STAYs can contribute for getting **_Music Show Wins_**, charting on **_Billboard
 
 # Comeback Detail
 
-**ALBUM:** "ODDINARY"  
-**RELEASE DATE:** March 18 1PM KST | 12AM EST  
-**TITLE TRACK:** MANIAC
+**ALBUM:** "MAXIDENT"  
+**RELEASE DATE:** October 7 1PM KST | 0AM EST  
+**TITLE TRACK:** (TBA)
 
-Visit this carrd for comeback guide and projects. [https://oddinarycomeback.crd.co/](https://oddinarycomeback.crd.co/ "https://oddinarycomeback.crd.co/")
+Visit this website by {{< a "Stay Info" "https://twitter.com/iStay_Informed" >}} for comeback guide and projects.
 
-{{< tweet 1493385545082458117 >}}
+[https://straykidscomebackguide.com/](https://straykidscomebackguide.com/ "Stray Kids Comeback Guide")
+
+{{< tweet 1567538996686852097 >}}
 
 ## Music Show Win
 
@@ -33,19 +35,13 @@ A **_Music Show Win_** happens during their album promotion. The No. 1 song of t
 
 > FREE as long as you have access to internet.
 
-Here's a detailed information about all Korean music shows criteria provided by KShowAnalysis. Stray Kids don't promote and not eligible to win on The Show so you may ignore it.
-
-{{< tweet 1359377074717290496 >}}
+Detailed information about all Korean music shows criteria and schedules are in [Stray Kids Comeback Guide](https://straykidscomebackguide.com/#musicshows "SKZ Comeback Guide: Music Shows")
 
 ## Billboard
 
 **_Billboard_** tabulates different weekly music charts to see popular music base on album/songs sales and streams from United States and different parts of the world. It is a very popular music chart and Stray Kids charting on it may give them more opportunities.
 
-Check this post for more details and guide for _Billboard_. It's for US and Global STAYs.
-
-[bit.ly/oddinarybb](https://bit.ly/oddinarybb "Billboard Guide for Stray Kids")
-
-{{< tweet 1494001102295306240 >}}
+Here's a [full guide to _Billboard _](https://www.getrevue.co/profile/billboardskz/issues/oddinary-full-billboard-guide-1042112 "Full Guide to Billboard")by Billboard SKZ (posted during ODDINARY era). 
 
 Follow {{< a "Stray Kids USA" "https://twitter.com/skz_usa" >}} and {{< a "Billboard SKZ" "https://twitter.com/billboardskz" >}} for _Billboard_ updates and guides for Stray Kids.
 
@@ -121,19 +117,19 @@ There are different methods to stream an MV a lot but the most advisable is doin
 
 1. Log in to your YouTube account.
 2. Go to the video by doing any of these:
-    - Searching with the keyword for example "스트레이 키즈 \[title track\]" or "Stray Kids \[title track\]".
-    - Clicking from home page or recommended video.
-    - Clicking the shared link of the video.
+   * Searching with the keyword for example "스트레이 키즈 \[title track\]" or "Stray Kids \[title track\]".
+   * Clicking from home page or recommended video.
+   * Clicking the shared link of the video.
 3. Stream the video with proper setting. Follow do's and don'ts:
-    - After watching the video: like, leave a good comment about the MV (don't spam!), and share to your SNS or website.
-    - Quality should be at least 480p.
-    - Volume should be at least 50%.
-    - Speed must be normal.
-    - Don't skip time, pause, and replay.
-    - Turn off autoplay.
-    - If using desktop/laptop don't stream on multiple tabs or windows.
-    - If streaming with more than one device, make sure that different accounts are logged in and device are in different IP address.
-    - ❗ Avoid using split screen, streaming on background or pop-up screen even with Premium account. This will fall to low quality playback which means the views may be deleted.
+   * After watching the video: like, leave a good comment about the MV (don't spam!), and share to your SNS or website.
+   * Quality should be at least 480p.
+   * Volume should be at least 50%.
+   * Speed must be normal.
+   * Don't skip time, pause, and replay.
+   * Turn off autoplay.
+   * If using desktop/laptop don't stream on multiple tabs or windows.
+   * If streaming with more than one device, make sure that different accounts are logged in and device are in different IP address.
+   * ❗ Avoid using split screen, streaming on background or pop-up screen even with Premium account. This will fall to low quality playback which means the views may be deleted.
 4. Stream other videos (fillers) around 3-4 videos with a total of at least 10-min long before you watch the MV again. Example videos are Stray Kids MV, skz-player, skz-record, performances from different channels, etc. Make sure you don't stream the same videos every time you stream in between the MV.
 5. Repeat from step 2.
 
