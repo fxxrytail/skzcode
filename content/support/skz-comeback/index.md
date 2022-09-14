@@ -50,7 +50,9 @@ Follow {{< a "Stray Kids USA" "https://twitter.com/skz_usa" >}} and {{< a "Billb
 
 Korean digital sale is a BIG part of **_Music Show Win_**. It's also a big factor in **_Award Ceremonies_** (ceremonies to award music, performances, artist of the year and more). To get a big digital sale point, STAYs are encouraged to stream the title track in a playlist and/or download the title track. Download counts as multiple streams. STAYs may stream on **MelOn, Genie, Flo, or Bugs.** Some of it needs verified account but some don't. You may buy your own verified account and streaming pass by yourself or you may stream for **free** by joining a digital streaming team that is funded by STAYs' donations. You may also donate any amount, it will be a big help!
 
-Streaming is not hard! You just have to set your account, make playlist, and leave it play for hours! It's advisable to join a streaming team if it's your first time streaming on Korean platform so the team can guide you.
+Streaming is not hard! You just have to set your account and settings, make playlist, and leave it play for hours 😁 It's advisable to join a streaming team if it's your first time streaming on Korean platform so the team can guide you.
+
+##### Please donate any amount if you can to trusted streaming teams so we can have funds to buy passes before the release of the album. Sharing the fundraising tweets from fanbases will also help ❤️
 
 For details and inquiries about these streaming platforms, you may reach out to {{< a "Stay Department" "https://twitter.com/stay_department" >}} and follow them for updates.
 
@@ -60,7 +62,7 @@ For details and inquiries about these streaming platforms, you may reach out to 
 
 Buying physical albums may count toward 3 different charts: **Hanteo, Circle Chart (formerly Gaon),** and **Billboard**. _Music Show Wins_ and _Korean_ _Award Ceremonies_ uses **Hanteo / Circle Chart** for criteria.
 
-Check out this thread by {{< a "Stray Kids Global" "https://twitter.com/StrayKidsGlobal" >}} to see the list of stores you may pre-order physical album and which chart each store's sale counts. Stores may also have exclusive benefits. 
+Check out this thread by {{< a "Stray Kids Global" "https://twitter.com/StrayKidsGlobal" >}} to see the list of stores you may pre-order physical album and which chart each store's sale counts. Stores may also have exclusive benefits.
 
 {{< tweet 1566990196046024704 >}}
 
@@ -76,7 +78,7 @@ Follow {{< a "TeamSVS" "https://twitter.com/TeamSVS_DM" >}} and {{< a "Stay Voti
 
 One of the easiest and free to do is to stream the MV on YouTube. It's advisable to get YouTube Premium for less bot suspicion. You may get a 1 month Premium free trial and make sure to cancel it before the 1 month ends to avoid paying for it after the free trial ends. Streaming without premium is also okay.
 
-There are different methods to stream an MV a lot but the most advisable is doing Manual method. 
+There are different methods to stream an MV a lot but the most advisable is doing Manual method.
 
 1. Log in to your YouTube account.
 2. Go to the video by doing any of these:
