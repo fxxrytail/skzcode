@@ -52,7 +52,7 @@ Korean digital sale is a BIG part of **_Music Show Win_**. It's also a big facto
 
 Streaming is not hard! You just have to set your account and settings, make playlist, and leave it play for hours 😁 It's advisable to join a streaming team if it's your first time streaming on Korean platform so the team can guide you.
 
-##### Please donate any amount if you can to trusted streaming teams so we can have funds to buy passes before the release of the album. Sharing the fundraising tweets from fanbases will also help ❤️
+#### Please donate any amount if you can to trusted streaming teams so we can have funds to buy passes before the release of the album. Sharing the fundraising tweets from fanbases will also help ❤️
 
 For details and inquiries about these streaming platforms, you may reach out to {{< a "Stay Department" "https://twitter.com/stay_department" >}} and follow them for updates.
 
