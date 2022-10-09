@@ -59,11 +59,11 @@ html[data-theme='dark'] {
     --subs-color: #76a0ff;
     --tl-bg: #efd972; /*#45426b*/
 
-    --sidebar-bg: #3b6174;
+    --sidebar-bg: #3c93bf;
     --sidebar-bg2: #c95a8d;
     --sidebar-color: #ffffff;
     --sidebar-color2: #fff;
-    --sidebar-anchor: #98ddff; 
+    --sidebar-anchor: #98ddff;
 
     --support-bg: #000;
 }

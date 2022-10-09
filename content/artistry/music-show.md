@@ -3,7 +3,7 @@ title: "Music Show Performances"
 date: 2022-10-09T19:23:32+08:00
 draft: false
 
-mainCat: "Music Show Performance"
+mainCat: "Music Show"
 weight: 2
 pageType: "By SubCat"
 description: Comeback music show performances and fancams in Show Champion, M Countdown, Music Bank, Music Core, Inkigayo.
