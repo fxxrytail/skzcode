@@ -11,11 +11,13 @@ This website doesn't include:
 * Greetings and invitation videos unless it's from Stray Kids' channel.
 * CF/advertisement videos (I already missed the old ones and don't know where to find them anymore ;;;)
 * Payed contents from V LIVE+, Fanship, Stray Kids Japan, DVDs, etc.
-* Music show performances and fancams for album promotion. (But I'm planning to add the performances)
+* Performance fancams. I only put full cams if there's no broadcast performance video uploaded, and only occasional solo fancams.
 
 I'm not affiliated with [StrayKSubs](https://www.twitter.com/StrayKSubs) but a lot of their subbed videos are linked here and there's more you can see on their [website](https://strayksubs.com)~!
 
-The "no subs" tag means there's no English subtitles upon my update but other languages may available already.
+The "no subs" tag means there's no English subtitles upon my update but other languages may available already. You may also check if StrayKSubs have a subbed video of it.
+
+Asterisk (*) tag means the video is not from an official account and is fan uploaded.
 
 For questions or suggestions you may contact me through [twitter](https://twitter.com/daisukijeu).
 
