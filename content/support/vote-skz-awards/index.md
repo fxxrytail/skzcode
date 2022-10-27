@@ -2,9 +2,9 @@
 priority: main
 weight: "1"
 title: Help Stray Kids Win Big Awards
-description: 'Ongoing: VMA (Best K-pop)'
+description: 'Ongoing: MAMA (Worldwide Fans'' Choice Award)'
 thumbnail: "/img-support/awards-cover.jpg"
-duration: 'Ends on: Aug 20th 7AM KST (Aug 19th 6PM ET)'
+duration: 'Pre-vote ends: Nov 4 23:59 KST, Vote ends: Nov 24 23:59 KST'
 lastmod: 
 draft: true
 
