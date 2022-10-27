@@ -24,6 +24,6 @@ View these Twitter thread to see all the details.
 
 ### More Information:
 
-Stray Kids is also nominated in **Best Male Group** and **Best Dance Performance Male Group** awards**.** There's no fan voting but winners will be determined through various data charts. 
+Stray Kids is also nominated in **Best Male Group** and **Best Dance Performance Male Group** awards. There's no fan voting but winners will be determined through various data charts.
 
 More information about all categories' criteria and **Worldwide Fans' Choice** voting is in [2022MAMA's website](https://2022mama.com/about/criteria)
