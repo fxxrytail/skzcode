@@ -10,6 +10,8 @@ pluralizelisttitles = false
 sectionPagesMenu = "main"
 enableGitInfo = true
 
+timeZone = "Asia/Seoul"
+
 ignoreErrors = ["error-remote-getjson"]
 
 [frontmatter]
