@@ -1,6 +1,6 @@
 ---
 title: "V LIVE will close down and site changes after this news"
-date: 2022-11-05T21:39:25+08:00
+date: 2022-11-06T22:07:25+08:00
 draft: false
 type: "post"
 
