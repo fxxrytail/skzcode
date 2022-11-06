@@ -57,7 +57,7 @@ html[data-theme='dark'] {
     --blockquote-border-color: #424242;
 
     --date-color: #8f8f8f;
-    --link-color: #c73737; /*#e03333*/
+    --link-color: #bf4239; /*#c73737; #e03333*/ 
     --subs-color: #76a0ff;
     --tl-bg: #efd972; /*#45426b*/
 
