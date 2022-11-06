@@ -1,5 +1,6 @@
 {{ $catName := .Params.mainCat }}
 {{ $forLive := .Site.Params.forLive }}
+{{ $NamedLive := "LIVE - "}}
 {{ $theme := .Site.Params.displayMode }}
 
 {{ $sections := slice }}
@@ -198,7 +199,21 @@
               {{ if strings.HasPrefix .Category $forLive }}
                 <!-- LAYOUT -->
                 <div class="link-list">
-                  <ul> <span class="date">{{ dateFormat "Jan 02" .Date }}</span> {{ .Title }}
+                  <ul>
+                    <span class="date">{{ dateFormat "Jan 02" .Date }}</span>
+                    <span id="catlink"><a href="../../{{ .CatLink }}">
+                      {{ if eq .Category $forLive }}
+                          SKZ
+                      {{ else if strings.HasPrefix .Category $NamedLive }}
+                          {{ strings.TrimPrefix $NamedLive .Category }}
+                          {{ if and (ne .SubCat "-") (ne .SubCat "Others")}}
+                          : {{ .SubCat }}
+                          {{end}}
+                      {{ end }}
+                      </a></span>
+
+
+                    {{ .Title }}
                     {{ range .Links }}
                     ★ <a target="_blank" href="{{ .Link }}">{{ .Name }}</a> <span class="subs">{{ .Subs }}</span>
                     {{ end }} <!-- range .Links -->

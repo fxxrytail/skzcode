@@ -43,7 +43,7 @@ ignoreErrors = ["error-remote-getjson"]
 # Google Site Verification
 #googleSiteVerify = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
 
-forLive = "V LIVE"
+forLive = "LIVE"
 
 
 
@@ -97,7 +97,7 @@ url = "mailto:mail@alexbilz.com"
   url = "/shows/"
 
   [[menu.main]]
-  name = "V Live"
+  name = "Live"
   weight = 4
   identifier = "vlive"
   url = "/vlive/"

@@ -8,4 +8,4 @@ weight: 13
 pageType: "By Year"
 description: "After taking the MBTI test, one member sits in a room talking about his personality while the other members are talking about him too."
 ---
-Note: On this day, Hyunjin's MBTI was **** but on his V LIVE, he said he took the test before and after but the result was INFP for both.
+Note: Stray Kids MBTI changes every time they took the MBTI test hahaha
