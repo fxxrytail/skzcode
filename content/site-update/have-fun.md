@@ -1,8 +1,7 @@
 ---
-title: "Have Fun"
+title: Have Fun
 date: 
-draft: true
-type: "post"
+type: post
 
 ---
 SKZ are back!
