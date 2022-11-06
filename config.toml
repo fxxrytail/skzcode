@@ -13,7 +13,7 @@ enableGitInfo = true
 ignoreErrors = ["error-remote-getjson"]
 
 [frontmatter]
-date = ["date", "publishDate", "lastmod"]
+date = ["publishDate", "date", "lastmod"]
 lastmod = ["lastmod", ":git", "date", "publishDate"]
 
 
