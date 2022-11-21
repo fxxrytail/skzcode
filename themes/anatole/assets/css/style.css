@@ -18,6 +18,7 @@
     --link-color: #c52424;
     --subs-color: #2e17ab;
     --catlink-color: #405fa2;
+    --catlink-bg:  #ededed;
     --tl-bg: #45426b;
     --tl-bg: #ffed9a; /*#45426b
 
@@ -57,7 +58,9 @@ html[data-theme='dark'] {
     --blockquote-border-color: #424242;
 
     --date-color: #8f8f8f;
-    --link-color: #bf4239; /*#c73737; #e03333*/ 
+    --catlink-color: #5e6e93;
+    --catlink-bg:  #2a2a2c; /*#ededed;*/
+    --link-color: #bf4239; /*#c73737; #e03333*/
     --subs-color: #76a0ff;
     --tl-bg: #efd972; /*#45426b*/
 
@@ -155,6 +158,12 @@ button {
   color: var(--body-color);
   background-color: var(--secondary-bg-color);
 }
+
+.scroll {
+    border: solid 1px var(--border-color);
+    max-height: 500px;
+    overflow-y: scroll;
+  }
 
 .category {
     padding: 4px 6px;
@@ -1055,8 +1064,14 @@ ul.by-line {
   font-size: 10px;
 }
 
-#catlink a { color: var(--catlink-color); }
+#catlink a { color: var(--catlink-color);
+    background-color: var(--catlink-bg);
+    padding: 2px;
+    border-radius: 4px;
+  }
 #catlink a:hover { text-decoration: underline; }
+
+#skzlink {}
 
 .button-top button, .button-top-notice button {
   display: none;

@@ -72,9 +72,11 @@
                 : {{ .SubCat }}
                 {{end}}</a></span>
 
-              {{ .Title }}
+              <br> {{ .Title }}
               {{ range .Links }}
-              ★ <a target="_blank" href="{{ .Link }}">{{ .Name }}</a> <span class="subs">{{ .Subs }}</span>
+              <li id="skzlink">
+                ★ <a target="_blank" href="{{ .Link }}">{{ .Name }}</a> <span class="subs">{{ .Subs }}</span>
+              </li>
               {{ end }} <!-- range .Links -->
             </ul>
           </div>

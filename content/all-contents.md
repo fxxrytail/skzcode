@@ -18,5 +18,6 @@ description:
 </div>
 {{< /rawhtml >}}
 
-{{< latest-contents >}}
+{{< latest-contents p="Added links of videos with subtitles.">}}
+
 {{< all-contents >}}
