@@ -1054,6 +1054,12 @@ a.btn {
   margin-block: 5px;
   padding-inline-start: 10px;
 }
+
+.link-list li::before {content: "★"}
+
+.link-list li::marker { content: none }
+
+
 ul.by-line {
   list-style-type: "★ ";
   padding-left: 20px;
@@ -1070,8 +1076,6 @@ ul.by-line {
     border-radius: 4px;
   }
 #catlink a:hover { text-decoration: underline; }
-
-#skzlink {}
 
 .button-top button, .button-top-notice button {
   display: none;
