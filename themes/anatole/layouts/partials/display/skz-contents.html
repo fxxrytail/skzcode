@@ -201,7 +201,14 @@
                 <div class="link-list">
                   <ul>
                     <span class="date">{{ dateFormat "Jan 02" .Date }}</span>
-                    <span id="catlink"><a href="../../{{ .CatLink }}">
+                    <span id="catlink">
+                      {{ if and (ne .SubCat "-") (ne .SubCat "Others")}}
+                        <a href="../../{{ .CatLink }}/#{{ replace .SubCat ` ` `-`}}">
+                      {{ else }}
+                        <a href="../../{{ .CatLink }}">
+                      {{end}}
+                      <!-- end of href -->
+
                       {{ if eq .Category $forLive }}
                           SKZ
                       {{ else if strings.HasPrefix .Category $NamedLive }}

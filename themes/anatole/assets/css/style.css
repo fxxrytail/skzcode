@@ -1072,7 +1072,7 @@ ul.by-line {
 
 #catlink a { color: var(--catlink-color);
     background-color: var(--catlink-bg);
-    padding: 2px;
+    padding: 1px;
     border-radius: 4px;
   }
 #catlink a:hover { text-decoration: underline; }

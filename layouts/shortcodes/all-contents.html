@@ -67,10 +67,17 @@
           <div class="link-list">
             <ul>
               <span class="date">{{ dateFormat "Jan 02" .Date }}</span>
-              <span id="catlink"><a href="../{{ .CatLink }}">{{ .Category }}
-                {{ if and (ne .SubCat "-") (ne .SubCat "Others")}}
-                : {{ .SubCat }}
-                {{end}}</a></span>
+              {{ if and (ne .SubCat "-") (ne .SubCat "Others")}}
+                <span id="catlink">
+                  <a href="../{{ .CatLink }}/#{{ replace .SubCat " " "-"}}">
+                    {{ .Category }} : {{ .SubCat }}</a>
+                </span>
+
+              {{ else }}
+                <span id="catlink">
+                  <a href="../{{ .CatLink }}">{{ .Category }}</a>
+                </span>
+              {{end}}
 
               <br> {{ .Title }}
               {{ range .Links }}
