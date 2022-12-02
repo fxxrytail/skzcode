@@ -6,6 +6,7 @@ description: 'Ongoing: MAMA (Worldwide Fans'' Choice Award)'
 thumbnail: "/img-support/awards-cover.jpg"
 duration: 'Vote period: Nov 10th 19:00 - Nov 24th 23:59 KST'
 lastmod: 
+draft: true
 
 ---
 {{< img src="/img-support/awards-cover.jpg" alt="hey STAY, vote Stray Kids now" width="80%" >}}
