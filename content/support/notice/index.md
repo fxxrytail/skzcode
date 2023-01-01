@@ -1,10 +1,14 @@
-+++
-date = ""
-draft = true
-title = "Notice about V LIVE links"
-type = "post"
+---
+priority: main
+weight: "1"
+title: Notice about V LIVE links
+description: I still have to work on it 😅
+thumbnail: "/img-support/justbreathe-cover.jpg"
+duration: 
+lastmod: 
+draft: true
 
-+++
+---
 Happy New Year STAYs 🎉
 
 I want to inform you that I'm done checking and copying links of V LIVE videos uploaded by STAYs but I need to reorganize it to my main sheet first before putting it here in my website. 
