@@ -6,7 +6,6 @@ description: "I'm still working on it \U0001F605"
 thumbnail: "/img-support/PhotoGrid_1672551193735.jpg"
 duration: 
 lastmod: 
-draft: true
 
 ---
 Happy New Year STAYs! 🎉
