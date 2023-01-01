@@ -3,7 +3,7 @@ priority: main
 weight: "1"
 title: Notice about V LIVE links
 description: I still have to work on it 😅
-thumbnail: "/img-support/justbreathe-cover.jpg"
+thumbnail: "/img-support/PhotoGrid_1672551193735.jpg"
 duration: 
 lastmod: 
 draft: true
