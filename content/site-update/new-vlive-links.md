@@ -25,6 +25,8 @@ I only copied the links of what other STAYs had uploaded to their channels. I do
 * changbinniest (subbed videos) {{< a "YouTube" "https://www.youtube.com/@changbinniest" >}}
 * aekywae's {{< a "archive.org" "https://archive.org/details/@aekywae" >}}
 
+And there's more various YT channels where I got links 🤗
+
 Let's hope the archived videos will live long forever 🙏 (unlike V LIVE 🙃)
 
 # P.S.
