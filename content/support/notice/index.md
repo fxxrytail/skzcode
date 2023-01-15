@@ -4,8 +4,9 @@ weight: "1"
 title: Notice about V LIVE links
 description: "I'm still working on it \U0001F605"
 thumbnail: "/img-support/PhotoGrid_1672551193735.jpg"
-duration: 
-lastmod: 
+duration:
+lastmod:
+draft: true
 
 ---
 Happy New Year STAYs! 🎉

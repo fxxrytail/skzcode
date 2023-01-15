@@ -27,14 +27,14 @@ lastmod = ["lastmod", ":git", "date", "publishDate"]
 
 [params]
 year = 2017
-years = [2017, 2018, 2019, 2020, 2021, 2022]
+years = [2017, 2018, 2019, 2020, 2021, 2022, 2023]
 title = "CHANNEL SKZ"
 author = "daisukijeu"
-description = "Channel SKZ is a fanmade masterlist of Stray Kids video contents such as music videos, album promotions, shows, V LIVEs, etc."
+description = "Channel SKZ is a fanmade masterlist of Stray Kids video contents such as music videos, album promotions, shows, livestreams, etc."
 banner = "/static/site-feature.jpg"
 images = ["/images/site-feature.jpg"]
 profilePicture = "images/icon.png"
-keywords = "stray kids, bang chan, lee know, changbin, hyunjin, han, felix, seungmin, i.n, stray kids contents, stray kids videos"
+keywords = "stray kids, SKZ, bang chan, lee know, changbin, hyunjin, han, felix, seungmin, i.n, stray kids contents, stray kids videos"
 favicon = "favicons/"
 customCss = ["css/custom.css", "css/timeline.css"]
 customJs = []

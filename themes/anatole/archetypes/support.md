@@ -1,13 +1,14 @@
 ---
 draft: true
-priority: "main / less "
+priority: "main / less"
 weight:
 
-title:  ""
+title: ""
 description: ""
-thumbnail: /img-support/{{ .Name }}-cover.jpg
-duration: ""
+thumbnail: "/img-support/{{ .Name }}-cover.jpg"
+duration:
 lastmod: {{ .Date }}
----
 
-{{< img src="/img-support/{{ .Name }}-cover.jpg" alt="banner">}}
+
+---
+{{< img src="/img-support/{{ .Name }}-cover.jpg" alt="Stray Kids comeback" width="80%" >}}
