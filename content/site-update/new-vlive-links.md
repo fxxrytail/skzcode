@@ -29,10 +29,6 @@ And there's more various YT channels where I got links by searching the titles �
 
 Let's hope the archived videos will live long forever 🙏 (unlike V LIVE 🙃)
 
-# P.S.
-
-I found out that I forgot to put "Airplane" Video edited by Seungmin on my "V LIVE Only Contents" sheet. I only found a screen record of it uploaded to YouTube, is there anyone who knows who has a proper downloaded/uploaded video of it 😭? Please DM or mention me {{< a "@daisukijeu" "https://twitter.com/daisukijeu" >}} thank you!
-
 ### See also
 
 [V LIVE will close down and site changes after this news](/site-update/goodbye-vlive/)
