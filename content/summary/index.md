@@ -48,6 +48,7 @@ Legend:
 {{< /sum-year >}}
 
 {{< sum-year 2019 >}}
+  {{< sum title="Specials" link="/shows/specials/#2019" img="6f3uy8EgJUM" >}}
   {{< sum tag="series" title="The 9th S4 to S5" link="/shows/the-9th/#2019" img="92Wm5bwlO9M" >}}
   {{< sum tag="series" title="SKZ-TALKER GO!" link="/shows/skz-talker-go/" img="iRUhVkJoyFU" >}}
   {{< sum tag="public" title="Finding Stray Kids" link="/shows/finding-skz/" img="Y6mzQmMEjNM" >}}
@@ -78,6 +79,7 @@ Legend:
 {{< /sum-year >}}
 
 {{< sum-year 2020 >}}
+  {{< sum title="Specials" link="/shows/specials/#2020" img="oPf0lB55BTE" >}}
   {{< sum tag="era" title="Step out of Clé" link="/eras/#Step-out-of-Cl%c3%a9" img="ra0FlN5NBG4" >}}
   {{< sum tag="series" title="SKZ VLOG" link="/shows/skz-vlog/" img="VF0dOE460L8" >}}
   {{< sum tag="era" title="SKZ2020" link="/eras/#SKZ2020" img="YlOLn9Pd9R4" >}}
@@ -102,7 +104,7 @@ Legend:
   {{< sum tag="series" title="ASMR 8.01 STAY FM" link="/shows/asmr-stay-fm/" img="cTgve5zL-6c" >}}
   {{< sum tag="artistry" title="SKZ-PRACTICE ROOM" link="/artistry/skz-practice-room/" img="Lc4y0SLyNN8" >}}
 
-  {{< sum tag="artistry" title="Live Performances" link="/artistry/live-performance/#2020" img="d1QMXlDbUJ0" >}}
+  {{< sum tag="artistry" title="Live Performances" link="/artistry/live-performance/#2020" img="UL0ud2w8pPo" >}}
   {{< sum tag="artistry" title="More Music with SKZ" link="/artistry/more-music/#2020" img="hKvGwo2p4q8" >}}
   {{< sum title="V LIVEs" link="/vlive/all/#2020" altimg="vlive-2020.jpg" >}}
   {{< sum title="More Varieties (TV, Radio, Online, etc)" link="/varieties/#2020" img="JajuvhYmwXU" >}}
@@ -110,11 +112,12 @@ Legend:
 {{< /sum-year >}}
 
 {{< sum-year 2021 >}}
+  {{< sum title="Specials" link="/shows/specials/#2021" img="DBSetnWNbOM" >}}
   {{< sum tag="artistry" title="SKZ-RECORD" link="/artistry/skz-record/#2021" img="EkB9yZuN7xY" >}}
   {{< sum tag="artistry" title="SKZ-PLAYER" link="/artistry/skz-player/#2021" img="SjKARrJwqzE" >}}
   {{< sum tag="public" title="DAY6 Kiss The Radio" link="/shows/dekira/#2021" img="F3a5AFINWIw" >}}
   {{< sum tag="series" title="SKZ CODE" link="/shows/skz-code/" img="8VRNpTrDFJs" >}}
-  {{< sum tag="public" title="KINGDOM: Legendary War" link="/shows/kingdom/" img="FoUsDnDAnqM" >}}
+  {{< sum tag="public" title="KINGDOM: Legendary War" link="/shows/kingdom/" img="2AK9Ut_bB_0" >}}
 
   {{< sum tag="series" title="Mysterious Kitchen" link="/shows/mysterious-kitchen/" img="-NTjD_Z6zkw" >}}
   {{< sum tag="series" title="SKZ VLOG" link="/shows/skz-vlog/#2021" img="Attkjcv_7i8" >}}
@@ -143,6 +146,34 @@ Legend:
 {{< /sum-year >}}
 
 {{< sum-year 2022 >}}
+  {{< sum title="Specials" link="/shows/specials/#2022" img="VmyDXNsWB8c" >}}
+  {{< sum tag="public" title="Idol Dictation Contest" link="/shows/idol-dictation-contest/#2022" img="fG-7xe55aF4" >}}
+  {{< sum tag="series" title="SKZ-TALKER" link="/shows/skz-talker/#ODDINARY" img="wmCLs3-morU" >}}
+  {{< sum tag="series" title="SKZ VLOG" link="/shows/skz-vlog/#2022" img="A1TyMRkVnCA" >}}
+  {{< sum tag="series" title="2 Kids Room" link="/shows/2-kids-room/" img="qlMlbx4gREU" >}}
+  {{< sum tag="era" title="ODDINARY" link="/eras/#ODDINARY" img="OvioeS1ZZ7o" >}}
+  {{< sum tag="series" title="SKZ-TALKER GO!" link="/shows/skz-talker-go/#Season-3" img="YBs9byxdubY" >}}
+  {{< sum tag="artistry" title="SKZ-RECORD" link="/artistry/skz-record/#2022" img="aKn7DbCnn8k" >}}
+  {{< sum tag="public" title="BTOB Kiss The Radio" link="/shows/bikira/#2022" img="jsp0Qy3gMDk" >}}
+  {{< sum title="Stray Kids Japan" link="/artistry/skz-japan/#2022" img="eEpLjMCLHtU" >}}
+  {{< sum tag="era" title="CIRCUS" link="/eras/#CIRCUS" img="jW-bkbSWb4A" >}}
+  {{< sum tag="series" title="SKZ CODE" link="/shows/skz-code/#2022" img="bpUfd4J3Shk" >}}
+  {{< sum tag="artistry" title="SKZ Concert" link="/artistry/concert/#2nd-World-Tour-\"MANIAC\"" img="NcX3AC95T6g" >}}
+  {{< sum tag="era" title="Mixtape : Time Out" link="/eras/#Mixtape-%3a-Time-Out" img="ukIGxgdbqqI" >}}
+  {{< sum tag="era" title="MAXIDENT" link="/eras/#MAXIDENT" img="jYSlpC6Ud2A" >}}
+  {{< sum tag="series" title="SKZ Variety Games" link="/shows/skz-variety-games/" img="JcwdXhHJ_fE" >}}
+  {{< sum tag="public" title="Finding SKZ (Get Edition)" link="/shows/finding-skz/#Get-Edition" img="wKdOYNWFPeI" >}}
+  {{< sum tag="era" title="SKZ-REPLAY" link="/eras/#SKZ-REPLAY" img="D8WwqWS2E6E" >}}
+
+  {{< sum tag="artistry" title="Live Performances" link="/artistry/live-performance/#2022" img="aqdYQdOwFyM" >}}
+  {{< sum tag="artistry" title="More Music with SKZ" link="/artistry/more-music/#2022" img="nR_wFk5KfIU" >}}
+  {{< sum title="SKZ as MCs" link="/shows/skz-mc/#Music-Core-%28Lee-Know%29" img="HTOYm5cTuNQ" >}}
+  {{< sum title="More Varieties (TV, Radio, Online, etc)" link="/varieties/#2022" img="-tutXt09nJc" >}}
+  {{< sum title="Livestreams" link="/vlive/all/#2022" img="_T-A3RytnnI" >}}
+
+{{< /sum-year >}}
+
+{{< sum-year 2023 >}}
   <h3>to be updated... </h3>
 
 {{< /sum-year >}}
