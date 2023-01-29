@@ -3,13 +3,13 @@ priority: Main
 weight: "5"
 title: Support SKZ's Japan Comeback
 description: "'THE SOUND' music is out now! Album release on Feb 10"
-thumbnail: "/img-support/circus-thumbnail.jpg"
+thumbnail: "/img-support/thesound-thumbnail.jpg"
 duration: 
 lastmod: 
 draft: true
 
 ---
-{{< img src="/img-support/circus-thumbnail.jpg" alt="Stray Kids Japan comeback" width="80%" >}}
+{{< img src="/img-support/thesound-thumbnail.jpg" alt="Stray Kids Japan comeback" width="80%" >}}
 
 # Follow SKZ Japan Social Accounts
 
