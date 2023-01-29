@@ -2,7 +2,7 @@
 priority: Main
 weight: "5"
 title: Support SKZ's Japan Comeback
-description: "'CIRCUS' out now! Album release on June 22"
+description: "'THE SOUND' music is out now! Album release on Feb 10"
 thumbnail: "/img-support/circus-thumbnail.jpg"
 duration: 
 lastmod: 
@@ -25,34 +25,25 @@ You may also follow the fan accounts in this {{< a "twitter list" "https://twitt
 
 # Comeback Detail
 
-**ALBUM:** "CIRCUS"  
-**ALBUM RELEASE DATE:** June 22 JST/KST  
-**TITLE TRACK:** CIRCUS
+**ALBUM:** "THE SOUND"  
+**ALBUM RELEASE DATE:** Feb 10 JST/KST  
+**TITLE TRACK:** THE SOUND
 
-## Physical Album
+You may look for details, translations about "THE SOUND" and Japan promotion events here 
 
-Album details from {{< a "Stray Kids Japan website" "https://www.straykidsjapan.com/circus/">}}
+{{< tweet 1614877686891188225 >}}
 
-A thread of summary
-{{< tweet 1526063987078537216 >}}
-
-## Digital Album
+## Released
 
 For Japan comeback, they usually release singles at different dates before the release date of the whole album.
 
 **Released Singles**
 
-* {{< a "MANIAC -Japanese Ver.-" "https://straykids.lnk.to/mKBioEsZ">}} (May 18)
-* {{< a "Your Eyes" "https://straykids.lnk.to/hSR6HyPo" >}} (June 1)
-* {{< a "CIRCUS" "https://straykids.lnk.to/dUnYQIRy" >}} (June 10)
+* {{< a "CASE 143 -Japanese Ver.-" "https://straykids.lnk.to/QcVtogEh">}} (Dec 15, 2022)
+* {{< a "THE SOUND" "https://straykids.lnk.to/xX1Zxxpd" >}} (Jan 28)
 
 # Comeback Goals
 
-Unlike Korean comeback, there's no music show win to focus on but STAYs have to support Stray Kids by streaming, downloading, buying their album and help them chart in Japan and worldwide charts. Sharing the songs on our sns accounts will also help to promote!
-
-Here are the comeback goals
-{{< tweet 1526132193206083584 >}}
-
-Follow Stray Kids Fanbases {{< a "in this list" "https://twitter.com/i/lists/1329107408015167488" >}} for more updates and guides about the goal.
+Follow Stray Kids Fanbases {{< a "in this list" "https://twitter.com/i/lists/1329107408015167488" >}} for more updates and guides about comeback goals.
 
 _This post is to help STAYs visiting this website to know about Stray Kids Japan album release (also called a comeback). This posts contains only basic information and I might be missing a lot of things so it's better to follow the accounts recommended above_
