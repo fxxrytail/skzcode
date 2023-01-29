@@ -6,6 +6,7 @@ description: 'Ongoing: Hanteo Music awards'
 thumbnail: "/img-support/vote-skz-award.jpg"
 duration: Vote ends on Jan 26
 lastmod: 
+draft: true
 
 ---
 {{< img src="/img-support/vote-skz-award.jpg" alt="hey STAY, vote Stray Kids now" width="80%" >}}
