@@ -2,7 +2,7 @@
 priority: Main
 weight: "5"
 title: Support SKZ's Japan Comeback
-description: "'THE SOUND' music is out now! Album release on Feb 10"
+description: "'THE SOUND' music is out now! Album release on Feb 22"
 thumbnail: "/img-support/thesound-thumbnail.jpg"
 duration: 
 lastmod: 
@@ -25,10 +25,10 @@ You may also follow the fan accounts in this {{< a "twitter list" "https://twitt
 # Comeback Detail
 
 **ALBUM:** "THE SOUND"  
-**ALBUM RELEASE DATE:** Feb 10 JST/KST  
+**ALBUM RELEASE DATE:** Feb 22 JST/KST  
 **TITLE TRACK:** THE SOUND
 
-You may look for details, translations about "THE SOUND" and Japan promotion events here 
+You may look for details, translations about "THE SOUND" and Japan promotion events here
 
 {{< tweet 1614877686891188225 >}}
 
