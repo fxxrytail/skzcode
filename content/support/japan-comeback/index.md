@@ -40,6 +40,7 @@ For Japan comeback, they usually release singles at different dates before the r
 
 * {{< a "CASE 143 -Japanese Ver.-" "https://straykids.lnk.to/QcVtogEh">}} (Dec 15, 2022)
 * {{< a "THE SOUND" "https://straykids.lnk.to/xX1Zxxpd" >}} (Jan 28)
+* {{< a "There" "https://straykids.lnk.to/SaBA3YXr" >}} (Feb 15)
 
 # Comeback Goals
 
