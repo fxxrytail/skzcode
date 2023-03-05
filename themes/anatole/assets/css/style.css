@@ -28,8 +28,8 @@
     --sidebar-anchor: #a00606;
     --sidebar-header: #160ef2;*/
 
-    --sidebar-bg: #e27baa;
-    --sidebar-bg2: #3c93bf;
+    --sidebar-bg: #9374ad;
+    --sidebar-bg2: #6a8cd4;
     --sidebar-color: #281a24;
     --sidebar-color2: #fff;
     --sidebar-anchor: #ffffff;
@@ -64,8 +64,8 @@ html[data-theme='dark'] {
     --subs-color: #76a0ff;
     --tl-bg: #efd972; /*#45426b*/
 
-    --sidebar-bg: #3b6174;
-    --sidebar-bg2: #c95a8d;
+    --sidebar-bg: #584468;
+    --sidebar-bg2: #6a8cd4;
     --sidebar-color: #ffffff;
     --sidebar-color2: #fff;
     --sidebar-anchor: #98ddff;
