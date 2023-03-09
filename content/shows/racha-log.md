@@ -6,5 +6,5 @@ draft: false
 mainCat: "RACHA LOG"
 weight: 29
 pageType: By Year
-description: Vlog of different Stray Kids unit also called as RACHA
+description: Vlogs of different Stray Kids unit also called as RACHA
 ---
