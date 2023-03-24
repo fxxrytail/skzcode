@@ -1,17 +1,17 @@
 ---
 title: "\U0001F5BC️ Thumbnail View For Contents was Added "
-date: 2023-03-25T04:25:00+09:00
+date: 2023-03-25T04:25:00.000+09:00
 type: 'post '
 draft: true
 
 ---
-First of all, 0325 Happy 5th Debut Anniversary to Stray Kids\~!  Whooohooo! 🖐️😍🎉
+First of all, 0325 Happy 5th Debut Anniversary to Stray Kids\~!  Whoooohoooo! 🖐️😍🎉
 
 Browsing contents on this site is more fun because thumbnails are now available 😍! Since most of the contents, including their livestreams are now available on YouTube, I'm finally able to add an option to view and hide thumbnails for most of Stray Kids contents. It's easier to see a preview of what the content looks like if there's a thumbnail right? Thumbnails are now available on [Home](/) page and the new [All Contents By Year](/all-contents/) page. It's only available on these pages (for now???) so that the website will not load slowly.
 
 ### How to use
 
-\[youtube video of tutorial\]
+{{< instagram YmMyMTA2M2Y >}}
 
 You may also hide the thumbnails if you prefer list view only by clicking the **list icon**. Just click the **image icon** to view thumbnails again. You may also easily jump to months by clicking **Select Month** button.
 
