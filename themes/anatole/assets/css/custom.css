@@ -1,3 +1,80 @@
+.hidden {display: none;}
+
+.boxer {
+  border: solid 1px var(--border-color);
+  max-height: 2500px;
+  overflow-y: scroll;
+}
+
+.shin-menu {
+  background-color: var(--sidebar-bg);
+  height: 26px;
+  position: sticky;
+  position: -webkit-sticky;
+  width: 300px;
+  border: 1px solid var(--sidebar-color);
+}
+
+.shin-menu span {
+  padding: 2px 2px 4px;
+}
+
+.shin-menu i {
+  color: var(--sidebar-color2);
+  margin: 5px;
+}
+
+.shin-menu button {
+  background-color: var(--sidebar-bg);
+  height: inherit;
+  color: var(--sidebar-color2);
+  text-align: left;
+  border: none;
+}
+
+.shin-menu button:hover {
+  background-color: var(--sidebar-bg2);
+}
+
+#shin-btn {
+  border-radius: 0;
+  margin-left: -5px;
+  width: 272px;
+  border-left: 1px solid var(--sidebar-color);
+  padding-left: 10px;
+}
+
+.shin-menu-list {
+  background-color: var(--secondary-bg-color);
+  display: none;
+}
+
+.shin-menu-list button {
+  background-color: inherit;
+  border-bottom: 1px solid var(--border-color);
+  list-style: none;
+  display: block;
+  width: -webkit-fill-available;
+  text-align: left;
+  color: var(--body-color);
+  height: 25px;
+}
+
+.nen, .gatsu {
+  background-color: var(--tab-bg);
+  color: var(--bg-color);
+  font-size: 20px;
+  padding: 5px;
+  margin-top: 15px;
+}
+
+.nen {
+  font-size: 2em;
+  font-weight: bold;
+  text-align: center;
+}
+
+
 /** Site Up on Home **/
 .siteUp-group {margin: 5px 0; font-size: 0.8em; }
 .siteUp-label {
@@ -351,6 +428,7 @@
 
 
  .card-image {height: calc(100vw / 2.1);}
+ .hidden {display: none;}
 
  img.crop-16-9 {
    width: calc(100vw - 40px);
@@ -373,6 +451,11 @@
    text-overflow: ellipsis;
  }
 
+ #cont-thumb {
+   border-radius: 10px;
+   padding: 5px 0;
+ }
+
 
 /* Tablet 426 to 800px */
 @media only screen and (min-width:426px) {
@@ -389,6 +472,8 @@
     height: calc(50vw / 2.4);
   }
 
+  .shin-menu { top: 41px; }
+
 }
 
 /* Laptop 801 above*/
@@ -403,6 +488,8 @@
     width: calc(20vw - 37px);
     height: calc(20vw/2.36);
   }
+
+  .shin-menu { top: 61px;  }
 
 
 }
@@ -437,4 +524,14 @@ print {
   .text-button-container {padding:0;}
 
   .support-content figure {margin:0}
+
+  .shin-menu {
+    top: 41px;
+    width: calc(100% - 2px);
+  }
+
+  #shin-btn {
+    width: calc(100% - 28px);
+  }
+
 }

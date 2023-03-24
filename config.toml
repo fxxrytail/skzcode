@@ -127,3 +127,11 @@ url = "mailto:mail@alexbilz.com"
   url = "/support/"
   [menu.main.params]
     class = "hidden"
+
+  [[menu.main]]
+  name = ""
+  weight = 5
+  identifier = "all-contents"
+  url = "/all-contents/"
+  [menu.main.params]
+    class = "hidden"

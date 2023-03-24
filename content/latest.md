@@ -8,7 +8,7 @@ sort: "desc"
 description:
 
 ---
-{{< text-button "All From 2017-Present" "/old-new" >}}
+{{< text-button "All From 2017-Present" "/all-contents" >}}
 {{< text-button "Summarized by Year" "/summary" >}}
 
 {{< rawhtml >}}
@@ -18,5 +18,3 @@ description:
 {{< /rawhtml >}}
 
 {{< latest-contents p="">}}
-
-{{< all-contents >}}

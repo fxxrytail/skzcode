@@ -1,0 +1,118 @@
+<!-- skz contents start -->
+{{ $newYear := sub .Site.Params.year 1 }}
+
+{{ $yrs := slice }}
+  {{ range .Site.Data.Masterlist }}
+    {{ range where .contents ".Year" ">=" $newYear }}
+      {{ $yrs = $yrs | append .Year }}
+    {{ end }}
+  {{ end }}
+{{ $yrs = uniq $yrs }}
+
+{{ $lastYr := index (last 1 $yrs) 0 }}
+
+{{ $year := $.Page.Params.year }}
+{{ $sort := "asc" }}
+
+  {{ if eq .Type "home" }}
+    {{ $year = $lastYr }}
+    {{ $sort = "desc" }}
+  {{ end }}
+
+{{ $gatsu := slice "" "01 Jan" "02 Feb" "03 Mar" "04 Apr" "05 May" "06 Jun" "07 Jul" "08 Aug" "09 Sep" "10 Oct" "11 Nov" "12 Dec" }}
+
+
+{{ $months := slice }}
+  {{ range .Site.Data.Masterlist }}
+      {{ range sort (where .contents "Year" $year) "Date" $sort }}
+        {{ $months = $months | append .Month }}
+      {{ end }}
+  {{ end }}
+{{ $months = uniq $months }}
+
+<div class="shin-menu">
+  <span id="hide-thumb"><i class="fas fa-list" title="Hide Thumbnails"></i></span>
+  <span id="show-thumb" class="hidden"><i class="fas fa-image hidden" title="Show Thumbnails"></i></span>
+  <button id="shin-btn" >Select Month</button>
+
+  <div class="shin-menu-list">
+    {{ range $months }}
+      {{ $month := . }}
+      <a href="#{{$month}}"><button class="shin-list-btn">{{ index $gatsu (int $month) }}</button></a>
+    {{ end }}
+  </div>
+</div>
+
+<div class="boxer">
+  <div class="nen">{{ $year }}</div>
+
+  {{ range $months }}
+    {{ $month := . }}
+
+    <div id="{{ $month }}" class="gatsu">{{ index $gatsu (int $month) }}</div><br>
+
+    {{ range $.Site.Data.Masterlist }}
+      {{ range sort (where (where .contents "Year" $year) "Month" $month) "ID" $sort }}
+
+
+      <div class="link-list">
+        <ul>
+          <span class="date">{{ dateFormat "Jan 02" .Date }}</span>
+          {{ if and (ne .SubCat "-") (ne .SubCat "Others")}}
+            <span id="catlink">
+              <a href="../../{{ .CatLink }}/#{{ replace .SubCat " " "-"}}">
+                {{ .Category }} : {{ .SubCat }}</a>
+            </span>
+
+          {{ else }}
+            <span id="catlink">
+              <a href="../../{{ .CatLink }}">{{ .Category }}</a>
+            </span>
+          {{end}}
+
+          <!-- test thumbnail -->
+          {{ $FirstLink := (index .Links 0).Link }}
+
+          <div id="link-thumbs" class="card-image link-thumbs">
+            <img
+              {{ if hasPrefix $FirstLink "https://youtu.be/" }}
+                {{ $ThumbCode := strings.TrimPrefix "https://youtu.be/" $FirstLink }}
+                {{ $src := printf "https://i.ytimg.com/vi_webp/%s/hqdefault.webp" $ThumbCode }}
+
+
+                src= "{{ $src }}"
+                alt="first link's thumbnail"
+
+              {{ else }}
+
+                {{- $altimgPath := printf "/static/%s" "skzoo-thumb.png" -}}
+                {{- $altimg := resources.GetMatch $altimgPath -}}
+
+                src= "{{ $altimg.RelPermalink }}"
+                alt="thumbnail unavailable"
+
+              {{ end }}
+
+
+             class="crop-16-9" id="cont-thumb">
+          </div>
+
+
+          <!-- end test thumbnail-->
+
+
+          <br> {{ .Title }}
+          {{ range .Links }}
+          <li>
+            <a target="_blank" href="{{ .Link }}">{{ .Name }}</a> <span class="subs">{{ .Subs }}</span>
+          </li>
+          {{ end }} <!-- range .Links -->
+        </ul>
+      </div>
+      {{ end }} <!-- range sort -->
+    {{ end }} <!-- range masterlist -->
+  {{ end }} <br> <!-- range months -->
+
+</div>
+
+<!-- skz contents end -->

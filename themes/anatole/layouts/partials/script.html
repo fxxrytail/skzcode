@@ -1,0 +1,35 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+<script>
+$(document).ready(function(){
+
+
+  //
+  $("#hide-thumb").click(function(){
+    $(".link-thumbs").hide();
+    $("#hide-thumb").addClass("hidden");
+    $("#show-thumb").removeClass("hidden");
+  });
+
+  $("#show-thumb").click(function(){
+    $(".link-thumbs").show();
+    $("#hide-thumb").removeClass("hidden");
+    $("#show-thumb").addClass("hidden");
+  });
+
+
+  //
+
+
+  $("#shin-btn").click(function(){
+    $(".shin-menu-list").toggle();
+  });
+
+  $(".shin-list-btn").click(function(){
+    $(".shin-menu-list").hide();
+  });
+
+
+});
+
+</script>
