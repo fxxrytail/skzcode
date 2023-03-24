@@ -1,5 +1,5 @@
 ---
-title: "\U0001F5BC️ Thumbnail View For Contents was Added \U0001F604"
+title: "\U0001F5BC️ Thumbnail View For Contents was Added "
 date: 2023-03-25T04:25:00+09:00
 type: 'post '
 draft: true
