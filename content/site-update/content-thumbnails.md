@@ -2,7 +2,6 @@
 title: "\U0001F5BC️ Thumbnail View For Contents was Added "
 date: 2023-03-25T04:25:00.000+09:00
 type: 'post '
-draft: true
 
 ---
 First of all, 0325 Happy 5th Debut Anniversary to Stray Kids\~!  Whoooohoooo! 🖐️😍🎉
