@@ -11,7 +11,7 @@ Browsing contents on this site is more fun because thumbnails are now available 
 
 ### How to use
 
-{{< instagram CqLZZHaANpy  >}}
+{{< youtube JdqKayEEaVU >}}
 
 You may also hide the thumbnails if you prefer list view only by clicking the **list icon**. Just click the **image icon** to view thumbnails again. You may also easily jump to months by clicking **Select Month** button.
 
