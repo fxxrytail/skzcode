@@ -291,6 +291,7 @@
   overflow: hidden;
   margin: 0 10px;
   cursor: pointer;
+  z-index: 1;
 }
 
 @keyframes notice1 {
