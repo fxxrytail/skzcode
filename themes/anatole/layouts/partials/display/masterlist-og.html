@@ -30,35 +30,6 @@
   {{ end }}
 {{ $months = uniq $months }}
 
-<!-- ads -->
-{{ $Ids := slice }}
-{{ $maps := slice }}
-
-{{ range $months }}
-  {{ $month := . }}
-  {{ range $.Site.Data.Masterlist }}
-    {{ range sort (where (where .contents "Year" $year) "Month" $month) "ID" $sort }}
-        {{ $Ids = $Ids | append .ID }}
-        {{ $maps = $maps | append . }}
-    {{ end }}
-  {{ end }}
-{{ end }}
-
-{{ $placement := slice 3 8 25 50 }}
-{{ $num := newScratch }}
-{{ $num.Add "num" 50 }}
-
-{{ range $Ids }}
-  {{ $number := $num.Get "num" }}
-  {{ if lt $number (len $Ids) }}
-    {{ $num.Add "num" 100 }}
-  {{ end }}
-  {{ $placement = $placement | append $number }}
-{{ end }}
-{{ $placement = uniq $placement }}
-
-<!-- ads -->
-
 <div class="shin-menu">
   <span id="hide-thumb"><i class="fas fa-list" title="Hide Thumbnails"></i></span>
   <span id="show-thumb" class="hidden"><i class="fas fa-image hidden" title="Show Thumbnails"></i></span>
@@ -80,8 +51,9 @@
 
     <div id="{{ $month }}" class="gatsu">{{ index $gatsu (int $month) }}</div><br>
 
-    {{ range $index, $map := $maps }}
-      {{ if eq .Month $month }}
+    {{ range $.Site.Data.Masterlist }}
+      {{ range sort (where (where .contents "Year" $year) "Month" $month) "ID" $sort }}
+
 
       <div class="link-list">
         <ul>
@@ -98,10 +70,10 @@
             </span>
           {{end}}
 
-          <!-- thumbnail -->
+          <!-- test thumbnail -->
           {{ $FirstLink := (index .Links 0).Link }}
 
-          <div id="link-thumbs" class="thumb-card link-thumbs">
+          <div id="link-thumbs" class="card-image link-thumbs">
             <img
               {{ if hasPrefix $FirstLink "https://youtu.be/" }}
                 {{ $ThumbCode := strings.TrimPrefix "https://youtu.be/" $FirstLink }}
@@ -122,11 +94,11 @@
               {{ end }}
 
 
-             class="thumb" id="cont-thumb">
+             class="crop-16-9" id="cont-thumb">
           </div>
 
 
-          <!-- end thumbnail-->
+          <!-- end test thumbnail-->
 
 
           <br> {{ .Title }}
@@ -137,17 +109,8 @@
           {{ end }} <!-- range .Links -->
         </ul>
       </div>
-
-      <!-- ads here! -->
-      {{ if in $placement $index }}
-        <div class="ads-display-hr">
-          {{- partial "google/ads-display.html" . -}}
-        </div>
-      {{ end }}
-      <!-- ads here! -->
-
-      {{ end }} <!-- end if -->
-    {{ end }} <!-- range index, map -->
+      {{ end }} <!-- range sort -->
+    {{ end }} <!-- range masterlist -->
   {{ end }} <br> <!-- range months -->
 
 </div>

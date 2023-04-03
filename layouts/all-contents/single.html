@@ -1,5 +1,9 @@
 {{ define "main" }}
     <div class="post">
+      <!-- ad -->
+        {{- partial "google/ads-in-feed.html" . -}}
+      <!-- ad -->
+
         <div class="post-content">
 
           <h5>{{ .Description  }}</h5>
@@ -15,6 +19,12 @@
           {{- partial "display/masterlist" . -}}
 
         </div>
+
+        <!-- ad -->
+          <div class="ads-in-feed-martop">
+            {{- partial "google/ads-in-feed.html" . -}}
+          </div>
+        <!-- ad -->
     </div>
 
 {{ end }}

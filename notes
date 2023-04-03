@@ -1,3 +1,88 @@
+<!-- ads in Masterlist.html (NEOMU CHEONJAE YA????????)-->
+{{ $Ids := slice }}
+{{ $maps := slice }}
+
+{{ range $months }}
+  {{ $month := . }}
+  {{ range $.Site.Data.Masterlist }}
+    {{ range sort (where (where .contents "Year" $year) "Month" $month) "ID" $sort }}
+        {{ $Ids = $Ids | append .ID }}
+        {{ $maps = $maps | append . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ $placement := slice 3 8 25 }}
+{{ $num := newScratch }}
+{{ $num.Add "num" 25 }}
+
+{{ range $Ids }}
+  {{ $number := $num.Get "num" }}
+  {{ if lt $number (len $Ids) }}
+    {{ $num.Add "num" 15 }}
+  {{ end }}
+  {{ $placement = $placement | append $number }}
+{{ end }}
+{{ $placement = uniq $placement }}
+
+{{ range $index, $map := $maps}}
+  {{ $index }} : {{ .Date }} <br>
+  {{ range .Links }}
+    {{ .Link }}
+  {{ end }}
+  <hr>
+  {{ if in $placement $index }}
+  <h3>YAHHHHOOOOOO!!!</h3>
+  <hr>
+  {{ end }}
+{{ end }}
+
+
+
+
+<!-- ads -->
+===============
+
+<!-- ads in Masterlist.html (CHEONJAE YA???) -->
+{{ $Ids := slice }}
+{{ range $months }}
+  {{ $month := . }}
+  {{ range $.Site.Data.Masterlist }}
+    {{ range sort (where (where .contents "Year" $year) "Month" $month) "ID" $sort }}
+        {{$Ids = $Ids | append .ID }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ $placement := slice 3 8 25 }}
+{{ $num := newScratch }}
+{{ $num.Add "num" 25 }}
+
+{{ range $Ids }}
+  {{ $number := $num.Get "num" }}
+  {{ if lt $number (len $Ids) }}
+    {{ $num.Add "num" 15 }}
+  {{ end }}
+  {{ $placement = $placement | append $number }}
+{{ end }}
+{{ $placement = uniq $placement }}
+
+
+<!-- display ad -->
+{{ range $index, $Id := $Ids }}
+  {{ if in $placement $index }}
+  <h3>yahoooo</h3>
+  {{ end }}
+{{ end }}
+
+
+
+
+
+<!-- ads -->
+
+
+---------
 layouts/anatole/partials/head.html
 
 <!-- Twitter Cards -->
