@@ -90,31 +90,6 @@
   text-align: center;
 }
 
-426
-.thumb-card {height: calc(60vw/2.25);}
-img.thumb {
-  width: calc(60vw - 51px);
-  height: calc(60vw/2.25);
-}
-
-801
-.thumb-card {height: calc(30vw/2);}
-img.thumb {
-  width: calc(30vw - 37px);
-  height: calc(30vw/2);
-}
-/**
-min-w 426px
-- height: calc(60vw/2.25);
-- width: calc(60vw - 51px);
-
-min-w 801px
-- width: calc(30vw - 37px);
-- height: calc(30vw/2);
-
-
-**/
-
 /** Site Up on Home **/
 .siteUp-group {margin: 5px 0; font-size: 0.8em; }
 .siteUp-label {
