@@ -6,6 +6,7 @@ description: "'THE SOUND' music is out now! Album release on Feb 22"
 thumbnail: "/img-support/thesound-thumbnail.jpg"
 duration: 
 lastmod: 
+draft: true
 
 ---
 {{< img src="/img-support/thesound-thumbnail.jpg" alt="Stray Kids Japan comeback" width="80%" >}}
