@@ -19,9 +19,11 @@ STAYs can contribute for getting **_Music Show Wins_**, charting on **_Billboard
 
 # Comeback Detail
 
+{{< youtube 6emgiatRGu4 >}}
+
 **ALBUM:** "5-STAR"  
 **RELEASE DATE:** June 2nd 1PM KST | 0AM EST  
-**TITLE TRACK:** (TBA)
+**TITLE TRACK:** "특" / "S-Class"
 
 Visit this website by {{< a "SKZCBGuide" "https://twitter.com/SKZCBGuide" >}} for comeback guide and projects.
 
