@@ -2,16 +2,16 @@
 priority: Main
 weight: "5"
 title: Support Stray Kids Comeback
-description: "'MAXIDENT' release on Oct 7"
-thumbnail: "/img-support/maxident-thumbnail.jpg"
-duration: 
-lastmod: 
-draft: true
+description: "'5-STAR' release on June 2"
+thumbnail: "/img-support/5-star-thumbnail.jpg"
+duration:
+lastmod:
+draft: false
 
 ---
-{{< img src="/img-support/maxident-thumbnail.jpg" alt="Stray Kids comeback" width="80%" >}}
+{{< img src="/img-support/5-star-thumbnail.jpg" alt="Stray Kids comeback" width="80%" >}}
 
-Support Stray Kids comeback to help them get music show wins, awards, and unlock more achievements\~!
+Support Stray Kids comeback to help them get music show wins, awards, chart on Billboard and unlock more achievements\~!
 
 Here's a summary of things you may do to support Stray Kids. Please read them all and see what you can do. It may look a lot specially for Baby STAYs but don't worry because Stray Kids fanbases are there to guide you\~! If you have questions about comeback information don't hesitate to reach out to them 🤗
 
@@ -19,15 +19,15 @@ STAYs can contribute for getting **_Music Show Wins_**, charting on **_Billboard
 
 # Comeback Detail
 
-**ALBUM:** "MAXIDENT"  
-**RELEASE DATE:** October 7 1PM KST | 0AM EST  
+**ALBUM:** "5-STAR"  
+**RELEASE DATE:** June 2nd 1PM KST | 0AM EST  
 **TITLE TRACK:** (TBA)
 
-Visit this website by {{< a "Stay Info" "https://twitter.com/iStay_Informed" >}} for comeback guide and projects.
+Visit this website by {{< a "SKZCBGuide" "https://twitter.com/SKZCBGuide" >}} for comeback guide and projects.
 
 {{< a "https://straykidscomebackguide.com/" "https://straykidscomebackguide.com/" >}}
 
-{{< tweet 1567538996686852097 >}}
+{{< tweet 1652068396022759425 >}}
 
 ## Music Show Win
 
@@ -35,15 +35,13 @@ A **_Music Show Win_** happens during their album promotion. The No. 1 song of t
 
 > FREE as long as you have access to internet.
 
-Detailed information about all Korean music shows criteria and schedules are in {{< a "Stray Kids Comeback Guide" "https://straykidscomebackguide.com/#musicshows" >}}
+Detailed information about all Korean music shows criteria and schedules are in {{< a "Stray Kids Comeback Guide - Music Shows" "https://www.straykidscomebackguide.com/music-shows.html" >}}
 
 ## Billboard
 
-**_Billboard_** tabulates different weekly music charts to see popular music base on album/songs sales and streams from United States and different parts of the world. It is a very popular music chart and Stray Kids charting on it may give them more opportunities.
+**_Billboard_** tabulates different weekly music charts to see popular music base on album/songs sales and streams from United States & Puerto Rico, Japan, and different parts of the world. It is a very popular music chart and Stray Kids charting on it may give them more opportunities. Stray Kids already topped Billboard 200 twice in a row during ODDINARY and MAXIDENT. USA and Puerto Rico STAYs are aiming to get into HOT 100 :fire:
 
-Here's a {{< a "full guide to Billboard" "https://www.getrevue.co/profile/billboardskz/issues/oddinary-full-billboard-guide-1042112" >}}  by Billboard SKZ (posted during ODDINARY era).
-
-Follow {{< a "Stray Kids USA" "https://twitter.com/skz_usa" >}} and {{< a "Billboard SKZ" "https://twitter.com/billboardskz" >}} for _Billboard_ updates and guides for Stray Kids.
+Follow {{< a "Billboard SKZ" "https://twitter.com/billboardskz" >}} for _Billboard_ updates and guides for Stray Kids.
 
 # Guide for Sales and Apps
 
@@ -63,9 +61,7 @@ For details and inquiries about these streaming platforms, you may reach out to 
 
 Buying physical albums may count toward 3 different charts: **Hanteo, Circle Chart (formerly Gaon),** and **Billboard**. _Music Show Wins_ and _Korean_ _Award Ceremonies_ uses **Hanteo / Circle Chart** for criteria.
 
-Check out this thread by {{< a "Stray Kids Global" "https://twitter.com/StrayKidsGlobal" >}} to see the list of stores you may pre-order physical album and which chart each store's sale counts. Stores may also have exclusive benefits.
-
-{{< tweet 1566990196046024704 >}}
+Check out this page by {{< a "Stray Kids Comeback Guide" "https://www.straykidscomebackguide.com/preorder-buy-links-and-presave.html" >}} to see the list of stores you may pre-order physical album and which chart each store's sale counts to. Stores may also have exclusive benefits.
 
 For the album sales it is automatically counted on **Hanteo Chart** when you successfully purchased and shipped your album, the same thing for **Billboard**. **Circle Chart** counts the albums shipped to stores where the albums can be bought.
 
@@ -79,7 +75,9 @@ Follow {{< a "TeamSVS" "https://twitter.com/TeamSVS_DM" >}} and {{< a "Stay Voti
 
 One of the easiest and free to do is to stream the MV on YouTube. It's advisable to get YouTube Premium for less bot suspicion. You may get a 1 month Premium free trial and make sure to cancel it before the 1 month ends to avoid paying for it after the free trial ends. Streaming without premium is also okay.
 
-There are different methods to stream an MV a lot but the most advisable is doing Manual method.
+There are different methods to stream an MV a lot.
+
+#### Manual Method
 
 1. Log in to your YouTube account.
 2. Go to the video by doing any of these:
@@ -108,7 +106,7 @@ You may see different tutorials on how to do manual streaming but the most impor
 * Change methods of going to videos (step 2).
 * Change number of fillers each round.
 * You may either search or click recommendations for the fillers.
-* Stream non-kpop videos, if you want to watch a video of a cat or a puppy then go :D
+* Stream non-kpop videos, if you want to watch a video of a cat or a puppy then go :D. I personally recommend watching from "TedEd" channel, it's educational and their videos are just around 5-minutes :D
 
 ### End note
 
@@ -120,4 +118,4 @@ Enjoy Stray Kids comeback\~! :wink:
 
 ![Stray Kids CHEESE](images/skz-cheese.jpg)
 
-_This post was made to help STAYs visiting this website be aware of Stray Kids comeback. This post was first written during NOEASY era (Aug 2021) and updated every comeback. Some information may have changed without me realizing. It's best to follow Stray Kids fanbase accounts for faster update. You may also DM me at {{< a "@daisukijeu" "https://twitter.com/daisukijeu_">}} if information here is outdated, I'll try to update this when I can._
+_This post was made to help STAYs visiting this website be aware of Stray Kids comeback and give an overview about the things we may do as STAYs for Stray Kids' success. This post was first written during NOEASY era (Aug 2021) and updated every comeback. The guides linked here are not made by me and I'm not part of the fanbase team mentioned. I included links that I see helpful. I wrote down the overview but some information may have changed without me realizing. It's best to follow Stray Kids fanbase accounts for faster update. You may also DM me at {{< a "@daisukijeu" "https://twitter.com/daisukijeu_">}} if information here is outdated, I'll try to update this when I can._
