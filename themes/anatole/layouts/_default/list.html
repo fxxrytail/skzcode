@@ -3,10 +3,6 @@
       ⚠ Please credit <a href="https://twitter.com/CH_SKZ_">@CH_SKZ_</a> if this helped you find the contents you want to re-upload or re-organize
     </div>
 
-    <!-- ad -->
-      {{- partial "google/ads-in-feed.html" . -}}
-    <!-- ad -->
-
     <div class="archive {{ with .Site.Params.doNotLoadAnimations }} . {{ else }} animated fadeInDown {{ end }}">
                 {{ range .Pages.ByWeight }}
                 <div class="post {{ with .Site.Params.doNotLoadAnimations }} . {{ else }} animated fadeInDown {{ end }}">
@@ -27,8 +23,4 @@
                 {{ end }}
     </div>
 
-    <!-- ad -->
-      {{- partial "google/ads-in-feed.html" . -}}
-    <!-- ad -->
-    
 {{ end }}

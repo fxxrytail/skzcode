@@ -30,7 +30,7 @@
   {{ end }}
 {{ $months = uniq $months }}
 
-<!-- ads -->
+<!-- ads (unused) -->
 {{ $Ids := slice }}
 {{ $maps := slice }}
 
@@ -137,14 +137,6 @@
           {{ end }} <!-- range .Links -->
         </ul>
       </div>
-
-      <!-- ads here! -->
-      {{ if in $placement $index }}
-        <div class="ads-display-hr">
-          {{- partial "google/ads-display.html" . -}}
-        </div>
-      {{ end }}
-      <!-- ads here! -->
 
       {{ end }} <!-- end if -->
     {{ end }} <!-- range index, map -->
