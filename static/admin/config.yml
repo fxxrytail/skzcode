@@ -12,7 +12,7 @@ slug:
 collections:
   - name: 'support'
     label: 'Support'
-    folder: 'content/supprt'
+    folder: 'content/support'
     create: true
     slug: '{{title}}'
     editor:
