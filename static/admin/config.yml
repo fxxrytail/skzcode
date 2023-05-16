@@ -18,13 +18,13 @@ collections:
     editor:
       preview: false
     fields:
-      - { label: 'Draft', name: 'draft', widget: 'boolean' }
+      - { label: 'Draft', name: 'draft', widget: 'boolean', required: 'false' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Description', name: 'description', widget: 'text' }
       - { label: 'Thumbnail', name: 'thumbnail', widget: 'image' }
-      - { label: 'Duration', name: 'duration', widget: 'string' }
-      - { label: 'Priority', name: 'priority', widget: 'string' }
+      - { label: 'Duration', name: 'duration', widget: 'string', required: 'false' }
+      - { label: 'Priority', name: 'priority', widget: 'string', required: 'false' }
       - { label: 'Weight', name: 'weight', widget: 'number' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Last Updated', name: 'lastmod', widget: 'datetime' }
+      - { label: 'Last Updated', name: 'lastmod', widget: 'datetime', required: 'false' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
