@@ -18,7 +18,7 @@ collections:
     editor:
       preview: false
     fields:
-      - { label: 'Draft', name: 'draft', widget: 'boolean'}
+      - { label: 'Draft', name: 'draft', widget: 'boolean' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Description', name: 'description', widget: 'text' }
       - { label: 'Thumbnail', name: 'thumbnail', widget: 'image' }
