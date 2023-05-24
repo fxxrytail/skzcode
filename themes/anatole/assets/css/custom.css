@@ -129,7 +129,7 @@
   margin: 3px 0;
   text-align: center;
   text-transform: uppercase;
-  color: var(--sidebar-color);
+  color: var(--sidebar-anchor) /*var(--sidebar-color)*/ ;
   background-color: var(--sidebar-bg);
 }
 
