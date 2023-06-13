@@ -15,6 +15,8 @@ description:
 <div class="highlight-red">
   ⚠ Please credit <a href="https://twitter.com/CH_SKZ_">@CH_SKZ_</a> if this helped you find the contents you want to re-upload or re-organize
 </div>
+
+  <p> Special thanks to <a href="https://twitter.com/dimpleechan">@dimpleechan's</a> daily thread of contents this comeback ^_^ </p>
 {{< /rawhtml >}}
 
 {{< latest-contents p="">}}
