@@ -1,3 +1,13 @@
+content\testmetestme\*
+layouts\testmetestme\*
+themes...partials\adsterra\*
+themes...partials\display\masterlist-ads
+themes...partials\head-ads
+
+-----
+
+
+
 <!-- ads in Masterlist.html (NEOMU CHEONJAE YA????????)-->
 {{ $Ids := slice }}
 {{ $maps := slice }}
