@@ -8,7 +8,12 @@
     {{ partial "navbar.html" . }}
     <div class="autopagerize_page_element">
         <div class="content">
+          <!-- ad -->
+            {{- partial "adsterra/banner-post.html" . -}}
+          <!-- ad -->
+
             {{- block "main" . }}{{- end }}
+
         </div>
     </div>
 </div>

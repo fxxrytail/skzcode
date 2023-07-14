@@ -11,12 +11,22 @@
   margin: auto;
   width: 320px;
   height: 50px;
+
+  background-color: gray;
 }
+
 .banner-468x60 {
   display: block;
   margin: auto;
   width: 468px;
   height: 60px;
+
+  background-color: gray;
+}
+
+.ad-native {
+  margin: auto;
+  width: 320px;
 }
 
 /** ads adsense (unused) **/
