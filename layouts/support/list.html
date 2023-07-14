@@ -4,6 +4,20 @@
     </div>
   </div>
     <div class="archive">
+
+      {{ $supportPosts := (where $.Site.RegularPages "Section" "==" "support") }}
+
+      {{ $postCount := len $supportPosts }}
+      {{ $slice := slice "" "one" "two" "three"}}
+      {{ $supportCount := index $slice $postCount }}
+
+      {{ if eq $supportCount "" }}
+        <h2 style="text-align: center">No post for now...</h2>
+      {{ end }} 
+
+
+
+
         <ul class="list-with-title">
 
           <!-- Main Priority dispalyed on home -->
