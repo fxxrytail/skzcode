@@ -6,7 +6,7 @@ description: "'5-STAR' release on June 2"
 thumbnail: "/img-support/5-star-thumbnail.jpg"
 duration:
 lastmod:
-draft: false
+draft: true
 
 ---
 {{< img src="/img-support/5-star-thumbnail.jpg" alt="Stray Kids comeback" width="80%" >}}
