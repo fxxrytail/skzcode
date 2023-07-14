@@ -1,6 +1,15 @@
 .hidden {display: none;}
 
-/** ads (unused) **/
+/** adsterra **/
+.ad-banner {
+  width: 100%;
+  margin: 30px auto;
+}
+
+.banner-320x50 {display: none; margin: auto;}
+.banner-468x60 {display: block; margin: auto;}
+
+/** ads adsense (unused) **/
 .ads-display-hr {border-bottom: solid 1px var(--border-color); }
 .ads-display {
   margin: 10px auto;
@@ -524,6 +533,7 @@
 
 
 /* MOBILE */
+/* x < 800 */
 @media screen and (max-width: 800px),
 print {
   .text-button-container {padding: 0 8%;}
@@ -543,6 +553,13 @@ print {
   }
 
   .content {margin-top: 10px;}
+}
+
+@media screen and (max-width: 500px),
+print {
+  .banner-320x50 {display: block; margin: auto;}
+  .banner-468x60 {display: none; margin: auto;}
+
 }
 
 

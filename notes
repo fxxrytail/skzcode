@@ -1,8 +1,11 @@
+Commit: Adsterra Trial 4
+comment: trying out the banner ads 
+
 Commit: Adsterra Trial 3
-comment: see popunder in mobile
+comment: see popunder in mobile. IT'S ANNOYING!!!
 
 ----
-
+Commit: Adsterra Trial 2
 comment: ad shows up on mobile but not desktop. need to select the right sizes and make it responsive
 
 (edited)
@@ -14,12 +17,14 @@ themes...partials\head-ads
 Commit: Adsterra Trial 1
 comment: popunder is all over the page
 
-(all new)
+(all new deleted )
 content\testmetestme\*
 layouts\testmetestme\*
-themes...partials\adsterra\*
 themes...partials\display\masterlist-ads
 themes...partials\head-ads
+
+(keep)
+themes...partials\adsterra\*
 
 -----
 

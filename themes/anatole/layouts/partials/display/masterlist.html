@@ -138,6 +138,16 @@
         </ul>
       </div>
 
+      <!-- ads -->
+      {{ if in $placement $index }}
+        <div class="link-list">
+          <ul>
+            {{- partial "adsterra/banner-300x250.html" . -}}
+          </ul>
+        </div>
+      {{ end }}
+      <!-- ads -->
+
       {{ end }} <!-- end if -->
     {{ end }} <!-- range index, map -->
   {{ end }} <br> <!-- range months -->
