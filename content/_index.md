@@ -1,6 +1,6 @@
 ---
 title: ""
-author: "daisukijeu"
+author: "peypercat"
 page: "index"
 description: "Channel SKZ is a fanmade masterlist of Stray Kids video contents such as music videos, album promotions, shows, livestreams, etc"
 ---

@@ -19,7 +19,7 @@ The "no subs" tag means there's no English subtitles upon my update but other la
 
 Asterisk (*) tag means the video is not from an official account and is fan uploaded.
 
-For questions or suggestions you may contact me through [twitter](https://twitter.com/daisukijeu).
+For questions or suggestions you may contact through [twitter](https://twitter.com/CH_SKZ_).
 
 Don't forget to have fun watching Stray Kids!
 
@@ -33,7 +33,7 @@ Share this website to anyone who wants to know Stray Kids. Thank you~!
 
 ----
 Twitter account: [CH_SKZ_](https://twitter.com/CH_SKZ_) \
-Website made by: [daisukijeu](https://twitter.com/daisukijeu) \
+Website by: [peypercat](https://twitter.com/peypercat), [daisukijeu](https://twitter.com/daisukijeu) \
 Since: August 2018
 
 Static Site Generator: [Hugo](https://gohugo.io/) \
