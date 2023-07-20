@@ -1,0 +1,25 @@
+{{ $FirstLink := (index .Links 0).Link }}
+
+<div id="link-thumbs" class="thumb-card link-thumbs">
+  <img
+    {{ if hasPrefix $FirstLink "https://youtu.be/" }}
+      {{ $ThumbCode := strings.TrimPrefix "https://youtu.be/" $FirstLink }}
+      {{ $src := printf "https://i.ytimg.com/vi_webp/%s/hqdefault.webp" $ThumbCode }}
+
+
+      src= "{{ $src }}"
+      alt="first link's thumbnail"
+
+    {{ else }}
+
+      {{- $altimgPath := printf "/static/%s" "skzoo-thumb.png" -}}
+      {{- $altimg := resources.GetMatch $altimgPath -}}
+
+      src= "{{ $altimg.RelPermalink }}"
+      alt="thumbnail unavailable"
+
+    {{ end }}
+
+
+   class="thumb" id="cont-thumb">
+</div>

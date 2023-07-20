@@ -5,6 +5,6 @@ draft: false
 
 mainCat: "More Music with Stray Kids"
 weight: 410
-pageType: "By Line"
+pageType: "By Year"
 description: "Stray Kids song featuring, OST, collaboration and other artists songs that are credited with 3RACHA."
 ---

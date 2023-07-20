@@ -30,7 +30,7 @@
   {{ end }}
 {{ $months = uniq $months }}
 
-<!-- ads (unused) -->
+<!-- ads -->
 {{ $Ids := slice }}
 {{ $maps := slice }}
 
@@ -57,7 +57,7 @@
 {{ end }}
 {{ $placement = uniq $placement }}
 
-<!-- ads -->
+<!-- ads end -->
 
 <div class="shin-menu">
   <span id="hide-thumb"><i class="fas fa-list" title="Hide Thumbnails"></i></span>
@@ -124,8 +124,6 @@
 
              class="thumb" id="cont-thumb">
           </div>
-
-
           <!-- end thumbnail-->
 
 
@@ -137,6 +135,16 @@
           {{ end }} <!-- range .Links -->
         </ul>
       </div>
+
+      <!-- ads -->
+      {{ if in $placement $index }}
+        <div class="link-list">
+          <ul>
+            {{- partial "adsterra/banner-300x250.html" . -}}
+          </ul>
+        </div>
+      {{ end }}
+      <!-- ads -->
 
       {{ end }} <!-- end if -->
     {{ end }} <!-- range index, map -->

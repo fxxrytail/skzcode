@@ -1,0 +1,111 @@
+{{ $catName := .Params.mainCat }}
+
+{{ $sections := slice }}
+  {{ range .Site.Data.Masterlist }}
+    {{ range where .contents ".Category" $catName }}
+      {{ $sections = $sections | append .SubCat }}
+    {{ end }}
+  {{ end }}
+{{ $sections = uniq $sections }}
+
+{{ $years := slice }}
+  {{ range .Site.Data.Masterlist }}
+    {{ range where .contents ".Category" $catName }}
+      {{ $years = $years | append .Year }}
+    {{ end }}
+  {{ end }}
+{{ $years = uniq $years }}
+
+
+<!-- IF STATEMENTS OF GROUPINGS -->
+{{ if eq .Params.pageType "By SubCat Year" }}
+<h5>Navigation</h5><!-- BY SubCat Year -->
+<div class="display-section-scroll">
+  {{ range sort $sections }} <!-- non-others -->
+    {{ $section := . }}
+      {{ if and (ne $section "Others") (ne $section "-") }} <!-- previously: (if ne $section "Others") only -->
+      <li><a href="#{{ replace $section ` ` `-` }}">{{ $section }}</a></li>
+      {{ end }}
+  {{ end }} <!-- non-others -->
+
+  {{ range sort $sections }} <!-- others -->
+    {{ $section := . }}
+      {{ if eq $section "Others" }}
+      <li><a href="#{{ replace $section ` ` `-` }}">{{ $section }}</a></li>
+      {{ end }}
+  {{ end }} <!-- others -->
+
+</div>
+
+{{ else if eq .Params.pageType "By SubCat" }}
+  <h5>Navigation</h5>
+  <div class="display-section-scroll">
+    {{ range $sections }} <!-- BY SUBCATEGORY -->
+      {{ $section := . }}
+      <li><a href="#{{ replace $section ` ` `-` }}">{{ $section }}</a></li>
+    {{ end }} <!-- BY SUBCATEGORY -->
+  </div>
+
+
+{{ else if or (or (eq .Params.pageType "By Year" ) (eq .Params.pageType "All Live" )) (eq .Params.pageType "By Line")}}
+  <h5>Navigation</h5>
+  <div class="display-section-scroll">
+    {{ range $years }}   <!-- BY YEAR, All live, Line -->
+      {{ $year := . }}
+      <li><a href="#{{ replace $year ` ` `-` }}">{{ $year }}</a></li>
+    {{ end }} <!--  -->
+  </div>
+
+{{ else if eq .Params.pageType "SKW" }}
+  <h5>Navigation</h5>
+  <div class="display-section-scroll">
+    <li><a href="#2017">2017</a></li>
+    <li><a href="#2018">2018</a></li>
+    <li><a href="#2019">2019</a></li>
+  </div>
+
+
+{{ end }}
+<!-- IF STATEMENTS -->
+
+
+<!-- FOR SUMMARY -->
+
+{{- $Cats := $.Page.Params.mainCats -}}
+
+{{ $eras := slice }}
+  {{ range .Site.Data.Masterlist }}
+    {{ range where (where .contents ".Category" "in" $Cats) ".SubCat" "!=" "-"}}
+      {{ $eras = $eras | append .SubCat }}
+    {{ end }}
+  {{ end }}
+{{ $eras = uniq $eras }}
+
+{{ $SumYrs := slice }}
+  {{ range .Site.Data.Masterlist }}
+    {{ range where .contents ".Category" "in" $Cats }}
+      {{ $SumYrs = $SumYrs | append .Year }}
+    {{ end }}
+  {{ end }}
+{{ $SumYrs = uniq $SumYrs }}
+
+
+{{ if eq $.Page.Params.Title "Varieties" }}
+  <h5>Navigation</h5>
+  <div class="display-section-scroll">
+    {{ range $SumYrs }}   <!-- BY YEAR -->
+      {{ $SumYr := . }}
+      <li><a href="#{{ replace $SumYr ` ` `-` }}">{{ $SumYr }}</a></li>
+    {{ end }} <!-- BY YEAR -->
+  </div>
+
+{{ else if eq $.Page.Params.Title "Eras" }}
+  <h5>Navigation</h5>
+  <div class="display-section-scroll">
+    {{ range $eras }} <!-- BY ERA -->
+      {{ $era := . }}
+      <li><a href="#{{ replace $era ` ` `-` }}">{{ $era }}</a></li>
+    {{ end }} <!-- BY ERA -->
+  </div>
+
+{{ end }} <!-- conditional statements -->

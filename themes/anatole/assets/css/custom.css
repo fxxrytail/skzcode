@@ -6,27 +6,64 @@
   margin: 30px auto;
 }
 
+.ad-label {
+  font-size: .7em;
+  text-align: center;
+  padding: 1px 0;
+  color: var(--body-color);
+  margin: 0 auto;
+  border-bottom: solid 1px var(--tab-bg);
+}
+
+.ad-border {
+  border-top: solid 1px var(--tab-bg);
+  border-bottom: solid 1px var(--tab-bg);
+  border-left: solid 1px var(--tab-bg);
+  border-right: solid 1px var(--tab-bg);
+}
+
 .banner-320x50 {
   display: none;
   margin: auto;
   width: 320px;
+  height: 65px;
+}
+.code-320x50 {
+  width: 320px;
   height: 50px;
-
-  background-color: gray;
+  background-color: var(--tab-bg);
 }
 
 .banner-468x60 {
   display: block;
   margin: auto;
   width: 468px;
+  height: 75px;
+}
+.code-468x60 {
+  width: 468px;
   height: 60px;
+  background-color: var(--tab-bg);
+}
 
-  background-color: gray;
+.banner-300x250 {
+  width: 300px;
+  height: 263px;
+}
+.code-300x250 {
+  width: 300px;
+  height: 250px;
+
+  background-color: var(--tab-bg);
 }
 
 .ad-native {
   margin: auto;
   width: 320px;
+}
+.code-native {
+  width: 320px;
+  min-height: 200px;
 }
 
 /** ads adsense (unused) **/
@@ -92,6 +129,8 @@
 .shin-menu-list {
   background-color: var(--secondary-bg-color);
   display: none;
+  max-height: 315px;
+  overflow-y: scroll;
 }
 
 .shin-menu-list button {
@@ -108,7 +147,8 @@
 .nen, .gatsu {
   background-color: var(--tab-bg);
   color: var(--bg-color);
-  font-size: 20px;
+  font-size: 1em;
+  font-weight: bold;
   padding: 5px;
   margin-top: 15px;
 }
@@ -600,5 +640,18 @@ print {
   #shin-btn {
     width: calc(100% - 28px);
   }
+}
 
+@media screen and (max-width: 320px),
+print {
+  .ad-border {
+    border-left: none;
+    border-right: none;
+  }
+}
+
+/* Screen less than 426px in height */
+@media screen and (max-height: 425px),
+print {
+  .shin-menu-list {max-height: 165px}
 }

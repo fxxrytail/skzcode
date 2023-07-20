@@ -15,12 +15,14 @@
     </div>
 
   {{ if and (ne .Title "") (ne .Section "support") }}
-    <div class="notice" style="display:block">
-      <span class="notice-bg">You Make Stray Kids STAY</span>
 
-      {{ $supportPosts := (where $.Site.RegularPages "Section" "==" "support") }}
-      {{ $postCount := len $supportPosts }}
-      {{ $slice := slice "" "one" "two" "three"}}
+    {{ $supportPosts := (where $.Site.RegularPages "Section" "==" "support") }}
+    {{ $postCount := len $supportPosts }}
+    {{ $slice := slice "" "one" "two" "three"}}
+
+    <div style="display: {{- if ne $postCount 0 -}} block" {{- else -}} none" {{- end -}} class="notice">
+
+      <span class="notice-bg">You Make Stray Kids STAY</span>
 
       <ul class="support-animate {{ index $slice $postCount }}">
         {{ range $supportPosts }}
@@ -51,7 +53,7 @@
     {{ end }}
 
     <div class="content-nav">
-      {{- partial "display/nav-section.html" . -}}
+      <!-- - partial "display/nav-section.html" . - -->
     </div>
 
 <!--    <ul class="social-links">

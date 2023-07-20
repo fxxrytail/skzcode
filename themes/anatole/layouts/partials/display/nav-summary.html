@@ -1,0 +1,44 @@
+<!-- FOR SUMMARY -->
+
+{{- $Cats := $.Page.Params.mainCats -}}
+
+{{ $eras := slice }}
+  {{ range .Site.Data.Masterlist }}
+    {{ range where (where .contents ".Category" "in" $Cats) ".SubCat" "!=" "-"}}
+      {{ $eras = $eras | append .SubCat }}
+    {{ end }}
+  {{ end }}
+{{ $eras = uniq $eras }}
+
+{{ $SumYrs := slice }}
+  {{ range .Site.Data.Masterlist }}
+    {{ range where .contents ".Category" "in" $Cats }}
+      {{ $SumYrs = $SumYrs | append .Year }}
+    {{ end }}
+  {{ end }}
+{{ $SumYrs = uniq $SumYrs }}
+
+<div class="shin-menu">
+  <span id="hide-thumb"><i class="fas fa-list" title="Hide Thumbnails"></i></span>
+  <span id="show-thumb" class="hidden"><i class="fas fa-image hidden" title="Show Thumbnails"></i></span>
+
+  {{ if eq $.Page.Params.Title "Varieties" }}
+    <button id="shin-btn">Select Year</button>
+    <div class="shin-menu-list">
+      {{ range $SumYrs }}   <!-- BY YEAR -->
+        {{ $SumYr := . }}
+        <a href="#{{ replace $SumYr ` ` `-` }}"><button class="shin-list-btn">{{ $SumYr }}</button></a>
+      {{ end }} <!-- BY YEAR -->
+    </div>
+
+  {{ else if eq $.Page.Params.Title "Eras" }}
+    <button id="shin-btn">Select Era</button>
+    <div class="shin-menu-list">
+      {{ range $eras }} <!-- BY ERA -->
+        {{ $era := . }}
+        <a href="#{{ replace $era ` ` `-` }}"><button class="shin-list-btn">{{ $era }}</button></a>
+      {{ end }} <!-- BY ERA -->
+    </div>
+
+  {{ end }} <!-- conditional statements -->
+</div>

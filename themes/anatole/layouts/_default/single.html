@@ -13,8 +13,12 @@
 
           <h5>{{ .Description  }}</h5>
           <hr>
+          <!-- NOT SPOT KIDS: WHITE -->
+          {{ if ne .Params.pageType "SKW" }}
+              {{ .Content }} <br>
+          {{ end }}
+          <!-- NOT SPOT KIDS: WHITE -->
 
-          {{ .Content }} <br>
           {{- partial "display/skz-contents.html" . -}}
 
           <div id="latest"></div>

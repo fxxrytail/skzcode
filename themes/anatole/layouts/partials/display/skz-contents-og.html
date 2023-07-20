@@ -1,0 +1,254 @@
+<!-- before thumbnai and ads -->
+
+{{- partial "display/nav-section.html" . -}}
+
+{{ $catName := .Params.mainCat }}
+{{ $forLive := .Site.Params.forLive }}
+{{ $NamedLive := "LIVE - "}}
+{{ $theme := .Site.Params.displayMode }}
+
+{{ $sections := slice }}
+  {{ range .Site.Data.Masterlist }}
+    {{ range where .contents ".Category" $catName }}
+      {{ $sections = $sections | append .SubCat }}
+    {{ end }}
+  {{ end }}
+{{ $sections = uniq $sections }}
+
+{{ $years := slice }}
+  {{ range .Site.Data.Masterlist }}
+    {{ range where .contents ".Category" $catName }}
+      {{ $years = $years | append .Year }}
+    {{ end }}
+  {{ end }}
+{{ $years = uniq $years }}
+
+{{ $newYear := .Params.year }}
+{{ $yrs := slice }}
+  {{ range .Site.Data.Masterlist }}
+    {{ range where .contents ".Year" ">=" $newYear }}
+      {{ $yrs = $yrs | append .Year }}
+    {{ end }}
+  {{ end }}
+{{ $yrs = uniq $yrs }}
+
+<div class="boxer">
+
+<!-- IF STATEMENTS OF GROUPINGS -->
+{{ if eq .Params.pageType "By SubCat Year" }}
+
+  {{ range $sections }} <!-- by subcat year of non-others  -->
+    {{ $section := . }}
+      {{ if and (ne $section "Others") (ne $section "-") }} <!-- previously: (if ne $section "Others") only -->
+      <h4 id="{{ replace $section ` ` `-` }}"> {{ $section }} </h4>
+
+        {{ $yrs := slice }}
+          {{ range $.Site.Data.Masterlist }}
+              {{ range where (where .contents "Category" $catName)  "SubCat" $section }}
+              {{ $yrs = $yrs | append .Year }}
+              {{ end }}
+          {{ end }}
+        {{ $yrs = uniq $yrs }}
+
+        {{ range $yrs }}
+          {{ $yr := . }}
+
+          {{ range $.Site.Data.Masterlist }}
+            {{ range sort (where (where .contents "SubCat" $section)  "Year" $yr) "Date" }}
+            <!-- LAYOUT -->
+            <div class="link-list">
+              <ul> <span class="date">{{ dateFormat "06 Jan 02" .Date }}</span> {{ .Title }}
+                {{ range .Links }}
+                ★ <a target="_blank" href="{{ .Link }}">{{ .Name }}</a> <span class="subs">{{ .Subs }}</span>
+                {{ end }} <!-- range .Links -->
+               </ul>
+            </div>
+            <!-- LAYOUT -->
+            {{ end }}
+          {{ end }} <br>
+
+        {{ end }} <!-- range years -->
+      {{ end }} <!-- if ne others -->
+    {{ end }}  <!-- by subcat year of non-others  -->
+
+    {{ range $sections }}  <!-- by subcat year of others  -->
+      {{ $section := . }}
+        {{ if eq $section "Others" }}
+        <h4 id="{{ replace $section ` ` `-` }}"> {{ $section }} </h4>
+
+          {{ $yrs := slice }}
+            {{ range $.Site.Data.Masterlist }}
+                {{ range where (where .contents "Category" $catName)  "SubCat" $section }}
+                {{ $yrs = $yrs | append .Year }}
+                {{ end }}
+            {{ end }}
+          {{ $yrs = uniq $yrs }}
+
+          {{ range $yrs }}
+            {{ $yr := . }}
+
+            {{ range $.Site.Data.Masterlist }}
+              {{ range where (where (where .contents "Category" $catName)  "SubCat" $section)  "Year" $yr }}
+              <!-- LAYOUT -->
+              <div class="link-list">
+                <ul> <span class="date">{{ dateFormat "06 Jan 02" .Date }}</span> {{ .Title }}
+                  {{ range .Links }}
+                  ★ <a target="_blank" href="{{ .Link }}">{{ .Name }}</a> <span class="subs">{{ .Subs }}</span>
+                  {{ end }} <!-- range .Links -->
+                 </ul>
+              </div>
+              <!-- LAYOUT -->
+              {{ end }}
+            {{ end }} <br>
+
+          {{ end }} <!-- range years -->
+        {{ end }} <!-- if eq others -->
+      {{ end }} <!-- by subcat year of others  -->
+
+
+
+
+
+{{ else if eq .Params.pageType "By SubCat" }}
+    {{ range $sections }} <!-- BY SUBCATEGORY -->
+      {{ $section := . }}
+
+      <h4 id="{{ replace $section ` ` `-` }}"> {{ $section }} </h4>
+      {{ range $.Site.Data.Masterlist }}
+        {{ range where (where .contents "Category" $catName)  "SubCat" $section }}
+        <!-- LAYOUT -->
+        <div class="link-list">
+          <ul> <span class="date">{{ dateFormat "06 Jan 02" .Date }}</span> {{ .Title }}
+            {{ range .Links }}
+            ★ <a target="_blank" href="{{ .Link }}">{{ .Name }}</a> <span class="subs">{{ .Subs }}</span>
+            {{ end }} <!-- range .Links -->
+           </ul>
+        </div>
+
+        <!-- LAYOUT -->
+      {{ end }}
+    {{ end }}
+
+  {{ end }} <!-- BY SUBCATEGORY -->
+
+
+
+
+
+{{ else if eq .Params.pageType "By Year" }}
+  {{ range $years }}   <!-- BY YEAR -->
+    {{ $year := . }}
+
+    <h4 id="{{ replace $year ` ` `-` }}"> {{ $year }} </h4>
+    {{ range $.Site.Data.Masterlist }}
+      {{ range sort (where (where .contents "Category" $catName) "Year" $year) "Date" }}
+        <!-- LAYOUT -->
+        <div class="link-list">
+          <ul> <span class="date">{{ dateFormat "Jan 02" .Date }}</span> {{ .Title }}
+            {{ range .Links }}
+            ★ <a target="_blank" href="{{ .Link }}">{{ .Name }}</a> <span class="subs">{{ .Subs }}</span>
+            {{ end }} <!-- range .Links -->
+           </ul>
+        </div>
+         <!-- LAYOUT -->
+      {{ end }}
+    {{ end }}
+
+  {{ end }} <!-- BY YEAR -->
+
+
+
+  {{ else if eq .Params.pageType "By Line" }}
+    {{ range $years }}   <!-- By Line (was for artistry/more-music) -->
+      {{ $year := . }}
+
+      <h4 id="{{ replace $year ` ` `-` }}"> {{ $year }} </h4>
+      {{ range $.Site.Data.Masterlist }}
+        {{ range sort (where (where .contents "Category" $catName) "Year" $year) "Date" }}
+          <!-- LAYOUT -->
+          <ul class="by-line"> <span class="date">{{ dateFormat "Jan 02" .Date }}</span> {{ .Title }}
+            {{ range .Links }}
+            <li><a target="_blank" href="{{ .Link }}">{{ .Name }}</a> <span class="subs">{{ .Subs }}</span></li>
+            {{ end }} <!-- range .Links -->
+           </ul>
+           <!-- LAYOUT -->
+        {{ end }}
+      {{ end }}
+
+    {{ end }} <!-- By Line -->
+
+
+
+
+
+    {{ else if eq .Params.pageType "All Live" }}
+      {{ range $years }}   <!-- BY All live -->
+        {{ $year := . }}
+        <h4 style="margin-bottom: 0px;" id="{{ replace $year ` ` `-` }}"> {{ $year }} </h4>
+
+        {{ $months := slice }}
+          {{ range $.Site.Data.Masterlist }}
+              {{ range where .contents "Year" $year }}
+                {{ if strings.HasPrefix .Category $forLive }}
+                  {{ $months = $months | append .Month }}
+                {{ end }}
+              {{ end }}
+          {{ end }}
+        {{ $months = uniq $months }}
+
+        {{ range $months }}
+          {{ $month := . }} <br>
+
+          {{ range $.Site.Data.Masterlist }}
+            {{ range sort (where (where .contents "Year" $year) "Month" $month) "Date" }}
+              {{ if strings.HasPrefix .Category $forLive }}
+                <!-- LAYOUT -->
+                <div class="link-list">
+                  <ul>
+                    <span class="date">{{ dateFormat "Jan 02" .Date }}</span>
+                    <span id="catlink">
+                      {{ if and (ne .SubCat "-") (ne .SubCat "Others")}}
+                        <a href="../../{{ .CatLink }}/#{{ replace .SubCat ` ` `-`}}">
+                      {{ else }}
+                        <a href="../../{{ .CatLink }}">
+                      {{end}}
+                      <!-- end of href -->
+
+                      {{ if eq .Category $forLive }}
+                          SKZ
+                      {{ else if strings.HasPrefix .Category $NamedLive }}
+                          {{ strings.TrimPrefix $NamedLive .Category }}
+                          {{ if and (ne .SubCat "-") (ne .SubCat "Others")}}
+                          : {{ .SubCat }}
+                          {{end}}
+                      {{ end }}
+                      </a></span>
+
+
+                    {{ .Title }}
+                    {{ range .Links }}
+                    ★ <a target="_blank" href="{{ .Link }}">{{ .Name }}</a> <span class="subs">{{ .Subs }}</span>
+                    {{ end }} <!-- range .Links -->
+                   </ul>
+                </div>
+                 <!-- LAYOUT -->
+              {{ end }}<!-- if HasPrefix -->
+            {{ end }}
+          {{ end }}
+
+        {{ end }} <br> <!-- range months -->
+
+    {{ end }} <!-- BY All Live -->
+
+
+
+
+
+  {{ else if eq .Params.pageType "SKW" }}
+    {{- partial "display/spotkids-white.html" . -}}
+
+
+{{ end }}
+<!-- IF STATEMENTS -->
+
+</div> <!-- class: boxer -->

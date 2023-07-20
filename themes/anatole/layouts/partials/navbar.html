@@ -1,4 +1,7 @@
-<div class= {{ if and (ne .Title "") (ne .Section "support") }}
+{{ $supportPosts := (where $.Site.RegularPages "Section" "==" "support") }}
+{{ $postCount := len $supportPosts }}
+
+<div class= {{ if and (and (ne .Title "") (ne .Section "support")) (ne $postCount 0) }}
   "button-top-notice" {{ else }}
   "button-top" {{ end }}>
     <button onclick="topFunction()" id="btnTop">TOP</button>
@@ -45,7 +48,7 @@
     <div id="navMenuBg" class="modal" onclick="closeMenu()">
       <div class="nav subMenu" id="navMenu">
         <div class="section-menu">
-          {{- partial "display/nav-section.html" . -}}
+          <!-- - partial "display/nav-section.html" . - -->
         </div>
 
         <h5>More Pages</h5>
