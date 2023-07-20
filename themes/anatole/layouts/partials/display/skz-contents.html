@@ -1,9 +1,11 @@
-{{ if ne .Params.pageType "SKW" }}
+{{ $pageTypes := slice "By SubCat Year" "By SubCat" "By Year" "All Live"}}
+
+{{ if in $pageTypes .Params.pageType }}
   {{- partial "display/nav-section.html" . -}}
 
 <!-- SPOT KIDS: WHITE
     have special code in single page layout -->
-{{ else }}
+{{ else if eq .Params.pageType "SKW" }}
   {{- partial "display/nav-section.html" . -}}
 
   <p>Note: Embedded tweets may take longer to load.</p>
