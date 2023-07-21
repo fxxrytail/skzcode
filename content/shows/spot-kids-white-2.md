@@ -1,7 +1,7 @@
 ---
 title: "Spot Kids: White"
 date: 2021-04-27T23:46:27+08:00
-draft: false
+draft: true
 
 mainCat: "Spot Kids: White"
 weight: 3
