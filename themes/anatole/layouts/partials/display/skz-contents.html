@@ -3,19 +3,12 @@
 {{ if in $pageTypes .Params.pageType }}
   {{- partial "display/nav-section.html" . -}}
 
-<!-- SPOT KIDS: WHITE
-    have special code in single page layout -->
 {{ else if eq .Params.pageType "SKW" }}
-  {{- partial "display/nav-section.html" . -}}
-
-  <p>Note: Embedded tweets may take longer to load.</p>
-  <div class="boxer">
-    {{ .Content }}
-  </div>
+  {{- partial "display/spotkids-white.html" . -}}
 
 {{ end }}
 
-<!-- / SPOT KIDS: WHITE -->
+
 
 {{ $catName := .Params.mainCat }}
 {{ $forLive := .Site.Params.forLive }}
@@ -384,7 +377,6 @@
       {{ end }}
 
     {{ end }}
-
 
   {{ end }} <!-- / page conditions -->
 
