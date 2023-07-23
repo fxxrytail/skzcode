@@ -19,9 +19,17 @@ Since Twitter doesn't support Collection anymore, its embedded links stopped wor
 
 ## ADditional thing..
 
-There are now advertisements across the website. I only picked types of banner ads so it don't interrupt with your browsing experience. You shouldn't be directed to other url unless you clicked a banner ad! I put "Advertisement" label on the ads so you can differentiate it from contents in the website. Reminder that Stray Kids' content opens in a new tab.
+There are now advertisements across the website. I only picked types of banner ads so it don't interrupt with your browsing experience. You shouldn't be directed to other url unless you clicked a banner ad! I put "Advertisement" label on the ads so you can differentiate it from contents in the website. Only Stray Kids contents and ch-skz links should open in different tab. Feel free to browse CH-SKZ as you normally do.
 
-Feel free to browse CH-SKZ as you normally do. If you have feedback or experiencing errors you may contact through [daisukijeu](https://twitter.com/daisukijeu). I may not easily see message requests so you may mention me if you sent DM.
+If you encounter problems you may contact through [daisukijeu](https://twitter.com/daisukijeu). I may not easily see message requests so you may mention me if you sent DM. Or send email at daisukijeu@gmail.com
+
+If unwanted links opened as soon as you open the website please send the following details:
+1. A screenshot of the unwanted ads;
+2. The last time when you've seen these ads (date and time);
+3. Device formats where the wanted ads appear (mobile/tablet/laptop/desktop);
+4. Operating systems (Android/iOS/Windows/MacOS/Linux);
+5. Geos (country you're located in);
+6. Your browser and its version.
 
 Thank you very much!
 
