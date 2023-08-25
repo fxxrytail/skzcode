@@ -1,15 +1,15 @@
 ---
 priority: Main
 weight: "5"
-draft: true
+draft: false
 title: Support SKZ's Japan Comeback
-description: "'THE SOUND' music is out now! Album release on Feb 22"
-thumbnail: "/img-support/thesound-thumbnail.jpg"
-duration: 
-lastmod: 
+description: "Social Path (feat. LiSA) / Super Bowl -JPN ver- album is coming this Sep 6!"
+thumbnail: "/img-support/japan-cb-cover.jpg"
+duration:
+lastmod:
 
 ---
-{{< img src="/img-support/thesound-thumbnail.jpg" alt="Stray Kids Japan comeback" width="80%" >}}
+{{< img src="/img-support/japan-cb-cover.jpg" alt="Stray Kids Japan comeback" width="80%" >}}
 
 # Follow SKZ Japan Social Accounts
 
@@ -25,23 +25,13 @@ You may also follow the fan accounts in this {{< a "twitter list" "https://twitt
 
 # Comeback Detail
 
-**ALBUM:** "THE SOUND"  
-**ALBUM RELEASE DATE:** Feb 22 JST/KST  
-**TITLE TRACK:** THE SOUND
+**ALBUM:** "Social Path (feat. LiSA) / Super Bowl -Japanese ver.-"  
+**ALBUM RELEASE DATE:** Sep 6 JST/KST  
+**TITLE TRACK:** Social Path (feat. LiSA) and Super Bowl -Japanese ver.-
 
-You may look for details, translations about "THE SOUND" and Japan promotion events here
+You may look for details, translations about the upcoming album and Japan promotion events from this carrd.
 
-{{< tweet 1614877686891188225 >}}
-
-## Released
-
-For Japan comeback, they usually release singles at different dates before the release date of the whole album.
-
-**Released Singles**
-
-* {{< a "CASE 143 -Japanese Ver.-" "https://straykids.lnk.to/QcVtogEh">}} (Dec 15, 2022)
-* {{< a "THE SOUND" "https://straykids.lnk.to/xX1Zxxpd" >}} (Jan 28)
-* {{< a "There" "https://straykids.lnk.to/SaBA3YXr" >}} (Feb 15)
+### {{< a "skzjpncomeback.carrd.co" "https://skzjpncomeback.carrd.co/" >}}
 
 # Comeback Goals
 
