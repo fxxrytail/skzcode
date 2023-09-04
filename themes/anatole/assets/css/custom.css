@@ -1,4 +1,30 @@
 .hidden {display: none;}
+.nowrap {white-space: nowrap;}
+
+/** markdown **/
+.md-html-bg {
+  border: 1px solid var(--border-color);
+  margin: 5px;
+  padding: 5px;
+}
+
+.md-img {
+  width: 100%;
+}
+.post .post-content .md-img img {
+  width: 90%;
+  max-width: 400px;
+  margin: 5px auto;
+  display: flex;
+}
+
+/** sidebar **/
+.sidebar-image {width: 100%}
+.sidebar-image img {
+    width: 70%;
+    margin: 10px auto;
+    display: flex;
+}
 
 /** adsterra **/
 .ad-banner {

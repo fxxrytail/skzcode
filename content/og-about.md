@@ -4,7 +4,7 @@ date: 2021-05-15T15:57:15+08:00
 draft: false
 ---
 ## About
-Channel SKZ is a fan-made master list of Stray Kids video contents such as music videos, album promotion videos, variety shows, live streams, and more. The name was inspired by the weekly program announcement they used to upload named  "[CH. SKZ](https://twitter.com/Stray_Kids/status/1142734078518558721)". [This is how Channel SKZ started.](/site-update/startline/)
+Channel SKZ is a fan made master list of Stray Kids video contents such as music videos, album promotion videos, variety shows, live streams, and more. The name was inspired by the weekly program announcement they used to upload named  "[CH. SKZ](https://twitter.com/Stray_Kids/status/1142734078518558721)".
 
 The main purpose of Channel SKZ is to make Stray Kids video contents easier to find by providing links to different platforms. Contents are organized in various ways such as:
 
@@ -33,8 +33,8 @@ Please keep in mind that it's possible to fail to include/update some links beca
 
 ## Recommendation
 Other websites I recommend for Stray Kids contents
-* {{< a "StrayKSubs" "https://strayksubs.com" >}} - A lot of their subbed videos are linked here at Channel SKZ but there's more to see on their website.
-* {{< a "SKZ ARCHIVE by octostay" "https://skzarchive.godaddysites.com/" >}} - VOD of Stray Kids concerts and fan meetings are available here.
+* [StrayKSubs](https://strayksubs.com) - A lot of their subbed videos are linked here at Channel SKZ but there's more to see on their website.
+* [SKZ ARCHIVE by @octostay](https://skzarchive.godaddysites.com/) - VOD of Stray Kids concerts and fan meetings are available here.
 
 ## Disclaimer
 Channel SKZ is not affiliated with Stray Kids, JYPE Entertainment and other owners of the links provided here.
@@ -58,7 +58,7 @@ If you want to support further, you may donate any amount through any of these o
 ### GCash
 {{< rawhtml >}}
   <div class="md-img">
-    <img src="/images/chskzgcash.png" alt="Channel SKZ GCash QR" />
+    <img src="/static/chskzgcash.png" alt="Channel SKZ GCash QR" />
   </div>
 {{< /rawhtml >}}
 

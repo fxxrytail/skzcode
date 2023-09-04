@@ -19,7 +19,10 @@ Since Twitter doesn't support Collection anymore, its embedded links stopped wor
 
 ## ADditional thing..
 
-There are now advertisements across the website. I only picked types of banner ads so it don't interrupt with your browsing experience. You shouldn't be directed to other url unless you clicked a banner ad! I put "Advertisement" label on the ads so you can differentiate it from contents in the website. Only Stray Kids contents and ch-skz links should open in different tab. Feel free to browse CH-SKZ as you normally do.
+**Update (Sep 4, 2023):** All ads are removed~! There should be no ads in Channel SKZ anymore.
+---
+**Previous Update**
+There are now advertisements across the website. I only picked types of banner ads so it don't interrupt with your browsing experience. You shouldn't be directed to other url unless you clicked a banner ad! I put "Advertisement" label on the ads so you can differentiate it from contents in the website. Only Stray Kids contents and CH-SKZ links should open in different tab. Feel free to browse CH-SKZ as you normally do.
 
 If you encounter problems you may contact through any of the following:
 * [CHANNEL SKZ twitter](https://twitter.com/CH_SKZ_). I may not easily see message requests so you may mention me if you sent DM.

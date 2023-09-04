@@ -6,5 +6,5 @@ draft: false
 mainCat: "Docuseries"
 weight: 10
 pageType: "By Year"
-description: "Behind the scenes of Stray Kids in Lollapalooza Paris 2023"
+description: "Behind the scenes of Stray Kids preparation and thoughts for their big events"
 ---
