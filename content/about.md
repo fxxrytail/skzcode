@@ -34,7 +34,9 @@ Please keep in mind that it's possible to fail to include/update some links beca
 ## Recommendation
 Other websites I recommend for Stray Kids contents
 * {{< a "StrayKSubs" "https://strayksubs.com" >}} - A lot of their subbed videos are linked here at Channel SKZ but there's more to see on their website.
-* {{< a "SKZ ARCHIVE by octostay" "https://skzarchive.godaddysites.com/" >}} - VOD of Stray Kids concerts and fan meetings are available here.
+* {{< a "SKZ ARCHIVE by octostay" "https://skzarchive.godaddysites.com/" >}}
+and {{< a "SKZ Archive by skz vlive archives" "https://straykidsarchive.carrd.co" >}} - VOD of Stray Kids concerts, fan meetings, other exclusive contents are available here.
+
 
 ## Disclaimer
 Channel SKZ is not affiliated with Stray Kids, JYPE Entertainment and other owners of the links provided here.
