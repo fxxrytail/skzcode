@@ -2,14 +2,14 @@
 priority: Main
 weight: "5"
 title: Support Stray Kids Comeback
-description: "'5-STAR' release on June 2"
-thumbnail: "/img-support/5-star-thumbnail.jpg"
+description: "'ROCK-STAR' release on Nov 10"
+thumbnail: "/img-support/rock-star-thumbnail.jpg"
 duration:
 lastmod:
 draft: true
 
 ---
-{{< img src="/img-support/5-star-thumbnail.jpg" alt="Stray Kids comeback" width="80%" >}}
+{{< img src="/img-support/rock-star-thumbnail.jpg" alt="Stray Kids comeback" width="80%" >}}
 
 Support Stray Kids comeback to help them get music show wins, awards, chart on Billboard and unlock more achievements\~!
 
@@ -19,11 +19,11 @@ STAYs can contribute for getting **_Music Show Wins_**, charting on **_Billboard
 
 # Comeback Detail
 
-{{< youtube 6emgiatRGu4 >}}
+{{< youtube 52HQOPBtwrQ >}}
 
-**ALBUM:** "5-STAR"  
-**RELEASE DATE:** June 2nd 1PM KST | 0AM EST  
-**TITLE TRACK:** "특" / "S-Class"
+**ALBUM:** "ROCK-STAR"  
+**RELEASE DATE:** November 10th 2PM KST | 0AM ET  
+**TITLE TRACK:** "락 (樂)" / "LALALALA"
 
 Visit this website by {{< a "SKZCBGuide" "https://twitter.com/SKZCBGuide" >}} for comeback guide and projects.
 
@@ -41,7 +41,7 @@ Detailed information about all Korean music shows criteria and schedules are in 
 
 ## Billboard
 
-**_Billboard_** tabulates different weekly music charts to see popular music base on album/songs sales and streams from United States & Puerto Rico, Japan, and different parts of the world. It is a very popular music chart and Stray Kids charting on it may give them more opportunities. Stray Kids already topped Billboard 200 twice in a row during ODDINARY and MAXIDENT. USA and Puerto Rico STAYs are aiming to get into HOT 100 :fire:
+**_Billboard_** tabulates different weekly music charts to see popular music base on album/songs sales and streams from United States & Puerto Rico, Japan, and different parts of the world. It is a very popular music chart and Stray Kids charting on it may give them more opportunities. Stray Kids already topped Billboard 200 3x in a row during ODDINARY, MAXIDENT and 5-STAR. Aiming to get into HOT 100 is the next step :fire:
 
 Follow {{< a "Billboard SKZ" "https://twitter.com/billboardskz" >}} for _Billboard_ updates and guides for Stray Kids.
 

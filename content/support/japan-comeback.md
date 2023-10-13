@@ -1,7 +1,7 @@
 ---
 priority: Main
 weight: "5"
-draft: false
+draft: true
 title: Support SKZ's Japan Comeback
 description: "Social Path (feat. LiSA) / Super Bowl -JPN ver- album is coming this Sep 6!"
 thumbnail: "/img-support/japan-cb-cover.jpg"
