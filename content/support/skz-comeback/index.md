@@ -6,7 +6,7 @@ description: "'ROCK-STAR' release on Nov 10"
 thumbnail: "/img-support/rock-star-thumbnail.jpg"
 duration:
 lastmod:
-draft: true
+draft: false
 
 ---
 {{< img src="/img-support/rock-star-thumbnail.jpg" alt="Stray Kids comeback" width="80%" >}}
@@ -32,6 +32,8 @@ Visit this website by {{< a "SKZCBGuide" "https://twitter.com/SKZCBGuide" >}} fo
 {{< tweet 1652068396022759425 >}}
 
 ## Music Show Win
+
+### !!! One main goal for this comeback is to give Stray Kids their first Music Core win before Lee Know's MC contract ends. Let's make Lee Know announce their own win~!
 
 A **_Music Show Win_** happens during their album promotion. The No. 1 song of the week is announced per music show and each music show has different criteria for it. Criteria is usually composed of **YouTube** streaming (FREE), **voting on apps** (FREE), buying **physical album**, and streaming on **Korean streaming platforms** (biggest criteria). We only have few weeks to give Stray Kids Music Show Wins every comeback and there may not be next time for each album that's why STAYs all around the world are encouraged to help participate.
 
@@ -112,7 +114,7 @@ You may see different tutorials on how to do manual streaming but the most impor
 
 ### End note
 
-Those are the basics of supporting Stray Kids mainly to get _Music Show Wins_ and _Billboard_ but also for a chance for them to be nominated on _Award Ceremonies_. There are more things I didn't mentioned here such as other music platforms (Spotify, Apple Music, iTunes etc) but you may see them on SKZ fanbases guides.
+Those are the basics of supporting Stray Kids mainly to get _Music Show Wins_ and _Billboard_ but also for a chance for them to be nominated on _Award Ceremonies_. There are more things I didn't mentioned here such as other music platforms like Spotify, Apple Music, iTunes etc. but you may see them on SKZ fanbases guides.
 
 Sudden changes may apply so for faster updates and more projects you may follow this Twitter list of {{< a "Stray Kids fanbases and fan accounts" "https://twitter.com/i/lists/1329107408015167488">}}. For Instagram you may follow {{< a "skzvotinginfo" "https://www.instagram.com/skzvotinginfo/">}}.
 
