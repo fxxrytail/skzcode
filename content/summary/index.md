@@ -32,14 +32,14 @@ Legend:
   {{< sum title="Spot Kids: Black" link="/shows/spot-kids-black/#2018" img="7dOrTKO3NFI" >}}
   {{< sum title="Spot Kids: White" link="/shows/spot-kids-white/#2018" altimg="skwhite-2018.jpg" >}}
   {{< sum tag="series" title="The 9th S1 to S3" link="/shows/the-9th/" img="yafpLOO_nX4" >}}
-  {{< sum tag="era" title="I am NOT" link="/eras/#I-am-NOT%21" img="u6unJQownW4" >}}
+  {{< sum tag="era" title="I am NOT" link="/eras/#I-am-NOT" img="u6unJQownW4" >}}
   {{< sum tag="series" title="SKZ-TALKER" link="/shows/skz-talker/" img="htoXMUCcLlU" >}}
 
-  {{< sum tag="era" title="I am WHO" link="/eras/#I-am-WHO%3f" img="pok5yDw77uM" >}}
+  {{< sum tag="era" title="I am WHO" link="/eras/#I-am-WHO" img="pok5yDw77uM" >}}
   {{< sum tag="series" title="SKZ's HONEY TIPS" link="/shows/skz-honey-tips/" img="IIPTQPlQ3TI" >}}
   {{< sum tag="series" title="TWO KIDS ROOM Vol1 & Vol 2" link="/shows/two-kids-room/" img="xSzaTijBZL4" >}}
   {{< sum tag="artistry" title="SKZ-PLAYER" link="/artistry/skz-player/" img="KW-jSV1P8WQ" >}}
-  {{< sum tag="era" title="I am YOU" link="/eras/#I-am-YOU." img="CNfodZluR-Q" >}}
+  {{< sum tag="era" title="I am YOU" link="/eras/#I-am-YOU" img="CNfodZluR-Q" >}}
 
   {{< sum tag="artistry" title="Live Performances" link="/artistry/live-performance/" img="OHvVQXKj_-E" >}}
   {{< sum title="V LIVEs" link="/vlive/all/#2018" altimg="vlive-2018.jpg" >}}
