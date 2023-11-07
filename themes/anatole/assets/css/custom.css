@@ -568,6 +568,16 @@
    padding: 5px 0;
  }
 
+ /* THUMBNAIL */
+
+ #link-thumbs, #link-thumbs img {
+   width: 100%;
+   height: 43vw;
+   max-width: 400px;
+   max-height: 220px;
+   border-radius: 20px;
+ }
+
 
 /* Tablet 426 to 800px */
 @media only screen and (min-width:426px) {
@@ -667,6 +677,10 @@ print {
   #shin-btn {
     width: calc(100% - 28px);
   }
+
+  #link-thumbs, #link-thumbs img {
+    height: 45vw;
+  }
 }
 
 @media screen and (max-width: 320px),
@@ -674,6 +688,10 @@ print {
   .ad-border {
     border-left: none;
     border-right: none;
+  }
+
+  #link-thumbs, #link-thumbs img {
+    height: 43vw;
   }
 }
 
