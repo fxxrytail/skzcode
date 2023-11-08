@@ -10,6 +10,7 @@ mainCats:
 - Album INTRO
 - Dance Practice
 - Fan Featuring Guide
+- Docuseries
 ---
 
 {{< summary >}}

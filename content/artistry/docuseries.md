@@ -6,5 +6,5 @@ draft: false
 mainCat: "Docuseries"
 weight: 10
 pageType: "By Year"
-description: "Behind the scenes of Stray Kids preparation and thoughts for their big events"
+description: "Behind the scenes of Stray Kids preparation and thoughts for their events, filming, etc."
 ---
