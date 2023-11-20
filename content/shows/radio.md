@@ -5,7 +5,7 @@ draft: false
 
 mainCat: "Radio"
 weight: 600
-pageType: "By SubCat Year"
+pageType: "By Year"
 description: "Various radio shows with Stray Kids as guest"
 ---
 More subtitled radio shows with Stray Kids starting 2018 are [here](http://strayksubs.com/videos/radio/).

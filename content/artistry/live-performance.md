@@ -5,6 +5,6 @@ draft: false
 
 mainCat: "Live Performance"
 weight: 3
-pageType: "By Line"
+pageType: "By Year"
 description: "Special live performances from tours, award ceremonies, shows, or other special events"
 ---
