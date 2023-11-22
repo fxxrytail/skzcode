@@ -191,7 +191,7 @@
         <div id="{{ replace $section ` ` `-` }}" class="gatsu">{{ $section }}</div><br>
 
         {{ range $index, $map := $maps }}
-          {{ if eq .SubCat $section }}
+          {{ if and (eq .Category $catName) (eq .SubCat $section)}}
           <!-- LAYOUT -->
           <div class="link-list">
             <ul>
