@@ -9,7 +9,7 @@ V LIVE, a platform that is mostly known by its livestreams that connect artists 
 
 For those who wants to binge watch or download the contents before termination, I decided to share a spreedsheet containing links of Stray Kids surprise V LIVEs (which was a lot 😭), videos only uploaded on V LIVE, V LIVE album promotion live streams, comeback showcase, performances, videos from different channels that features Stray Kids, and Stray Kids original contents that only have V LIVE subs. These are only the direct public links and no paid or exclusive contents are included. {{< a "You may view the spreedsheet here." "https://docs.google.com/spreadsheets/d/1IbMSsPPbb9RmyS_q1ludsCKAtiObjRjEAX_OAAhLsg0/edit?usp=sharing" >}}
 
-{{< tweet user="CH_SKZ_" id="1586382691443699715" >}}
+{{< tweet 1586382691443699715 >}}
 
 # Changes in CHANNEL SKZ Website
 I slowly started to update some things in CHANNEL SKZ that are related to V LIVE.
