@@ -6,7 +6,7 @@ description: "'ROCK-STAR' release on Nov 10"
 thumbnail: "/img-support/rock-star-thumbnail.jpg"
 duration:
 lastmod:
-draft: false
+draft: true
 
 ---
 {{< img src="/img-support/rock-star-thumbnail.jpg" alt="Stray Kids comeback" width="80%" >}}
