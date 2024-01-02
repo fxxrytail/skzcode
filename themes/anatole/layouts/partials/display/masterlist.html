@@ -29,90 +29,118 @@
 
 {{ $gatsu := slice "" "01 Jan" "02 Feb" "03 Mar" "04 Apr" "05 May" "06 Jun" "07 Jul" "08 Aug" "09 Sep" "10 Oct" "11 Nov" "12 Dec" }}
 
-<!---->
+<!-- conditions base on year -->
 {{ $YEARS := slice }}
-{{ $specificYr := false }}
 
 {{ if and (eq $year $thisYr) (eq (len $months) 1) }}
   {{ $YEARS = sort (last 2 $yrs) "value" "desc" }}
-  {{ $specificYr = true }}
 {{ else if and (eq $year $thisYr) (gt (len $months) 1) }}
   {{ $YEARS = slice $thisYr }}
 {{ else }}
   {{ $YEARS = slice $pageYr }}
 {{ end }}
 
+
+<!-- create maps -->
+{{ $maps := slice }}
+{{ range $YEARS }}
+  {{ $YEAR := . }}
+
+  {{ $MONTHS := slice }}
+    {{ range $.Site.Data.Masterlist }}
+      {{ range sort (where .contents "Year" $YEAR) "Date" $sort }}
+        {{ $MONTHS = $MONTHS | append .Month }}
+      {{ end }}
+    {{ end }}
+  {{ $MONTHS = uniq $MONTHS }}
+
+  {{ $RangeMonth := $MONTHS }}
+  {{ if and (eq $.Type "home") (ne $YEAR $thisYr) }}
+    {{ $RangeMonth = first 2 $MONTHS }}
+  {{ end }}
+
+  {{ range $RangeMonth }}
+    {{ $MONTH := . }}
+
+    {{ range $.Site.Data.Masterlist }}
+      {{ range sort (where (where .contents "Year" $YEAR) "Month" $MONTH) "ID" $sort }}
+          {{ $maps = $maps | append . }}
+      {{ end }}
+    {{ end }}
+
+  {{ end }} <!-- range months -->
+
+{{ end }} <!-- range years -->
+
+
+<!-- navigation menu -->
 <div class="shin-menu">
   <span id="hide-thumb"><i class="fas fa-list" title="Hide Thumbnails"></i></span>
   <span id="show-thumb" class="hidden"><i class="fas fa-image hidden" title="Show Thumbnails"></i></span>
-  <button id="shin-btn" >
-    Select Month
-  </button>
+  <button id="shin-btn">Select Month</button>
 
   <div class="shin-menu-list">
-    {{ range $months }}
+    {{ $_months := slice }}
+    {{ range $maps }}
+      {{ $_months = $_months | append .Month }}
+    {{ end }}
+    {{ $_months = uniq $_months }}
+
+    {{ range $_months }}
       {{ $month := . }}
       <a href="#{{$month}}"><button class="shin-list-btn">{{ index $gatsu (int $month) }}</button></a>
     {{ end }}
   </div>
 </div>
 
+<!-- display contents -->
 <div class="boxer">
   {{ range $YEARS }}
     {{ $YEAR := . }}
     <div class="nen">{{ $YEAR }}</div>
 
-    {{ $MONTHS := slice }}
-      {{ range $.Site.Data.Masterlist }}
-        {{ range sort (where .contents "Year" $YEAR) "Date" $sort }}
-          {{ $MONTHS = $MONTHS | append .Month }}
-        {{ end }}
-      {{ end }}
-    {{ $MONTHS = uniq $MONTHS }}
-
-    {{ $RangeMonth := $MONTHS }}
-    {{ if and (eq $.Type "home") (ne $YEAR $thisYr) }}
-      {{ $RangeMonth = first 2 $MONTHS }}
+    {{ $__months := slice }}
+    {{ range where $maps "Year" $YEAR }}
+      {{ $__months = $__months | append .Month }}
     {{ end }}
+    {{ $__months = uniq $__months }}
 
-    {{ range $RangeMonth }}
+    {{ range $__months }}
       {{ $MONTH := . }}
       <div id="{{ $MONTH }}" class="gatsu">{{ index $gatsu (int $MONTH) }}</div><br>
 
-      {{ range $.Site.Data.Masterlist }}
-        {{ range sort (where (where .contents "Year" $YEAR) "Month" $MONTH) "ID" $sort }}
-          <div class="link-list">
-            <ul>
-              <span class="date">{{ dateFormat "Jan 02" .Date }}</span>
-              {{ if and (ne .SubCat "-") (ne .SubCat "Others")}}
-                <span id="catlink">
-                  <a href="../../{{ .CatLink }}/#{{ replace .SubCat ' ' '-'}}">
-                    {{ .Category }} : {{ .SubCat }}</a>
-                </span>
-    
-              {{ else }}
-                <span id="catlink">
-                  <a href="../../{{ .CatLink }}">{{ .Category }}</a>
-                </span>
-              {{end}}
-    
-              <!-- thumbnail -->
-              {{- partial "display/thumbnail.html" . -}}
-              <!-- end thumbnail-->
-    
-    
-              <br> {{ .Title }}
-              {{ range .Links }}
-              <li>
-                <a target="_blank" href="{{ .Link }}">{{ .Name }}</a> <span class="subs">{{ .Subs }}</span>
-              </li>
-              {{ end }} <!-- range .Links -->
-            </ul>
-          </div>
-        {{ end }} <!-- range contents -->
-      {{ end }} <!-- range masterlist -->
+      {{ range where (where $maps "Year" $YEAR) "Month" $MONTH }}
+        <div class="link-list">
+          <ul>
+            <span class="date">{{ dateFormat "Jan 02" .Date }}</span>
+            {{ if and (ne .SubCat "-") (ne .SubCat "Others")}}
+              <span id="catlink">
+                <a href="../../{{ .CatLink }}/#{{ replace .SubCat ' ' '-'}}">
+                  {{ .Category }} : {{ .SubCat }}</a>
+              </span>
 
-    {{ end }} <!-- range month -->
-  {{ end }} <!-- range year -->
+            {{ else }}
+              <span id="catlink">
+                <a href="../../{{ .CatLink }}">{{ .Category }}</a>
+              </span>
+            {{end}}
+
+            <!-- thumbnail -->
+            {{- partial "display/thumbnail.html" . -}}
+            <!-- end thumbnail-->
+
+
+            <br> {{ .Title }}
+            {{ range .Links }}
+            <li>
+              <a target="_blank" href="{{ .Link }}">{{ .Name }}</a> <span class="subs">{{ .Subs }}</span>
+            </li>
+            {{ end }} <!-- range .Links -->
+          </ul>
+        </div>
+      {{ end }} <!-- range maps -->
+    {{ end }} <!-- range months -->
+
+  {{ end }} <!-- range years -->
 </div>
 
