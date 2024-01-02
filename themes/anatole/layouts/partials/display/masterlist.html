@@ -1,64 +1,35 @@
-<!-- skz contents start -->
-{{ $newYear := sub .Site.Params.year 1 }}
+{{ $startYr := .Site.Params.year }}
 
 {{ $yrs := slice }}
-  {{ range .Site.Data.Masterlist }}
-    {{ range where .contents ".Year" ">=" $newYear }}
-      {{ $yrs = $yrs | append .Year }}
-    {{ end }}
+{{ range .Site.Data.Masterlist }}
+  {{ range where .contents ".Year" ">=" $startYr }}
+    {{ $yrs = $yrs | append .Year }}
   {{ end }}
+{{ end }}
 {{ $yrs = uniq $yrs }}
 
-{{ $lastYr := index (last 1 $yrs) 0 }}
+{{ $pageYr := $.Page.Params.year }}
+{{ $thisYr := index (last 1 $yrs) 0 }}
 
-{{ $year := $.Page.Params.year }}
+{{ $year := $pageYr }}
 {{ $sort := "asc" }}
 
-  {{ if eq .Type "home" }}
-    {{ $year = $lastYr }}
-    {{ $sort = "desc" }}
-  {{ end }}
+{{ if eq .Type "home" }}
+  {{ $year = $thisYr }}
+  {{ $sort = "desc" }}
+{{ end }}
+
+{{ $months := slice }}
+{{ range .Site.Data.Masterlist }}
+    {{ range sort (where .contents "Year" $year) "Date" $sort }}
+      {{ $months = $months | append .Month }}
+    {{ end }}
+{{ end }}
+{{ $months = uniq $months }}
 
 {{ $gatsu := slice "" "01 Jan" "02 Feb" "03 Mar" "04 Apr" "05 May" "06 Jun" "07 Jul" "08 Aug" "09 Sep" "10 Oct" "11 Nov" "12 Dec" }}
 
-
-{{ $months := slice }}
-  {{ range .Site.Data.Masterlist }}
-      {{ range sort (where .contents "Year" $year) "Date" $sort }}
-        {{ $months = $months | append .Month }}
-      {{ end }}
-  {{ end }}
-{{ $months = uniq $months }}
-
-<!-- ads -->
-{{ $Ids := slice }}
-{{ $maps := slice }}
-
-{{ range $months }}
-  {{ $month := . }}
-  {{ range $.Site.Data.Masterlist }}
-    {{ range sort (where (where .contents "Year" $year) "Month" $month) "ID" $sort }}
-        {{ $Ids = $Ids | append .ID }}
-        {{ $maps = $maps | append . }}
-    {{ end }}
-  {{ end }}
-{{ end }}
-
-{{ $placement := slice 3 8 25 50 }}
-{{ $num := newScratch }}
-{{ $num.Add "num" 50 }}
-
-{{ range $Ids }}
-  {{ $number := $num.Get "num" }}
-  {{ if lt $number (len $Ids) }}
-    {{ $num.Add "num" 100 }}
-  {{ end }}
-  {{ $placement = $placement | append $number }}
-{{ end }}
-{{ $placement = uniq $placement }}
-
-<!-- ads end -->
-
+<!---->
 <div class="shin-menu">
   <span id="hide-thumb"><i class="fas fa-list" title="Hide Thumbnails"></i></span>
   <span id="show-thumb" class="hidden"><i class="fas fa-image hidden" title="Show Thumbnails"></i></span>
@@ -73,59 +44,69 @@
 </div>
 
 <div class="boxer">
-  <div class="nen">{{ $year }}</div>
+  {{ $YEARS := slice }}
 
-  {{ range $months }}
-    {{ $month := . }}
+  {{ if eq (len $months) 1 }}
+    {{ $YEARS = sort (last 2 $yrs) "value" "desc" }}
+  {{ else }}
+    {{ $YEARS = slice $pageYr }}
+  {{ end }}
 
-    <div id="{{ $month }}" class="gatsu">{{ index $gatsu (int $month) }}</div><br>
+  {{ range $YEARS }}
+    {{ $YEAR := . }}
+    <div class="nen">{{ $YEAR }}</div>
 
-    {{ range $index, $map := $maps }}
-      {{ if eq .Month $month }}
-
-      <div class="link-list">
-        <ul>
-          <span class="date">{{ dateFormat "Jan 02" .Date }}</span>
-          {{ if and (ne .SubCat "-") (ne .SubCat "Others")}}
-            <span id="catlink">
-              <a href="../../{{ .CatLink }}/#{{ replace .SubCat " " "-"}}">
-                {{ .Category }} : {{ .SubCat }}</a>
-            </span>
-
-          {{ else }}
-            <span id="catlink">
-              <a href="../../{{ .CatLink }}">{{ .Category }}</a>
-            </span>
-          {{end}}
-
-          <!-- thumbnail -->
-          {{- partial "display/thumbnail.html" . -}}
-          <!-- end thumbnail-->
-
-
-          <br> {{ .Title }}
-          {{ range .Links }}
-          <li>
-            <a target="_blank" href="{{ .Link }}">{{ .Name }}</a> <span class="subs">{{ .Subs }}</span>
-          </li>
-          {{ end }} <!-- range .Links -->
-        </ul>
-      </div>
-
-      <!-- ads -->
-      {{ if in $placement $index }}
-        <div class="link-list">
-          <ul>
-            {{- partial "adsterra/banner-300x250.html" . -}}
-          </ul>
-        </div>
+    {{ $MONTHS := slice }}
+      {{ range $.Site.Data.Masterlist }}
+        {{ range sort (where .contents "Year" $YEAR) "Date" $sort }}
+          {{ $MONTHS = $MONTHS | append .Month }}
+        {{ end }}
       {{ end }}
-      <!-- ads -->
+    {{ $MONTHS = uniq $MONTHS }}
 
-      {{ end }} <!-- end if -->
-    {{ end }} <!-- range index, map -->
-  {{ end }} <br> <!-- range months -->
+    {{ $RangeMonth := $MONTHS }}
+    {{ if and (eq $.Type "home") (ne $YEAR $thisYr) }}
+      {{ $RangeMonth = first 2 $MONTHS }}
+    {{ end }}
 
+    {{ range $RangeMonth }}
+      {{ $MONTH := . }}
+      <div id="{{ $MONTH }}" class="gatsu">{{ index $gatsu (int $MONTH) }}</div><br>
+
+      {{ range $.Site.Data.Masterlist }}
+        {{ range sort (where (where .contents "Year" $YEAR) "Month" $MONTH) "ID" $sort }}
+          <div class="link-list">
+            <ul>
+              <span class="date">{{ dateFormat "Jan 02" .Date }}</span>
+              {{ if and (ne .SubCat "-") (ne .SubCat "Others")}}
+                <span id="catlink">
+                  <a href="../../{{ .CatLink }}/#{{ replace .SubCat ' ' '-'}}">
+                    {{ .Category }} : {{ .SubCat }}</a>
+                </span>
+    
+              {{ else }}
+                <span id="catlink">
+                  <a href="../../{{ .CatLink }}">{{ .Category }}</a>
+                </span>
+              {{end}}
+    
+              <!-- thumbnail -->
+              {{- partial "display/thumbnail.html" . -}}
+              <!-- end thumbnail-->
+    
+    
+              <br> {{ .Title }}
+              {{ range .Links }}
+              <li>
+                <a target="_blank" href="{{ .Link }}">{{ .Name }}</a> <span class="subs">{{ .Subs }}</span>
+              </li>
+              {{ end }} <!-- range .Links -->
+            </ul>
+          </div>
+        {{ end }} <!-- range contents -->
+      {{ end }} <!-- range masterlist -->
+
+    {{ end }} <!-- range month -->
+  {{ end }} <!-- range year -->
 </div>
 
-<!-- skz contents end -->
