@@ -30,10 +30,24 @@
 {{ $gatsu := slice "" "01 Jan" "02 Feb" "03 Mar" "04 Apr" "05 May" "06 Jun" "07 Jul" "08 Aug" "09 Sep" "10 Oct" "11 Nov" "12 Dec" }}
 
 <!---->
+{{ $YEARS := slice }}
+{{ $specificYr := false }}
+
+{{ if and (eq $year $thisYr) (eq (len $months) 1) }}
+  {{ $YEARS = sort (last 2 $yrs) "value" "desc" }}
+  {{ $specificYr = true }}
+{{ else if and (eq $year $thisYr) (gt (len $months) 1) }}
+  {{ $YEARS = slice $thisYr }}
+{{ else }}
+  {{ $YEARS = slice $pageYr }}
+{{ end }}
+
 <div class="shin-menu">
   <span id="hide-thumb"><i class="fas fa-list" title="Hide Thumbnails"></i></span>
   <span id="show-thumb" class="hidden"><i class="fas fa-image hidden" title="Show Thumbnails"></i></span>
-  <button id="shin-btn" >Select Month</button>
+  <button id="shin-btn" >
+    Select Month
+  </button>
 
   <div class="shin-menu-list">
     {{ range $months }}
@@ -44,14 +58,6 @@
 </div>
 
 <div class="boxer">
-  {{ $YEARS := slice }}
-
-  {{ if eq (len $months) 1 }}
-    {{ $YEARS = sort (last 2 $yrs) "value" "desc" }}
-  {{ else }}
-    {{ $YEARS = slice $pageYr }}
-  {{ end }}
-
   {{ range $YEARS }}
     {{ $YEAR := . }}
     <div class="nen">{{ $YEAR }}</div>
