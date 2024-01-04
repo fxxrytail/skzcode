@@ -500,8 +500,8 @@
   font-weight: bold;
 }
 
- .summary-outer {}
- .summary-inner {}
+ /* .summary-outer {}
+ .summary-inner {} */
 
  .card-outer {
   background-color: unset;
