@@ -3,6 +3,9 @@ title: "Seungmin"
 date: 2021-05-05T22:04:10+08:00
 draft: false
 
+aliases:
+- /vlive/seungmin
+
 mainCat: "LIVE - Seungmin"
 weight: 56
 pageType: "By Year"

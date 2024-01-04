@@ -3,6 +3,9 @@ title: "Lee Know"
 date: 2021-05-05T22:03:29+08:00
 draft: false
 
+aliases:
+- /vlive/lee-know
+
 mainCat: "LIVE - Lee Know"
 weight: 51
 pageType: "By Year"

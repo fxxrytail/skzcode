@@ -111,8 +111,8 @@
 /** **/
 .boxer {
   border: solid 1px var(--border-color);
-  max-height: 2500px;
-  overflow-y: scroll;
+  /* max-height: 2500px;
+  overflow-y: scroll; */
 }
 
 .shin-menu {
@@ -543,12 +543,12 @@
  .hidden {display: none;}
 
  img.crop-16-9, img.thumb {
-   width: calc(100vw - 40px);
-   height: calc(100vw / 2.1);
-   object-fit: cover;
-   white-space: normal;
-   font-size: 10px;
- }
+    width: 100%;
+    height: calc(100vw / 2.1);
+    object-fit: cover;
+    white-space: normal;
+    font-size: 10px;
+  }
 
  .card-details {
    font-size: 12px;
@@ -590,7 +590,7 @@
   .card-image {height: calc(50vw / 2.4);}
 
   img.crop-16-9 {
-    width: calc(50vw - 51px);
+    width: 100%;
     height: calc(50vw / 2.4);
   }
 
@@ -613,7 +613,7 @@
   .card-image {height: calc(20vw/2.36);}
 
   img.crop-16-9 {
-    width: calc(20vw - 37px);
+    width: 100%;
     height: calc(20vw/2.36);
   }
 

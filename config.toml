@@ -104,8 +104,8 @@ url = "mailto:mail@alexbilz.com"
   [[menu.main]]
   name = "Live"
   weight = 4
-  identifier = "vlive"
-  url = "/vlive/"
+  identifier = "live"
+  url = "/live/"
 
   [[menu.main]]
   name = ""

@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 :root {
-    --bg-color: #fff;
+    --bg-color: #ffffff;
     --secondary-bg-color: #eeeeee;
     --heading-color: #5f5f5f;
     --body-color: #2b2b2b;
@@ -41,6 +41,8 @@
     --size-2:100px;
 
     --highlight-red: #f9acac;
+
+    --scroll-track-color: #919191;
 }
 
 html[data-theme='dark'] {
@@ -71,6 +73,7 @@ html[data-theme='dark'] {
     --sidebar-anchor: #FF9800;
 
     --support-bg: #000;
+    --scroll-track-color: #2a2a30;
 
 
 }
@@ -1112,13 +1115,13 @@ ul.by-line {
 }
 
 *::-webkit-scrollbar-track {
-  background: var(--bg-color);
+  background: var(--scroll-track-color);
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: var(--heading-color);
+  background-color: var(--sidebar-bg);
   border-radius: 20px;
-  border: 3px solid var(--bg-color);
+  border: 1px solid var(--sidebar-anchor);
 }
 /* END MY CUSTOM */
 
@@ -1374,12 +1377,23 @@ print {
 }
 
 @media (min-width: 1921px){
-    .content {
+    
+    .content, .page-top {
+        margin-right: 25%;
+        width: 35%;
+        border-right: 1px solid;
+    }
+    .sidebar {
+        margin-left: 15%;
+        width: 25%;
+    }
+
+    /* .content {
         padding-right: 25%;
         width: 35%;
     }
     .sidebar {
         padding-left: 15%;
         width: 25%;
-    }
+    } */
 }

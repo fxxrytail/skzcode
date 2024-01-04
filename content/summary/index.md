@@ -21,7 +21,7 @@ Legend:
 {{< sum-year 2017 >}}
 
   {{< sum tag="public" title="Survival Show" link="/shows/stray-kids/" altimg="survivalshow.jpg" >}}
-  {{< sum title="V LIVEs" link="/vlive/all/" altimg="vlive-2017.jpg" >}}
+  {{< sum title="V LIVEs" link="/live/all/" altimg="vlive-2017.jpg" >}}
   {{< sum title="Spot Kids" link="/shows/spot-kids-black/" altimg="spotkids-2017.jpg" >}}
   {{< sum title="Spot Kids: White" link="/shows/spot-kids-white/" altimg="skwhite-2017.jpg">}}
   {{< sum tag="era" title="Mixtape" link="/eras/" img="AdfIfFGCqgo" >}}
@@ -42,7 +42,7 @@ Legend:
   {{< sum tag="era" title="I am YOU" link="/eras/#I-am-YOU" img="CNfodZluR-Q" >}}
 
   {{< sum tag="artistry" title="Live Performances" link="/artistry/live-performance/" img="OHvVQXKj_-E" >}}
-  {{< sum title="V LIVEs" link="/vlive/all/#2018" altimg="vlive-2018.jpg" >}}
+  {{< sum title="V LIVEs" link="/live/all/#2018" altimg="vlive-2018.jpg" >}}
   {{< sum title="SKZ as MCs" link="/shows/skz-mc/" img="xzBZ7u6BWcA" >}}
   {{< sum title="More Varieties (TV, Radio, Online, etc)" link="/varieties/" img="nlJJN4cpiL0" >}}
 {{< /sum-year >}}
@@ -70,7 +70,7 @@ Legend:
   {{< sum tag="era" title="Mixtape : Gone Days" link="/eras/#Mixtape-%3a-Gone-Days" img="KAPXc0M4tLg" >}}
   {{< sum tag="artistry" title="Live Performances" link="/artistry/live-performance/#2019" img="0Dk-27B5Uzg" >}}
   {{< sum tag="artistry" title="More Music with SKZ" link="/artistry/more-music/" img="j08LDhYC9cU" >}}
-  {{< sum title="V LIVEs" link="/vlive/all/#2019" altimg="vlive-2019.jpg" >}}
+  {{< sum title="V LIVEs" link="/live/all/#2019" altimg="vlive-2019.jpg" >}}
   {{< sum title="SKZ as MCs" link="/shows/skz-mc/#Pops-in-Seoul-%28Felix%29" img="QNPnRUzqPFE" >}}
 
   {{< sum title="More Varieties (TV, Radio, Online, etc)" link="/varieties/#2019" img="VCSjvIGOKGg" >}}
@@ -106,7 +106,7 @@ Legend:
 
   {{< sum tag="artistry" title="Live Performances" link="/artistry/live-performance/#2020" img="UL0ud2w8pPo" >}}
   {{< sum tag="artistry" title="More Music with SKZ" link="/artistry/more-music/#2020" img="hKvGwo2p4q8" >}}
-  {{< sum title="V LIVEs" link="/vlive/all/#2020" altimg="vlive-2020.jpg" >}}
+  {{< sum title="V LIVEs" link="/live/all/#2020" altimg="vlive-2020.jpg" >}}
   {{< sum title="More Varieties (TV, Radio, Online, etc)" link="/varieties/#2020" img="JajuvhYmwXU" >}}
 
 {{< /sum-year >}}
@@ -139,7 +139,7 @@ Legend:
 
   {{< sum tag="artistry" title="Live Performances" link="/artistry/live-performance/#2021" img="wJig2VrSSVE" >}}
   {{< sum tag="artistry" title="More Music with SKZ" link="/artistry/more-music/#2021" img="t-uJLBAIyfQ" >}}
-  {{< sum title="V LIVEs" link="/vlive/all/#2021" altimg="vlive-2021.jpg" >}}
+  {{< sum title="V LIVEs" link="/live/all/#2021" altimg="vlive-2021.jpg" >}}
   {{< sum title="SKZ as MCs" link="/shows/skz-mc/#Music-Core-%28Lee-Know%29" img="-d1CRgYBavc" >}}
   {{< sum title="More Varieties (TV, Radio, Online, etc)" link="/varieties/#2021" img="e2EtufcQH-0" >}}
 
@@ -158,7 +158,7 @@ Legend:
   {{< sum title="Stray Kids Japan" link="/artistry/skz-japan/#2022" img="eEpLjMCLHtU" >}}
   {{< sum tag="era" title="CIRCUS" link="/eras/#CIRCUS" img="jW-bkbSWb4A" >}}
   {{< sum tag="series" title="SKZ CODE" link="/shows/skz-code/#2022" img="bpUfd4J3Shk" >}}
-  {{< sum tag="artistry" title="SKZ Concert" link="/artistry/concert/#2nd-World-Tour-\"MANIAC\"" img="NcX3AC95T6g" >}}
+  {{< sum tag="artistry" title="SKZ Concert" link=`/artistry/concert/#2nd-World-Tour-\"MANIAC\"` img="NcX3AC95T6g" >}}
   {{< sum tag="era" title="Mixtape : Time Out" link="/eras/#Mixtape-%3a-Time-Out" img="ukIGxgdbqqI" >}}
   {{< sum tag="era" title="MAXIDENT" link="/eras/#MAXIDENT" img="jYSlpC6Ud2A" >}}
   {{< sum tag="series" title="SKZ Variety Games" link="/shows/skz-variety-games/" img="JcwdXhHJ_fE" >}}
@@ -169,11 +169,35 @@ Legend:
   {{< sum tag="artistry" title="More Music with SKZ" link="/artistry/more-music/#2022" img="nR_wFk5KfIU" >}}
   {{< sum title="SKZ as MCs" link="/shows/skz-mc/#Music-Core-%28Lee-Know%29" img="HTOYm5cTuNQ" >}}
   {{< sum title="More Varieties (TV, Radio, Online, etc)" link="/varieties/#2022" img="-tutXt09nJc" >}}
-  {{< sum title="Livestreams" link="/vlive/all/#2022" img="_T-A3RytnnI" >}}
+  {{< sum title="Livestreams" link="/live/all/#2022" img="_T-A3RytnnI" >}}
 
 {{< /sum-year >}}
 
 {{< sum-year 2023 >}}
-  <h3>to be updated... </h3>
+  {{< sum title="Specials" link="/shows/specials/#2023" img="vvfuBmCbMEk" >}}
+  {{< sum tag="series" title="SKZ-TALKER" link="/shows/skz-talker/#2022-Year-End" img="RCsg2mF0C9E" >}}
+  {{< sum tag="series" title="SKZ CODE" link="/shows/skz-code/#2023" img="bhNiuiIMvFk" >}}
+  {{< sum tag="era" title="THE SOUND" link="/eras/#THE-SOUND" img="ivijoIfhl0o" >}}
+  {{< sum tag="artistry" title="SKZ-RECORD" link="/artistry/skz-record/#2023" img="eM-w-P8c1rw" >}}
+
+  {{< sum tag="artistry" title="SKZ Concert" link=`/artistry/concert/#2nd-World-Tour-\"MANIAC\"` img="xeJg3AEbD0E" >}}
+  {{< sum tag="series" title="SKZ-TALKER GO!" link="/shows/skz-talker-go/#Season-3" img="04-X854LRhM" >}}
+  {{< sum tag="series" title="RACHA LOG" link="/shows/racha-log/" img="ioGekl7_noA" >}}
+  {{< sum tag="series" title="SKZ VLOG" link="/shows/skz-vlog/#2023" img="BZ_kc16Cd9o" >}}
+  {{< sum tag="era" title="5-STAR" link="/eras/#5-STAR" img="JsOOis4bBFg" >}}
+
+  {{< sum tag="artistry" title="SKZ-PLAYER" link="/artistry/skz-player/#2023" img="cMXk7cjr_tc" >}}
+  {{< sum tag="era" title="Social Path / Super Bowl JP" link="/eras/#Social-Path-%2f-Super-Bowl-JP" img="M0c04xfBtyc" >}}
+  {{< sum title="Stray Kids Japan YT" link="/shows/skz-japan#2023" img="ikV3SMheEPA" >}}
+  {{< sum tag="era" title="ROCK-STAR" link="/eras/#ROCK-STAR" img="dBDkYofMUs4" >}}
+  {{< sum tag="series" title="2 Kids Show" link="/shows/2-kids-show" img="M2gEBq955jU" >}}
+
+  {{< sum tag="public" title="DAY6 Kiss The Radio" link="/shows/dekira/#2023" img="MQiA9y_yKpE" >}}
+  {{< sum tag="artistry" title="Live Performances" link="/artistry/live-performance/#2023" img="tbvYN99fIAA" >}}
+  {{< sum tag="artistry" title="More Music with SKZ" link="/artistry/more-music/#2023" img="XRQxpx4NGUk" >}}
+  {{< sum title="SKZ as MCs" link="/shows/skz-mc/#Music-Core-%28Lee-Know%29" img="9kWl8XeRguk" >}}
+  {{< sum title="More Varieties (TV, Radio, Online, etc)" link="/varieties/#2023" img="PT7GQkpmfhk" >}}
+
+  {{< sum title="Livestreams" link="/live/all/#2023" img="xdQZRPUuV70" >}}
 
 {{< /sum-year >}}
