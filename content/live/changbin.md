@@ -3,6 +3,9 @@ title: "Changbin"
 date: 2021-05-05T22:03:36+08:00
 draft: false
 
+aliases:
+- /vlive/changbin
+
 mainCat: "LIVE - Changbin"
 weight: 52
 pageType: "By Year"

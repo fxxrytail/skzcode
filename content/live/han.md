@@ -3,6 +3,9 @@ title: "HAN"
 date: 2021-05-05T22:03:53+08:00
 draft: false
 
+aliases:
+- /vlive/han
+
 mainCat: "LIVE - HAN"
 weight: 54
 pageType: "By Year"

@@ -3,6 +3,9 @@ title: "Hyunjin"
 date: 2021-05-05T22:03:44+08:00
 draft: false
 
+aliases:
+- /vlive/hyunjin
+
 mainCat: "LIVE - Hyunjin"
 weight: 53
 pageType: "By Year"

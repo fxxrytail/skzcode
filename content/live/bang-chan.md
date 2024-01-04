@@ -3,6 +3,9 @@ title: "Bang Chan"
 date: 2021-05-05T22:03:18+08:00
 draft: false
 
+aliases:
+- /vlive/bang-chan
+
 mainCat: "LIVE - Bang Chan"
 weight: 50
 pageType: "By Year"

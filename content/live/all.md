@@ -3,6 +3,9 @@ title: "All Livestreams"
 date: 2021-05-05T22:02:52+08:00
 draft: false
 
+aliases:
+- /vlive/all
+
 mainCat: "LIVE"
 weight: 1
 pageType: "All Live"

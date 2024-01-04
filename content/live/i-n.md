@@ -3,6 +3,9 @@ title: "I.N"
 date: 2021-05-05T22:04:19+08:00
 draft: false
 
+aliases:
+- /vlive/i-n
+
 mainCat: "LIVE - I.N"
 weight: 57
 pageType: "By Year"
