@@ -7,8 +7,8 @@
 {{- $altimg := resources.GetMatch $altimgPath -}}
 
 <div class="card-outer">
-  <div class="card-inner">
-    <a href="{{ $link }}" target="_blank">
+  <div class="card-inner"> 
+    <a href="{{ $link }}">
       <div class="card-image">
         <img {{ with $img }} src="https://i.ytimg.com/vi_webp/{{.}}/hqdefault.webp" {{ end }}
 
