@@ -111,8 +111,8 @@
 /** **/
 .boxer {
   border: solid 1px var(--border-color);
-  max-height: 2500px;
-  overflow-y: scroll;
+  /* max-height: 2500px;
+  overflow-y: scroll; */
 }
 
 .shin-menu {
