@@ -9,7 +9,7 @@ lastmod:
 draft: false
 
 ---
-{{< img src="/img-support/hma-2024.jpg" alt="Hanteo Music Awards Daesang" width="80%" >}}
+{{< img src="/img-support/hma-2024.JPG" alt="Hanteo Music Awards Daesang" width="80%" >}}
 
 The list of main award shows voting will be put here. It will mean a lot to show our support for Stray Kids❣️ Let's work together STAY❤️
 
