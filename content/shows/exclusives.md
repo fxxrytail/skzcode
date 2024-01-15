@@ -6,5 +6,5 @@ draft: false
 mainCat: "Exclusives"
 weight: 650
 pageType: By Year
-description: Exclusive contents uploaded/subbed by STAYs
+description: Exclusive from DVDs or payed contents uploaded/subbed by STAYs
 ---
