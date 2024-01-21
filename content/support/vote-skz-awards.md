@@ -6,7 +6,7 @@ description: "Ongoing: HMA (Daesang) | People's Choice Awards"
 thumbnail: "/img-support/vote-skz-award.jpg"
 duration: Vote ends on Jan 17 KST | Jan 19 ET
 lastmod: 
-draft: false
+draft: true
 
 ---
 {{< img src="/img-support/hma-2024.JPG" alt="Hanteo Music Awards Daesang" width="80%" >}}
