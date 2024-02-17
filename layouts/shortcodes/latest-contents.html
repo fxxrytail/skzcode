@@ -29,7 +29,9 @@
     {{ range sort (where .contents ".Insert" "!=" nil) ".Insert" "desc" }}
       <div class="link-list" style="display:block">
         <ul>
-          <span class="date">{{ dateFormat "Jan 02" .Date }}</span>
+          <span class="date">
+            {{ dateFormat "'06 Jan 02" .Date }}
+          </span>
           {{ if and (ne .SubCat "-") (ne .SubCat "Others")}}
             <span id="catlink">
               <a href="../{{ .CatLink }}/#{{ replace .SubCat  ` ` `-`}}">
