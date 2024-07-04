@@ -28,11 +28,11 @@
     --sidebar-anchor: #a00606;
     --sidebar-header: #160ef2;*/
 
-    --sidebar-bg: #ff4297;
+    --sidebar-bg: #8d0f1d;
     --sidebar-bg2: #242424;
     --sidebar-color: #fff;
     --sidebar-color2: #fff;
-    --sidebar-anchor: #4d062b;
+    --sidebar-anchor: #f4cc9a;
 
     --support-bg: #fff;
     --tab-bg: #868484;
@@ -66,11 +66,11 @@ html[data-theme='dark'] {
     --subs-color: #76a0ff;
     --tl-bg: #efd972; /*#45426b*/
 
-    --sidebar-bg: #931e5b;
+    --sidebar-bg: #8d0f1d;
     --sidebar-bg2: #242424;
     --sidebar-color: #ffffff;
     --sidebar-color2: #fff;
-    --sidebar-anchor: #FF9800;
+    --sidebar-anchor: #dc9d4f;
 
     --support-bg: #000;
     --scroll-track-color: #2a2a30;
