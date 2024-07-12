@@ -3,7 +3,8 @@
 <div id="link-thumbs" class="thumb-card link-thumbs">
   <img
     {{ if hasPrefix $FirstLink "https://youtu.be/" }}
-      {{ $ThumbCode := strings.TrimPrefix "https://youtu.be/" $FirstLink }}
+      {{ $SplitURL := split $FirstLink "&" }}
+      {{ $ThumbCode := strings.TrimPrefix "https://youtu.be/" ( index $SplitURL 0 ) }}
       {{ $src := printf "https://i.ytimg.com/vi_webp/%s/hqdefault.webp" $ThumbCode }}
 
 
