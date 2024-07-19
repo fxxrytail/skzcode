@@ -12,8 +12,8 @@ description:
 {{< text-button "Summarized by Year" "/summary" >}}
 
 {{< rawhtml >}}
-<div class="highlight-red">
-  ⚠ Please credit <a href="https://twitter.com/CH_SKZ_">@CH_SKZ_</a> if this helped you find the contents you want to re-upload or re-organize
+<div class="highlight-red" style="margin-bottom:10px">
+  Other contents are RTed on <a href="https://twitter.com/CH_SKZ_">@CH_SKZ_</a>
 </div>
 
 {{< /rawhtml >}}
