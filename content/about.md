@@ -52,9 +52,9 @@ Channel SKZ is not affiliated with Stray Kids, JYPE Entertainment and other owne
 
 If you want to support further, you may donate any amount through any of these options:
 ### Ko-fi
-[ko-fi.com/peypercat](https://ko-fi.com/peypercat)
+[ko-fi.com/peypercraft](https://ko-fi.com/peypercraft)
 {{< rawhtml >}}
-  <iframe id='kofiframe' src='https://ko-fi.com/peypercat/?hidefeed=true&widget=true&embed=true&preview=true' style='border:none;width:100%;padding:4px;background:#f9f9f9;' height='712' title='peypercat'></iframe>
+  <iframe id='kofiframe' src='https://ko-fi.com/peypercraft/?hidefeed=true&widget=true&embed=true&preview=true' style='border:none;width:100%;padding:4px;background:#f9f9f9;' height='712' title='peypercraft'></iframe>
 {{< /rawhtml >}}
 
 ### GCash
@@ -67,7 +67,7 @@ If you want to support further, you may donate any amount through any of these o
 ## Contact and Credits
 Twitter account: [CH_SKZ_](https://twitter.com/CH_SKZ_) \
 E-mail: ch.skzwebsite@gmail.com \
-Website by: [peypercat](https://twitter.com/peypercat), [daisukijeu](https://twitter.com/daisukijeu) \
+Website by: [peypercraft](https://twitter.com/peypercraft), [daisukijeu](https://twitter.com/daisukijeu) \
 Since: August 2018
 
 Static Site Generator: [Hugo](https://gohugo.io/) \
