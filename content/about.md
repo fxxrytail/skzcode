@@ -33,9 +33,11 @@ Please keep in mind that it's possible to fail to include/update some links beca
 
 ## Recommendation
 Other websites I recommend for Stray Kids contents
-* {{< a "StrayKSubs" "https://strayksubs.com" >}} - A lot of their subbed videos are linked here at Channel SKZ but there's more to see on their website.
+* {{< a "Messages to Stray Kids" "https://stayzone.messagestostraykids.com/">}} - another website with Stray Kids video compilation. I also link here in Channel SKZ some of their uploaded subs but there's more in their website / {{< a "YouTube channel." "https://www.youtube.com/@MTSKStayZone" >}}
 * {{< a "SKZ ARCHIVE by octostay" "https://skzarchive.godaddysites.com/" >}}
-and {{< a "SKZ Archive by skz vlive archives" "https://straykidsarchive.carrd.co" >}} - VOD of Stray Kids concerts, fan meetings, other exclusive contents are available here.
+and {{< a "SKZ Archive by skz vlive archives" "https://straykidsarchive.carrd.co" >}} - VOD of Stray Kids concerts, fan meetings, other exclusive contents are available here.  
+* {{< a "StrayKSubs" "https://strayksubs.com" >}} - A lot of their subbed videos are linked here at Channel SKZ but there's more to see on their website especially the older SKZ contents.
+
 
 
 ## Disclaimer
