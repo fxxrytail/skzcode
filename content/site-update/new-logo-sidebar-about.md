@@ -18,7 +18,7 @@ Sidebar images are now changed to images linked to About Page and Support Channe
 ## Support for Channel SKZ
 Channel SKZ is FOIVE🖐🏼. It's been 5 years since this website was made from scratch hehehe. Since then, I've been putting a lot of thoughts in updating SKZ contents and this website so STAYs can use this well.
 
-If you love the website so far, you may send some love through **Ko-fi** or **GCash**. The Ko-fi is named **peypercat** instead of **daisukijeu**. It's also me, in case you're wondering =) This is really optional if you want to support me 😊
+If you love the website so far, you may send some love through **Ko-fi** or **GCash**. This is really optional if you want to support me 😊
 
 ## All ads are removed!
 The advertisements throughout the website are all removed~!

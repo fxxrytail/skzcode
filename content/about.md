@@ -69,7 +69,7 @@ If you want to support further, you may donate any amount through any of these o
 ## Contact and Credits
 Twitter account: [CH_SKZ_](https://twitter.com/CH_SKZ_) \
 E-mail: ch.skzwebsite@gmail.com \
-Website by: [peypercraft](https://twitter.com/peypercraft), [daisukijeu](https://twitter.com/daisukijeu) \
+Website by: [peypercraft](https://twitter.com/peypercraft) \
 Since: August 2018
 
 Static Site Generator: [Hugo](https://gohugo.io/) \
