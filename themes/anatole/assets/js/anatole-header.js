@@ -1,3 +1,53 @@
+/** Popup Ad **/
+// Check if popup should be shown
+window.onload = function () {
+  const dontShowToday = localStorage.getItem('dontShowToday');
+  const now = new Date().getTime();
+  if (!dontShowToday || now > dontShowToday) {
+      setTimeout(showPopup, 5000);  // Show popup after 5 seconds
+     // setTimeout(showPopup, 0);  // Show popup instantly
+  }
+};
+
+// Show popup function
+function showPopup() {
+  document.getElementById('popup').style.display = 'block';
+  startTimer();
+}
+
+// Countdown timer
+function startTimer() {
+  let timer = 5;
+  const countdown = setInterval(function () {
+      timer--;
+      document.getElementById('timer').textContent = timer;
+      if (timer === 0) {
+          clearInterval(countdown);
+          document.getElementById('closepop').classList.remove("hidden");
+          document.getElementById('dontShowAgain').classList.remove("hidden");
+          document.getElementById('p_timer').classList.add("hidden");
+          //closePopup();
+      }
+  }, 1000);
+}
+
+// Close the popup
+function closePopup() {
+  document.getElementById('popup').style.display = 'none';
+}
+
+// Don't show this again today
+function dontShowAgain() {
+  const now = new Date();
+  const tomorrow = new Date(now);
+  tomorrow.setDate(now.getDate() + 1);
+  tomorrow.setHours(0, 0, 0, 0);  // Set to midnight
+
+  // Store in local storage with timestamp of next day
+  localStorage.setItem('dontShowToday', tomorrow.getTime());
+  closePopup();
+}
+
 //
 function dateOrder(){
   navBtnv = document.getElementsByClassName("dateOrder").style.innerHTML;

@@ -1,7 +1,7 @@
 ---
 title: "Short Form"
 date: 2024-07-27T23:24:04+08:00
-draft: true
+draft: false
 
 mainCat: "Short Form"
 weight: 600
