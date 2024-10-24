@@ -95,7 +95,7 @@
 }
 
 .banner-320x50 {
-  display: none;
+  /*display: none;*/
   margin: auto;
   width: 320px;
   height: 64px;

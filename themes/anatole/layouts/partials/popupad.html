@@ -1,3 +1,4 @@
+{{ if .Site.Params.showPopAd }}
 <div id="popup">
   <h6 class="ad-label">Advertisement</h6>
   <div style="height: 20px">
@@ -12,3 +13,4 @@
   </a>
   <span id="dontShowAgain" class="dont-show-btn hidden" onclick="dontShowAgain()">Don't show this again today</span>
 </div>
+{{ end }}
