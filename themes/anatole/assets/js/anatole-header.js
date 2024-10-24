@@ -17,7 +17,7 @@ function showPopup() {
 
 // Countdown timer
 function startTimer() {
-  let timer = 5;
+  let timer = 10;
   const countdown = setInterval(function () {
       timer--;
       document.getElementById('timer').textContent = timer;
