@@ -45,9 +45,9 @@ displayMode = "light"
 ignoreErrors = ["error-remote-getjson"]
 
 showAds = false
-showBanAd = true
-showPopAd = true
-showNatAd = true
+showBanAd = false
+showPopAd = false
+showNatAd = false
 # Google Site Verification
 #googleSiteVerify = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
 
