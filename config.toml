@@ -46,7 +46,7 @@ ignoreErrors = ["error-remote-getjson"]
 
 showAds = false
 showBanAd = true
-showPopAd = true
+showPopAd = false
 showNatAd = true
 # Google Site Verification
 #googleSiteVerify = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"
