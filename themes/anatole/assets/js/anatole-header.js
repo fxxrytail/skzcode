@@ -1,3 +1,178 @@
+/** Watch Short Forms */
+
+// open pop-up for shorts
+function watchShorts(platform, sourceLink, modLink) {
+  let embedLink = modLink;
+  const popEm = document.getElementById('popup-embed');
+  const emCon = document.getElementById('embed-container');
+  popEm.classList.remove('hidden');
+  emCon.classList.remove('hidden');
+  popEm.classList.add('show');
+  emCon.classList.add('show');
+
+  const anchor = document.getElementById('anchorLink');
+  anchor.href = sourceLink;
+
+  if (platform == 'youtube') {
+    const ytcon = document.getElementById('yt-embed-container'); 
+    ytcon.innerHTML = '';
+
+    // Create the iframe element for YouTube embed
+    const ytIframe = document.createElement('iframe');
+    ytIframe.width = '330';
+    ytIframe.height = '586';
+    ytIframe.src = embedLink+1;
+    ytIframe.frameborder = '0';
+    ytIframe.allow = 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture';
+    ytIframe.allowFullscreen = true;
+
+    // Append the iframe to the container
+    ytcon.appendChild(ytIframe);
+
+  } else if (platform == 'tiktok') {
+    const ttcon = document.getElementById('tt-embed-container'); 
+    ttcon.innerHTML = '';
+
+    // Create the iframe element for Tiktok embed
+    const ttIframe = document.createElement('iframe');
+    ttIframe.width = '325';
+    ttIframe.height = '580';
+    ttIframe.src = embedLink;
+    ttIframe.frameborder = '0';
+    ttIframe.allow = 'autoplay; encrypted-media';
+    ttIframe.allowFullscreen = true;
+
+    // Append the iframe to the container
+    ttcon.appendChild(ttIframe);
+
+  } else if (platform == 'twitter') {
+    const container = document.getElementById('x-embed-container');
+    container.style.width = '90vw';
+    container.style.maxWidth = '500px';
+    container.innerHTML = '';
+
+    // Create the blockquote element for Twitter embed
+    const blockquote = document.createElement('blockquote');
+    blockquote.classList.add('twitter-tweet');
+    blockquote.setAttribute('data-media-max-width', '550')
+    blockquote.setAttribute('data-conversation', 'none'); 
+
+    // Create the anchor tag for the tweet URL
+    const anchor = document.createElement('a');
+    anchor.setAttribute('href', embedLink);
+
+    // Append the anchor to the blockquote
+    blockquote.appendChild(anchor);
+
+    // Append the blockquote to the container
+    container.appendChild(blockquote);
+
+    // Create the Twitter embed script
+    const script = document.createElement('script');
+    script.src = "https://platform.twitter.com/widgets.js";
+    script.async = true;
+    script.onload = function() {
+        // This will process and render the embed
+        twttr.widgets.load();
+    };
+
+    // Append the script inside the container
+    container.appendChild(script);
+    
+  } else if (platform == 'instagram') {
+    const emCon = document.getElementById('embed-container');
+    const igcon = document.getElementById('ig-embed-container');
+    emCon.style.maxWidth = '330px';
+    //igcon.style.margin = '0 -15px';
+    igcon.innerHTML = '';
+
+    // Create the blockquote element for Instagram embed
+    const blockquote = document.createElement('blockquote');
+    blockquote.classList.add('instagram-media');
+    blockquote.setAttribute('data-instgrm-permalink', embedLink);
+    blockquote.setAttribute('data-instgrm-version', '14');
+
+    // Create the anchor tag for the URL (required for Instagram embeds)
+    const anchor = document.createElement('a');
+    anchor.setAttribute('href', embedLink);
+    anchor.setAttribute('target', '_blank');
+
+    // Append the anchor to the blockquote
+    blockquote.appendChild(anchor);
+
+    // Append the blockquote to the container
+    igcon.appendChild(blockquote);
+
+    // Create the Instagram embed script
+    const script = document.createElement('script');
+    script.src = "https://www.instagram.com/embed.js";
+    script.async = true;
+    script.onload = function() {
+        window.instgrm.Embeds.process();  // Process the Instagram embed after the script loads
+    };
+
+    // Append the script inside the container
+    igcon.appendChild(script);
+
+    // write notes
+    document.getElementById('emNotes').innerHTML = "Click on the video to play and pause. Some IG reels can't be played here due to the IG account's restriction.";
+  }
+
+}
+
+function closeShorts() {
+  const popEm = document.getElementById('popup-embed');
+  const emCon = document.getElementById('embed-container');
+  popEm.classList.remove('show');
+  emCon.classList.remove('show');
+  popEm.classList.add('hidden');
+  emCon.classList.add('hidden');
+
+  document.getElementById('emNotes').innerHTML = '';
+  embedLink = '';
+
+  // remove youtube iframe
+  const ytiframe = document.getElementById('yt-embed-container').querySelector('iframe');
+  const ytscript = document.getElementById('yt-embed-container').querySelector('script');
+
+  if (ytiframe) {
+      ytiframe.remove();
+      ytscript.remove();
+  }
+
+  // remove tiktok iframe
+  const ttiframe = document.getElementById('tt-embed-container').querySelector('iframe');
+
+  if (ttiframe) {
+      ttiframe.remove();
+  }
+
+  // remove twitter iframe
+  const xiframe = document.getElementById('x-embed-container').querySelector('iframe');
+  const xscript = document.getElementById('x-embed-container').querySelector('script');
+
+  if (xiframe) {
+      xiframe.remove();
+      xscript.remove();
+  }
+
+  document.getElementById('x-embed-container').removeAttribute('style');
+  
+  // remove instagram iframe
+  const iframe = document.getElementById('ig-embed-container').querySelector('iframe');
+  const igscript = document.getElementById('x-embed-container').querySelector('script');
+
+  if (iframe) {
+      iframe.remove();
+      igscript.remove();
+  }
+
+  document.getElementById('embed-container').removeAttribute('style');
+  //document.getElementById('ig-embed-container').removeAttribute('style');
+
+  
+}
+
 /** Popup Ad **/
 // Check if popup should be shown
 window.onload = function () {
@@ -7,7 +182,7 @@ window.onload = function () {
       setTimeout(showPopup, 5000);  // Show popup after 5 seconds
      // setTimeout(showPopup, 0);  // Show popup instantly
   }
-};
+}
 
 // Show popup function
 function showPopup() {
@@ -93,24 +268,33 @@ function watermark() {
 
 
 // for showing Menu
+function openMore() {
+  document.getElementById("shin-menu").classList.add("hidden");
+  document.getElementById("more-menu").classList.remove("hidden");
+  document.getElementById("navMenuBg").classList.remove("hidden");
+}
 
 function openMenu() {
 	menuStat = document.getElementById("navMenu").style.display;
 
 	if (menuStat != "block"){
 		document.getElementById("navMenu").classList.add("is-active");
-		document.getElementById("navMenuBg").classList.add("is-active");
+		document.getElementById("navMenuBg").classList.remove("hidden");
+    document.getElementById("shin-menu").classList.add("hidden");
 	}
 
 	else {
     document.getElementById("navMenu").classList.remove("is-active");
-		document.getElementById("navMenuBg").classList.remove("is-active");
+		document.getElementById("navMenuBg").classList.add("hidden");
+    document.getElementById("shin-menu").classList.remove("hidden");
 	}
 }
 
 function closeMenu() {
   document.getElementById("navMenu").classList.remove("is-active");
-  document.getElementById("navMenuBg").classList.remove("is-active");
+  document.getElementById("navMenuBg").classList.add("hidden");
+  document.getElementById("shin-menu").classList.remove("hidden");
+  document.getElementById("more-menu").classList.add("hidden");
 }
 
 // When the user scrolls down 20px from the top of the document, show the button

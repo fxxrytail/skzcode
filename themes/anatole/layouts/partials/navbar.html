@@ -23,20 +23,23 @@
                    title="{{ .Title }}">{{ .Name }}</a></li>
         {{ end }}
 
-        <span class="dropdown">
+        <span class="dropdown" onclick="openMore()">
           <button class="dropbtn">More</button>
-          <div class="dropdown-content">
+          <div id="more-menu" class="dropdown-content hidden">
             {{- partial "display/more-pages.html" . -}}
           </div>
+          {{/*  <div id="moreMenuBg" class="modal"></div>  */}}
         </span>
 
-        {{ if .Site.IsMultiLingual }}
+        {{- /*
+        {{ if hugo.IsMultiLingual }}
             {{ range $.Site.Home.AllTranslations }}
                 <li><a href="{{ .Permalink }}"
                        title="{{ .Language.LanguageName }}">{{ .Language.LanguageName }}</a>
                 </li>
             {{ end }}
         {{ end }}
+        */ -}}
     </ul>
 
     <button type="button" class="navMenu navbar-burger" onclick="openMenu()">
@@ -45,10 +48,17 @@
       <span></span>
     </button>
 
-    <div id="navMenuBg" class="modal" onclick="closeMenu()">
+    <li id="theme-btn" class="theme-switch-item">
+      <a class="theme-switch" title="Switch Theme">
+          <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+      </a>
+     </li>
+
+    <div id="navMenuBg" class="modal hidden" onclick="closeMenu()">
       <div class="nav subMenu" id="navMenu">
         <div class="section-menu">
           <!-- - partial "display/nav-section.html" . - -->
+          
         </div>
 
         <h5>More Pages</h5>
@@ -56,11 +66,11 @@
           {{- partial "display/more-pages.html" . -}}
         </div>
 
-        <li class="theme-switch-item">
+        {{/*  <li class="theme-switch-item">
             <a class="theme-switch" title="Switch Theme">
                 <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
             </a>
-        </li>
+        </li>  */}}
       </div>
     </div>
 

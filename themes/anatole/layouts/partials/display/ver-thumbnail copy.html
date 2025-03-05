@@ -1,0 +1,26 @@
+{{ $FirstLink := .Link }}
+<div class="verthumb-container">
+  <a href="{{ .Link }}" title="{{ .Name }}">
+  <img
+    {{ if hasPrefix $FirstLink "https://youtu.be/" }}
+      {{ $SplitURL := split $FirstLink "&" }}
+      {{ $ThumbCode := strings.TrimPrefix "https://youtu.be/" ( index $SplitURL 0 ) }}
+      {{ $src := printf "https://i.ytimg.com/vi_webp/%s/hqdefault.webp" $ThumbCode }}
+
+
+      src= "{{ $src }}"
+      alt="{{ .Name }}"
+
+    {{ else }}
+
+      {{- $altimgPath := printf "/static/%s" "skzoo-thumb.png" -}}
+      {{- $altimg := resources.GetMatch $altimgPath -}}
+
+      class="no-ver-thumb"
+      src= "{{ $altimg.RelPermalink }}"
+      alt="can't fetch thumbnail"
+
+    {{ end }}
+  >
+  </a>
+</div>

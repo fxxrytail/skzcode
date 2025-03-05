@@ -19,12 +19,14 @@ ignoreErrors = ["error-remote-getjson"]
 date = ["publishDate", "date", "lastmod"]
 lastmod = ["lastmod", ":git", "date", "publishDate"]
 
+[services]
+  [services.disqus]
+    shortname = ''
+  [services.googleAnalytics]
+    id = "G-0MPEJM381H"
 
-# Enable Disqus
-#disqusShortname = ""
-
-# Google Analytics
-#gtagId = "G-0MPEJM381H"
+[build]
+timeout = "150s"
 
 [params]
 year = 2017

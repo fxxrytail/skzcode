@@ -1,4 +1,10 @@
+{{ $pagesByYear := slice "By Year" "All Live" "By Line" "Short Forms" }}
+{{ $isByYear := false }}
+
 {{ $catName := .Params.mainCat }}
+{{ if in $pagesByYear .Params.pageType }}
+  {{ $isByYear = true }}
+{{ end }}
 
 {{ $sections := slice }}
   {{ range .Site.Data.Masterlist }}
@@ -16,7 +22,7 @@
   {{ end }}
 {{ $years = uniq $years }}
 
-<div class="shin-menu">
+<div id="shin-menu" class="shin-menu">
   <span id="hide-thumb"><i class="fas fa-list" title="Hide Thumbnails"></i></span>
   <span id="show-thumb" class="hidden"><i class="fas fa-image hidden" title="Show Thumbnails"></i></span>
 
@@ -38,21 +44,32 @@
     {{ end }} <!-- others -->
   </div>
 
+  {{ else if eq .Params.pageType "Cat Shorts" }}
+  <button id="shin-btn">Select Category</button>
+  <div class="shin-menu-list">
+    {{ range sort $sections }} <!-- non-others -->
+      {{ $section := . }}
+        {{ if and (ne $section "Others") (ne $section "-") }} <!-- previously: (if ne $section "Others") only -->
+        <a href="#{{ replace $section ` ` `-` }}"><button class="shin-list-btn">{{ $section }}</button></a>
+        {{ end }}
+    {{ end }} <!-- non-others -->
+  </div>
+
   {{ else if eq .Params.pageType "By SubCat" }}
   <button id="shin-btn">Select Category</button>
   <div class="shin-menu-list">
     {{ range $sections }} <!-- BY SUBCATEGORY -->
       {{ $section := . }}
-      <a href="#{{ replace $section ` ` `-` }}"><button class="shin-list-btn">{{ $section }}</button></a>
+      <a href="#{{- replace $section ` ` `-` -}}"><button class="shin-list-btn">{{ $section }}</button></a>
     {{ end }} <!-- BY SUBCATEGORY -->
   </div>
-
-  {{ else if or (or (eq .Params.pageType "By Year" ) (eq .Params.pageType "All Live" )) (eq .Params.pageType "By Line")}}
+  
+  {{ else if $isByYear }}
   <button id="shin-btn">Select Year</button>
   <div class="shin-menu-list">
     {{ range $years }}   <!-- BY YEAR, All live, Line -->
       {{ $year := . }}
-      <a href="#{{ replace $year ` ` `-` }}"><button class="shin-list-btn">{{ $year }}</button></a>
+      <a href="#{{- $year -}}"><button class="shin-list-btn">{{ $year }}</button></a>
     {{ end }} <!--  -->
   </div>
 

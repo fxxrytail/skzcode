@@ -1,0 +1,100 @@
+{{ $date := dateFormat "'06 Jan 02" .Date }}
+{{ $title := .Title }}
+{{ $ogLink := .Link }}
+{{ $linksCount := sub (len .Links) 1 }}
+
+{{ $ytLink := true }}
+{{ $src := "" }}
+{{ $alt := "" }}
+{{ $platform := "" }}
+{{ $embLink := "" }}
+
+  {{ range $index, $links := .Links }}
+    {{/*  configure links  */}}
+    {{ if hasPrefix .Link "https://youtu.be/" }}
+      {{/*  yt links  */}}
+      {{ $SplitURL := split .Link "&" }}
+      {{ $linkID := strings.TrimPrefix "https://youtu.be/" ( index $SplitURL 0 ) }}
+
+      {{ $src = printf "https://i.ytimg.com/vi_webp/%s/hqdefault.webp" $linkID }}
+      {{ $alt = .Name }}
+
+      {{ $platform = "youtube" }}
+      {{- $embLink = printf "https://www.youtube.com/embed/%s?autoplay=" $linkID -}}
+    {{ else }}
+      {{/*  non-yt links  */}}
+      {{- $altimgPath := printf "/static/%s" "no-vthumbnail.webp" -}}
+      {{- $altimg := resources.GetMatch $altimgPath -}}
+
+      {{ $ytLink = false }}
+      {{ $src = $altimg.RelPermalink }}
+      {{ $alt = "can't fetch thumbnail" }}
+
+        {{ if or (hasPrefix .Link "https://x.com/") (hasPrefix .Link "https://twitter.com/")}}
+          {{ $platform = "twitter" }}
+          {{ $trimXLink := strings.TrimPrefix "https://" .Link }}
+          {{ $splitXLink := split $trimXLink "/"}}
+
+          {{ $xUser := index $splitXLink 1 }}
+          {{ $xLink := index $splitXLink 3 }}
+
+          {{- $embLink = printf "https://twitter.com/%s/status/%s" $xUser $xLink -}}
+        
+        {{ else if strings.Contains .Link "tiktok"}}
+          {{ $platform = "tiktok" }}
+          {{ $trimTTLink := strings.TrimPrefix "https://" .Link }}
+          {{ $splitTTLink := split $trimTTLink "/"}}
+
+          {{ $ttLink := index $splitTTLink 3 }}
+
+          {{- $embLink = printf "https://www.tiktok.com/embed/%s" $ttLink -}}
+        
+        {{ else if strings.Contains .Link "instagram" }}
+          {{- $platform = "instagram" -}}
+          {{- $embLink = .Link -}}
+
+        {{/*  if platform is different  */}}
+        {{ else }}
+          {{- $platform = "n/a" -}}
+          {{- $embLink = "" -}}
+
+        {{ end }}
+
+
+    {{ end }}
+
+    
+    
+    {{/*  layout  */}}
+    <li class="sform-collection 
+    {{ if eq $index $linksCount }} border-right {{ end }}" >
+      <div class="sform-date
+      {{ if gt $index 0 }} hidden {{ end }}" >
+      <!-- if not first link, hide date -->
+        {{ $date }}
+      </div>
+      <div class="sform-title">
+        {{- if and (ne $title nil) (eq $index 0) -}}
+          {{ printf "%s : " $title }}
+        {{- end -}}
+        {{ .Name }}
+      </div>
+
+      <div class="
+        {{- if eq $ytLink true -}}
+          with-vthumb
+        {{- else -}}
+          no-vthumb
+        {{- end -}}
+      " {{- if ne $platform "n/a" -}} 
+          onclick="watchShorts('{{- $platform -}}', '{{- .Link -}}', '{{- $embLink -}}')"
+        {{- end -}}>
+
+        {{- if eq $platform "n/a" -}} 
+          <a href="{{- .Link -}}" title="{{- .Link -}}">
+        {{ end }}
+        <img src="{{- $src -}}" alt="{{- $alt -}}">
+        </a>
+      </div>
+    </li>
+  {{ end }}

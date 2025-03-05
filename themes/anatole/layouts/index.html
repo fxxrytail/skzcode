@@ -8,7 +8,7 @@
   <div class="siteUp">
     {{ $siteUpdate := (where $.Site.RegularPages "Section" "==" "site-update") }}
     {{ range first 1 $siteUpdate }}
-      {{ dateFormat "Jan 02: " .Date }}
+      {{ dateFormat "06 Jan 02: " .Date }}
       <a href="{{ .RelPermalink }}">{{ .Title }}</a>
     {{ end }}
   </div>

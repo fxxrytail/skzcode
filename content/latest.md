@@ -8,7 +8,8 @@ sort: "desc"
 description:
 
 ---
-{{< text-button "All From 2017-Present" "/all-contents" >}}
+{{< text-button "2017-Present Videos" "/all-contents" >}}
+{{< text-button "Short Forms" "/short-forms" >}}
 {{< text-button "Summarized by Year" "/summary" >}}
 
 {{< rawhtml >}}

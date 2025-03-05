@@ -20,13 +20,9 @@
     --catlink-color: #405fa2;
     --catlink-bg:  #ededed;
     --tl-bg: #45426b;
-    --tl-bg: #ffed9a; /*#45426b
-
-    --sidebar-bg: rgb(164 179 213);
-    --sidebar-color: #000;
-    --sidebar-header: #000;
-    --sidebar-anchor: #a00606;
-    --sidebar-header: #160ef2;*/
+    --tl-bg: #ffed9a; 
+    --opaque: rgba(255, 255, 255, 0.5);
+    --color-on-opaque: #000000;
 
     --sidebar-bg: #8d0f1d;
     --sidebar-bg2: #242424;
@@ -65,6 +61,8 @@ html[data-theme='dark'] {
     --link-color: #bf4239; /*#c73737; #e03333*/
     --subs-color: #76a0ff;
     --tl-bg: #efd972; /*#45426b*/
+    --opaque: rgba(0, 0, 0, 0.5);
+    --color-on-opaque: #ffffff;
 
     --sidebar-bg: #8d0f1d;
     --sidebar-bg2: #242424;
@@ -283,12 +281,12 @@ a:active {
 .content {
     height: auto;
     float: right;
-    width: 60%;
+    width: 65%;
     margin-top: 60px;
 }
 
 .page-top {
-    width: 60%;
+    width: 65%;
     position: fixed;
     top: 0;
     right: 0;
@@ -340,46 +338,13 @@ a:active {
   display: none;
   position: absolute;
   top: -41px;
+  z-index: 1000;
 }
 
-/* dropdown */
-.dropbtn {
-  display: block;
-  background-color: var(--bg-color);
-  color: var(--nav-text-color);
-  text-transform: uppercase;
-  border: none;
-  margin-bottom: 10px;
+#theme-btn {
+    list-style-type: none;
+    top: 25px;
 }
-
-.dropdown {
-  position: relative;
-  display: inline-block;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  min-width: 200px;
-  z-index: 1;
-
-  background-color: var(--secondary-bg-color);
-  box-shadow: 0 8px 16px rgb(10 10 10 / 10%);
-}
-
-.dropdown-content a {
-  color: var(--nav-text-color);
-  padding: 10px 10px;
-  text-decoration: none;
-  display: block;
-}
-
-.dropdown-content a:hover {color: var(--link-color)}
-
-.dropdown:hover .dropdown-content {display: block;}
-
-.dropdown:hover .dropbtn {color: var(--link-color)}
-/* end dropdown */
 
 .theme-switch-item {
   font-size: 2em;
@@ -452,7 +417,7 @@ a:active {
 }
 
 .sidebar {
-    width: 40%;
+    width: 35%;
     -webkit-background-size: cover;
     background-size: cover;
     background-color: var(--sidebar-bg);
@@ -538,9 +503,14 @@ a:active {
   font-weight: bold;
 }
 
+.center-text { text-align: center;}
+
 .post {
     background-color: var(--bg-color);
     margin: 10px 30px;
+    background-image: url('../images/splash-bg.webp');
+    background-position: center center; 
+    background-repeat: repeat; 
 }
 
 .post .post-title h1 {
@@ -1058,8 +1028,9 @@ a.btn {
   padding-inline-start: 10px;
 }
 
-.link-list li::before {content: "★"}
+.link-list li {max-width: 410px;}
 
+.link-list li::before { content: "★"}
 .link-list li::marker { content: none }
 
 
@@ -1207,14 +1178,6 @@ print {
 
     .navbar-burger span:nth-child(3) {
         top: calc(50% + 4px);
-    }
-
-    .modal {
-      display: none;
-      background-color: var(--post-color);
-      position: fixed;
-      height: 100%;
-      width: 100%;
     }
 
     .page-top .subMenu {

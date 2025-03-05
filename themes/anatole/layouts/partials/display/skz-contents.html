@@ -1,4 +1,4 @@
-{{ $pageTypes := slice "By SubCat Year" "By SubCat" "By Year" "All Live"}}
+{{ $pageTypes := slice "By SubCat Year" "By SubCat" "By Year" "All Live" "Short Forms" "Cat Shorts" }}
 
 {{ if in $pageTypes .Params.pageType }}
   {{- partial "display/nav-section.html" . -}}
@@ -37,7 +37,7 @@
 <!-- end pre-ads -->
 
 <!-- Subcat-Year -->
-{{ if eq .Params.pageType "By SubCat Year" }}
+{{ if eq .Params.pageType "By SubCat Year"}}
   {{ range $sections }}
     {{ $section := . }}
 
@@ -73,11 +73,10 @@
           {{ $maps = $maps | append . }}
         {{ end }}
       {{ end }}
-
   {{ end }}
 
 <!-- Year -->
-{{ else if eq .Params.pageType "By Year" }}
+{{ else if eq .Params.pageType "By Year"}}
   {{ range $years }}
     {{ $year := . }}
 
@@ -87,6 +86,69 @@
           {{ $maps = $maps | append . }}
         {{ end }}
       {{ end }}
+  {{ end }}
+
+<!-- Short Forms -->
+{{ else if eq .Params.pageType "Short Forms" }}
+  {{ range sort ($years) "value" "desc" }}
+    {{ $year := . }}
+
+      {{ range $.Site.Data.Masterlist }}
+        {{ range sort (where (where .contents "Category" $catName) "Year" $year) "ID" "desc" }}
+          {{ $Ids = $Ids | append .ID }}
+          {{ $maps = $maps | append . }}
+        {{ end }}
+      {{ end }}
+
+  {{ end }}
+
+{{ else if eq .Params.pageType "By SubCat Year"}}
+  {{ range $sections }}
+    {{ $section := . }}
+
+    {{ $yrs := slice }}
+      {{ range $.Site.Data.Masterlist }}
+          {{ range where (where .contents "Category" $catName)  "SubCat" $section }}
+          {{ $yrs = $yrs | append .Year }}
+          {{ end }}
+      {{ end }}
+    {{ $yrs = uniq $yrs }}
+
+    {{ range $yrs }}
+      {{ $yr := . }}
+
+      {{ range $.Site.Data.Masterlist }}
+        {{ range sort (where (where .contents "SubCat" $section)  "Year" $yr) "Date" }}
+          {{ $Ids = $Ids | append .ID }}
+          {{ $maps = $maps | append . }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+
+  {{ end }}
+
+{{ else if eq .Params.pageType "Cat Shorts"}}
+  {{ range $sections }}
+    {{ $section := . }}
+
+    {{ $yrs := slice }}
+      {{ range $.Site.Data.Masterlist }}
+          {{ range where (where .contents "Category" $catName)  "SubCat" $section }}
+          {{ $yrs = $yrs | append .Year }}
+          {{ end }}
+      {{ end }}
+    {{ $yrs = uniq $yrs }}
+
+    {{ range $yrs }}
+      {{ $yr := . }}
+
+      {{ range $.Site.Data.Masterlist }}
+        {{ range sort (where (where .contents "SubCat" $section)  "Year" $yr) "Date" "desc"}}
+          {{ $Ids = $Ids | append .ID }}
+          {{ $maps = $maps | append . }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
 
   {{ end }}
 
@@ -304,7 +366,7 @@
       {{ end }} <!-- range index -->
 
     {{ end }} <!-- range sections -->
-
+  
   {{ else if eq .Params.pageType "All Live" }}
     {{ range $years }}
       {{ $year := . }}
@@ -378,6 +440,46 @@
 
     {{ end }}
 
+  {{ else if eq .Params.pageType "Cat Shorts" }}
+    {{ range $sections }} <!-- range not "others" -->
+      {{ $section := . }}
+
+      {{ if and (ne $section "Others") (ne $section "-") }} <!-- not others  -->
+        <div id="{{ replace $section ` ` `-` }}" class="gatsu">{{ $section }}</div><br>
+
+        <div class="sform-container">
+          {{ range sort (where $maps "Category" "eq" "Short Form") "Date" "desc"}}
+            {{ if eq .SubCat $section }}
+            {{- partial "display/ver-thumbnail.html" . -}}
+            {{ end }} <!-- if year -->
+          {{ end }} <!-- range index -->
+        </div>
+        {{- partial "display/embed-video.html" . -}}
+
+      {{ end }} <!-- /not others  -->
+    {{ end }} <!-- /range not others  -->
+
+
   {{ end }} <!-- / page conditions -->
 
 </div> <!-- class boxer -->
+
+<!-- Short Forms by Year -->
+{{ if eq .Params.pageType "Short Forms" }}
+  {{ range sort ($years) "value" "desc" }}
+    {{ $year := . }}
+    <div id="{{ $year }}" class="gatsu">{{ $year }}</div><br>
+
+    <div class="sform-container">
+      {{ range where $maps "Category" "eq" "Short Form" }}
+        {{ if eq .Year $year }}
+        {{- partial "display/ver-thumbnail.html" . -}}
+        {{ end }} <!-- if year -->
+      {{ end }} <!-- range index -->
+    </div>
+
+  {{ end }} <!-- range sections -->
+  {{- partial "display/embed-video.html" . -}}
+{{ end }} <!-- end if -->
+
+

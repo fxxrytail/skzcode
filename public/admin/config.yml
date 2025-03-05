@@ -1,0 +1,35 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+media_folder: assets/images
+public_folder: static/images
+display_url: https://ch-skz.netlify.app
+slug:
+  encoding: "unicode"
+  clean_accents: true
+  sanitize_replacement: "-"
+
+collections:
+  - name: 'support'
+    label: 'Support'
+    folder: 'content/support'
+    create: true
+    slug: '{{title}}'
+    editor:
+      preview: false
+    fields:
+      - { label: 'Draft', name: 'draft', widget: 'boolean' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'text' }
+      - { label: 'Thumbnail', name: 'thumbnail', widget: 'image' }
+      - { label: 'Duration', name: 'duration', widget: 'string' }
+      - { label: 'Priority', name: 'priority', widget: 'string' }
+      - { label: 'Weight', name: 'weight', widget: 'number' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Last Updated', name: 'lastmod', widget: 'datetime' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+      
+      
+      
+      
+      

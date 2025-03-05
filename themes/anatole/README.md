@@ -244,7 +244,7 @@ The theme is optimized to adhere to the requirements checked for in the Lighthou
 No comment section is shown on the `single.html`, unless a Disqus code is specified in the `config.toml` file.
 
 ```toml
-disqusShortname = "XXX"
+shortname = "XXX"
 ```
 
 ### Comments powered by Utteranc.es

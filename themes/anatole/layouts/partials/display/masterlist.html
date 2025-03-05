@@ -13,10 +13,13 @@
 
 {{ $year := $pageYr }}
 {{ $sort := "asc" }}
+{{ $isHome := false }}
+
 
 {{ if eq .Type "home" }}
   {{ $year = $thisYr }}
   {{ $sort = "desc" }}
+  {{ $isHome = true }}
 {{ end }}
 
 {{ $months := slice }}
@@ -27,7 +30,7 @@
 {{ end }}
 {{ $months = uniq $months }}
 
-{{ $gatsu := slice "" "01 Jan" "02 Feb" "03 Mar" "04 Apr" "05 May" "06 Jun" "07 Jul" "08 Aug" "09 Sep" "10 Oct" "11 Nov" "12 Dec" }}
+{{ $gatsu := slice "" "01: Jan" "02: Feb" "03: Mar" "04: Apr" "05: May" "06: Jun" "07: Jul" "08: Aug" "09: Sep" "10: Oct" "11: Nov" "12: Dec" }}
 
 <!-- conditions base on year -->
 {{ $YEARS := slice }}
@@ -74,7 +77,7 @@
 
 
 <!-- navigation menu -->
-<div class="shin-menu">
+<div id="shin-menu" class='shin-menu {{ if $isHome }} smh {{ end }}' >
   <span id="hide-thumb"><i class="fas fa-list" title="Hide Thumbnails"></i></span>
   <span id="show-thumb" class="hidden"><i class="fas fa-image hidden" title="Show Thumbnails"></i></span>
   <button id="shin-btn">Select Month</button>
@@ -93,54 +96,75 @@
   </div>
 </div>
 
-<!-- display contents -->
-<div class="boxer">
-  {{ range $YEARS }}
-    {{ $YEAR := . }}
-    <div class="nen">{{ $YEAR }}</div>
+<!-- horizontal display of short forms -->
+{{- partial "display/embed-video.html" . -}}
+<div id="giant">
+  {{ if $isHome }}
+  <h2 id="sform-label" class="center-text">SHORT FORMS</h2>
+  <div class="sform-horizontal-scroll">
+    <h2 id="sform-label-1024" class="center-text">SHORT FORMS</h2>
+    <div class="sform-horizontal-container">
+      {{ range first 50 (where $maps "Category" "eq" "Short Form") }}
+          {{- partial "display/ver-thumbnail.html" . -}}
+      {{ end }} <!-- range index -->
 
-    {{ $__months := slice }}
-    {{ range where $maps "Year" $YEAR }}
-      {{ $__months = $__months | append .Month }}
-    {{ end }}
-    {{ $__months = uniq $__months }}
+      <a href="/short-forms/">
+        <button id="see-more-shorts">SEE MORE SHORTS HERE</button>
+      </a>
+    </div>
+  </div>
+  {{ end }}
 
-    {{ range $__months }}
-      {{ $MONTH := . }}
-      <div id="{{ $MONTH }}" class="gatsu">{{ index $gatsu (int $MONTH) }}</div><br>
+<!-- display long form contents -->
+  <div class="boxer">
+    <h2 class="center-text">MAIN CONTENTS</h2>
+    {{ range $YEARS }}
+      {{ $YEAR := . }}
+      <div class="nen">{{ $YEAR }}</div>
 
-      {{ range where (where $maps "Year" $YEAR) "Month" $MONTH }}
-        <div class="link-list">
-          <ul>
-            <span class="date">{{ dateFormat "Jan 02" .Date }}</span>
-            {{ if and (ne .SubCat "-") (ne .SubCat "Others")}}
-              <span id="catlink">
-                <a href="../../{{ .CatLink }}/#{{ replace .SubCat ' ' '-'}}">
-                  {{ .Category }} : {{ .SubCat }}</a>
-              </span>
+      {{ $__months := slice }}
+      {{ range where $maps "Year" $YEAR }}
+        {{ $__months = $__months | append .Month }}
+      {{ end }}
+      {{ $__months = uniq $__months }}
 
-            {{ else }}
-              <span id="catlink">
-                <a href="../../{{ .CatLink }}">{{ .Category }}</a>
-              </span>
-            {{end}}
+      {{ range $__months }}
+        {{ $MONTH := . }}
+        <div id="{{ $MONTH }}" class="gatsu">{{ index $gatsu (int $MONTH) }}</div><br>
 
-            <!-- thumbnail -->
-            {{- partial "display/thumbnail.html" . -}}
-            <!-- end thumbnail-->
+        {{/*  {{ range where (where $maps "Year" $YEAR) "Month" $MONTH }}  */}}
+        {{ range where (where (where $maps "Year" $YEAR) "Month" $MONTH) "Category" "ne" "Short Form"}}
+          <div class="link-list">
+            <ul>
+              <span class="date">{{ dateFormat "Jan 02" .Date }}</span>
+              {{ if and (ne .SubCat "-") (ne .SubCat "Others")}}
+                <span id="catlink">
+                  <a href="../../{{ .CatLink }}/#{{ replace .SubCat ' ' '-'}}">
+                    {{ .Category }} : {{ .SubCat }}</a>
+                </span>
+
+              {{ else }}
+                <span id="catlink">
+                  <a href="../../{{ .CatLink }}">{{ .Category }}</a>
+                </span>
+              {{end}}
+
+              <!-- thumbnail -->
+              {{- partial "display/thumbnail.html" . -}}
+              <!-- end thumbnail-->
 
 
-            <br> {{ .Title }}
-            {{ range .Links }}
-            <li>
-              <a target="_blank" href="{{ .Link }}">{{ .Name }}</a> <span class="subs">{{ .Subs }}</span>
-            </li>
-            {{ end }} <!-- range .Links -->
-          </ul>
-        </div>
-      {{ end }} <!-- range maps -->
-    {{ end }} <!-- range months -->
+              <br> {{ .Title }}
+              {{ range .Links }}
+              <li>
+                <a target="_blank" href="{{ .Link }}">{{ .Name }}</a> <span class="subs">{{ .Subs }}</span>
+              </li>
+              {{ end }} <!-- range .Links -->
+            </ul>
+          </div>
+        {{ end }} <!-- range maps -->
+      {{ end }} <!-- range months -->
 
-  {{ end }} <!-- range years -->
+    {{ end }} <!-- range years -->
+  </div>
 </div>
-
