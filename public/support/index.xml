@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Support Stray Kids on CHANNEL SKZ</title>
-    <link>http://localhost:1313/support/</link>
+    <link>https://ch-skz.netlify.com/support/</link>
     <description>Recent content in Support Stray Kids on CHANNEL SKZ</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/support/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ch-skz.netlify.com/support/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

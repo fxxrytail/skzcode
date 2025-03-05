@@ -2,100 +2,100 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Artistry on CHANNEL SKZ</title>
-    <link>http://localhost:1313/artistry/</link>
+    <link>https://ch-skz.netlify.com/artistry/</link>
     <description>Recent content in Artistry on CHANNEL SKZ</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/artistry/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ch-skz.netlify.com/artistry/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Music &amp; Performance Video</title>
-      <link>http://localhost:1313/artistry/music-performance/</link>
+      <link>https://ch-skz.netlify.com/artistry/music-performance/</link>
       <pubDate>Mon, 08 Mar 2021 14:48:23 +0800</pubDate>
-      <guid>http://localhost:1313/artistry/music-performance/</guid>
+      <guid>https://ch-skz.netlify.com/artistry/music-performance/</guid>
       <description></description>
     </item>
     <item>
       <title>Album INTRO</title>
-      <link>http://localhost:1313/artistry/album-intro/</link>
+      <link>https://ch-skz.netlify.com/artistry/album-intro/</link>
       <pubDate>Thu, 11 Mar 2021 18:37:45 +0800</pubDate>
-      <guid>http://localhost:1313/artistry/album-intro/</guid>
+      <guid>https://ch-skz.netlify.com/artistry/album-intro/</guid>
       <description></description>
     </item>
     <item>
       <title>Album Specials</title>
-      <link>http://localhost:1313/artistry/album-specials/</link>
+      <link>https://ch-skz.netlify.com/artistry/album-specials/</link>
       <pubDate>Thu, 11 Mar 2021 15:25:35 +0800</pubDate>
-      <guid>http://localhost:1313/artistry/album-specials/</guid>
+      <guid>https://ch-skz.netlify.com/artistry/album-specials/</guid>
       <description></description>
     </item>
     <item>
       <title>Live Performances</title>
-      <link>http://localhost:1313/artistry/live-performance/</link>
+      <link>https://ch-skz.netlify.com/artistry/live-performance/</link>
       <pubDate>Wed, 10 Mar 2021 13:53:44 +0800</pubDate>
-      <guid>http://localhost:1313/artistry/live-performance/</guid>
+      <guid>https://ch-skz.netlify.com/artistry/live-performance/</guid>
       <description></description>
     </item>
     <item>
       <title>Docuseries</title>
-      <link>http://localhost:1313/artistry/docuseries/</link>
+      <link>https://ch-skz.netlify.com/artistry/docuseries/</link>
       <pubDate>Wed, 30 Aug 2023 02:41:39 +0800</pubDate>
-      <guid>http://localhost:1313/artistry/docuseries/</guid>
+      <guid>https://ch-skz.netlify.com/artistry/docuseries/</guid>
       <description></description>
     </item>
     <item>
       <title>SKZ-PLAYER</title>
-      <link>http://localhost:1313/artistry/skz-player/</link>
+      <link>https://ch-skz.netlify.com/artistry/skz-player/</link>
       <pubDate>Fri, 12 Jan 2018 14:28:56 +0800</pubDate>
-      <guid>http://localhost:1313/artistry/skz-player/</guid>
+      <guid>https://ch-skz.netlify.com/artistry/skz-player/</guid>
       <description></description>
     </item>
     <item>
       <title>SKZ-RECORD</title>
-      <link>http://localhost:1313/artistry/skz-record/</link>
+      <link>https://ch-skz.netlify.com/artistry/skz-record/</link>
       <pubDate>Sun, 12 Jan 2020 14:28:56 +0800</pubDate>
-      <guid>http://localhost:1313/artistry/skz-record/</guid>
+      <guid>https://ch-skz.netlify.com/artistry/skz-record/</guid>
       <description></description>
     </item>
     <item>
       <title>SKZ-PRACTICE ROOM</title>
-      <link>http://localhost:1313/artistry/skz-practice-room/</link>
+      <link>https://ch-skz.netlify.com/artistry/skz-practice-room/</link>
       <pubDate>Mon, 08 Mar 2021 15:43:56 +0800</pubDate>
-      <guid>http://localhost:1313/artistry/skz-practice-room/</guid>
+      <guid>https://ch-skz.netlify.com/artistry/skz-practice-room/</guid>
       <description></description>
     </item>
     <item>
       <title>Dance Practice</title>
-      <link>http://localhost:1313/artistry/dance-practice/</link>
+      <link>https://ch-skz.netlify.com/artistry/dance-practice/</link>
       <pubDate>Tue, 12 Jan 2021 14:31:41 +0800</pubDate>
-      <guid>http://localhost:1313/artistry/dance-practice/</guid>
+      <guid>https://ch-skz.netlify.com/artistry/dance-practice/</guid>
       <description></description>
     </item>
     <item>
       <title>Fan Featuring Guide</title>
-      <link>http://localhost:1313/artistry/fan-featuring-guide/</link>
+      <link>https://ch-skz.netlify.com/artistry/fan-featuring-guide/</link>
       <pubDate>Mon, 08 Mar 2021 15:42:18 +0800</pubDate>
-      <guid>http://localhost:1313/artistry/fan-featuring-guide/</guid>
+      <guid>https://ch-skz.netlify.com/artistry/fan-featuring-guide/</guid>
       <description></description>
     </item>
     <item>
       <title>More Music with Stray Kids</title>
-      <link>http://localhost:1313/artistry/more-music/</link>
+      <link>https://ch-skz.netlify.com/artistry/more-music/</link>
       <pubDate>Tue, 16 Mar 2021 21:46:07 +0800</pubDate>
-      <guid>http://localhost:1313/artistry/more-music/</guid>
+      <guid>https://ch-skz.netlify.com/artistry/more-music/</guid>
       <description></description>
     </item>
     <item>
       <title>SKZ Concert</title>
-      <link>http://localhost:1313/artistry/concert/</link>
+      <link>https://ch-skz.netlify.com/artistry/concert/</link>
       <pubDate>Tue, 21 Jun 2022 23:57:21 +0800</pubDate>
-      <guid>http://localhost:1313/artistry/concert/</guid>
-      <description>&lt;p&gt;Countdown and invitation messages not included. It&amp;rsquo;s a newly added page starting &amp;ldquo;MANIAC&amp;rdquo; World Tour. Might reorganize previous concert videos and transfer them here if necessary except &lt;a href=&#34;http://localhost:1313/artistry/beyond-live&#34;&gt;&amp;ldquo;Beyond Live: GO LIVE IN LIFE&amp;rdquo;&lt;/a&gt; that has its own page.&lt;/p&gt;</description>
+      <guid>https://ch-skz.netlify.com/artistry/concert/</guid>
+      <description>&lt;p&gt;Countdown and invitation messages not included. It&amp;rsquo;s a newly added page starting &amp;ldquo;MANIAC&amp;rdquo; World Tour. Might reorganize previous concert videos and transfer them here if necessary except &lt;a href=&#34;https://ch-skz.netlify.com/artistry/beyond-live&#34;&gt;&amp;ldquo;Beyond Live: GO LIVE IN LIFE&amp;rdquo;&lt;/a&gt; that has its own page.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Beyond LIVE</title>
-      <link>http://localhost:1313/artistry/beyond-live/</link>
+      <link>https://ch-skz.netlify.com/artistry/beyond-live/</link>
       <pubDate>Tue, 16 Mar 2021 21:46:30 +0800</pubDate>
-      <guid>http://localhost:1313/artistry/beyond-live/</guid>
+      <guid>https://ch-skz.netlify.com/artistry/beyond-live/</guid>
       <description></description>
     </item>
   </channel>

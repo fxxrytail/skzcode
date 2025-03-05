@@ -2,100 +2,100 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Site Updates on CHANNEL SKZ</title>
-    <link>http://localhost:1313/site-update/</link>
+    <link>https://ch-skz.netlify.com/site-update/</link>
     <description>Recent content in Site Updates on CHANNEL SKZ</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="http://localhost:1313/site-update/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ch-skz.netlify.com/site-update/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Embedded Short Forms and UI Update</title>
-      <link>http://localhost:1313/site-update/embedded-short-forms-and-more/</link>
+      <link>https://ch-skz.netlify.com/site-update/embedded-short-forms-and-more/</link>
       <pubDate>Tue, 04 Mar 2025 23:41:45 +0800</pubDate>
-      <guid>http://localhost:1313/site-update/embedded-short-forms-and-more/</guid>
+      <guid>https://ch-skz.netlify.com/site-update/embedded-short-forms-and-more/</guid>
       <description>&lt;p&gt;It&amp;rsquo;s been more than a year since I did a major website update! What&amp;rsquo;s new in Channel SKZ website?&lt;/p&gt;</description>
     </item>
     <item>
       <title>Summary 2023, Live Page URL, Japan Contents</title>
-      <link>http://localhost:1313/site-update/jan2024/</link>
+      <link>https://ch-skz.netlify.com/site-update/jan2024/</link>
       <pubDate>Thu, 04 Jan 2024 22:49:23 +0800</pubDate>
-      <guid>http://localhost:1313/site-update/jan2024/</guid>
+      <guid>https://ch-skz.netlify.com/site-update/jan2024/</guid>
       <description>&lt;p&gt;Happy New Year STAY~!! It&amp;rsquo;s the year of our 00z 🐉🐉🐉🐉 the year of Yongbok 🐲! I worked on some minor updates after celebrating new year 🤗&lt;/p&gt;</description>
     </item>
     <item>
       <title>All ads are removed. Support for CH-SKZ added. New logo, sidebar, and about</title>
-      <link>http://localhost:1313/site-update/new-logo-sidebar-about/</link>
+      <link>https://ch-skz.netlify.com/site-update/new-logo-sidebar-about/</link>
       <pubDate>Mon, 04 Sep 2023 20:24:10 +0800</pubDate>
-      <guid>http://localhost:1313/site-update/new-logo-sidebar-about/</guid>
+      <guid>https://ch-skz.netlify.com/site-update/new-logo-sidebar-about/</guid>
       <description>&lt;h2 id=&#34;new-things-inside-the-website&#34;&gt;New things inside the website&lt;/h2&gt;&#xA;&lt;h3 id=&#34;new-logo&#34;&gt;New logo&lt;/h3&gt;&#xA;&lt;p&gt;Channel SKZ has a new logo~!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Thumbnailed Pages ADded, Fixed SK White</title>
-      <link>http://localhost:1313/site-update/additional-thumbnail-skw/</link>
+      <link>https://ch-skz.netlify.com/site-update/additional-thumbnail-skw/</link>
       <pubDate>Sat, 22 Jul 2023 00:07:34 +0800</pubDate>
-      <guid>http://localhost:1313/site-update/additional-thumbnail-skw/</guid>
+      <guid>https://ch-skz.netlify.com/site-update/additional-thumbnail-skw/</guid>
       <description>&lt;p&gt;There are three site-updates this time.&lt;/p&gt;&#xA;&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;&#xA;      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/a6Ly0SCRgz4?autoplay=0&amp;amp;controls=1&amp;amp;end=0&amp;amp;loop=0&amp;amp;mute=0&amp;amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;&gt;&lt;/iframe&gt;&#xA;    &lt;/div&gt;&#xA;&#xA;&lt;h2 id=&#34;more-pages-with-thumbnail-view&#34;&gt;More Pages with Thumbnail View&lt;/h2&gt;&#xA;&lt;p&gt;Looking for Stray Kids contents to watch is more exciting with thumbnail view added in each category pages! Quick navigation to select year or sub-category is now available within the page. It used to be on sidebar for desktop and navbar menu for mobile/tablet. I don&amp;rsquo;t know if anyone knew about it and used it so I put it in page so it&amp;rsquo;s easier to see. A demo on how to use these is &lt;a href=&#34;../content-thumbnails&#34;&gt;in this page&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>🖼️ Thumbnail View For Contents was Added </title>
-      <link>http://localhost:1313/site-update/content-thumbnails/</link>
+      <link>https://ch-skz.netlify.com/site-update/content-thumbnails/</link>
       <pubDate>Sat, 25 Mar 2023 04:25:00 +0900</pubDate>
-      <guid>http://localhost:1313/site-update/content-thumbnails/</guid>
+      <guid>https://ch-skz.netlify.com/site-update/content-thumbnails/</guid>
       <description>&lt;p&gt;First of all, 0325 Happy 5th Debut Anniversary to Stray Kids~!  Whoooohoooo! 🖐️😍🎉&lt;/p&gt;</description>
     </item>
     <item>
       <title>Links of videos from V LIVE were updated!</title>
-      <link>http://localhost:1313/site-update/new-vlive-links/</link>
+      <link>https://ch-skz.netlify.com/site-update/new-vlive-links/</link>
       <pubDate>Sun, 15 Jan 2023 14:06:53 +0800</pubDate>
-      <guid>http://localhost:1313/site-update/new-vlive-links/</guid>
+      <guid>https://ch-skz.netlify.com/site-update/new-vlive-links/</guid>
       <description>&lt;p&gt;Hello STAYs~! I&amp;rsquo;m finally done updating my sheet and the V LIVE links are now STAYs&amp;rsquo; archived videos! It took longer for me to finish coz of holidays, other life events, duties, and dealing with errors 🙃. Anyways, I hope it&amp;rsquo;s all good now. If not, please tell me if there are any mistake.&lt;/p&gt;</description>
     </item>
     <item>
       <title>V LIVE will close down and site changes after this news</title>
-      <link>http://localhost:1313/site-update/goodbye-vlive/</link>
+      <link>https://ch-skz.netlify.com/site-update/goodbye-vlive/</link>
       <pubDate>Sun, 06 Nov 2022 22:07:25 +0800</pubDate>
-      <guid>http://localhost:1313/site-update/goodbye-vlive/</guid>
+      <guid>https://ch-skz.netlify.com/site-update/goodbye-vlive/</guid>
       <description>&lt;h1 id=&#34;v-live-will-close-down&#34;&gt;V LIVE will close down!&lt;/h1&gt;&#xA;&lt;p&gt;V LIVE, a platform that is mostly known by its livestreams that connect artists and fans, &lt;a href=&#34;https://www.vlive.tv/notice/4749&#34; target=&#34;_blank&#34;&gt;will end its service by December 31st 2022.&lt;/a&gt; &#xD;&#xA; This was one of Stray Kids&amp;rsquo; most used platforms and they were very active in turning on livestreams to communicate with STAYs and this was also another platform where Stray Kids contents were officially uploaded. I made sure to include V LIVE links even if contents are available on YouTube because more languages of subtitles were available on V LIVE. A lot of V LIVE links are present in this website so it&amp;rsquo;s sad to hear this news. V LIVE contents of artists will only be transferred if they are in Weverse and as of this writing, Stray Kids are not in Weverse and doesn&amp;rsquo;t show signs of joining or didn&amp;rsquo;t say anything if they&amp;rsquo;ll have the contents backed-up. Because of termination &lt;a href=&#34;https://twitter.com/CH_SKZ_/status/1586704182572068864&#34; target=&#34;_blank&#34;&gt;STAYs are archiving the contents from V LIVE.&lt;/a&gt; &#xD;&#xA;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Updated Home Page, Contents sorted by 2017-latest</title>
-      <link>http://localhost:1313/site-update/new-home-0225/</link>
+      <link>https://ch-skz.netlify.com/site-update/new-home-0225/</link>
       <pubDate>Fri, 25 Feb 2022 00:58:42 +0800</pubDate>
-      <guid>http://localhost:1313/site-update/new-home-0225/</guid>
+      <guid>https://ch-skz.netlify.com/site-update/new-home-0225/</guid>
       <description>&lt;p&gt;A new Home page layout and changed content list&lt;/p&gt;&#xA;&lt;h2 id=&#34;stray-kids-contents-list&#34;&gt;Stray Kids contents list&lt;/h2&gt;&#xA;&lt;p&gt;Stray Kids list of contents on Home page are now limited to the latest contents from last 2 years only. If ever links in the current year are added very late, it will appear on the top as newly inserted.&lt;/p&gt;</description>
     </item>
     <item>
       <title>CH-SKZ Twitter Account Open!</title>
-      <link>http://localhost:1313/site-update/ch-skz-twitter-account/</link>
+      <link>https://ch-skz.netlify.com/site-update/ch-skz-twitter-account/</link>
       <pubDate>Sun, 02 Jan 2022 23:02:11 +0800</pubDate>
-      <guid>http://localhost:1313/site-update/ch-skz-twitter-account/</guid>
+      <guid>https://ch-skz.netlify.com/site-update/ch-skz-twitter-account/</guid>
       <description>&lt;p&gt;Channel SKZ has it&amp;rsquo;s own Twitter account from now on! Announcements and some updates will be posted on this Twitter account. Please follow &lt;a href=&#34;https://twitter.com/CH_SKZ_&#34;&gt;@CH_SKZ_&lt;/a&gt; &amp;lt;3&lt;/p&gt;</description>
     </item>
     <item>
       <title>All Contents on Home Page &#43; Summary Page</title>
-      <link>http://localhost:1313/site-update/all-contents-on-home-page-summary-page/</link>
+      <link>https://ch-skz.netlify.com/site-update/all-contents-on-home-page-summary-page/</link>
       <pubDate>Wed, 20 Oct 2021 15:40:00 +0000</pubDate>
-      <guid>http://localhost:1313/site-update/all-contents-on-home-page-summary-page/</guid>
+      <guid>https://ch-skz.netlify.com/site-update/all-contents-on-home-page-summary-page/</guid>
       <description>&lt;p&gt;There were STAYs that reached out to me asking how can they easily see Stray Kids contents from 2017 to 2021 because the home page only displays 2021. I was asked if I can make the same list by dates starting from 2017 so I decided to finally worked on the update ^^. The all contents by date was up since Sep. 26 and I started to work on content summary after that. I had summary each year from the previous version of my site and it took me long to finally work on bringing it back on the new version. And finally I finished the Summary page! Yay!!! I hope it will be helpful for STAYs who want to look back on what contents Stray Kids released each year and I put most of them in chronological order to make it a journey from pre-debut to now. Because Summary page is already up, I&amp;rsquo;m going to rearrange the Shows page in non-chronological order and separate the complete series and ongoing ones. I don&amp;rsquo;t know if it&amp;rsquo;s necessary but I want to provide other options ^_^&lt;/p&gt;</description>
     </item>
     <item>
       <title>Support Page added</title>
-      <link>http://localhost:1313/site-update/support-page/</link>
+      <link>https://ch-skz.netlify.com/site-update/support-page/</link>
       <pubDate>Sat, 07 Aug 2021 10:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/site-update/support-page/</guid>
+      <guid>https://ch-skz.netlify.com/site-update/support-page/</guid>
       <description>&lt;p&gt;Support page and reminders on pages are added to the website to encourage STAYs to participate in fandom activities that will help Stray Kids achieve music show wins, awards, etc.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Version 2.0</title>
-      <link>http://localhost:1313/site-update/version-2-0/</link>
+      <link>https://ch-skz.netlify.com/site-update/version-2-0/</link>
       <pubDate>Sun, 23 May 2021 14:10:15 +0800</pubDate>
-      <guid>http://localhost:1313/site-update/version-2-0/</guid>
+      <guid>https://ch-skz.netlify.com/site-update/version-2-0/</guid>
       <description>&lt;p&gt;Finally! I managed to do a major update for this website!! This website used to be just pure HTML, CSS, and JavaScript. It wasn&amp;rsquo;t that convenient to add and edit contents because I had to manually edit from multiple pages. I wanted to make it a dynamic website so I can organize contents easier and that&amp;rsquo;s something I had experience from school but&amp;hellip; the requirements&amp;hellip; That&amp;rsquo;s why I searched for alternative and after a lot of times I searched I already found open-source solutions :D&lt;/p&gt;</description>
     </item>
     <item>
       <title>Startline</title>
-      <link>http://localhost:1313/site-update/startline/</link>
+      <link>https://ch-skz.netlify.com/site-update/startline/</link>
       <pubDate>Sun, 23 May 2021 00:07:26 +0800</pubDate>
-      <guid>http://localhost:1313/site-update/startline/</guid>
+      <guid>https://ch-skz.netlify.com/site-update/startline/</guid>
       <description>&lt;p&gt;Little backstory. This website started around August 2018 when I decided that I want to make a website from scratch to practice HTML and CSS. I enjoyed watching a lot of Stray Kids contents so I decided I want to make a website about them. My inspiration was a Wanna One website that archives Wanna One contents. There was also a post by a STAY that has Stray Kids existing contents. I forgot if it was from Reddit or another website but the post said something like &amp;ldquo;It will be hard to catch up on Stray Kids future contents so here are some of it&amp;rdquo;?? I&amp;hellip; can&amp;rsquo;t remember&amp;hellip; That post was really helpful &amp;lt;3 What I can remember is the last video I watched with that post&amp;rsquo;s help is the 3NORACHA  V Live :D&lt;/p&gt;</description>
     </item>
   </channel>
