@@ -7,6 +7,8 @@ type: "post"
 ---
 It's been more than a year since I did a major website update! What's new in Channel SKZ website?
 
+{{< x user="CH_SKZ_" id="1897252756412641491" >}}
+
 # Watch short forms directly on CH-SKZ! 😍
 We can now watch the short form videos by clicking the detailed thumbnail! The thumbnails have date and title on it to provide more context. The embedded videos/posts from YouTube, Instagram, TikTok, and Twitter/X will appear. It will lessen the directing to other apps to watch these short vids. Direct link is available on the pop-up if you want to interact with the original post. 
 
