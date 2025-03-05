@@ -2,303 +2,303 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shows on CHANNEL SKZ</title>
-    <link>https://ch-skz.netlify.com/shows/</link>
+    <link>http://localhost:1313/shows/</link>
     <description>Recent content in Shows on CHANNEL SKZ</description>
     <generator>Hugo</generator>
     <language>en</language>
-    <atom:link href="https://ch-skz.netlify.com/shows/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/shows/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Stray Kids Survival Show</title>
-      <link>https://ch-skz.netlify.com/shows/stray-kids/</link>
+      <link>http://localhost:1313/shows/stray-kids/</link>
       <pubDate>Mon, 22 Mar 2021 15:26:02 +0800</pubDate>
-      <guid>https://ch-skz.netlify.com/shows/stray-kids/</guid>
+      <guid>http://localhost:1313/shows/stray-kids/</guid>
       <description>&lt;p&gt;You may watch the full episodes on &lt;a href=&#34;https://strayksubs.com/videos/survival-show/&#34;&gt;StrayKSubs&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Spot Kids: Black</title>
-      <link>https://ch-skz.netlify.com/shows/spot-kids-black/</link>
+      <link>http://localhost:1313/shows/spot-kids-black/</link>
       <pubDate>Tue, 27 Apr 2021 23:46:16 +0800</pubDate>
-      <guid>https://ch-skz.netlify.com/shows/spot-kids-black/</guid>
+      <guid>http://localhost:1313/shows/spot-kids-black/</guid>
       <description>&lt;p&gt;Most links here are videos that don&amp;rsquo;t have subs from Stray Kids channel. &lt;a href=&#34;https://strayksubs.com/spot-kids-black-videos/&#34;&gt;StrayKSubs have a subbed playlist&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Spot Kids: White</title>
-      <link>https://ch-skz.netlify.com/shows/spot-kids-white/</link>
+      <link>http://localhost:1313/shows/spot-kids-white/</link>
       <pubDate>Tue, 27 Apr 2021 23:46:27 +0800</pubDate>
-      <guid>https://ch-skz.netlify.com/shows/spot-kids-white/</guid>
+      <guid>http://localhost:1313/shows/spot-kids-white/</guid>
       <description>&lt;p&gt;Click the button to see the Twitter Collection of &amp;ldquo;Spot Kids: White&amp;rdquo; tweets. Select a browser if there are options where to open the link. It may not appear on Twitter app.&lt;/p&gt;</description>
     </item>
     <item>
       <title>The 9th</title>
-      <link>https://ch-skz.netlify.com/shows/the-9th/</link>
+      <link>http://localhost:1313/shows/the-9th/</link>
       <pubDate>Mon, 22 Mar 2021 15:27:25 +0800</pubDate>
-      <guid>https://ch-skz.netlify.com/shows/the-9th/</guid>
+      <guid>http://localhost:1313/shows/the-9th/</guid>
       <description></description>
     </item>
     <item>
       <title>SKZ-TALKER</title>
-      <link>https://ch-skz.netlify.com/shows/skz-talker/</link>
+      <link>http://localhost:1313/shows/skz-talker/</link>
       <pubDate>Mon, 22 Mar 2021 15:27:36 +0800</pubDate>
-      <guid>https://ch-skz.netlify.com/shows/skz-talker/</guid>
+      <guid>http://localhost:1313/shows/skz-talker/</guid>
       <description></description>
     </item>
     <item>
       <title>SKZ&#39;s HONEY TIPS</title>
-      <link>https://ch-skz.netlify.com/shows/skz-honey-tips/</link>
+      <link>http://localhost:1313/shows/skz-honey-tips/</link>
       <pubDate>Mon, 22 Mar 2021 15:27:54 +0800</pubDate>
-      <guid>https://ch-skz.netlify.com/shows/skz-honey-tips/</guid>
+      <guid>http://localhost:1313/shows/skz-honey-tips/</guid>
       <description></description>
     </item>
     <item>
       <title>TWO KIDS ROOM</title>
-      <link>https://ch-skz.netlify.com/shows/two-kids-room/</link>
+      <link>http://localhost:1313/shows/two-kids-room/</link>
       <pubDate>Mon, 22 Mar 2021 15:28:02 +0800</pubDate>
-      <guid>https://ch-skz.netlify.com/shows/two-kids-room/</guid>
+      <guid>http://localhost:1313/shows/two-kids-room/</guid>
       <description></description>
     </item>
     <item>
       <title>SKZ&amp;SKZ</title>
-      <link>https://ch-skz.netlify.com/shows/skz-and-skz/</link>
+      <link>http://localhost:1313/shows/skz-and-skz/</link>
       <pubDate>Mon, 22 Mar 2021 15:28:10 +0800</pubDate>
-      <guid>https://ch-skz.netlify.com/shows/skz-and-skz/</guid>
+      <guid>http://localhost:1313/shows/skz-and-skz/</guid>
       <description></description>
     </item>
     <item>
       <title>SKZ-TALKER GO!</title>
-      <link>https://ch-skz.netlify.com/shows/skz-talker-go/</link>
+      <link>http://localhost:1313/shows/skz-talker-go/</link>
       <pubDate>Mon, 22 Mar 2021 15:27:45 +0800</pubDate>
-      <guid>https://ch-skz.netlify.com/shows/skz-talker-go/</guid>
+      <guid>http://localhost:1313/shows/skz-talker-go/</guid>
       <description></description>
     </item>
     <item>
       <title>Finding Stray Kids</title>
-      <link>https://ch-skz.netlify.com/shows/finding-skz/</link>
+      <link>http://localhost:1313/shows/finding-skz/</link>
       <pubDate>Mon, 22 Mar 2021 15:27:04 +0800</pubDate>
-      <guid>https://ch-skz.netlify.com/shows/finding-skz/</guid>
+      <guid>http://localhost:1313/shows/finding-skz/</guid>
       <description>&lt;p&gt;In Season 1, Stray Kids did parody of variety shows such as Running Man, etc. In God&amp;rsquo;s Edition, each member tries to win the god name that suits each ability or personality.&lt;/p&gt;</description>
     </item>
     <item>
       <title>CHOISKZ</title>
-      <link>https://ch-skz.netlify.com/shows/choiskz/</link>
+      <link>http://localhost:1313/shows/choiskz/</link>
       <pubDate>Mon, 22 Mar 2021 15:28:17 +0800</pubDate>
-      <guid>https://ch-skz.netlify.com/shows/choiskz/</guid>
+      <guid>http://localhost:1313/shows/choiskz/</guid>
       <description></description>
     </item>
     <item>
       <title>One Kid&#39;s Room</title>
-      <link>https://ch-skz.netlify.com/shows/one-kids-room/</link>
+      <link>http://localhost:1313/shows/one-kids-room/</link>
       <pubDate>Mon, 22 Mar 2021 15:28:25 +0800</pubDate>
-      <guid>https://ch-skz.netlify.com/shows/one-kids-room/</guid>
+      <guid>http://localhost:1313/shows/one-kids-room/</guid>
       <description>&lt;p&gt;Note: Stray Kids MBTI changes every time they took the MBTI test hahaha&lt;/p&gt;</description>
     </item>
     <item>
       <title>SKZ LOG</title>
-      <link>https://ch-skz.netlify.com/shows/skz-log/</link>
+      <link>http://localhost:1313/shows/skz-log/</link>
       <pubDate>Wed, 31 Jul 2024 00:48:16 +0800</pubDate>
-      <guid>https://ch-skz.netlify.com/shows/skz-log/</guid>
+      <guid>http://localhost:1313/shows/skz-log/</guid>
       <description></description>
     </item>
     <item>
       <title>SKZ VLOG</title>
-      <link>https://ch-skz.netlify.com/shows/skz-vlog/</link>
+      <link>http://localhost:1313/shows/skz-vlog/</link>
       <pubDate>Mon, 22 Mar 2021 15:28:34 +0800</pubDate>
-      <guid>https://ch-skz.netlify.com/shows/skz-vlog/</guid>
+      <guid>http://localhost:1313/shows/skz-vlog/</guid>
       <description></description>
     </item>
     <item>
       <title>Two Kids Room &#43;1</title>
-      <link>https://ch-skz.netlify.com/shows/two-kids-room&#43;1/</link>
+      <link>http://localhost:1313/shows/two-kids-room&#43;1/</link>
       <pubDate>Mon, 22 Mar 2021 15:28:42 +0800</pubDate>
-      <guid>https://ch-skz.netlify.com/shows/two-kids-room&#43;1/</guid>
+      <guid>http://localhost:1313/shows/two-kids-room&#43;1/</guid>
       <description></description>
     </item>
     <item>
       <title>Two Kids Song</title>
-      <link>https://ch-skz.netlify.com/shows/two-kids-song/</link>
+      <link>http://localhost:1313/shows/two-kids-song/</link>
       <pubDate>Mon, 22 Mar 2021 15:28:51 +0800</pubDate>
-      <guid>https://ch-skz.netlify.com/shows/two-kids-song/</guid>
+      <guid>http://localhost:1313/shows/two-kids-song/</guid>
       <description>&lt;p&gt;Listen to the final songs on SKZ-RECORD &lt;a href=&#34;https://youtu.be/V6q6grUDB_k&#34;&gt;Changbin x I.N / Hyunjin x Seungmin&lt;/a&gt; and &lt;a href=&#34;https://youtu.be/NyZ0iYlTvRk&#34;&gt;Bang Chan x Felix / Lee Know x HAN&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Heart Kids Room</title>
-      <link>https://ch-skz.netlify.com/shows/heart-kids-room/</link>
+      <link>http://localhost:1313/shows/heart-kids-room/</link>
       <pubDate>Mon, 22 Mar 2021 15:28:58 +0800</pubDate>
-      <guid>https://ch-skz.netlify.com/shows/heart-kids-room/</guid>
+      <guid>http://localhost:1313/shows/heart-kids-room/</guid>
       <description></description>
     </item>
     <item>
       <title>DAY6 Kiss The Radio</title>
-      <link>https://ch-skz.netlify.com/shows/dekira/</link>
+      <link>http://localhost:1313/shows/dekira/</link>
       <pubDate>Thu, 07 Oct 2021 20:03:46 +0800</pubDate>
-      <guid>https://ch-skz.netlify.com/shows/dekira/</guid>
+      <guid>http://localhost:1313/shows/dekira/</guid>
       <description></description>
     </item>
     <item>
       <title>ASMR 8.01 STAY FM</title>
-      <link>https://ch-skz.netlify.com/shows/asmr-stay-fm/</link>
+      <link>http://localhost:1313/shows/asmr-stay-fm/</link>
       <pubDate>Mon, 22 Mar 2021 15:29:07 +0800</pubDate>
-      <guid>https://ch-skz.netlify.com/shows/asmr-stay-fm/</guid>
+      <guid>http://localhost:1313/shows/asmr-stay-fm/</guid>
       <description></description>
     </item>
     <item>
       <title>SKZ CODE</title>
-      <link>https://ch-skz.netlify.com/shows/skz-code/</link>
+      <link>http://localhost:1313/shows/skz-code/</link>
       <pubDate>Mon, 22 Mar 2021 15:29:17 +0800</pubDate>
-      <guid>https://ch-skz.netlify.com/shows/skz-code/</guid>
+      <guid>http://localhost:1313/shows/skz-code/</guid>
       <description></description>
     </item>
     <item>
       <title>KINGDOM: Legendary War</title>
-      <link>https://ch-skz.netlify.com/shows/kingdom/</link>
+      <link>http://localhost:1313/shows/kingdom/</link>
       <pubDate>Mon, 22 Mar 2021 15:27:16 +0800</pubDate>
-      <guid>https://ch-skz.netlify.com/shows/kingdom/</guid>
+      <guid>http://localhost:1313/shows/kingdom/</guid>
       <description>&lt;p&gt;Kingdom: Legendary War full episodes with subtitles are available at &lt;a href=&#34;https://www.viu.com/ott/ph/en-us/vod/349457/Kingdom-Legendary-War-2021&#34;&gt;Viu&lt;/a&gt;, &lt;a href=&#34;https://www.viki.com/tv/37746c-kingdom-legendary-war&#34;&gt;Viki&lt;/a&gt;, and &lt;a href=&#34;http://kshow123.net/show/kingdom-legendary-war/&#34;&gt;Kshow123&lt;/a&gt;. Most of Stray Kids&amp;rsquo; individual Full Ver. videos were unfortunately deleted from MNET channel so I updated the links to the 2021 compilation videos with time stamped to each of the performances.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Mysterious Kitchen</title>
-      <link>https://ch-skz.netlify.com/shows/mysterious-kitchen/</link>
+      <link>http://localhost:1313/shows/mysterious-kitchen/</link>
       <pubDate>Wed, 26 May 2021 01:26:20 +0800</pubDate>
-      <guid>https://ch-skz.netlify.com/shows/mysterious-kitchen/</guid>
+      <guid>http://localhost:1313/shows/mysterious-kitchen/</guid>
       <description></description>
     </item>
     <item>
       <title>All Night SKZ</title>
-      <link>https://ch-skz.netlify.com/shows/all-night-skz/</link>
+      <link>http://localhost:1313/shows/all-night-skz/</link>
       <pubDate>Wed, 26 May 2021 01:26:33 +0800</pubDate>
-      <guid>https://ch-skz.netlify.com/shows/all-night-skz/</guid>
+      <guid>http://localhost:1313/shows/all-night-skz/</guid>
       <description></description>
     </item>
     <item>
       <title>SKZ SONG CAMP Howl in Harmony</title>
-      <link>https://ch-skz.netlify.com/shows/skz-song-camp/</link>
+      <link>http://localhost:1313/shows/skz-song-camp/</link>
       <pubDate>Mon, 05 Jul 2021 20:50:21 +0800</pubDate>
-      <guid>https://ch-skz.netlify.com/shows/skz-song-camp/</guid>
+      <guid>http://localhost:1313/shows/skz-song-camp/</guid>
       <description></description>
     </item>
     <item>
       <title>KINGDOM WEEK</title>
-      <link>https://ch-skz.netlify.com/shows/kingdom-week/</link>
+      <link>http://localhost:1313/shows/kingdom-week/</link>
       <pubDate>Tue, 03 Aug 2021 22:11:45 +0800</pubDate>
-      <guid>https://ch-skz.netlify.com/shows/kingdom-week/</guid>
+      <guid>http://localhost:1313/shows/kingdom-week/</guid>
       <description>&lt;p&gt;For now I&amp;rsquo;ll put the episode clips here. Full episode with subtitles will be available on &lt;a href=&#34;https://www.viu.com/ott/ph/en-us/vod/385225/Kingdom-Week-2021&#34;&gt;Viu&lt;/a&gt; (early access for premium). StrayKSubs will also edit subtitles for Kingdom Week.&lt;/p&gt;</description>
     </item>
     <item>
       <title>BTOB Kiss The Radio</title>
-      <link>https://ch-skz.netlify.com/shows/bikira/</link>
+      <link>http://localhost:1313/shows/bikira/</link>
       <pubDate>Thu, 28 Oct 2021 00:23:36 +0800</pubDate>
-      <guid>https://ch-skz.netlify.com/shows/bikira/</guid>
+      <guid>http://localhost:1313/shows/bikira/</guid>
       <description></description>
     </item>
     <item>
       <title>Idol Dictation Contest</title>
-      <link>https://ch-skz.netlify.com/shows/idol-dictation-contest/</link>
+      <link>http://localhost:1313/shows/idol-dictation-contest/</link>
       <pubDate>Thu, 02 Dec 2021 00:27:39 +0800</pubDate>
-      <guid>https://ch-skz.netlify.com/shows/idol-dictation-contest/</guid>
+      <guid>http://localhost:1313/shows/idol-dictation-contest/</guid>
       <description>&lt;p&gt;More link options from &lt;a href=&#34;https://mobile.twitter.com/search?q=Idol%20Dictation%20S2%20(from%3Adoremi219)&amp;amp;src=typed_query&amp;amp;f=live&#34; title=&#34;IDCS2 Links&#34;&gt;@doremi219&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>2 Kids Room</title>
-      <link>https://ch-skz.netlify.com/shows/2-kids-room/</link>
+      <link>http://localhost:1313/shows/2-kids-room/</link>
       <pubDate>Tue, 15 Mar 2022 05:08:10 +0800</pubDate>
-      <guid>https://ch-skz.netlify.com/shows/2-kids-room/</guid>
+      <guid>http://localhost:1313/shows/2-kids-room/</guid>
       <description></description>
     </item>
     <item>
       <title>SKZ Variety Games</title>
-      <link>https://ch-skz.netlify.com/shows/skz-variety-games/</link>
+      <link>http://localhost:1313/shows/skz-variety-games/</link>
       <pubDate>Wed, 10 Aug 2022 11:08:10 +0800</pubDate>
-      <guid>https://ch-skz.netlify.com/shows/skz-variety-games/</guid>
+      <guid>http://localhost:1313/shows/skz-variety-games/</guid>
       <description></description>
     </item>
     <item>
       <title>RACHA LOG</title>
-      <link>https://ch-skz.netlify.com/shows/racha-log/</link>
+      <link>http://localhost:1313/shows/racha-log/</link>
       <pubDate>Thu, 09 Mar 2023 20:23:46 +0800</pubDate>
-      <guid>https://ch-skz.netlify.com/shows/racha-log/</guid>
+      <guid>http://localhost:1313/shows/racha-log/</guid>
       <description></description>
     </item>
     <item>
       <title>2 Kids Show</title>
-      <link>https://ch-skz.netlify.com/shows/2-kids-show/</link>
+      <link>http://localhost:1313/shows/2-kids-show/</link>
       <pubDate>Sun, 19 Nov 2023 05:08:10 +0800</pubDate>
-      <guid>https://ch-skz.netlify.com/shows/2-kids-show/</guid>
+      <guid>http://localhost:1313/shows/2-kids-show/</guid>
       <description></description>
     </item>
     <item>
       <title>SONG by</title>
-      <link>https://ch-skz.netlify.com/shows/song-by/</link>
+      <link>http://localhost:1313/shows/song-by/</link>
       <pubDate>Wed, 26 Jun 2024 23:49:04 +0800</pubDate>
-      <guid>https://ch-skz.netlify.com/shows/song-by/</guid>
+      <guid>http://localhost:1313/shows/song-by/</guid>
       <description></description>
     </item>
     <item>
       <title>Specials</title>
-      <link>https://ch-skz.netlify.com/shows/specials/</link>
+      <link>http://localhost:1313/shows/specials/</link>
       <pubDate>Tue, 18 May 2021 16:23:41 +0800</pubDate>
-      <guid>https://ch-skz.netlify.com/shows/specials/</guid>
+      <guid>http://localhost:1313/shows/specials/</guid>
       <description></description>
     </item>
     <item>
       <title>SKZOO</title>
-      <link>https://ch-skz.netlify.com/shows/skzoo/</link>
+      <link>http://localhost:1313/shows/skzoo/</link>
       <pubDate>Mon, 22 Mar 2021 15:29:27 +0800</pubDate>
-      <guid>https://ch-skz.netlify.com/shows/skzoo/</guid>
+      <guid>http://localhost:1313/shows/skzoo/</guid>
       <description></description>
     </item>
     <item>
       <title>Stray Kids Japan YT</title>
-      <link>https://ch-skz.netlify.com/shows/skz-japan/</link>
+      <link>http://localhost:1313/shows/skz-japan/</link>
       <pubDate>Tue, 16 Mar 2021 21:45:04 +0800</pubDate>
-      <guid>https://ch-skz.netlify.com/shows/skz-japan/</guid>
+      <guid>http://localhost:1313/shows/skz-japan/</guid>
       <description></description>
     </item>
     <item>
       <title>SKZ as MCs</title>
-      <link>https://ch-skz.netlify.com/shows/skz-mc/</link>
+      <link>http://localhost:1313/shows/skz-mc/</link>
       <pubDate>Fri, 23 Apr 2021 20:13:24 +0800</pubDate>
-      <guid>https://ch-skz.netlify.com/shows/skz-mc/</guid>
-      <description>&lt;p&gt;Hyunjin was an MC of Music Core too but links for Music Core MC cuts are not available here. You may see links of MuCore performance &lt;a href=&#34;https://ch-skz.netlify.com/artistry/live-performance/&#34;&gt;here&lt;/a&gt; ^^&lt;/p&gt;</description>
+      <guid>http://localhost:1313/shows/skz-mc/</guid>
+      <description>&lt;p&gt;Hyunjin was an MC of Music Core too but links for Music Core MC cuts are not available here. You may see links of MuCore performance &lt;a href=&#34;http://localhost:1313/artistry/live-performance/&#34;&gt;here&lt;/a&gt; ^^&lt;/p&gt;</description>
     </item>
     <item>
       <title>Japan Contents</title>
-      <link>https://ch-skz.netlify.com/shows/japan-contents/</link>
+      <link>http://localhost:1313/shows/japan-contents/</link>
       <pubDate>Tue, 27 Apr 2021 21:20:40 +0800</pubDate>
-      <guid>https://ch-skz.netlify.com/shows/japan-contents/</guid>
+      <guid>http://localhost:1313/shows/japan-contents/</guid>
       <description></description>
     </item>
     <item>
       <title>Foreign</title>
-      <link>https://ch-skz.netlify.com/shows/foreign/</link>
+      <link>http://localhost:1313/shows/foreign/</link>
       <pubDate>Tue, 27 Apr 2021 21:20:54 +0800</pubDate>
-      <guid>https://ch-skz.netlify.com/shows/foreign/</guid>
+      <guid>http://localhost:1313/shows/foreign/</guid>
       <description>&lt;p&gt;I categorize this according to the country of the channel that uploads the video or the country of the language used.&lt;/p&gt;</description>
     </item>
     <item>
       <title>TV Shows</title>
-      <link>https://ch-skz.netlify.com/shows/tv-shows/</link>
+      <link>http://localhost:1313/shows/tv-shows/</link>
       <pubDate>Tue, 27 Apr 2021 21:21:02 +0800</pubDate>
-      <guid>https://ch-skz.netlify.com/shows/tv-shows/</guid>
+      <guid>http://localhost:1313/shows/tv-shows/</guid>
       <description></description>
     </item>
     <item>
       <title>Online Contents</title>
-      <link>https://ch-skz.netlify.com/shows/online-contents/</link>
+      <link>http://localhost:1313/shows/online-contents/</link>
       <pubDate>Tue, 27 Apr 2021 21:21:13 +0800</pubDate>
-      <guid>https://ch-skz.netlify.com/shows/online-contents/</guid>
-      <description>&lt;p&gt;Changes in this page:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;V COOKIE: &amp;ldquo;Stray Kids X [&amp;hellip;]&amp;rdquo; are moved &lt;a href=&#34;https://ch-skz.netlify.com/artistry/album-specials/&#34;&gt;in each era&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
+      <guid>http://localhost:1313/shows/online-contents/</guid>
+      <description>&lt;p&gt;Changes in this page:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;V COOKIE: &amp;ldquo;Stray Kids X [&amp;hellip;]&amp;rdquo; are moved &lt;a href=&#34;http://localhost:1313/artistry/album-specials/&#34;&gt;in each era&lt;/a&gt;.&lt;/li&gt;&#xA;&lt;/ul&gt;</description>
     </item>
     <item>
       <title>Radio</title>
-      <link>https://ch-skz.netlify.com/shows/radio/</link>
+      <link>http://localhost:1313/shows/radio/</link>
       <pubDate>Tue, 27 Apr 2021 21:21:25 +0800</pubDate>
-      <guid>https://ch-skz.netlify.com/shows/radio/</guid>
+      <guid>http://localhost:1313/shows/radio/</guid>
       <description>&lt;p&gt;More subtitled radio shows with Stray Kids starting 2018 are &lt;a href=&#34;http://strayksubs.com/videos/radio/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Exclusives</title>
-      <link>https://ch-skz.netlify.com/shows/exclusives/</link>
+      <link>http://localhost:1313/shows/exclusives/</link>
       <pubDate>Mon, 15 Jan 2024 12:06:57 +0800</pubDate>
-      <guid>https://ch-skz.netlify.com/shows/exclusives/</guid>
+      <guid>http://localhost:1313/shows/exclusives/</guid>
       <description>&lt;p&gt;Dates for exclusive contents may not be the release date but the day STAY uploaded/shared the video or the day I list it here.&lt;/p&gt;</description>
     </item>
   </channel>
