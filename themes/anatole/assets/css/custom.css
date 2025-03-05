@@ -180,6 +180,7 @@
   width: 135px;
   height: fit-content;
   list-style-type: none;
+  font-size: 12px;
 }
 
 .sform-collection:hover {
@@ -210,29 +211,25 @@
   background-color: var(--bg-color);
   opacity: 0.5;
   color: var(--color-on-opaque); 
-  width: 135px;
-  /* width: 145px; */
+  width: 129px;
+  /* width: 129px; */
   padding: 3px;
 }
 
 
 .with-vthumb,
-.no-vthumb {
-  /* height: 260px; */
+.no-vthumb,
+.with-vthumb img,
+.no-vthumb img {
+  width: 100%;
   height: 240px;
 }
 
 .with-vthumb img {
-  width: 100%;
-  /* height: 260px; */
-  height: 240px;
   object-fit: cover;
 }
 
 .no-vthumb img {
-  width: 100%;
-  /* height: 260px; */
-  height: 240px;
   object-fit: contain;
   box-shadow: inset 0 0 0px 1px var(--border-color);
 }
@@ -1002,6 +999,33 @@ print {
 
   .support-content figure {margin:0}
 
+  .sform-collection {
+    width: 100px;
+    font-size: 10px;
+  }
+  .sform-title {
+    width: 104px;
+  }
+
+  #see-more-shorts,
+  .with-vthumb,
+  .no-vthumb,
+  .with-vthumb img,
+  .no-vthumb img {
+    height: 180px;
+  }
+
+  #see-more-shorts {
+    width: 100px;
+    font-size: 15px;
+  }
+
+  .sform-horizontal-scroll {
+    height: 190px;
+  }
+
+
+
   .shin-menu {
     top: 41px;
     width: calc(100% - 2px);
@@ -1062,7 +1086,7 @@ print {
 
 @media only screen and (max-height: 400px) {
   #embed-container {
-    top: 8%;
+    top: 3%;
     left: 40%;
     transform: scale(.5) translate(-50%, -50%);
     transform-origin: center center;

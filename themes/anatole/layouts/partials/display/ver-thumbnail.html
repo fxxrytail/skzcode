@@ -19,7 +19,7 @@
       {{ $src = printf "https://i.ytimg.com/vi_webp/%s/hqdefault.webp" $linkID }}
       {{ $alt = .Name }}
 
-      {{ $platform = "youtube" }}
+      {{ $platform = "YouTube" }}
       {{- $embLink = printf "https://www.youtube.com/embed/%s?autoplay=" $linkID -}}
     {{ else }}
       {{/*  non-yt links  */}}
@@ -31,7 +31,7 @@
       {{ $alt = "can't fetch thumbnail" }}
 
         {{ if or (hasPrefix .Link "https://x.com/") (hasPrefix .Link "https://twitter.com/")}}
-          {{ $platform = "twitter" }}
+          {{ $platform = "Twitter" }}
           {{ $trimXLink := strings.TrimPrefix "https://" .Link }}
           {{ $splitXLink := split $trimXLink "/"}}
 
@@ -41,7 +41,7 @@
           {{- $embLink = printf "https://twitter.com/%s/status/%s" $xUser $xLink -}}
         
         {{ else if strings.Contains .Link "tiktok"}}
-          {{ $platform = "tiktok" }}
+          {{ $platform = "TikTok" }}
           {{ $trimTTLink := strings.TrimPrefix "https://" .Link }}
           {{ $splitTTLink := split $trimTTLink "/"}}
 
@@ -50,7 +50,7 @@
           {{- $embLink = printf "https://www.tiktok.com/embed/%s" $ttLink -}}
         
         {{ else if strings.Contains .Link "instagram" }}
-          {{- $platform = "instagram" -}}
+          {{- $platform = "Instagram" -}}
           {{- $embLink = .Link -}}
 
         {{/*  if platform is different  */}}

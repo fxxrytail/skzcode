@@ -5,15 +5,18 @@ function watchShorts(platform, sourceLink, modLink) {
   let embedLink = modLink;
   const popEm = document.getElementById('popup-embed');
   const emCon = document.getElementById('embed-container');
+  const anchor = document.getElementById('anchorLink');
+
   popEm.classList.remove('hidden');
   emCon.classList.remove('hidden');
   popEm.classList.add('show');
   emCon.classList.add('show');
 
-  const anchor = document.getElementById('anchorLink');
+  
   anchor.href = sourceLink;
+  anchor.innerHTML = `Watch it on ${platform}`;
 
-  if (platform == 'youtube') {
+  if (platform == 'YouTube') {
     const ytcon = document.getElementById('yt-embed-container'); 
     ytcon.innerHTML = '';
 
@@ -29,7 +32,7 @@ function watchShorts(platform, sourceLink, modLink) {
     // Append the iframe to the container
     ytcon.appendChild(ytIframe);
 
-  } else if (platform == 'tiktok') {
+  } else if (platform == 'TikTok') {
     const ttcon = document.getElementById('tt-embed-container'); 
     ttcon.innerHTML = '';
 
@@ -45,7 +48,7 @@ function watchShorts(platform, sourceLink, modLink) {
     // Append the iframe to the container
     ttcon.appendChild(ttIframe);
 
-  } else if (platform == 'twitter') {
+  } else if (platform == 'Twitter') {
     const container = document.getElementById('x-embed-container');
     container.style.width = '90vw';
     container.style.maxWidth = '500px';
@@ -79,7 +82,7 @@ function watchShorts(platform, sourceLink, modLink) {
     // Append the script inside the container
     container.appendChild(script);
     
-  } else if (platform == 'instagram') {
+  } else if (platform == 'Instagram') {
     const emCon = document.getElementById('embed-container');
     const igcon = document.getElementById('ig-embed-container');
     emCon.style.maxWidth = '330px';
