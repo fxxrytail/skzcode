@@ -9,7 +9,7 @@ description:
 
 ---
 {{< text-button "2017-Present Videos" "/all-contents" >}}
-{{< text-button "Short Forms" "/short-forms" >}}
+{{< text-button "Short Forms" "/short-forms-by-category" >}}
 {{< text-button "Summarized by Year" "/summary" >}}
 
 {{< rawhtml >}}
