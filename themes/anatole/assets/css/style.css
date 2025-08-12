@@ -24,11 +24,11 @@
     --opaque: rgba(255, 255, 255, 0.5);
     --color-on-opaque: #000000;
 
-    --sidebar-bg: #8d0f1d;
+    --sidebar-bg: #183fa4;
     --sidebar-bg2: #242424;
     --sidebar-color: #fff;
     --sidebar-color2: #fff;
-    --sidebar-anchor: #f4cc9a;
+    --sidebar-anchor: #d4b8b8;
 
     --support-bg: #fff;
     --tab-bg: #868484;
@@ -64,11 +64,11 @@ html[data-theme='dark'] {
     --opaque: rgba(0, 0, 0, 0.5);
     --color-on-opaque: #ffffff;
 
-    --sidebar-bg: #8d0f1d;
+    --sidebar-bg: #203b81;
     --sidebar-bg2: #242424;
-    --sidebar-color: #ffffff;
+    --sidebar-color: #dee7ff;
     --sidebar-color2: #fff;
-    --sidebar-anchor: #dc9d4f;
+    --sidebar-anchor: #bebebe;
 
     --support-bg: #000;
     --scroll-track-color: #2a2a30;

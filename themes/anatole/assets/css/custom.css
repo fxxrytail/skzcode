@@ -947,6 +947,8 @@
     flex-flow: row wrap;
     width: unset;
   }
+
+  .sidebar-image img { width: 50% }
 }
 
 
