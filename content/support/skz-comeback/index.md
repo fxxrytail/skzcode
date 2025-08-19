@@ -2,11 +2,11 @@
 priority: Main
 weight: "5"
 title: Support Stray Kids Comeback
-description: "'HOP' release on Dec 13"
+description: "'KARMA' release on Aug 22"
 thumbnail: "/img-support/cb-thumbnail.jpg"
 duration:
 lastmod:
-draft: true
+draft: false
 
 ---
 {{< img src="/img-support/cb-thumbnail.jpg" alt="Stray Kids comeback" width="80%" >}}
@@ -19,21 +19,17 @@ STAYs can contribute for getting **_Music Show Wins_**, charting on **_Billboard
 
 # Stray Kids Comeback Detail
 
-{{< youtube WibatPuNqso >}}
+{{< youtube JKxGST8phLY >}}
 
-**ALBUM:** "HOP"  
-**RELEASE DATE:** December 13th 2PM KST | 0AM ET  
-**TITLE TRACK:** "Walkin On Water"
+**ALBUM:** "KARMA"  
+**RELEASE DATE:** August 22nd 1PM KST | 0AM ET  
+**TITLE TRACK:** "CEREMONY"
 
 ## Comeback Goals
-
-{{< tweet 1866135725957132776 >}}
 
 # What is a Comeback?
 
 Here is an {{< a "Introduction to Comeback" "https://www.straykidscomebackguide.com/intro-to-comeback" >}} for STAYs who will experience this for the first time or STAYs who wants to recall things about it. This guide is made and updated by {{< a "SKZCBGuide" "https://twitter.com/SKZCBGuide" >}}.
-
-{{< tweet 1703962245103837375 >}}
 
 # For starters
 Choose the things that works for you during a comeback. 
@@ -67,7 +63,6 @@ Choose the things that works for you during a comeback.
 # Comeback breakdown
 
 ## Music Show Win
-### This year-end 2024 most of music shows are not airing and will not announce winners. Music Bank will announce winner online. Please follow our fanbases for updates regarding this.
 
 A **_Music Show Win_** happens during their album promotion. The No. 1 song of the week is announced per music show and each music show has different criteria for it. Criteria is usually composed of **YouTube** streaming (FREE), **voting on apps** (FREE), buying **physical album**, and streaming on **Korean streaming platforms** (biggest criteria). 
 
@@ -81,12 +76,10 @@ Detailed information about all Korean music shows criteria and schedules are in 
 
 Follow {{< a "Billboard SKZ" "https://twitter.com/billboardskz" >}} for _Billboard_ US/PR updates and guides for Stray Kids.
 
-{{< tweet 1866133421602513397 >}}
 
 # Guide for Sales and Apps
 
 ## Korean Digital Sales
-### For Special Album "HOP" fanbases are not focused on k-digital streaming but feel free to stream if you want to. You may read this part for future comeback.
 
 Korean digital sale is a BIG part of **_Music Show Win_**. It's also a big factor in **_Award Ceremonies_** (ceremonies to award music, performances, artist of the year and more). To get a big digital sale point, STAYs are encouraged to stream the title track in a playlist and/or download the title track. Download counts as multiple streams. STAYs may stream on **MelOn, Genie, Flo, or Bugs.** Some of it needs verified account but some don't. You may buy your own verified account and streaming pass by yourself or you may stream for **free** by joining a digital streaming team that is funded by STAYs' donations. You may also donate any amount, it will be a big help!
 
@@ -94,7 +87,6 @@ Streaming is not hard! You just have to set your account and settings, make play
 
 For details and inquiries about these streaming platforms, you may reach out to {{< a "Stay Department" "https://twitter.com/stay_department" >}} and follow them for updates.
 
-{{< tweet 1568600689789517824 >}}
 
 ## Physical Sales
 
@@ -110,7 +102,6 @@ Voting is important to give Stray Kids _Music Show Wins_. It's one of the easies
 
 Visit {{< a "TeamSVS' Comeback Guide" "http://teamsvsglobal.com/comeback-guide" >}} for music show voting app tutorials and schedules.
 
-{{< tweet 1858888047859011903 >}}
 
 Follow {{< a "TeamSVS" "https://twitter.com/TeamSVS" >}} for music shows, awards, and promotional ads voting updates. 
 
@@ -166,4 +157,4 @@ Let's enjoy Stray Kids' comeback and support them :heart:
 
 ![Stray Kids CHEESE](images/skz-cheese.jpg)
 
-_This post was made to help STAYs visiting this website be aware of Stray Kids comeback and give an overview about the things we may do as STAYs for Stray Kids' success. The guides linked here are not made by me and I'm not part of the fanbase team mentioned. I included links that I see helpful. I wrote down the overview but some information may have changed without me realizing. It's best to follow Stray Kids fanbase accounts for faster update. You may also DM me at {{< a "@CH_SKZ_" "https://twitter.com/CH_SKZ__">}} if information here is outdated, I'll try to update this when I can._
+_This post was made to help STAYs visiting this website be aware of Stray Kids comeback and give an overview about the things we may do as STAYs for Stray Kids' success. The guides linked here are not made by me and I'm not part of any of the fanbase teams mentioned. I included links that I see helpful. I wrote down the overview but some information may have changed. It's best to follow Stray Kids fanbase accounts for faster update._
