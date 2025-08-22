@@ -19,7 +19,7 @@ STAYs can contribute for getting **_Music Show Wins_**, charting on **_Billboard
 
 # Stray Kids Comeback Detail
 
-{{< youtube JKxGST8phLY >}}
+{{< youtube P7vBoGWoReg >}}
 
 **ALBUM:** "KARMA"  
 **RELEASE DATE:** August 22nd 1PM KST | 0AM ET  
