@@ -6,5 +6,5 @@ draft: false
 mainCat: "Music & Performance Video"
 weight: 1
 pageType: "By SubCat"
-description: "MVs, Performance Videos, Street Videos and etc."
+description: "MVs, Performance Videos, Street Videos, Lyric Videos and etc."
 ---
