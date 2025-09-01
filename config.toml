@@ -30,7 +30,7 @@ timeout = "150s"
 
 [params]
 year = 2017
-years = [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024]
+years = [2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025]
 title = "CHANNEL SKZ"
 author = ["peypercat", "daisukijeu"]
 description = "NOTE: If you encounter problems go to @CH_SKZ_ Twitter... CHANNEL SKZ is a fanmade masterlist of Stray Kids video contents such as music videos, album promotions, shows, livestreams, etc."
