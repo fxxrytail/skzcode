@@ -6,7 +6,7 @@ description: "'KARMA' release on Aug 22"
 thumbnail: "/img-support/cb-thumbnail.jpg"
 duration:
 lastmod:
-draft: false
+draft: true
 
 ---
 {{< img src="/img-support/cb-thumbnail.jpg" alt="Stray Kids comeback" width="80%" >}}
