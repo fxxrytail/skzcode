@@ -2,11 +2,11 @@
 priority: Main
 weight: "5"
 title: Support Stray Kids Comeback
-description: "'KARMA' release on Aug 22"
+description: "'DO IT' release on Nov 21"
 thumbnail: "/img-support/cb-thumbnail.jpg"
 duration:
 lastmod:
-draft: true
+draft: false
 
 ---
 {{< img src="/img-support/cb-thumbnail.jpg" alt="Stray Kids comeback" width="80%" >}}
@@ -19,11 +19,12 @@ STAYs can contribute for getting **_Music Show Wins_**, charting on **_Billboard
 
 # Stray Kids Comeback Detail
 
-{{< youtube P7vBoGWoReg >}}
+{{< youtube 3vXv0TeQDPQ >}}
+{{< youtube jTUDkZr9_y8 >}}
 
-**ALBUM:** "KARMA"  
-**RELEASE DATE:** August 22nd 1PM KST | 0AM ET  
-**TITLE TRACK:** "CEREMONY"
+**ALBUM:** "DO IT"  
+**RELEASE DATE:** November 21 2PM KST | 0AM ET  
+**TITLE TRACK:** "Do It" & "DIVINE"
 
 ## Comeback Goals
 
