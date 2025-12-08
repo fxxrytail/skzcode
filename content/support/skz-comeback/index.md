@@ -6,7 +6,7 @@ description: "'DO IT' release on Nov 21"
 thumbnail: "/img-support/cb-thumbnail.jpg"
 duration:
 lastmod:
-draft: false
+draft: true
 
 ---
 {{< img src="/img-support/cb-thumbnail.jpg" alt="Stray Kids comeback" width="80%" >}}

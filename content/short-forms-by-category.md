@@ -9,4 +9,3 @@ pageType: Cat Shorts
 description: Categorized short-form contents such as Youtube Shorts, Instagran Reels, TikTok, X/Twitter videos.
 ---
 {{< text-button "Short Forms By Year" "/short-forms" >}}
-#
