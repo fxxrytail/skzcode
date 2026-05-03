@@ -5,6 +5,6 @@ draft: false
 
 mainCat: "SONG by"
 weight: 31
-pageType: "By Year"
-description: "Seungmin's content where he keeps record of his singing with his thoughts about the songs and his singing journey"
+pageType: "By SubCat"
+description: "A series where Seungmin showcase his vocals by singing covers and original songs."
 ---
